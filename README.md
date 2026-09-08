@@ -35,8 +35,16 @@
 | 元大 | `etfapi.yuantaetfs.com` PCF/Daily | 是 |
 | 復華 | `fhtrust.com.tw` 基金資產明細 | 是 |
 | 國泰 | `cwapi.cathaysite.com.tw` 持股權重 | 是 |
+| 中國信託 | `ctbcinvestments.com.tw` ETFHoldingWeight（需先換 token） | 是 |
+| 富邦 | `websys.fsit.com.tw` 基金資產（解析 HTML 表格） | 是 |
+| 凱基 | `kgifund.com.tw` RedemptionVC（HTML 片段） | 是 |
+| 野村 | `nomurafunds.com.tw` GetFundAssets | 否 |
 
 尚未接入的投信會顯示在網站頁尾與 `web/data/meta.json` 的 `issuers_without_adapter`。
+
+**安聯**的 API（`etf.allianzgi.com.tw/webapi`）只接受帶有瀏覽器 WAF cookie 的請求，
+同樣的 payload 在頁面內可以拿到資料、從伺服器直接打卻一律回 400，
+要接必須另外跑無頭瀏覽器，成本與其他家不同，暫時擱著。
 
 ### 新增一家投信
 

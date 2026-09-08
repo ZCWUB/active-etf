@@ -344,6 +344,56 @@
   ]
  },
  {
+  "code": "00406A",
+  "name": "主動中信台灣收益",
+  "issuer": "中國信託",
+  "basis": "fund",
+  "as_of": "2026-09-08",
+  "prev_as_of": "2026-09-07",
+  "nav": 9.59,
+  "price": 9.61,
+  "premium_pct": 0.21,
+  "units_change": 0.0,
+  "aum": 35819244580.0,
+  "holding_count": 61,
+  "changes": {
+   "add": 1,
+   "hold": 59,
+   "trim": 1,
+   "exit": 0
+  },
+  "stock_weight": 82.33,
+  "tw_weight": 82.33,
+  "value_coverage": 1.0,
+  "top": [
+   {
+    "symbol": "TX",
+    "name": "臺股期貨",
+    "weight": 23.61
+   },
+   {
+    "symbol": "2330",
+    "name": "台灣積體電路製造",
+    "weight": 8.61
+   },
+   {
+    "symbol": "2454",
+    "name": "聯發科技",
+    "weight": 6.51
+   },
+   {
+    "symbol": "3017",
+    "name": "奇鋐科技",
+    "weight": 5.69
+   },
+   {
+    "symbol": "2383",
+    "name": "台光電子材料",
+    "weight": 4.85
+   }
+  ]
+ },
+ {
   "code": "00400A",
   "name": "主動國泰動能高息",
   "issuer": "國泰",
@@ -390,6 +440,153 @@
     "symbol": "3017",
     "name": "奇鋐",
     "weight": 4.32
+   }
+  ]
+ },
+ {
+  "code": "00405A",
+  "name": "主動富邦台灣龍耀",
+  "issuer": "富邦",
+  "basis": "fund",
+  "as_of": "2026-09-08",
+  "prev_as_of": null,
+  "nav": 8.75,
+  "price": 8.71,
+  "premium_pct": -0.46,
+  "units_change": -21500000.0,
+  "aum": 27665268750.0,
+  "holding_count": 50,
+  "changes": {
+   "hold": 50,
+   "exit": 0
+  },
+  "stock_weight": 95.32,
+  "tw_weight": 95.32,
+  "value_coverage": 0.994,
+  "top": [
+   {
+    "symbol": "2454",
+    "name": "聯發科",
+    "weight": 8.2248
+   },
+   {
+    "symbol": "3443",
+    "name": "創意",
+    "weight": 7.8924
+   },
+   {
+    "symbol": "6223",
+    "name": "旺矽",
+    "weight": 6.8095
+   },
+   {
+    "symbol": "3017",
+    "name": "奇鋐",
+    "weight": 5.5929
+   },
+   {
+    "symbol": "3037",
+    "name": "欣興",
+    "weight": 5.4489
+   }
+  ]
+ },
+ {
+  "code": "00407A",
+  "name": "主動凱基台灣",
+  "issuer": "凱基",
+  "basis": "fund",
+  "as_of": "2026-09-08",
+  "prev_as_of": "2026-09-07",
+  "nav": 9.71,
+  "price": 9.68,
+  "premium_pct": -0.31,
+  "units_change": -20500000.0,
+  "aum": 25277450690.000004,
+  "holding_count": 50,
+  "changes": {
+   "hold": 46,
+   "trim": 1,
+   "add": 2,
+   "new": 1,
+   "exit": 1
+  },
+  "stock_weight": 96.38,
+  "tw_weight": 96.38,
+  "value_coverage": 1.015,
+  "top": [
+   {
+    "symbol": "2330",
+    "name": "台積電",
+    "weight": 9.27
+   },
+   {
+    "symbol": "2454",
+    "name": "聯發科",
+    "weight": 5.73
+   },
+   {
+    "symbol": "3017",
+    "name": "奇鋐",
+    "weight": 5.58
+   },
+   {
+    "symbol": "2383",
+    "name": "台光電",
+    "weight": 5.43
+   },
+   {
+    "symbol": "3037",
+    "name": "欣興",
+    "weight": 4.73
+   }
+  ]
+ },
+ {
+  "code": "00980A",
+  "name": "主動野村臺灣優選",
+  "issuer": "野村",
+  "basis": "fund",
+  "as_of": "2026-09-08",
+  "prev_as_of": null,
+  "nav": 24.88,
+  "price": 24.83,
+  "premium_pct": -0.2,
+  "units_change": -1500000.0,
+  "aum": 20021682400.0,
+  "holding_count": 51,
+  "changes": {
+   "hold": 51,
+   "exit": 0
+  },
+  "stock_weight": 93.72,
+  "tw_weight": 93.72,
+  "value_coverage": 1.011,
+  "top": [
+   {
+    "symbol": "2330",
+    "name": "台灣積體電路製造",
+    "weight": 9.3
+   },
+   {
+    "symbol": "2454",
+    "name": "聯發科技",
+    "weight": 5.86
+   },
+   {
+    "symbol": "2059",
+    "name": "川湖科技",
+    "weight": 5.01
+   },
+   {
+    "symbol": "TX",
+    "name": "台灣證交所加權股價指數",
+    "weight": 4.13
+   },
+   {
+    "symbol": "2308",
+    "name": "台達電子工業",
+    "weight": 3.64
    }
   ]
  },
@@ -492,6 +689,102 @@
   ]
  },
  {
+  "code": "00999A",
+  "name": "主動野村臺灣高息",
+  "issuer": "野村",
+  "basis": "fund",
+  "as_of": "2026-09-08",
+  "prev_as_of": null,
+  "nav": 11.52,
+  "price": 11.5,
+  "premium_pct": -0.17,
+  "units_change": 0.0,
+  "aum": 11543235840.0,
+  "holding_count": 54,
+  "changes": {
+   "hold": 54,
+   "exit": 0
+  },
+  "stock_weight": 94.09,
+  "tw_weight": 94.09,
+  "value_coverage": 1.012,
+  "top": [
+   {
+    "symbol": "2330",
+    "name": "台灣積體電路製造",
+    "weight": 5.97
+   },
+   {
+    "symbol": "3702",
+    "name": "大聯大控股",
+    "weight": 4.77
+   },
+   {
+    "symbol": "2383",
+    "name": "台光電子材料",
+    "weight": 4.12
+   },
+   {
+    "symbol": "2454",
+    "name": "聯發科技",
+    "weight": 3.92
+   },
+   {
+    "symbol": "3706",
+    "name": "神達控股",
+    "weight": 3.84
+   }
+  ]
+ },
+ {
+  "code": "00985A",
+  "name": "主動野村台灣50",
+  "issuer": "野村",
+  "basis": "fund",
+  "as_of": "2026-09-08",
+  "prev_as_of": null,
+  "nav": 23.17,
+  "price": 23.1,
+  "premium_pct": -0.3,
+  "units_change": 0.0,
+  "aum": 10502706130.0,
+  "holding_count": 51,
+  "changes": {
+   "hold": 51,
+   "exit": 0
+  },
+  "stock_weight": 86.4,
+  "tw_weight": 86.4,
+  "value_coverage": 1.009,
+  "top": [
+   {
+    "symbol": "2330",
+    "name": "台灣積體電路製造",
+    "weight": 14.98
+   },
+   {
+    "symbol": "CDF",
+    "name": "台積電期貨",
+    "weight": 5.18
+   },
+   {
+    "symbol": "3711",
+    "name": "日月光投資控股",
+    "weight": 4.15
+   },
+   {
+    "symbol": "2376",
+    "name": "技嘉科技",
+    "weight": 4.13
+   },
+   {
+    "symbol": "4904",
+    "name": "遠傳電信",
+    "weight": 3.79
+   }
+  ]
+ },
+ {
   "code": "00411A",
   "name": "主動統一前沿科技",
   "issuer": "",
@@ -536,6 +829,103 @@
     "symbol": "PLTR",
     "name": "PALANTIR TECHNOLOGIES INC-A",
     "weight": 4.54
+   }
+  ]
+ },
+ {
+  "code": "00981D",
+  "name": "主動中信非投等債",
+  "issuer": "",
+  "basis": "fund",
+  "as_of": "2026-09-04",
+  "prev_as_of": null,
+  "nav": 10.2377,
+  "price": 10.23,
+  "premium_pct": -0.08,
+  "units_change": 0.0,
+  "aum": 5311318760.0,
+  "holding_count": 96,
+  "changes": {
+   "hold": 96,
+   "exit": 0
+  },
+  "stock_weight": 0,
+  "tw_weight": 0,
+  "value_coverage": null,
+  "top": [
+   {
+    "symbol": "US278768AC00",
+    "name": "SATS 10.75 11/30/29",
+    "weight": 2.77
+   },
+   {
+    "symbol": "US281020AX52",
+    "name": "EIX V8.125 06/15/53",
+    "weight": 2.74
+   },
+   {
+    "symbol": "US81180LBA26",
+    "name": "STX 9.625 12/01/32 *",
+    "weight": 2.61
+   },
+   {
+    "symbol": "USU03030AC49",
+    "name": "APU 9.5 06/01/30 REGS",
+    "weight": 2.27
+   },
+   {
+    "symbol": "US21871NAC56",
+    "name": "CXW 8.25 04/15/29",
+    "weight": 2.25
+   }
+  ]
+ },
+ {
+  "code": "00995A",
+  "name": "主動中信台灣卓越",
+  "issuer": "中國信託",
+  "basis": "fund",
+  "as_of": "2026-09-08",
+  "prev_as_of": "2026-09-07",
+  "nav": 17.4,
+  "price": 17.41,
+  "premium_pct": 0.06,
+  "units_change": 0.0,
+  "aum": 4750809000.0,
+  "holding_count": 53,
+  "changes": {
+   "trim": 2,
+   "hold": 51,
+   "exit": 0
+  },
+  "stock_weight": 97.44,
+  "tw_weight": 97.44,
+  "value_coverage": 1.0,
+  "top": [
+   {
+    "symbol": "2330",
+    "name": "台灣積體電路製造",
+    "weight": 9.05
+   },
+   {
+    "symbol": "2383",
+    "name": "台光電子材料",
+    "weight": 8.09
+   },
+   {
+    "symbol": "2454",
+    "name": "聯發科技",
+    "weight": 7.34
+   },
+   {
+    "symbol": "6669",
+    "name": "緯穎科技服務",
+    "weight": 6.32
+   },
+   {
+    "symbol": "3017",
+    "name": "奇鋐科技",
+    "weight": 5.53
    }
   ]
  },
@@ -636,6 +1026,103 @@
   ]
  },
  {
+  "code": "00983A",
+  "name": "主動中信ARK創新",
+  "issuer": "中國信託",
+  "basis": "fund",
+  "as_of": "2026-09-04",
+  "prev_as_of": "2026-09-03",
+  "nav": 12.53,
+  "price": 12.53,
+  "premium_pct": 0.0,
+  "units_change": -1500000.0,
+  "aum": 1023525580.0,
+  "holding_count": 44,
+  "changes": {
+   "trim": 8,
+   "hold": 36,
+   "exit": 0
+  },
+  "stock_weight": 96.04,
+  "tw_weight": 0,
+  "value_coverage": null,
+  "top": [
+   {
+    "symbol": "TSLA",
+    "name": "特斯拉公司",
+    "weight": 8.66
+   },
+   {
+    "symbol": "SHOP",
+    "name": "Shopify公司",
+    "weight": 6.44
+   },
+   {
+    "symbol": "TEM",
+    "name": "Tempus AI Inc",
+    "weight": 5.89
+   },
+   {
+    "symbol": "CRCL",
+    "name": "Circle Internet Group Inc",
+    "weight": 5.47
+   },
+   {
+    "symbol": "SPCX",
+    "name": "太空探索科技公司",
+    "weight": 5.35
+   }
+  ]
+ },
+ {
+  "code": "00983D",
+  "name": "主動富邦複合收益",
+  "issuer": "富邦",
+  "basis": "fund",
+  "as_of": "2026-09-04",
+  "prev_as_of": null,
+  "nav": 9.7962,
+  "price": 9.8,
+  "premium_pct": 0.04,
+  "units_change": 0.0,
+  "aum": 1020734651.4000001,
+  "holding_count": 85,
+  "changes": {
+   "hold": 85,
+   "exit": 0
+  },
+  "stock_weight": 15.01,
+  "tw_weight": 0,
+  "value_coverage": null,
+  "top": [
+   {
+    "symbol": "TLTW",
+    "name": "ISHARES 20+ YEAR TREASURY BOND",
+    "weight": 7.855
+   },
+   {
+    "symbol": "LQDW",
+    "name": "ISHARES INVESTMENT GRADE CORPO",
+    "weight": 7.1539
+   },
+   {
+    "symbol": "US03523TBF49",
+    "name": "ABIBB 8.2 01/15/39",
+    "weight": 1.917
+   },
+   {
+    "symbol": "US260543BY86",
+    "name": "DOW 9.4 05/15/39",
+    "weight": 1.9166
+   },
+   {
+    "symbol": "US172967EW71",
+    "name": "C 8 1/8 07/15/39",
+    "weight": 1.8999
+   }
+  ]
+ },
+ {
   "code": "00987D",
   "name": "主動統一美債量化",
   "issuer": "",
@@ -670,6 +1157,54 @@
     "symbol": "US912810UU06",
     "name": "T 5 05/15/56",
     "weight": 28.92
+   }
+  ]
+ },
+ {
+  "code": "00982D",
+  "name": "主動富邦動態入息",
+  "issuer": "富邦",
+  "basis": "fund",
+  "as_of": "2026-09-04",
+  "prev_as_of": null,
+  "nav": 9.6072,
+  "price": 9.61,
+  "premium_pct": 0.03,
+  "units_change": 0.0,
+  "aum": 737150848.8000001,
+  "holding_count": 66,
+  "changes": {
+   "hold": 66,
+   "exit": 0
+  },
+  "stock_weight": 26.18,
+  "tw_weight": 9.35,
+  "value_coverage": 1.003,
+  "top": [
+   {
+    "symbol": "TNZ6F",
+    "name": "2026/12超長10年美國債券",
+    "weight": 9.3498
+   },
+   {
+    "symbol": "LQDW",
+    "name": "ISHARES INVESTMENT GRADE CORPO",
+    "weight": 8.9297
+   },
+   {
+    "symbol": "TLTW",
+    "name": "ISHARES 20+ YEAR TREASURY BOND",
+    "weight": 7.8983
+   },
+   {
+    "symbol": "US06738ECE32",
+    "name": "BACR 7.437 11/02/33",
+    "weight": 2.8078
+   },
+   {
+    "symbol": "US172967EW71",
+    "name": "C 8 1/8 07/15/39",
+    "weight": 2.79
    }
   ]
  }

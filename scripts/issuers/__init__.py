@@ -10,7 +10,7 @@ snapshot 統一格式見 docs 或 fetch_pcf.py 的 validate()。
     basis="fund"    投信直接公告全基金持股（現金申贖制居多）
     basis="basket"  只公告每一申購買回基數的實物籃子，需用 fund_units/unit_size 放大
 """
-from . import capital, cathay, fuhhwa, uni, yuanta
+from . import capital, cathay, ctbc, fubon, fuhhwa, kgi, nomura, uni, yuanta
 
-ADAPTERS = [uni, capital, yuanta, fuhhwa, cathay]
+ADAPTERS = [uni, capital, yuanta, fuhhwa, cathay, ctbc, fubon, kgi, nomura]
 BY_ISSUER = {m.ISSUER: m for m in ADAPTERS}

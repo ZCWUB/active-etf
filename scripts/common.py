@@ -4,6 +4,7 @@ from __future__ import annotations
 import json
 import os
 import re
+from html.parser import HTMLParser
 import random
 import time
 from datetime import date, datetime, timedelta, timezone
@@ -129,6 +130,14 @@ def norm_symbol(raw: str) -> str:
     return split_symbol(raw)[0]
 
 
+SYMBOL_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._\-]{0,11}$")
+
+
+def is_symbol_like(sym: str) -> bool:
+    """擋掉解析表格時混進來的「股票合計」「總計」之類的小計列。"""
+    return bool(SYMBOL_RE.match(str(sym or "").strip()))
+
+
 def uid(symbol: str, market: str | None) -> str:
     """跨市場唯一鍵：台股維持純代號，海外加市場前綴，避免日股 6981 撞台股 6981。"""
     return symbol if (market or "TW") == "TW" else f"{market}:{symbol}"
@@ -159,3 +168,50 @@ def parse_date(v) -> str:
         y, mo, d = (int(x) for x in m.groups())
         return f"{y + 1911:04d}-{mo:02d}-{d:02d}"
     return ""
+
+
+class _TableParser(HTMLParser):
+    """把 HTML 的 <table> 拆成 (表頭, 資料列) —— 給那些沒有 JSON API、
+    只有伺服器端算好表格的投信網站用。"""
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.tables: list[list[list[str]]] = []
+        self._rows = None
+        self._cells = None
+        self._buf = None
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "table":
+            self._rows = []
+        elif tag == "tr" and self._rows is not None:
+            self._cells = []
+        elif tag in ("td", "th") and self._cells is not None:
+            self._buf = []
+
+    def handle_endtag(self, tag):
+        if tag in ("td", "th") and self._buf is not None:
+            self._cells.append(" ".join("".join(self._buf).split()))
+            self._buf = None
+        elif tag == "tr" and self._cells is not None:
+            if self._cells:
+                self._rows.append(self._cells)
+            self._cells = None
+        elif tag == "table" and self._rows is not None:
+            self.tables.append(self._rows)
+            self._rows = None
+
+    def handle_data(self, data):
+        if self._buf is not None:
+            self._buf.append(data)
+
+
+def html_tables(html: str) -> list[list[list[str]]]:
+    p = _TableParser()
+    p.feed(html)
+    return p.tables
+
+
+def text_of(html: str) -> str:
+    """去標籤後的純文字，用來撈「資料日期：2026/09/08」這種散落的欄位。"""
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html))

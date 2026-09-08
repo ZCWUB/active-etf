@@ -1,5 +1,5 @@
 {
- "ran_at": "2026-09-08T22:04:59+08:00",
+ "ran_at": "2026-09-08T22:25:28+08:00",
  "ok": [
   {
    "code": "00403A",
@@ -87,7 +87,7 @@
    "as_of": "2026-09-04",
    "holdings": 23,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00991A",
@@ -103,7 +103,7 @@
    "as_of": "2026-09-07",
    "holdings": 45,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00400A",
@@ -112,20 +112,104 @@
    "holdings": 47,
    "basis": "fund",
    "changed": false
+  },
+  {
+   "code": "00406A",
+   "issuer": "中國信託",
+   "as_of": "2026-09-08",
+   "holdings": 62,
+   "basis": "fund",
+   "changed": false
+  },
+  {
+   "code": "00981D",
+   "issuer": "中國信託",
+   "as_of": "2026-09-04",
+   "holdings": 96,
+   "basis": "fund",
+   "changed": true
+  },
+  {
+   "code": "00983A",
+   "issuer": "中國信託",
+   "as_of": "2026-09-04",
+   "holdings": 44,
+   "basis": "fund",
+   "changed": false
+  },
+  {
+   "code": "00995A",
+   "issuer": "中國信託",
+   "as_of": "2026-09-08",
+   "holdings": 53,
+   "basis": "fund",
+   "changed": false
+  },
+  {
+   "code": "00405A",
+   "issuer": "富邦",
+   "as_of": "2026-09-08",
+   "holdings": 50,
+   "basis": "fund",
+   "changed": false
+  },
+  {
+   "code": "00982D",
+   "issuer": "富邦",
+   "as_of": "2026-09-04",
+   "holdings": 66,
+   "basis": "fund",
+   "changed": false
+  },
+  {
+   "code": "00983D",
+   "issuer": "富邦",
+   "as_of": "2026-09-04",
+   "holdings": 85,
+   "basis": "fund",
+   "changed": false
+  },
+  {
+   "code": "00407A",
+   "issuer": "凱基",
+   "as_of": "2026-09-08",
+   "holdings": 50,
+   "basis": "fund",
+   "changed": false
+  },
+  {
+   "code": "00980A",
+   "issuer": "野村",
+   "as_of": "2026-09-08",
+   "holdings": 51,
+   "basis": "fund",
+   "changed": false
+  },
+  {
+   "code": "00985A",
+   "issuer": "野村",
+   "as_of": "2026-09-08",
+   "holdings": 51,
+   "basis": "fund",
+   "changed": false
+  },
+  {
+   "code": "00999A",
+   "issuer": "野村",
+   "as_of": "2026-09-08",
+   "holdings": 54,
+   "basis": "fund",
+   "changed": false
   }
  ],
  "failed": [],
  "issuers_without_adapter": [
-  "中國信託",
   "兆豐國際",
-  "凱基",
   "台新",
   "安聯",
-  "富邦",
   "摩根",
   "永豐",
   "第一金",
-  "聯博",
-  "野村"
+  "聯博"
  ]
 }

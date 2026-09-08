@@ -1,0 +1,608 @@
+{
+ "code": "00982D",
+ "issuer": "富邦",
+ "fund_name": "",
+ "as_of": "2026-09-04",
+ "basis": "fund",
+ "nav_total": 739335639.0,
+ "fund_units": 76729000.0,
+ "unit_size": null,
+ "holdings": [
+  {
+   "symbol": "US06738ECE32",
+   "name": "BACR 7.437 11/02/33",
+   "market": "TW",
+   "shares": 600000.0,
+   "weight": 2.8078,
+   "market_value": 20759523.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US172967EW71",
+   "name": "C 8 1/8 07/15/39",
+   "market": "TW",
+   "shares": 540000.0,
+   "weight": 2.79,
+   "market_value": 20627597.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US260543BY86",
+   "name": "DOW 9.4 05/15/39",
+   "market": "TW",
+   "shares": 500000.0,
+   "weight": 2.7689,
+   "market_value": 20471956.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US13645RAD61",
+   "name": "CP 7 1/8 10/15/31",
+   "market": "TW",
+   "shares": 590000.0,
+   "weight": 2.7402,
+   "market_value": 20259680.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US743263AE50",
+   "name": "DUK 7 3/4 03/01/31",
+   "market": "TW",
+   "shares": 540000.0,
+   "weight": 2.542,
+   "market_value": 18794648.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US03523TBF49",
+   "name": "ABIBB 8.2 01/15/39",
+   "market": "TW",
+   "shares": 480000.0,
+   "weight": 2.5023,
+   "market_value": 18500606.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US37045VAL45",
+   "name": "GM 6 3/4 04/01/46",
+   "market": "TW",
+   "shares": 570000.0,
+   "weight": 2.4907,
+   "market_value": 18415038.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US24703TAK25",
+   "name": "DELL 8.35 07/15/46",
+   "market": "TW",
+   "shares": 480000.0,
+   "weight": 2.486,
+   "market_value": 18380149.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US406216AY74",
+   "name": "HAL 7.45 09/15/39",
+   "market": "TW",
+   "shares": 510000.0,
+   "weight": 2.4764,
+   "market_value": 18309572.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US694308KK29",
+   "name": "PCG 6.7 04/01/53",
+   "market": "TW",
+   "shares": 580000.0,
+   "weight": 2.474,
+   "market_value": 18291356.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US06849RAC60",
+   "name": "ABXCN 7 1/2 09/15/38",
+   "market": "TW",
+   "shares": 500000.0,
+   "weight": 2.434,
+   "market_value": 17995656.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US8935268Z94",
+   "name": "TRPCN 7 5/8 01/15/39",
+   "market": "TW",
+   "shares": 490000.0,
+   "weight": 2.3895,
+   "market_value": 17666601.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US852060AT99",
+   "name": "S 8 3/4 03/15/32",
+   "market": "TW",
+   "shares": 470000.0,
+   "weight": 2.3269,
+   "market_value": 17204168.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US054989AD07",
+   "name": "BATSLN 7.081 08/02/53",
+   "market": "TW",
+   "shares": 500000.0,
+   "weight": 2.3107,
+   "market_value": 17084251.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US879385AD49",
+   "name": "TELEFO 8 1/4 09/15/30",
+   "market": "TW",
+   "shares": 480000.0,
+   "weight": 2.2699,
+   "market_value": 16782912.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US25156PAD50",
+   "name": "DT 9 1/4 06/01/32",
+   "market": "TW",
+   "shares": 430000.0,
+   "weight": 2.2066,
+   "market_value": 16314231.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US36962GXZ26",
+   "name": "GE 6 3/4 03/15/32",
+   "market": "TW",
+   "shares": 460000.0,
+   "weight": 2.1311,
+   "market_value": 15756670.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US694308KH99",
+   "name": "PCG 6 3/4 01/15/53",
+   "market": "TW",
+   "shares": 480000.0,
+   "weight": 2.0557,
+   "market_value": 15198890.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US24703TAJ51",
+   "name": "DELL 8.1 07/15/36",
+   "market": "TW",
+   "shares": 380000.0,
+   "weight": 1.8807,
+   "market_value": 13904822.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US36962G4B75",
+   "name": "GE 6 7/8 01/10/39",
+   "market": "TW",
+   "shares": 390000.0,
+   "weight": 1.8604,
+   "market_value": 13755215.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US04686JAL52",
+   "name": "ATH 6 5/8 05/19/55",
+   "market": "TW",
+   "shares": 400000.0,
+   "weight": 1.6037,
+   "market_value": 11857123.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US013716AQ81",
+   "name": "RIOLN 7 1/4 03/15/31",
+   "market": "TW",
+   "shares": 340000.0,
+   "weight": 1.5795,
+   "market_value": 11678514.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US37045VAK61",
+   "name": "GM 6.6 04/01/36",
+   "market": "TW",
+   "shares": 340000.0,
+   "weight": 1.5234,
+   "market_value": 11263192.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US969457BM15",
+   "name": "WMB 8 3/4 03/15/32",
+   "market": "TW",
+   "shares": 300000.0,
+   "weight": 1.4908,
+   "market_value": 11022207.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US054989AC24",
+   "name": "BATSLN 7.079 08/02/43",
+   "market": "TW",
+   "shares": 320000.0,
+   "weight": 1.4716,
+   "market_value": 10880249.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US927804FG41",
+   "name": "D 8 7/8 11/15/38",
+   "market": "TW",
+   "shares": 270000.0,
+   "weight": 1.4582,
+   "market_value": 10781093.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US233835AQ08",
+   "name": "MBGGR 8 1/2 01/18/31",
+   "market": "TW",
+   "shares": 300000.0,
+   "weight": 1.4455,
+   "market_value": 10687266.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US67066GAU85",
+   "name": "NVDA 5.55 06/15/46",
+   "market": "TW",
+   "shares": 300000.0,
+   "weight": 1.1777,
+   "market_value": 8707618.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US87938WAC73",
+   "name": "TELEFONICA EMISIONES SAU 7.045 06/20/36",
+   "market": "TW",
+   "shares": 230000.0,
+   "weight": 1.0561,
+   "market_value": 7808461.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US251799AA02",
+   "name": "DVN 7.95 04/15/32",
+   "market": "TW",
+   "shares": 200000.0,
+   "weight": 0.9657,
+   "market_value": 7140351.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US68389XCK90",
+   "name": "ORCL 6.9 11/09/52",
+   "market": "TW",
+   "shares": 250000.0,
+   "weight": 0.9583,
+   "market_value": 7085777.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US548661CP07",
+   "name": "LOW 6.65 09/15/37",
+   "market": "TW",
+   "shares": 200000.0,
+   "weight": 0.919,
+   "market_value": 6795156.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US404280DW61",
+   "name": "HSBC 6.332 03/09/44",
+   "market": "TW",
+   "shares": 200000.0,
+   "weight": 0.8773,
+   "market_value": 6486417.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US42824CAY57",
+   "name": "HPE 6.35 10/15/45",
+   "market": "TW",
+   "shares": 200000.0,
+   "weight": 0.8495,
+   "market_value": 6280908.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US260543DH36",
+   "name": "DOW 6.9 05/15/53",
+   "market": "TW",
+   "shares": 174000.0,
+   "weight": 0.7746,
+   "market_value": 5727266.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU8531HAE00",
+   "name": "SPCX 6.65 07/15/56",
+   "market": "TW",
+   "shares": 200000.0,
+   "weight": 0.7568,
+   "market_value": 5595836.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US86722TAB89",
+   "name": "SUCN 6.85 06/01/39",
+   "market": "TW",
+   "shares": 150000.0,
+   "weight": 0.6921,
+   "market_value": 5117158.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US717081CY74",
+   "name": "PFE 7.2 03/15/39",
+   "market": "TW",
+   "shares": 140000.0,
+   "weight": 0.679,
+   "market_value": 5020708.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US682680BN20",
+   "name": "OKE 6 5/8 09/01/53",
+   "market": "TW",
+   "shares": 140000.0,
+   "weight": 0.6156,
+   "market_value": 4551480.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US101137AL15",
+   "name": "BSX 7 3/8 01/15/40",
+   "market": "TW",
+   "shares": 120000.0,
+   "weight": 0.5897,
+   "market_value": 4360274.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US30303MAK80",
+   "name": "META 6.3 05/15/56",
+   "market": "TW",
+   "shares": 150000.0,
+   "weight": 0.588,
+   "market_value": 4347733.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US617446HD43",
+   "name": "MS 7 1/4 04/01/32",
+   "market": "TW",
+   "shares": 120000.0,
+   "weight": 0.5677,
+   "market_value": 4197741.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US02079KCT25",
+   "name": "GOOGL 6 1/4 08/15/46",
+   "market": "TW",
+   "shares": 130000.0,
+   "weight": 0.5572,
+   "market_value": 4119822.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US023135EF90",
+   "name": "AMZN 6 07/09/46",
+   "market": "TW",
+   "shares": 130000.0,
+   "weight": 0.54,
+   "market_value": 3992699.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US50076QAR74",
+   "name": "KHC 6 7/8 01/26/39",
+   "market": "TW",
+   "shares": 110000.0,
+   "weight": 0.502,
+   "market_value": 3712063.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US494550AW68",
+   "name": "KMI 6.95 01/15/38",
+   "market": "TW",
+   "shares": 100000.0,
+   "weight": 0.4668,
+   "market_value": 3451914.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US303901BR22",
+   "name": "FFHCN 6.35 03/22/54",
+   "market": "TW",
+   "shares": 110000.0,
+   "weight": 0.4574,
+   "market_value": 3381815.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US20030NAV38",
+   "name": "CMCSA 6.95 08/15/37",
+   "market": "TW",
+   "shares": 100000.0,
+   "weight": 0.4573,
+   "market_value": 3381501.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US68389XAE58",
+   "name": "ORCL 6 1/2 04/15/38",
+   "market": "TW",
+   "shares": 100000.0,
+   "weight": 0.4122,
+   "market_value": 3047668.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU8531HAD27",
+   "name": "SPCX 6.6 07/15/46",
+   "market": "TW",
+   "shares": 100000.0,
+   "weight": 0.3855,
+   "market_value": 2850260.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US90353TAQ31",
+   "name": "UBER 5.35 09/15/54",
+   "market": "TW",
+   "shares": 100000.0,
+   "weight": 0.376,
+   "market_value": 2780639.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US641423BU11",
+   "name": "BRKHEC 6 3/4 07/01/37",
+   "market": "TW",
+   "shares": 60000.0,
+   "weight": 0.2763,
+   "market_value": 2043066.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US00817YAF51",
+   "name": "AET 6 5/8 06/15/36",
+   "market": "TW",
+   "shares": 60000.0,
+   "weight": 0.2721,
+   "market_value": 2012211.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US832696AZ12",
+   "name": "SJM 6 1/2 11/15/53",
+   "market": "TW",
+   "shares": 60000.0,
+   "weight": 0.2699,
+   "market_value": 1995749.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US832696AY47",
+   "name": "SJM 6 1/2 11/15/43",
+   "market": "TW",
+   "shares": 60000.0,
+   "weight": 0.2679,
+   "market_value": 1981299.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US29273RAR03",
+   "name": "ET 6 1/2 02/01/42",
+   "market": "TW",
+   "shares": 60000.0,
+   "weight": 0.2639,
+   "market_value": 1951792.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US871829BN62",
+   "name": "SYY 6.6 04/01/50",
+   "market": "TW",
+   "shares": 60000.0,
+   "weight": 0.2605,
+   "market_value": 1926330.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US87612GAD34",
+   "name": "TRGP 6 1/2 02/15/53",
+   "market": "TW",
+   "shares": 60000.0,
+   "weight": 0.2597,
+   "market_value": 1920292.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US92344GAM87",
+   "name": "VZ 7 3/4 12/01/30",
+   "market": "TW",
+   "shares": 50000.0,
+   "weight": 0.2358,
+   "market_value": 1743837.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US91324PBK75",
+   "name": "UNITEDHEALTH GROUP INC 6.875 02/15/38",
+   "market": "TW",
+   "shares": 50000.0,
+   "weight": 0.2348,
+   "market_value": 1736448.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US209111EU37",
+   "name": "ED 6 3/4 04/01/38",
+   "market": "TW",
+   "shares": 50000.0,
+   "weight": 0.2329,
+   "market_value": 1722112.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US29250NBZ78",
+   "name": "ENBCN 6.7 11/15/53",
+   "market": "TW",
+   "shares": 50000.0,
+   "weight": 0.2252,
+   "market_value": 1665703.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US210385AE04",
+   "name": "CEG 6 1/2 10/01/53",
+   "market": "TW",
+   "shares": 50000.0,
+   "weight": 0.2197,
+   "market_value": 1624516.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "TNZ6F",
+   "name": "2026/12超長10年美國債券",
+   "market": "TW",
+   "shares": null,
+   "weight": 9.3498,
+   "market_value": 69126731.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "LQDW",
+   "name": "ISHARES INVESTMENT GRADE CORPO",
+   "market": "US",
+   "shares": null,
+   "weight": 8.9297,
+   "market_value": 66020740.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "TLTW",
+   "name": "ISHARES 20+ YEAR TREASURY BOND",
+   "market": "US",
+   "shares": null,
+   "weight": 7.8983,
+   "market_value": 58395414.0,
+   "kind": "stock"
+  }
+ ],
+ "source": "websys.fsit.com.tw / 基金資產",
+ "fetched_at": "2026-09-08T22:17:05+08:00"
+}

@@ -1,0 +1,410 @@
+{
+ "code": "00983A",
+ "issuer": "中國信託",
+ "fund_name": "中國信託ARK創新主動式ETF基金",
+ "as_of": "2026-08-26",
+ "basis": "fund",
+ "nav_total": 1129620938.0,
+ "fund_units": 89186000.0,
+ "unit_size": null,
+ "holdings": [
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉公司",
+   "market": "US",
+   "shares": 8645.0,
+   "weight": 8.45,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SHOP",
+   "name": "Shopify公司",
+   "market": "US",
+   "shares": 14973.0,
+   "weight": 6.34,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "TEM",
+   "name": "Tempus AI Inc",
+   "market": "US",
+   "shares": 27928.0,
+   "weight": 5.39,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "TWST",
+   "name": "Twist Bioscience Corp",
+   "market": "US",
+   "shares": 11729.0,
+   "weight": 4.96,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CRSP",
+   "name": "CRISPR治療公司",
+   "market": "US",
+   "shares": 28627.0,
+   "weight": 4.78,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "HOOD",
+   "name": "羅賓漢市場公司",
+   "market": "US",
+   "shares": 14529.0,
+   "weight": 4.44,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CRCL",
+   "name": "Circle Internet Group Inc",
+   "market": "US",
+   "shares": 17399.0,
+   "weight": 4.41,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "TXG",
+   "name": "10X Genomics Inc",
+   "market": "US",
+   "shares": 24355.0,
+   "weight": 4.41,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SPCX",
+   "name": "太空探索科技公司",
+   "market": "US",
+   "shares": 11083.0,
+   "weight": 4.36,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "COIN",
+   "name": "比特幣基地全球公司",
+   "market": "US",
+   "shares": 6859.0,
+   "weight": 3.51,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "PLTR",
+   "name": "帕蘭提爾科技公司",
+   "market": "US",
+   "shares": 7026.0,
+   "weight": 3.51,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AMD",
+   "name": "超微半導體公司",
+   "market": "US",
+   "shares": 2495.0,
+   "weight": 3.38,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "TSM",
+   "name": "台積電",
+   "market": "US",
+   "shares": 2152.0,
+   "weight": 2.53,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "BEAM",
+   "name": "光束治療公司",
+   "market": "US",
+   "shares": 27482.0,
+   "weight": 2.34,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "XYZ",
+   "name": "布洛克公司",
+   "market": "US",
+   "shares": 9925.0,
+   "weight": 2.32,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "ILMN",
+   "name": "伊魯米納公司",
+   "market": "US",
+   "shares": 3603.0,
+   "weight": 2.28,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "亞馬遜公司",
+   "market": "US",
+   "shares": 3097.0,
+   "weight": 2.27,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NTRA",
+   "name": "那提拉公司",
+   "market": "US",
+   "shares": 2371.0,
+   "weight": 2.26,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "LLY",
+   "name": "禮來公司",
+   "market": "US",
+   "shares": 595.0,
+   "weight": 1.99,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "WGS",
+   "name": "GeneDx控股公司",
+   "market": "US",
+   "shares": 7621.0,
+   "weight": 1.94,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "BMNR",
+   "name": "BitMine Immersion Technologi",
+   "market": "US",
+   "shares": 27323.0,
+   "weight": 1.92,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "BLSH",
+   "name": "Bullish",
+   "market": "US",
+   "shares": 19336.0,
+   "weight": 1.8,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SNOW",
+   "name": "Snowflake公司",
+   "market": "US",
+   "shares": 1834.0,
+   "weight": 1.63,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "輝達",
+   "market": "US",
+   "shares": 2727.0,
+   "weight": 1.61,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CRWV",
+   "name": "CoreWeave Inc",
+   "market": "US",
+   "shares": 6075.0,
+   "weight": 1.51,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NTLA",
+   "name": "英特利亞治療公司",
+   "market": "US",
+   "shares": 36789.0,
+   "weight": 1.37,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "DE",
+   "name": "迪爾",
+   "market": "US",
+   "shares": 714.0,
+   "weight": 1.28,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "GOOG",
+   "name": "Alphabet公司 Class C",
+   "market": "US",
+   "shares": 1323.0,
+   "weight": 1.26,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Alphabet公司 Class A",
+   "market": "US",
+   "shares": 1050.0,
+   "weight": 1.01,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "KTOS",
+   "name": "克瑞拓斯安全防衛公司",
+   "market": "US",
+   "shares": 6745.0,
+   "weight": 1.01,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CBRS",
+   "name": "Cerebras Systems Inc",
+   "market": "US",
+   "shares": 1577.0,
+   "weight": 0.81,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "XE",
+   "name": "X-Energy Inc",
+   "market": "US",
+   "shares": 15126.0,
+   "weight": 0.78,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SOFI",
+   "name": "SoFi Technologies Inc",
+   "market": "US",
+   "shares": 13816.0,
+   "weight": 0.73,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "ACHR",
+   "name": "阿徹航空公司",
+   "market": "US",
+   "shares": 40714.0,
+   "weight": 0.68,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "TER",
+   "name": "泰瑞達公司",
+   "market": "US",
+   "shares": 600.0,
+   "weight": 0.61,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "博通公司",
+   "market": "US",
+   "shares": 515.0,
+   "weight": 0.52,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "META",
+   "name": "Meta平台公司",
+   "market": "US",
+   "shares": 320.0,
+   "weight": 0.52,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CERS",
+   "name": "Cerus公司",
+   "market": "US",
+   "shares": 62549.0,
+   "weight": 0.48,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "FIG",
+   "name": "Figma Inc",
+   "market": "US",
+   "shares": 6280.0,
+   "weight": 0.48,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "RXRX",
+   "name": "利可迅生技公司",
+   "market": "US",
+   "shares": 33889.0,
+   "weight": 0.33,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "VCYT",
+   "name": "Veracyte公司",
+   "market": "US",
+   "shares": 2054.0,
+   "weight": 0.26,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "RBLX",
+   "name": "Roblox公司",
+   "market": "US",
+   "shares": 996.0,
+   "weight": 0.11,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NET",
+   "name": "Cloudflare公司",
+   "market": "US",
+   "shares": 118.0,
+   "weight": 0.09,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "BWXT",
+   "name": "BWX科技股份有限公司",
+   "market": "US",
+   "shares": 108.0,
+   "weight": 0.05,
+   "market_value": null,
+   "kind": "stock"
+  }
+ ],
+ "source": "ctbcinvestments.com.tw / 投資組合",
+ "fetched_at": "2026-09-08T22:27:57+08:00"
+}
