@@ -1,0 +1,428 @@
+{
+ "code": "00990A",
+ "issuer": "元大",
+ "fund_name": "元大全球AI新經濟主動式ETF基金",
+ "as_of": "2026-08-18",
+ "basis": "fund",
+ "nav_total": 39025093439.0,
+ "fund_units": 2438022000.0,
+ "unit_size": 500000.0,
+ "holdings": [
+  {
+   "symbol": "LITE",
+   "name": "LUMENTUM HOLDINGS INC",
+   "market": "US",
+   "shares": 101272.0,
+   "weight": 7.24,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MU",
+   "name": "MICRON TECHNOLOGY INC",
+   "market": "US",
+   "shares": 80645.0,
+   "weight": 6.21,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "285A",
+   "name": "KIOXIA HOLDINGS CORP",
+   "market": "JP",
+   "shares": 161600.0,
+   "weight": 4.74,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SNDK",
+   "name": "SANDISK CORP",
+   "market": "US",
+   "shares": 29303.0,
+   "weight": 3.9,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6981",
+   "name": "MURATA MANUFACTURING CO LTD",
+   "market": "JP",
+   "shares": 935600.0,
+   "weight": 3.6,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "009150",
+   "name": "SAMSUNG ELECTRO-MECHANICS CO",
+   "market": "KP",
+   "shares": 42083.0,
+   "weight": 3.52,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AMD",
+   "name": "ADVANCED MICRO DEVICES",
+   "market": "US",
+   "shares": 85079.0,
+   "weight": 3.37,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3037",
+   "name": "欣興",
+   "market": "TW",
+   "shares": 1146000.0,
+   "weight": 3.36,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2383",
+   "name": "台光電",
+   "market": "TW",
+   "shares": 181000.0,
+   "weight": 2.88,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "COHR",
+   "name": "COHERENT CORP",
+   "market": "US",
+   "shares": 113979.0,
+   "weight": 2.86,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MRVL",
+   "name": "MARVELL TECHNOLOGY INC",
+   "market": "US",
+   "shares": 159600.0,
+   "weight": 2.82,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CRDO",
+   "name": "CREDO TECHNOLOGY GROUP HOLDI",
+   "market": "US",
+   "shares": 138000.0,
+   "weight": 2.78,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "TSEM",
+   "name": "TOWER SEMICONDUCTOR LTD",
+   "market": "US",
+   "shares": 139700.0,
+   "weight": 2.75,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "shares": 406000.0,
+   "weight": 2.48,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "BE",
+   "name": "BLOOM ENERGY CORP- A",
+   "market": "US",
+   "shares": 144800.0,
+   "weight": 2.48,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "shares": 245000.0,
+   "weight": 2.44,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2308",
+   "name": "台達電",
+   "market": "TW",
+   "shares": 441000.0,
+   "weight": 2.06,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "000660",
+   "name": "SK HYNIX INC",
+   "market": "KP",
+   "shares": 21113.0,
+   "weight": 2.04,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "WDC",
+   "name": "WESTERN DIGITAL CORP",
+   "market": "US",
+   "shares": 49262.0,
+   "weight": 2.0,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AMAT",
+   "name": "APPLIED MATERIALS INC",
+   "market": "US",
+   "shares": 47106.0,
+   "weight": 1.98,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "DELL",
+   "name": "DELL TECHNOLOGIES -C",
+   "market": "US",
+   "shares": 47900.0,
+   "weight": 1.84,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "IFX",
+   "name": "INFINEON TECHNOLOGIES AG",
+   "market": "GR",
+   "shares": 332843.0,
+   "weight": 1.82,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SMTC",
+   "name": "SEMTECH CORP",
+   "market": "US",
+   "shares": 164500.0,
+   "weight": 1.82,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AXTI",
+   "name": "AXT INC",
+   "market": "US",
+   "shares": 267320.0,
+   "weight": 1.8,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6857",
+   "name": "ADVANTEST CORP",
+   "market": "JP",
+   "shares": 88100.0,
+   "weight": 1.62,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SPCX",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "market": "US",
+   "shares": 134300.0,
+   "weight": 1.58,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "TER",
+   "name": "TERADYNE INC",
+   "market": "US",
+   "shares": 46320.0,
+   "weight": 1.53,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "INTC",
+   "name": "INTEL CORP",
+   "market": "US",
+   "shares": 182500.0,
+   "weight": 1.44,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AEHR",
+   "name": "AEHR TEST SYSTEMS",
+   "market": "US",
+   "shares": 124354.0,
+   "weight": 1.26,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6223",
+   "name": "旺矽",
+   "market": "TW",
+   "shares": 90000.0,
+   "weight": 1.22,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "PANW",
+   "name": "PALO ALTO NETWORKS INC",
+   "market": "US",
+   "shares": 35400.0,
+   "weight": 1.08,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "WOLF",
+   "name": "WOLFSPEED INC",
+   "market": "US",
+   "shares": 401100.0,
+   "weight": 1.03,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6274",
+   "name": "台燿",
+   "market": "TW",
+   "shares": 255000.0,
+   "weight": 1.01,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NBIS",
+   "name": "NEBIUS GROUP NV",
+   "market": "US",
+   "shares": 49800.0,
+   "weight": 1.01,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "RBRK",
+   "name": "RUBRIK INC-A",
+   "market": "US",
+   "shares": 122500.0,
+   "weight": 1.01,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CIEN",
+   "name": "CIENA CORP",
+   "market": "US",
+   "shares": 30197.0,
+   "weight": 1.0,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "LRCX",
+   "name": "LAM RESEARCH CORP",
+   "market": "US",
+   "shares": 37200.0,
+   "weight": 1.0,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2345",
+   "name": "智邦",
+   "market": "TW",
+   "shares": 172000.0,
+   "weight": 0.98,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3711",
+   "name": "日月光投控",
+   "market": "TW",
+   "shares": 641000.0,
+   "weight": 0.98,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "4062",
+   "name": "IBIDEN CO LTD",
+   "market": "JP",
+   "shares": 89700.0,
+   "weight": 0.96,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "8046",
+   "name": "南電",
+   "market": "TW",
+   "shares": 302000.0,
+   "weight": 0.96,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "FSLY",
+   "name": "FASTLY INC - CLASS A",
+   "market": "US",
+   "shares": 429000.0,
+   "weight": 0.93,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "DIOD",
+   "name": "DIODES INC",
+   "market": "US",
+   "shares": 111900.0,
+   "weight": 0.91,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "PLTR",
+   "name": "PALANTIR TECHNOLOGIES INC-A",
+   "market": "US",
+   "shares": 55726.0,
+   "weight": 0.78,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2449",
+   "name": "京元電子",
+   "market": "TW",
+   "shares": 1008000.0,
+   "weight": 0.61,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CBRS",
+   "name": "CEREBRAS SYSTEMS INC - A",
+   "market": "US",
+   "shares": 25900.0,
+   "weight": 0.47,
+   "market_value": null,
+   "kind": "stock"
+  }
+ ],
+ "source": "yuantaetfs.com / 申購買回清單 API",
+ "fetched_at": "2026-09-08T22:05:23+08:00"
+}

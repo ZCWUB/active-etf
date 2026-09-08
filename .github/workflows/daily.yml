@@ -1,0 +1,67 @@
+name: 每日更新主動式 ETF 持股
+
+on:
+  schedule:
+    # 台灣時間 18:10 與 21:40（投信多在 16:30～18:00 之間公告，跑兩次比較保險）
+    - cron: "10 10 * * 1-5"
+    - cron: "40 13 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      backfill_days:
+        description: 回補幾天歷史（0 表示不回補）
+        default: "0"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-etf
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: 抓 ETF 清單
+        run: python scripts/fetch_universe.py
+
+      - name: 抓淨值與折溢價
+        run: python scripts/fetch_quotes.py
+
+      - name: 抓個股收盤價
+        run: python scripts/fetch_stocks.py
+
+      - name: 抓各投信持股
+        run: python scripts/fetch_pcf.py
+
+      - name: 回補歷史（手動觸發時才跑）
+        if: github.event_name == 'workflow_dispatch' && inputs.backfill_days != '0'
+        run: python scripts/backfill.py --days ${{ inputs.backfill_days }}
+
+      - name: 產生網站資料
+        run: python scripts/build_site.py
+
+      - name: 把當日資料存回 repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data web/data
+          git diff --staged --quiet || git commit -m "資料更新 $(TZ=Asia/Taipei date '+%Y-%m-%d %H:%M')"
+          git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+      - uses: actions/deploy-pages@v4

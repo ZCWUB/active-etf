@@ -1,0 +1,494 @@
+{
+ "code": "00988A",
+ "issuer": "統一",
+ "fund_name": "統一全球創新主動式ETF基金",
+ "as_of": "2026-08-26",
+ "basis": "fund",
+ "nav_total": 54369965859.0,
+ "fund_units": null,
+ "unit_size": null,
+ "holdings": [
+  {
+   "symbol": "LITE",
+   "name": "LUMENTUM HOLDINGS INC",
+   "market": "US",
+   "currency": "USD",
+   "shares": 117000.0,
+   "weight": 6.43,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3037",
+   "name": "欣興",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 2600000.0,
+   "weight": 5.55,
+   "market_value": 3016000000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2383",
+   "name": "台光電",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 445000.0,
+   "weight": 4.82,
+   "market_value": 2623275000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "009150",
+   "name": "Samsung Electro-Mechanics co(009150 ks)",
+   "market": "KR",
+   "currency": "KRW",
+   "shares": 70000.0,
+   "weight": 3.91,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MU",
+   "name": "MICRON TECHNOLOGY INC",
+   "market": "US",
+   "currency": "USD",
+   "shares": 70000.0,
+   "weight": 3.85,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AMD",
+   "name": "ADVANCED MICRO DEVICES.amd us(超微半導體公司)",
+   "market": "US",
+   "currency": "USD",
+   "shares": 130000.0,
+   "weight": 3.66,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6981",
+   "name": "MURATA MANUFACTURING CO LTD",
+   "market": "JP",
+   "currency": "JPY",
+   "shares": 1350000.0,
+   "weight": 3.57,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "285A",
+   "name": "KIOXIA HOLDINGS CORP",
+   "market": "JP",
+   "currency": "JPY",
+   "shares": 180000.0,
+   "weight": 3.31,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "BE",
+   "name": "BLOOM ENERGY CORP- A",
+   "market": "US",
+   "currency": "USD",
+   "shares": 250000.0,
+   "weight": 3.19,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "PANW",
+   "name": "PALO ALTO NETWORKS INC",
+   "market": "US",
+   "currency": "USD",
+   "shares": 150000.0,
+   "weight": 2.98,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CRDO",
+   "name": "CREDO TECHNOLOGY GROUP HOLDI",
+   "market": "US",
+   "currency": "USD",
+   "shares": 225000.0,
+   "weight": 2.98,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "STX",
+   "name": "SEAGATE TECHNOLOGY",
+   "market": "US",
+   "currency": "USD",
+   "shares": 60000.0,
+   "weight": 2.97,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MRVL",
+   "name": "MARVELL TECHNOLOGY INC",
+   "market": "US",
+   "currency": "USD",
+   "shares": 205000.0,
+   "weight": 2.94,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 650000.0,
+   "weight": 2.89,
+   "market_value": 1569750000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "TSEM",
+   "name": "TOWER SEMICONDUCTOR LTD",
+   "market": "US",
+   "currency": "USD",
+   "shares": 216825.0,
+   "weight": 2.81,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CRCL",
+   "name": "CIRCLE INTERNET GROUP INC",
+   "market": "US",
+   "currency": "USD",
+   "shares": 480000.0,
+   "weight": 2.53,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SPCX",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "market": "US",
+   "currency": "USD",
+   "shares": 300000.0,
+   "weight": 2.45,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SNOW",
+   "name": "SNOWFLAKE INC-CLASS A(Snowflake公司)",
+   "market": "US",
+   "currency": "USD",
+   "shares": 130000.0,
+   "weight": 2.4,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2308",
+   "name": "台達電",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 720000.0,
+   "weight": 2.32,
+   "market_value": 1260000000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6223",
+   "name": "旺矽",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 242000.0,
+   "weight": 2.24,
+   "market_value": 1219680000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "PLTR",
+   "name": "PALANTIR TECHNOLOGIES INC-A",
+   "market": "US",
+   "currency": "USD",
+   "shares": 180000.0,
+   "weight": 1.87,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6871",
+   "name": "MICRONICS JAPAN CO LTD",
+   "market": "JP",
+   "currency": "JPY",
+   "shares": 370000.0,
+   "weight": 1.84,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "300408",
+   "name": "CHAOZHOU THREE-CIRCLE GROU-A",
+   "market": "CN",
+   "currency": "CNH",
+   "shares": 1749879.0,
+   "weight": 1.66,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "COHR",
+   "name": "COHERENT INC",
+   "market": "US",
+   "currency": "USD",
+   "shares": 95000.0,
+   "weight": 1.64,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3017",
+   "name": "奇鋐",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 275000.0,
+   "weight": 1.6,
+   "market_value": 867625000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "IFX",
+   "name": "INFINEON TECHNOLOGIES AG",
+   "market": "GY",
+   "currency": "EUR",
+   "shares": 425000.0,
+   "weight": 1.6,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2327",
+   "name": "國巨*",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 1550000.0,
+   "weight": 1.53,
+   "market_value": 832350000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SNDK",
+   "name": "SANDISK CORP",
+   "market": "US",
+   "currency": "USD",
+   "shares": 17000.0,
+   "weight": 1.49,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 200000.0,
+   "weight": 1.45,
+   "market_value": 789000000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MPWR",
+   "name": "MONOLITHIC POWER SYSTEMS INC",
+   "market": "US",
+   "currency": "USD",
+   "shares": 18000.0,
+   "weight": 1.37,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6997",
+   "name": "NIPPON CHEMI-CON CORP",
+   "market": "JP",
+   "currency": "JPY",
+   "shares": 1275100.0,
+   "weight": 1.26,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "TER",
+   "name": "TERADYNE INC",
+   "market": "US",
+   "currency": "USD",
+   "shares": 55000.0,
+   "weight": 1.17,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "000660",
+   "name": "SK HYNIX INC",
+   "market": "KR",
+   "currency": "KRW",
+   "shares": 15000.0,
+   "weight": 1.07,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "301377",
+   "name": "GUANGDONG DTECH TECHNOLOGY-A",
+   "market": "CN",
+   "currency": "CNH",
+   "shares": 291988.0,
+   "weight": 1.0,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "FORM",
+   "name": "FORMFACTOR INC",
+   "market": "US",
+   "currency": "USD",
+   "shares": 150454.0,
+   "weight": 0.95,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3308",
+   "name": "ZHONGJI INNOLIGHT CO LTD-H",
+   "market": "HK",
+   "currency": "HKD",
+   "shares": 110000.0,
+   "weight": 0.83,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "4979",
+   "name": "華星光",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 735000.0,
+   "weight": 0.81,
+   "market_value": 439530000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "HOOD",
+   "name": "ROBINHOOD MARKETS INC - A",
+   "market": "US",
+   "currency": "USD",
+   "shares": 120000.0,
+   "weight": 0.76,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NET",
+   "name": "CLOUDFLARE INC - CLASS A",
+   "market": "US",
+   "currency": "USD",
+   "shares": 45000.0,
+   "weight": 0.75,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AEM",
+   "name": "AGNICO EAGLE MINES LTD",
+   "market": "US",
+   "currency": "USD",
+   "shares": 60000.0,
+   "weight": 0.75,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "TWLO",
+   "name": "TWILIO INC - A",
+   "market": "US",
+   "currency": "USD",
+   "shares": 55000.0,
+   "weight": 0.74,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "5801",
+   "name": "FURUKAWA ELECTRIC CO LTD",
+   "market": "JP",
+   "currency": "JPY",
+   "shares": 500000.0,
+   "weight": 0.72,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "DASH",
+   "name": "DOORDASH INC - A",
+   "market": "US",
+   "currency": "USD",
+   "shares": 50000.0,
+   "weight": 0.69,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AIXA",
+   "name": "AIXTRON SE",
+   "market": "GY",
+   "currency": "EUR",
+   "shares": 200000.0,
+   "weight": 0.5,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NTRA",
+   "name": "NATERA INC",
+   "market": "US",
+   "currency": "USD",
+   "shares": 25000.0,
+   "weight": 0.5,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "4180",
+   "name": "APPIER GROUP INC",
+   "market": "JP",
+   "currency": "JPY",
+   "shares": 950000.0,
+   "weight": 0.45,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6274",
+   "name": "台燿",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 130000.0,
+   "weight": 0.37,
+   "market_value": 198900000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "095340",
+   "name": "ISC CO LTD",
+   "market": "KR",
+   "currency": "KRW",
+   "shares": 50000.0,
+   "weight": 0.34,
+   "market_value": null,
+   "kind": "stock"
+  }
+ ],
+ "source": "ezmoney.com.tw / 申購買回清單+投資組合明細",
+ "fetched_at": "2026-09-08T21:43:31+08:00"
+}

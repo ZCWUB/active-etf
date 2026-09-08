@@ -1,0 +1,446 @@
+{
+ "code": "00409A",
+ "issuer": "復華",
+ "fund_name": "復華全球未來50主動式ETF基金",
+ "as_of": "2026-08-28",
+ "basis": "fund",
+ "nav_total": 17942021568.0,
+ "fund_units": 1819948000.0,
+ "unit_size": null,
+ "holdings": [
+  {
+   "symbol": "PLTR",
+   "name": "帕蘭提爾科技公司",
+   "market": "US",
+   "shares": 98000.0,
+   "weight": 3.217,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2383",
+   "name": "台光電子",
+   "market": "TW",
+   "shares": 99000.0,
+   "weight": 3.029,
+   "market_value": 543510000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "輝達公司",
+   "market": "US",
+   "shares": 78000.0,
+   "weight": 2.99,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "LITE",
+   "name": "魯門特姆控股公司",
+   "market": "US",
+   "shares": 17000.0,
+   "weight": 2.681,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "HOOD",
+   "name": "羅賓漢市場公司",
+   "market": "US",
+   "shares": 144000.0,
+   "weight": 2.646,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3017",
+   "name": "奇鋐科技",
+   "market": "TW",
+   "shares": 137000.0,
+   "weight": 2.566,
+   "market_value": 460320000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MU",
+   "name": "美光科技公司",
+   "market": "US",
+   "shares": 13700.0,
+   "weight": 2.252,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6274",
+   "name": "台燿科技",
+   "market": "TW",
+   "shares": 252000.0,
+   "weight": 2.093,
+   "market_value": 375480000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "微軟公司",
+   "market": "US",
+   "shares": 23000.0,
+   "weight": 2.081,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "BE",
+   "name": "布魯姆能源公司",
+   "market": "US",
+   "shares": 55000.0,
+   "weight": 2.043,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "BMNR",
+   "name": "BitMine Immersion技術公司",
+   "market": "US",
+   "shares": 468640.0,
+   "weight": 1.966,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "TSM",
+   "name": "台灣積體電路製造股份有限公司",
+   "market": "US",
+   "shares": 25000.0,
+   "weight": 1.839,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MRVL",
+   "name": "Marvell Technology Inc",
+   "market": "US",
+   "shares": 48000.0,
+   "weight": 1.832,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "4062",
+   "name": "揖斐電有限公司",
+   "market": "JP",
+   "shares": 82000.0,
+   "weight": 1.828,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3037",
+   "name": "欣興電子",
+   "market": "TW",
+   "shares": 283000.0,
+   "weight": 1.751,
+   "market_value": 314130000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "WPM",
+   "name": "惠頓貴金屬公司",
+   "market": "US",
+   "shares": 63000.0,
+   "weight": 1.702,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "000660",
+   "name": "愛思開海力士公司",
+   "market": "KR",
+   "shares": 8000.0,
+   "weight": 1.698,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "ALAB",
+   "name": "Astera實驗室公司",
+   "market": "US",
+   "shares": 30000.0,
+   "weight": 1.53,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "COIN",
+   "name": "比特幣基地全球公司",
+   "market": "US",
+   "shares": 45000.0,
+   "weight": 1.417,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "009150",
+   "name": "三星電機",
+   "market": "KR",
+   "shares": 7500.0,
+   "weight": 1.369,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "TEM",
+   "name": "Tempus AI公司",
+   "market": "US",
+   "shares": 120000.0,
+   "weight": 1.354,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "PANW",
+   "name": "Palo Alto Networks Inc",
+   "market": "US",
+   "shares": 20000.0,
+   "weight": 1.31,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2059",
+   "name": "川湖科技",
+   "market": "TW",
+   "shares": 16000.0,
+   "weight": 1.275,
+   "market_value": 228800000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NOW",
+   "name": "ServiceNow公司",
+   "market": "US",
+   "shares": 47000.0,
+   "weight": 1.199,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "EXPE",
+   "name": "智遊網集團公司",
+   "market": "US",
+   "shares": 20000.0,
+   "weight": 1.161,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CRDO",
+   "name": "Credo科技集團控股有限公司",
+   "market": "US",
+   "shares": 28000.0,
+   "weight": 1.148,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CCJ",
+   "name": "卡梅科公司",
+   "market": "US",
+   "shares": 63000.0,
+   "weight": 1.11,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SPCX",
+   "name": "太空探索科技公司",
+   "market": "US",
+   "shares": 43000.0,
+   "weight": 1.072,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "DELL",
+   "name": "戴爾科技公司",
+   "market": "US",
+   "shares": 13000.0,
+   "weight": 1.045,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "8473",
+   "name": "SBI控股公司",
+   "market": "JP",
+   "shares": 255000.0,
+   "weight": 0.966,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "034020",
+   "name": "斗山重工業",
+   "market": "KR",
+   "shares": 85000.0,
+   "weight": 0.963,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "600183",
+   "name": "廣東生益科技股份有限公司",
+   "market": "CN",
+   "shares": 250000.0,
+   "weight": 0.955,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "8046",
+   "name": "南亞電路",
+   "market": "TW",
+   "shares": 131000.0,
+   "weight": 0.905,
+   "market_value": 162440000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "STX",
+   "name": "希捷科技控股公開有限公司",
+   "market": "US",
+   "shares": 6000.0,
+   "weight": 0.877,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SNOW",
+   "name": "Snowflake公司",
+   "market": "US",
+   "shares": 15000.0,
+   "weight": 0.867,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CRCL",
+   "name": "Circle網路集團公司",
+   "market": "US",
+   "shares": 55000.0,
+   "weight": 0.845,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3008",
+   "name": "大立光電",
+   "market": "TW",
+   "shares": 21000.0,
+   "weight": 0.827,
+   "market_value": 148365000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "LLY",
+   "name": "禮來公司",
+   "market": "US",
+   "shares": 3900.0,
+   "weight": 0.807,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SNDK",
+   "name": "晟碟公司（德拉瓦州）",
+   "market": "US",
+   "shares": 3000.0,
+   "weight": 0.785,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3189",
+   "name": "景碩科技",
+   "market": "TW",
+   "shares": 150000.0,
+   "weight": 0.752,
+   "market_value": 134850000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3081",
+   "name": "聯亞光電",
+   "market": "TW",
+   "shares": 40000.0,
+   "weight": 0.737,
+   "market_value": 132200000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MA",
+   "name": "萬事達卡",
+   "market": "US",
+   "shares": 7000.0,
+   "weight": 0.734,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MP",
+   "name": "MP材料公司",
+   "market": "US",
+   "shares": 70000.0,
+   "weight": 0.692,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MRK",
+   "name": "默克藥廠",
+   "market": "US",
+   "shares": 25000.0,
+   "weight": 0.654,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "RPRX",
+   "name": "皇家醫藥公開有限公司",
+   "market": "US",
+   "shares": 50000.0,
+   "weight": 0.536,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NET",
+   "name": "Cloudflare公司",
+   "market": "US",
+   "shares": 10000.0,
+   "weight": 0.528,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "GDX",
+   "name": "VanEck黃金礦業交易所交易基金",
+   "market": "US",
+   "shares": 126000.0,
+   "weight": 2.213,
+   "market_value": null,
+   "kind": "etf"
+  },
+  {
+   "symbol": "COPX",
+   "name": "Global X銅礦ETF",
+   "market": "US",
+   "shares": 104000.0,
+   "weight": 1.731,
+   "market_value": null,
+   "kind": "etf"
+  }
+ ],
+ "source": "fhtrust.com.tw / 基金資產明細",
+ "fetched_at": "2026-09-08T22:00:30+08:00"
+}

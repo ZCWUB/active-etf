@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0f1115">
+<title>主動ETF底牌</title>
+<meta name="description" content="台灣主動式 ETF 每日持股、加減碼、共同持股與折溢價追蹤">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>🃏</text></svg>">
+</head>
+<body>
+<header class="top">
+  <div class="top-row">
+    <h1>主動ETF底牌</h1>
+    <span class="stamp" id="stamp">載入中…</span>
+  </div>
+  <div class="search-wrap">
+    <input id="search" type="search" placeholder="搜尋 ETF 或個股，例如 2330、台積電、00981A" autocomplete="off">
+  </div>
+  <nav class="tabs" id="tabs">
+    <a href="#/funds" data-tab="funds">ETF</a>
+    <a href="#/moves" data-tab="moves">今日動作</a>
+    <a href="#/stocks" data-tab="stocks">共同持股</a>
+    <a href="#/watch" data-tab="watch">自選</a>
+  </nav>
+</header>
+
+<main id="view" aria-live="polite"><div class="loading">載入資料中…</div></main>
+
+<footer class="foot">
+  <p id="coverage"></p>
+  <p class="fine">資料來源：各投信官網每日公告之申購買回清單／投資組合明細、證交所 ETF e添富與 MIS 淨值折溢價、TWSE／TPEx 收盤價。
+  本站為公開資訊整理，僅供參考，不構成投資建議；實際持股請以各基金公司公告為準。</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
