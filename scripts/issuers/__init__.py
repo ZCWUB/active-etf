@@ -10,9 +10,17 @@ snapshot 統一格式見 docs 或 fetch_pcf.py 的 validate()。
     basis="fund"    投信直接公告全基金持股（現金申贖制居多）
     basis="basket"  只公告每一申購買回基數的實物籃子，需用 fund_units/unit_size 放大
 """
-from . import (ab, capital, cathay, ctbc, fubon, fuhhwa, jpm, kgi, mega, nomura,
-               sinopac, uni, yuanta)
+from . import (ab, capital, cathay, ctbc, fsitc, fubon, fuhhwa, jpm, kgi, mega,
+               nomura, sinopac, tsit, uni, yuanta)
+
+# 安聯要靠無頭瀏覽器，沒裝 Playwright 就安靜跳過，其他投信照常
+try:
+    from . import allianz
+except ImportError:  # pragma: no cover
+    allianz = None
 
 ADAPTERS = [uni, capital, yuanta, fuhhwa, cathay, ctbc, fubon, kgi, nomura, ab, jpm,
-            sinopac, mega]
+            sinopac, mega, tsit, fsitc]
+if allianz is not None:
+    ADAPTERS.append(allianz)
 BY_ISSUER = {m.ISSUER: m for m in ADAPTERS}

@@ -26,12 +26,12 @@
 
 ## 目前接了哪幾家投信
 
-`scripts/issuers/` 一家投信一個檔案。已接入：
+17 家全部接入，涵蓋 38 檔主動式 ETF。`scripts/issuers/` 一家一個檔案。
 
 | 投信 | 取得方式 | 可回補歷史 |
 | --- | --- | --- |
 | 統一 | `ezmoney.com.tw` GetPCF（投資組合明細） | 是 |
-| 群益 | `capitalfund.com.tw` 申購買回清單 API | 否（只給最新一日） |
+| 群益 | `capitalfund.com.tw` 申購買回清單 API | 否 |
 | 元大 | `etfapi.yuantaetfs.com` PCF/Daily | 是 |
 | 復華 | `fhtrust.com.tw` 基金資產明細 | 是 |
 | 國泰 | `cwapi.cathaysite.com.tw` 持股權重 | 是 |
@@ -39,12 +39,18 @@
 | 富邦 | `websys.fsit.com.tw` 基金資產（解析 HTML 表格） | 是 |
 | 凱基 | `kgifund.com.tw` RedemptionVC（HTML 片段） | 是 |
 | 野村 | `nomurafunds.com.tw` GetFundAssets | 否 |
+| 聯博 | `webapi.alliancebernstein.com` holdings（ISIN 由代號直接算） | 是 |
+| 摩根 | `am.jpmorgan.com` product-data | 否 |
+| 永豐 | `sitc.sinopac.com` 現金申購買回清單（HTML） | 否 |
+| 兆豐國際 | `megafunds.com.tw`（ASP.NET WebForms 兩段 postback） | 否 |
+| 台新 | `tsit.com.tw` Pcf（POST 表單） | 是 |
+| 第一金 | `fsitc.com.tw` WebAPI.aspx/Get_hd | 是 |
+| 安聯 | `etf.allianzgi.com.tw`，**需無頭瀏覽器** | 否 |
 
-尚未接入的投信會顯示在網站頁尾與 `web/data/meta.json` 的 `issuers_without_adapter`。
-
-**安聯**的 API（`etf.allianzgi.com.tw/webapi`）只接受帶有瀏覽器 WAF cookie 的請求，
-同樣的 payload 在頁面內可以拿到資料、從伺服器直接打卻一律回 400，
-要接必須另外跑無頭瀏覽器，成本與其他家不同，暫時擱著。
+安聯的 webapi 對任何非瀏覽器發出的請求一律回 400——偽裝 TLS 指紋、補齊瀏覽器標頭、
+甚至在無頭瀏覽器裡自己 `fetch` 都沒用，只有頁面上的 Angular 自己發的那一次會成功。
+所以那一家改成開無頭瀏覽器、攔截頁面自己打出去的回應。沒安裝 Playwright 時
+該 adapter 會安靜略過，其他 16 家照常運作。
 
 ### 新增一家投信
 

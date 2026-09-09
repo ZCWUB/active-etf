@@ -1,0 +1,248 @@
+{
+ "code": "00987A",
+ "issuer": "台新",
+ "fund_name": "",
+ "as_of": "2026-08-28",
+ "basis": "fund",
+ "nav_total": 2659751490.0,
+ "fund_units": 160143000.0,
+ "unit_size": null,
+ "holdings": [
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "shares": 90000.0,
+   "weight": 8.1549,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3037",
+   "name": "欣興",
+   "market": "TW",
+   "shares": 166000.0,
+   "weight": 7.3646,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3017",
+   "name": "奇鋐",
+   "market": "TW",
+   "shares": 58000.0,
+   "weight": 7.2834,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2383",
+   "name": "台光電",
+   "market": "TW",
+   "shares": 29000.0,
+   "weight": 5.9968,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6223",
+   "name": "旺矽",
+   "market": "TW",
+   "shares": 27000.0,
+   "weight": 5.167,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3081",
+   "name": "聯亞",
+   "market": "TW",
+   "shares": 37800.0,
+   "weight": 4.7894,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "shares": 32000.0,
+   "weight": 4.6501,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3443",
+   "name": "創意",
+   "market": "TW",
+   "shares": 20000.0,
+   "weight": 4.4515,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "8046",
+   "name": "南電",
+   "market": "TW",
+   "shares": 91000.0,
+   "weight": 4.4307,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6805",
+   "name": "富世達",
+   "market": "TW",
+   "shares": 52000.0,
+   "weight": 4.35,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6274",
+   "name": "台燿",
+   "market": "TW",
+   "shares": 75000.0,
+   "weight": 4.0746,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3665",
+   "name": "貿聯 -KY",
+   "market": "TW",
+   "shares": 50000.0,
+   "weight": 3.8631,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3653",
+   "name": "健策",
+   "market": "TW",
+   "shares": 18000.0,
+   "weight": 3.8203,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2408",
+   "name": "南亞科",
+   "market": "TW",
+   "shares": 167000.0,
+   "weight": 3.3968,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2455",
+   "name": "全新",
+   "market": "TW",
+   "shares": 205000.0,
+   "weight": 3.3373,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "7769",
+   "name": "鴻勁",
+   "market": "TW",
+   "shares": 12000.0,
+   "weight": 2.8627,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6187",
+   "name": "萬潤",
+   "market": "TW",
+   "shares": 47000.0,
+   "weight": 2.5269,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3363",
+   "name": "上詮",
+   "market": "TW",
+   "shares": 92729.0,
+   "weight": 2.4544,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6683",
+   "name": "雍智科技",
+   "market": "TW",
+   "shares": 52000.0,
+   "weight": 2.4341,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2345",
+   "name": "智邦",
+   "market": "TW",
+   "shares": 28000.0,
+   "weight": 2.2002,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "8358",
+   "name": "金居",
+   "market": "TW",
+   "shares": 114000.0,
+   "weight": 2.1173,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6739",
+   "name": "竹陞科技",
+   "market": "TW",
+   "shares": 50000.0,
+   "weight": 2.0585,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2308",
+   "name": "台達電",
+   "market": "TW",
+   "shares": 28000.0,
+   "weight": 1.8633,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6515",
+   "name": "穎崴",
+   "market": "TW",
+   "shares": 8000.0,
+   "weight": 1.8363,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "8996",
+   "name": "高力",
+   "market": "TW",
+   "shares": 35000.0,
+   "weight": 1.7238,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "5274",
+   "name": "信驊",
+   "market": "TW",
+   "shares": 300.0,
+   "weight": 0.1726,
+   "market_value": null,
+   "kind": "stock"
+  }
+ ],
+ "source": "tsit.com.tw / 申購買回清單",
+ "fetched_at": "2026-09-09T21:30:44+08:00"
+}

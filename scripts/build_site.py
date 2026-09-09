@@ -205,7 +205,9 @@ def build_fund(fund: dict, quote: dict, prices: Prices, names: dict, industries:
         close = prices.get(day, h["symbol"], 0) if is_tw else None
         vwap = prices.get(day, h["symbol"], 1) if is_tw else None
         shares = h.get("shares")
-        delta = None if not p else (shares or 0) - (p.get("shares") or 0)
+        # 有前一日快照時，前一日沒有這檔就是整筆新建倉，要算成買進全部張數，
+        # 不是「沒有變動」；只有在完全沒有前一日可比時才留空。
+        delta = None if not prev else (shares or 0) - ((p or {}).get("shares") or 0)
         value_delta = round(delta * vwap) if (delta and vwap) else None
         if value_delta:
             net_value += value_delta
@@ -263,8 +265,10 @@ def build_fund(fund: dict, quote: dict, prices: Prices, names: dict, industries:
         counts[r["status"]] += 1
     counts["exit"] = len(exited)
 
+    # 最大貢獻要跟當日淨買賣同方向，否則買超榜上會出現一檔賣最多的股票，看起來很怪
     movers = [r for r in rows + exited if r.get("value_delta")]
-    top = max(movers, key=lambda r: abs(r["value_delta"]), default=None)
+    same_way = [r for r in movers if (r["value_delta"] > 0) == (net_value >= 0)]
+    top = max(same_way or movers, key=lambda r: abs(r["value_delta"]), default=None)
 
     tw_rows = [r for r in rows if r["kind"] in TRADABLE and r["market"] == "TW"]
     tw_weight = sum(r["weight"] or 0 for r in tw_rows)

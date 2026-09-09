@@ -33,6 +33,9 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      - name: 安裝無頭瀏覽器（安聯投信專用）
+        run: python -m playwright install --with-deps chromium
+
       - name: 抓 ETF 清單
         run: python scripts/fetch_universe.py
 
