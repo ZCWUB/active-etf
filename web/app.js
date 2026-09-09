@@ -29,7 +29,9 @@ function money(v, signed = true) {
 }
 const lots = v => (v == null || !isFinite(v)) ? '—' : n0(v / 1000);
 const signedLots = v => {
-  if (v == null || !isFinite(v) || Math.round(v / 1000) === 0) return '0';
+  // null 代表「沒有可比的前一日」，跟「比較過、沒有變動」是兩件事，不能都寫成 0
+  if (v == null || !isFinite(v)) return '—';
+  if (Math.round(v / 1000) === 0) return '0';
   return (v > 0 ? '+' : '−') + n0(Math.abs(v) / 1000);
 };
 const pct = (v, d = 2) => (v == null || !isFinite(v)) ? '—' : v.toFixed(d) + '%';
@@ -140,6 +142,7 @@ async function viewStock(raw) {
 
   const holders = s.funds.filter(f => f.status !== 'exit');
   const dropped = s.funds.filter(f => f.status === 'exit');
+  const firstDay = holders.filter(f => f.first_day).length;
   const win = [['d1', meta.trade_date ? mmdd(meta.trade_date) : '今日'],
                ['d3', '近 3 日'], ['d5', '近 5 日']];
   const maxAbs = Math.max(...win.map(([k]) => Math.abs(s[k + '_shares'] || 0)), 1);
@@ -177,7 +180,8 @@ async function viewStock(raw) {
     <div class="note-text" style="padding-top:0">主動 ETF 淨買賣超${
       s.streak > 1 ? ` · 已連續買超 ${s.streak} 天` : ''}${
       s.foreign_net_shares != null
-        ? ` · 外資今日 ${signedLots(s.foreign_net_shares)} 張${s.foreign_aligned ? '（同向）' : ''}` : ''}</div>
+        ? ` · 外資今日 ${signedLots(s.foreign_net_shares)} 張${s.foreign_aligned ? '（同向）' : ''}` : ''}
+      ${firstDay ? `<br>其中 ${firstDay} 家今天才開始記錄，還沒有前一日可比，當日變動尚未計入。` : ''}</div>
   </div>
 
   <div class="block">
@@ -188,9 +192,12 @@ async function viewStock(raw) {
       <tbody>${holders.map(f => `
         <tr onclick="location.hash='#/fund/${f.code}'">
           <td><div class="sym-name">${esc(f.name)}</div><div class="sym-code">${f.code}</div></td>
-          <td><div class="${dir(f.shares_delta)}">${signedLots(f.shares_delta)} 張</div>
-            ${f.status && f.status !== 'hold'
-              ? `<div class="badge ${f.status}" style="margin-top:4px">${STATUS[f.status]}</div>` : ''}</td>
+          <td><div class="${dir(f.shares_delta)}">${signedLots(f.shares_delta)}${
+              f.shares_delta == null ? '' : ' 張'}</div>
+            ${f.first_day
+              ? '<div class="badge" style="margin-top:4px">首日</div>'
+              : (f.status && f.status !== 'hold'
+                ? `<div class="badge ${f.status}" style="margin-top:4px">${STATUS[f.status]}</div>` : '')}</td>
           <td><div>${f.avg_cost != null ? n0(f.avg_cost) : '—'}</div>
             <div class="${dir(f.return_pct)}">${signedPct(f.return_pct)}</div></td>
           <td><div>${pct(f.weight)}</div><div class="sym-code">${lots(f.shares)} 張</div></td>

@@ -335,6 +335,8 @@ def build_stocks(details: dict, series: dict, prices: Prices, names: dict,
             exited = row.get("status") == "exit"
             e["funds"].append({
                 "code": code, "name": d["name"],
+                # 這家還沒有前一日快照，當日變動無從比較，不能當成「沒有變動」
+                "first_day": not d.get("prev_as_of"),
                 "weight": row.get("weight"),
                 "shares": 0 if exited else row.get("shares"),
                 "shares_delta": row.get("shares_delta"),
