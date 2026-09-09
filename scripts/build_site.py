@@ -17,6 +17,7 @@ from __future__ import annotations
 import re
 import shutil
 from collections import defaultdict
+from datetime import date
 
 from common import DATA, ROOT, now_tpe, read_json, uid, write_json
 
@@ -50,6 +51,10 @@ def load_prices() -> dict[str, dict[str, list]]:
         if doc.get("date"):
             out[doc["date"]] = doc.get("prices") or {}
     return out
+
+
+def trade_date_of(prices: "Prices") -> str:
+    return prices.days[-1] if prices.days else ""
 
 
 class Prices:
@@ -187,8 +192,42 @@ def track_positions(snaps: list[dict], prices: Prices) -> dict[str, dict]:
 
 # ---------------------------------------------------------------- 各檔 ETF
 
+# 證交所對掛牌未滿該期間的基金一律回 0，直接顯示會被當成「報酬為零」
+PERIOD_DAYS = {"d1": 1, "w1": 7, "m1": 30, "m3": 90, "m6": 180,
+               "y1": 365, "y3": 1095, "y5": 1825}
+
+
+def usable_performance(perf: dict, listing_date: str, trade_date: str) -> dict:
+    if not perf:
+        return {}
+    try:
+        age = (date.fromisoformat(trade_date) - date.fromisoformat(listing_date)).days
+    except (ValueError, TypeError):
+        return perf
+    return {k: (v if PERIOD_DAYS.get(k, 0) <= age else None) for k, v in perf.items()}
+
+
+def dividend_summary(dividends: list[dict], price: float | None) -> dict:
+    """近 12 個月的配息合計與年化配息率。"""
+    if not dividends:
+        return {"last_date": None, "last_amount": None, "sum_12m": None,
+                "yield_12m": None, "count_12m": 0}
+    latest = max(d["date"] for d in dividends)
+    cutoff = f"{int(latest[:4]) - 1}{latest[4:]}"
+    recent = [d for d in dividends if d["date"] > cutoff]
+    total = round(sum(d["amount"] for d in recent), 4)
+    last = max(dividends, key=lambda d: d["date"])
+    return {
+        "last_date": last["date"],
+        "last_amount": last["amount"],
+        "sum_12m": total,
+        "yield_12m": round(total / price * 100, 2) if price else None,
+        "count_12m": len(recent),
+    }
+
+
 def build_fund(fund: dict, quote: dict, prices: Prices, names: dict, industries: dict,
-               positions: dict) -> dict | None:
+               positions: dict, info: dict) -> dict | None:
     snaps = snapshots(fund["code"])
     if not snaps:
         return None
@@ -270,6 +309,9 @@ def build_fund(fund: dict, quote: dict, prices: Prices, names: dict, industries:
     same_way = [r for r in movers if (r["value_delta"] > 0) == (net_value >= 0)]
     top = max(same_way or movers, key=lambda r: abs(r["value_delta"]), default=None)
 
+    close = prices.get(trade_date_of(prices), fund["code"], 0)
+    change_pct = prices.get(trade_date_of(prices), fund["code"], 2)
+
     tw_rows = [r for r in rows if r["kind"] in TRADABLE and r["market"] == "TW"]
     tw_weight = sum(r["weight"] or 0 for r in tw_rows)
     tw_value = sum(r["market_value"] or 0 for r in tw_rows)
@@ -285,8 +327,14 @@ def build_fund(fund: dict, quote: dict, prices: Prices, names: dict, industries:
         "fetched_at": cur.get("fetched_at"),
         "source": cur.get("source"),
         "nav": quote.get("nav"),
-        "price": quote.get("price"),
+        "price": close if close is not None else quote.get("price"),
+        "change_pct": change_pct,
         "premium_pct": quote.get("premium_pct"),
+        "manager": info.get("manager"),
+        "performance": usable_performance(info.get("performance") or {},
+                                          fund.get("listing_date", ""), trade_date_of(prices)),
+        "dividend": dividend_summary(info.get("dividends") or [],
+                                     close if close is not None else quote.get("price")),
         "units": quote.get("units"),
         "units_change": quote.get("units_change"),
         "aum": aum,
@@ -298,6 +346,8 @@ def build_fund(fund: dict, quote: dict, prices: Prices, names: dict, industries:
         "value_coverage": (round(tw_value / (aum * tw_weight / 100), 3)
                            if (aum and tw_weight >= 5 and tw_value) else None),
         "net_value": round(net_value),
+        # 資料日期不是最新交易日的基金，它的變動屬於較早那天，不該進「今日」統計
+        "is_current": None,
         "top_move": ({"symbol": top["symbol"], "name": top["name"],
                       "value": top["value_delta"]} if top else None),
         "holdings": rows,
@@ -311,6 +361,7 @@ def build_fund(fund: dict, quote: dict, prices: Prices, names: dict, industries:
 def build_stocks(details: dict, series: dict, prices: Prices, names: dict,
                  industries: dict, foreign: dict, trade_date: str) -> list[dict]:
     idx: dict[str, dict] = {}
+    market_days = [d for d in prices.days if d <= trade_date]
 
     for code, d in details.items():
         positions = series[code]
@@ -352,19 +403,18 @@ def build_stocks(details: dict, series: dict, prices: Prices, names: dict,
 
             hist = (positions.get(key) or {}).get("history") or []
             vwap = prices.get(trade_date, row["symbol"], 1) if is_tw else None
-            days = sorted({day for day, _ in hist})
-            fund_days = d["history"]
+            # 視窗一律以市場交易日為準，不能用各檔基金自己的快照日：
+            # 有些投信的最新資料停在前一天，那天的動作屬於前一天，不該算進「今日」。
             for window, field in ((1, "d1"), (3, "d3"), (5, "d5")):
-                recent = set(fund_days[-window:])
+                recent = set(market_days[-window:])
                 moved = sum(delta for day, delta in hist if day in recent)
                 if moved:
                     e[f"{field}_shares"] += moved
                     if vwap:
                         e[f"{field}_value"] += moved * vwap
-            del days
 
-    # 連續買超天數：全部 ETF 合計，從最近一天往回數
-    all_days = sorted({d for detail in details.values() for d in detail["history"]})
+    # 連續買超天數：全部 ETF 合計，從最近一個交易日往回數
+    all_days = market_days
     daily: dict[str, dict[str, float]] = defaultdict(lambda: defaultdict(float))
     for code, positions in series.items():
         for key, st in positions.items():
@@ -437,6 +487,7 @@ def main() -> int:
     prices = Prices(load_prices())
     names_raw = read_json(DATA / "names.json") or {}
     industries = (read_json(DATA / "industries.json") or {}).get("industries") or {}
+    fundinfo = (read_json(DATA / "fundinfo.json") or {}).get("funds") or {}
     foreign = (latest_file("inst") or {}).get("foreign_net_shares") or {}
     trade_date = prices.days[-1] if prices.days else quotes_doc.get("date")
 
@@ -455,15 +506,17 @@ def main() -> int:
         if not snaps:
             continue
         series[code] = track_positions(snaps, prices)
-        detail = build_fund(fund, quotes.get(code, {}), prices, names, industries, series[code])
+        detail = build_fund(fund, quotes.get(code, {}), prices, names, industries,
+                            series[code], fundinfo.get(code, {}))
         if not detail:
             continue
         details[code] = detail
         write_json(WEB_DATA / "funds" / f"{code}.json", detail)
         summaries.append({k: detail[k] for k in (
-            "code", "name", "issuer", "as_of", "prev_as_of", "nav", "price", "premium_pct",
-            "units_change", "aum", "holding_count", "changes", "stock_weight", "tw_weight",
-            "value_coverage", "net_value", "top_move")})
+            "code", "name", "issuer", "as_of", "prev_as_of", "nav", "price", "change_pct",
+            "premium_pct", "units_change", "aum", "holding_count", "changes", "stock_weight",
+            "tw_weight", "value_coverage", "net_value", "top_move", "manager",
+            "performance", "dividend")})
     summaries.sort(key=lambda f: -(f.get("aum") or 0))
 
     stocks = build_stocks(details, series, prices, names, industries, foreign, trade_date)

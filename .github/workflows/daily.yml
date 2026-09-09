@@ -2,9 +2,10 @@ name: 每日更新主動式 ETF 持股
 
 on:
   schedule:
-    # 台灣時間 18:10 與 21:40（投信多在 16:30～18:00 之間公告，跑兩次比較保險）
+    # 台灣時間 18:10 與 22:10（投信多在 16:30～18:00 公告；
+    # 第二輪晚一點跑，證交所的淨值到那時才定案，折溢價才準）
     - cron: "10 10 * * 1-5"
-    - cron: "40 13 * * 1-5"
+    - cron: "10 14 * * 1-5"
   # 改了程式就重新建置並發佈；忽略 data/，否則工作流程自己 commit 資料會觸發自己
   push:
     branches: [main]
@@ -56,6 +57,9 @@ jobs:
 
       - name: 抓產業別
         run: python scripts/fetch_industries.py
+
+      - name: 抓績效與配息
+        run: python scripts/fetch_fundinfo.py
 
       - name: 抓各投信持股
         run: python scripts/fetch_pcf.py

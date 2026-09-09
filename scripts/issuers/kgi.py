@@ -9,8 +9,8 @@ from __future__ import annotations
 
 import re
 
-from common import (html_tables, is_symbol_like, parse_date, retry, split_symbol, text_of,
-                    to_float)
+from common import (html_tables, is_symbol_like, pcf_basis_date, retry, split_symbol,
+                    text_of, to_float)
 
 ISSUER = "凱基"
 SUPPORTS_BACKFILL = True
@@ -20,7 +20,6 @@ FRAGMENT_URL = f"{BASE}/Fund/RedemptionVC"
 
 FUND_ID_RE = re.compile(r"ClickFund\('([A-Z]\d{3})'")
 CODE_RE = re.compile(r"\((00\d{3}[A-Z])\)")
-DATE_RE = re.compile(r"(\d{4}/\d{1,2}/\d{1,2})")
 
 
 def _fragment(sess, fund_id: str, query_date: str | None = None) -> str:
@@ -96,13 +95,11 @@ def fetch(sess, code: str, internal_id: str, on_date=None) -> dict:
         m = re.search(re.escape(label) + r"[^0-9\-]{0,20}(-?[\d,]+(?:\.\d+)?)", flat)
         return to_float(m.group(1)) if m else None
 
-    dates = DATE_RE.findall(flat)
     return {
         "code": code,
         "issuer": ISSUER,
         "fund_name": "",
-        # 片段裡第一個日期是公告日，括號內的才是資料基準日；取最後一個較保險
-        "as_of": parse_date(dates[-1]) if dates else "",
+        "as_of": pcf_basis_date(flat),
         "basis": "fund",
         "nav_total": field("基金淨資產價值(元)"),
         "fund_units": field("已發行受益權單位總數"),

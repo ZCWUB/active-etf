@@ -7,13 +7,13 @@ from __future__ import annotations
 
 import re
 
-from common import html_tables, is_symbol_like, parse_date, retry, split_symbol, text_of, to_float
+from common import (html_tables, is_symbol_like, pcf_basis_date, retry, split_symbol,
+                    text_of, to_float)
 
 ISSUER = "永豐"
 IDENTITY = True
 URL = "https://sitc.sinopac.com/SinopacEtfs/Etfs/SinglePcf/{code}"
 
-DATE_RE = re.compile(r"(?:資料日期|基準日|清單日期)[^0-9]{0,12}(\d{4}[/-]\d{1,2}[/-]\d{1,2})")
 NAV_RE = re.compile(r"基金淨資產價值\(?元?\)?\s*(?:NT\$)?\s*([\d,]+)")
 UNITS_RE = re.compile(r"已發行受益權單位總數\s*([\d,]+)")
 
@@ -66,14 +66,13 @@ def fetch(sess, code: str, internal_id: str) -> dict:
                 "kind": kind,
             })
 
-    m_date = DATE_RE.search(flat)
     m_nav = NAV_RE.search(flat)
     m_units = UNITS_RE.search(flat)
     return {
         "code": code,
         "issuer": ISSUER,
         "fund_name": "",
-        "as_of": parse_date(m_date.group(1)) if m_date else "",
+        "as_of": pcf_basis_date(flat),
         "basis": "fund",
         "nav_total": to_float(m_nav.group(1)) if m_nav else None,
         "fund_units": to_float(m_units.group(1)) if m_units else None,

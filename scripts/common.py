@@ -241,3 +241,24 @@ def twse_isin(code: str) -> str:
         total += d
         double = not double
     return body + str((10 - total % 10) % 10)
+
+
+# 申購買回清單頁面上通常有兩個日期：公告日（下一營業日）與持股基準日。
+# 基準日會標在「每基數實際申購總價金／差異額」這類欄位前面。
+_BASIS_DATE_RE = re.compile(
+    r"(\d{4}[/-]\d{1,2}[/-]\d{1,2})\s*每基數(?:實際申購總價金|申購總價金差[異額]?額?)")
+_ANY_DATE_RE = re.compile(r"\d{4}[/-]\d{1,2}[/-]\d{1,2}")
+
+
+def pcf_basis_date(flat_text: str) -> str:
+    """從申購買回清單的純文字裡取出「持股基準日」。
+
+    別直接拿頁面標題的日期：那多半是公告日，會比持股基準日晚一天，
+    整檔基金就會跟其他家差一天，落在統計視窗外而被靜默漏掉。
+    """
+    m = _BASIS_DATE_RE.search(flat_text)
+    if m:
+        return parse_date(m.group(1))
+    found = sorted(parse_date(x) for x in _ANY_DATE_RE.findall(flat_text))
+    found = [d for d in found if d]
+    return found[0] if found else ""  # 取最早的：公告日一定是較晚的那個

@@ -2,7 +2,7 @@
  "code": "00996A",
  "issuer": "兆豐國際",
  "fund_name": "",
- "as_of": "2026-09-10",
+ "as_of": "2026-09-09",
  "basis": "fund",
  "nav_total": 4089644928.0,
  "fund_units": 289399000.0,
@@ -496,5 +496,5 @@
   }
  ],
  "source": "megafunds.com.tw / 申購買回清單",
- "fetched_at": "2026-09-09T21:05:15+08:00"
+ "fetched_at": "2026-09-09T22:16:44+08:00"
 }

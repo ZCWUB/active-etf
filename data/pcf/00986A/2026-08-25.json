@@ -4,8 +4,8 @@
  "fund_name": "",
  "as_of": "2026-08-25",
  "basis": "fund",
- "nav_total": 586378618.0,
- "fund_units": 40827000.0,
+ "nav_total": 567018804.0,
+ "fund_units": 39827000.0,
  "unit_size": null,
  "holdings": [
   {
@@ -13,7 +13,7 @@
    "name": "台積電",
    "market": "TW",
    "shares": 22000.0,
-   "weight": 9.0419,
+   "weight": 9.3119,
    "market_value": null,
    "kind": "stock"
   },
@@ -22,7 +22,7 @@
    "name": "輝達",
    "market": "US",
    "shares": 5000.0,
-   "weight": 5.8336,
+   "weight": 5.9892,
    "market_value": null,
    "kind": "stock"
   },
@@ -31,7 +31,7 @@
    "name": "Alphabet 公司",
    "market": "US",
    "shares": 3000.0,
-   "weight": 5.6209,
+   "weight": 5.8522,
    "market_value": null,
    "kind": "stock"
   },
@@ -40,7 +40,7 @@
    "name": "美光科技公司",
    "market": "US",
    "shares": 800.0,
-   "weight": 4.2025,
+   "weight": 4.1964,
    "market_value": null,
    "kind": "stock"
   },
@@ -49,7 +49,7 @@
    "name": "AMAZON. COM INC",
    "market": "US",
    "shares": 2800.0,
-   "weight": 3.9349,
+   "weight": 4.1098,
    "market_value": null,
    "kind": "stock"
   },
@@ -58,16 +58,7 @@
    "name": "魯門特姆控股公司",
    "market": "US",
    "shares": 780.0,
-   "weight": 3.6734,
-   "market_value": null,
-   "kind": "stock"
-  },
-  {
-   "symbol": "AVGO",
-   "name": "博通公司",
-   "market": "US",
-   "shares": 1800.0,
-   "weight": 3.6037,
+   "weight": 3.8836,
    "market_value": null,
    "kind": "stock"
   },
@@ -76,7 +67,16 @@
    "name": "超微半導體公司",
    "market": "US",
    "shares": 1400.0,
-   "weight": 3.6001,
+   "weight": 3.7718,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "博通公司",
+   "market": "US",
+   "shares": 1800.0,
+   "weight": 3.6103,
    "market_value": null,
    "kind": "stock"
   },
@@ -85,7 +85,7 @@
    "name": "Crowdstrike控股公司",
    "market": "US",
    "shares": 3300.0,
-   "weight": 3.4419,
+   "weight": 3.4395,
    "market_value": null,
    "kind": "stock"
   },
@@ -94,7 +94,7 @@
    "name": "高盛集團",
    "market": "US",
    "shares": 550.0,
-   "weight": 3.1059,
+   "weight": 3.2744,
    "market_value": null,
    "kind": "stock"
   },
@@ -103,7 +103,7 @@
    "name": "禮來公司",
    "market": "US",
    "shares": 450.0,
-   "weight": 3.0697,
+   "weight": 3.1213,
    "market_value": null,
    "kind": "stock"
   },
@@ -112,7 +112,7 @@
    "name": "英飛凌科技股份有限公司",
    "market": "GY",
    "shares": 8000.0,
-   "weight": 2.8459,
+   "weight": 2.8747,
    "market_value": null,
    "kind": "stock"
   },
@@ -121,16 +121,7 @@
    "name": "Microsoft Corp",
    "market": "US",
    "shares": 1000.0,
-   "weight": 2.6258,
-   "market_value": null,
-   "kind": "stock"
-  },
-  {
-   "symbol": "GEV",
-   "name": "奇異維諾瓦公司",
-   "market": "US",
-   "shares": 500.0,
-   "weight": 2.5996,
+   "weight": 2.7646,
    "market_value": null,
    "kind": "stock"
   },
@@ -139,7 +130,16 @@
    "name": "科林研發股份有限公司",
    "market": "US",
    "shares": 1500.0,
-   "weight": 2.5593,
+   "weight": 2.6537,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "GEV",
+   "name": "奇異維諾瓦公司",
+   "market": "US",
+   "shares": 500.0,
+   "weight": 2.6052,
    "market_value": null,
    "kind": "stock"
   },
@@ -148,7 +148,7 @@
    "name": "Howmet航太公司",
    "market": "US",
    "shares": 1700.0,
-   "weight": 2.5096,
+   "weight": 2.5237,
    "market_value": null,
    "kind": "stock"
   },
@@ -157,7 +157,7 @@
    "name": "伊頓公開有限公司",
    "market": "US",
    "shares": 1000.0,
-   "weight": 2.2778,
+   "weight": 2.3007,
    "market_value": null,
    "kind": "stock"
   },
@@ -166,7 +166,7 @@
    "name": "Siemens Energy AG",
    "market": "GY",
    "shares": 2200.0,
-   "weight": 2.1444,
+   "weight": 2.2017,
    "market_value": null,
    "kind": "stock"
   },
@@ -175,7 +175,7 @@
    "name": "連貫公司",
    "market": "US",
    "shares": 1300.0,
-   "weight": 2.0451,
+   "weight": 2.106,
    "market_value": null,
    "kind": "stock"
   },
@@ -184,34 +184,7 @@
    "name": "Snowflake公司",
    "market": "US",
    "shares": 1100.0,
-   "weight": 1.989,
-   "market_value": null,
-   "kind": "stock"
-  },
-  {
-   "symbol": "NET",
-   "name": "Cloudflare公司",
-   "market": "US",
-   "shares": 1200.0,
-   "weight": 1.9114,
-   "market_value": null,
-   "kind": "stock"
-  },
-  {
-   "symbol": "6506",
-   "name": "安川電機公司",
-   "market": "JP",
-   "shares": 11000.0,
-   "weight": 1.873,
-   "market_value": null,
-   "kind": "stock"
-  },
-  {
-   "symbol": "AMAT",
-   "name": "應用材料",
-   "market": "US",
-   "shares": 700.0,
-   "weight": 1.8726,
+   "weight": 1.9607,
    "market_value": null,
    "kind": "stock"
   },
@@ -220,7 +193,25 @@
    "name": "摩根大通銀行",
    "market": "US",
    "shares": 950.0,
-   "weight": 1.8149,
+   "weight": 1.9052,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AMAT",
+   "name": "應用材料",
+   "market": "US",
+   "shares": 700.0,
+   "weight": 1.8893,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NET",
+   "name": "Cloudflare公司",
+   "market": "US",
+   "shares": 1200.0,
+   "weight": 1.8728,
    "market_value": null,
    "kind": "stock"
   },
@@ -229,25 +220,7 @@
    "name": "嘉能可公司",
    "market": "LN",
    "shares": 40000.0,
-   "weight": 1.7706,
-   "market_value": null,
-   "kind": "stock"
-  },
-  {
-   "symbol": "SNDK",
-   "name": "晟碟公司（德拉瓦州）",
-   "market": "US",
-   "shares": 200.0,
-   "weight": 1.7345,
-   "market_value": null,
-   "kind": "stock"
-  },
-  {
-   "symbol": "SU",
-   "name": "施奈德電機公司",
-   "market": "FP",
-   "shares": 900.0,
-   "weight": 1.6978,
+   "weight": 1.8453,
    "market_value": null,
    "kind": "stock"
   },
@@ -256,7 +229,25 @@
    "name": "村田製作所有限公司",
    "market": "JP",
    "shares": 7000.0,
-   "weight": 1.6975,
+   "weight": 1.7603,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SU",
+   "name": "施奈德電機公司",
+   "market": "FP",
+   "shares": 900.0,
+   "weight": 1.7468,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SNDK",
+   "name": "晟碟公司（德拉瓦州）",
+   "market": "US",
+   "shares": 200.0,
+   "weight": 1.6651,
    "market_value": null,
    "kind": "stock"
   },
@@ -265,7 +256,7 @@
    "name": "三菱UFJ金融集團公司",
    "market": "JP",
    "shares": 12000.0,
-   "weight": 1.4396,
+   "weight": 1.4936,
    "market_value": null,
    "kind": "stock"
   },
@@ -274,7 +265,7 @@
    "name": "聯發科",
    "market": "TW",
    "shares": 2000.0,
-   "weight": 1.2927,
+   "weight": 1.3174,
    "market_value": null,
    "kind": "stock"
   },
@@ -283,7 +274,7 @@
    "name": "萬事達卡",
    "market": "US",
    "shares": 350.0,
-   "weight": 1.1042,
+   "weight": 1.1795,
    "market_value": null,
    "kind": "stock"
   },
@@ -292,7 +283,7 @@
    "name": "蘋果公司",
    "market": "US",
    "shares": 600.0,
-   "weight": 1.0085,
+   "weight": 1.0454,
    "market_value": null,
    "kind": "stock"
   },
@@ -301,7 +292,7 @@
    "name": "艾司摩爾控股公司",
    "market": "NA",
    "shares": 100.0,
-   "weight": 0.9572,
+   "weight": 0.9834,
    "market_value": null,
    "kind": "stock"
   },
@@ -310,16 +301,7 @@
    "name": "塔爾半導體有限公司",
    "market": "US",
    "shares": 750.0,
-   "weight": 0.9071,
-   "market_value": null,
-   "kind": "stock"
-  },
-  {
-   "symbol": "DDOG",
-   "name": "數據狗公司",
-   "market": "US",
-   "shares": 500.0,
-   "weight": 0.6401,
+   "weight": 0.897,
    "market_value": null,
    "kind": "stock"
   },
@@ -328,11 +310,20 @@
    "name": "Credo Technology Group Holding",
    "market": "US",
    "shares": 500.0,
-   "weight": 0.6264,
+   "weight": 0.6368,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "DDOG",
+   "name": "數據狗公司",
+   "market": "US",
+   "shares": 500.0,
+   "weight": 0.6269,
    "market_value": null,
    "kind": "stock"
   }
  ],
  "source": "tsit.com.tw / 申購買回清單",
- "fetched_at": "2026-09-09T21:30:51+08:00"
+ "fetched_at": "2026-09-09T22:17:02+08:00"
 }

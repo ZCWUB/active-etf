@@ -62,27 +62,91 @@ function changeChips(c, prevDate) {
 }
 
 /* ================================================================ ETF 列表 */
+let fundTab = 'quote';
+const fundSort = { key: 'aum', asc: false };
+
+// 這一頁的名稱不重複「主動」兩個字，列表已經全是主動式 ETF
+const shortName = s => String(s || '').replace(/^主動/, '');
+
+const FUND_COLS = {
+  quote: [
+    ['price', '股價', f => f.price == null ? '—' : f.price.toFixed(2), 'plain'],
+    ['change_pct', '漲跌幅', f => signedPct(f.change_pct), 'pill'],
+    ['premium_pct', '折溢價', f => signedPct(f.premium_pct), 'tint'],
+  ],
+  perf: [
+    ['perf_w1', '一週', f => signedPct(f.performance?.w1), 'tint'],
+    ['perf_m1', '一個月', f => signedPct(f.performance?.m1), 'tint'],
+    ['perf_y1', '一年', f => signedPct(f.performance?.y1), 'tint'],
+  ],
+  dividend: [
+    ['div_sum', '近一年配息', f => f.dividend?.sum_12m != null ? f.dividend.sum_12m.toFixed(2) : '—', 'plain'],
+    ['div_yield', '年化配息率', f => f.dividend?.yield_12m != null ? f.dividend.yield_12m.toFixed(2) + '%' : '—', 'tint-up'],
+    ['div_last', '最近除息', f => f.dividend?.last_date ? mmdd(f.dividend.last_date) : '—', 'plain'],
+  ],
+};
+
+const fundValue = (f, key) => ({
+  aum: f.aum, price: f.price, change_pct: f.change_pct, premium_pct: f.premium_pct,
+  perf_w1: f.performance?.w1, perf_m1: f.performance?.m1, perf_y1: f.performance?.y1,
+  div_sum: f.dividend?.sum_12m, div_yield: f.dividend?.yield_12m,
+  div_last: f.dividend?.last_date,
+}[key]);
+
+function fundCell(f, [key, , render, style]) {
+  const v = fundValue(f, key);
+  const text = render(f);
+  if (style === 'pill') {
+    return `<td><span class="pct-pill ${dir(v)}">${text}</span></td>`;
+  }
+  if (style === 'tint') return `<td class="${dir(v)}">${text}</td>`;
+  if (style === 'tint-up') return `<td class="${v ? 'up' : 'flat'}">${text}</td>`;
+  return `<td>${text}</td>`;
+}
+
 async function viewFunds() {
   const [funds, meta] = await Promise.all([load('funds.json'), load('meta.json')]);
-  return head('ETF 列表') + `
-  <div class="head-sub">共 ${funds.length} 檔<div class="spacer"></div>${meta.trade_date} 收盤</div>
-  <div class="block" style="padding-top:0">
-    <div class="rows">${funds.map((f, i) => `
-      <a class="row" href="#/fund/${f.code}">
-        <span class="rank">${i + 1}</span>
-        <div class="main">
-          <div class="title">${esc(f.name)}</div>
-          <div class="sub">${f.code} · 規模 ${money(f.aum, false)} · 持股 ${f.holding_count} 檔
-            · 折溢價 <span class="${dir(f.premium_pct)}">${signedPct(f.premium_pct)}</span></div>
-          <div class="sub">${changeChips(f.changes || {}, f.prev_as_of)}</div>
-        </div>
-        <div class="right">
-          <div class="amount ${dir(f.net_value)}">${money(f.net_value)}</div>
-          <div class="sub">${f.top_move ? esc(f.top_move.name) + ' ' + money(f.top_move.value) : ''}</div>
-        </div>
-      </a>`).join('')}</div>
+  const cols = FUND_COLS[fundTab];
+  const k = fundSort.key;
+  const list = funds.slice().sort((a, b) => {
+    const va = fundValue(a, k), vb = fundValue(b, k);
+    const na = va == null ? -Infinity : va, nb = vb == null ? -Infinity : vb;
+    if (na === nb) return (b.aum || 0) - (a.aum || 0);
+    return (na > nb ? 1 : -1) * (fundSort.asc ? 1 : -1);
+  });
+  const arrow = key => k === key ? (fundSort.asc ? ' ▴' : ' ▾') : ' ⇅';
+
+  return `
+  <div class="page-head"><h1>主動式 ETF</h1></div>
+  <div class="head-sub">
+    <span class="live">● 資料已更新 · ${mmdd(meta.trade_date)} 收盤</span>
+    <div class="spacer"></div>
+    <span>持股 ${meta.covered_count} 檔已入庫</span>
   </div>
-  <div class="note-text">「金額」為當日成分股淨變動的推估值，依各檔張數變動 × 當日成交均價計算。</div>`;
+  <div class="texttabs" style="padding-left:20px;padding-right:20px">
+    <button data-fundtab="quote" class="${fundTab === 'quote' ? 'on' : ''}">行情</button>
+    <button data-fundtab="perf" class="${fundTab === 'perf' ? 'on' : ''}">報酬</button>
+    <button data-fundtab="dividend" class="${fundTab === 'dividend' ? 'on' : ''}">股利</button>
+  </div>
+  <div class="block" style="padding-top:0;border-top:0">
+    <div class="tablewrap"><table>
+      <thead><tr>
+        <th class="sortable ${k === 'aum' ? 'on' : ''}" data-fundsort="aum">市值${arrow('aum')}</th>
+        ${cols.map(([key, label]) =>
+          `<th class="sortable ${k === key ? 'on' : ''}" data-fundsort="${key}">${label}${arrow(key)}</th>`).join('')}
+      </tr></thead>
+      <tbody>${list.map(f => `
+        <tr onclick="location.hash='#/fund/${f.code}'">
+          <td><div class="sym-name">${f.code}</div>
+              <div class="sym-code">${esc(shortName(f.name))}</div></td>
+          ${cols.map(c => fundCell(f, c)).join('')}
+        </tr>`).join('')}</tbody>
+    </table></div>
+  </div>
+  <div class="note-text">依市值排序，點欄位標題可換排序依據。
+    ${fundTab === 'perf' ? '績效資料來源：證交所 ETF e添富（全曜財經資訊）。'
+      : fundTab === 'dividend' ? '年化配息率 ＝ 近一年配息合計 ÷ 最新股價。'
+      : '折溢價 ＝ 市價相對淨值的偏離，資料來自證交所 MIS。'}</div>`;
 }
 
 /* ================================================================ 個股反查 */
@@ -474,7 +538,7 @@ async function render() {
 
 /* ---------------- 互動 ---------------- */
 document.addEventListener('click', e => {
-  const t = e.target.closest('[data-sort],[data-hold],[data-rank],[data-chip],[data-foreign],[data-sector],[data-range],#toggle-search');
+  const t = e.target.closest('[data-sort],[data-hold],[data-rank],[data-chip],[data-foreign],[data-sector],[data-range],[data-fundtab],[data-fundsort],#toggle-search');
   if (!t) return;
   if (t.id === 'toggle-search') {
     const bar = document.getElementById('searchbar');
@@ -496,6 +560,16 @@ document.addEventListener('click', e => {
   else if (t.dataset.foreign) foreignOnly = !foreignOnly;
   else if (t.dataset.sector) sectorFilter = t.dataset.sector;
   else if (t.dataset.range) sectorRange = t.dataset.range;
+  else if (t.dataset.fundtab) {
+    fundTab = t.dataset.fundtab;
+    // 換分頁時把排序拉回市值，否則會用一個當下看不到的欄位在排
+    fundSort.key = 'aum';
+    fundSort.asc = false;
+  } else if (t.dataset.fundsort) {
+    const key = t.dataset.fundsort;
+    fundSort.asc = fundSort.key === key ? !fundSort.asc : false;
+    fundSort.key = key;
+  }
   render();
 });
 function holdSortReset() { /* 兩張表的排序狀態各自獨立，這裡只是語意佔位 */ }

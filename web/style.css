@@ -222,3 +222,13 @@ tbody tr:active { background: var(--card); }
 .tabbar a svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.9; }
 .tabbar a.on { color: #fff; background: rgba(255, 255, 255, .1); }
 .tabbar a.on svg { stroke-width: 2.2; }
+
+/* ---------- ETF 列表 ---------- */
+.live { color: var(--down); }
+.pct-pill {
+  display: inline-block; min-width: 78px; padding: 6px 10px; border-radius: 8px;
+  font-weight: 600; color: #fff; background: var(--ink-3);
+}
+.pct-pill.up { background: var(--up); }
+.pct-pill.down { background: var(--down); }
+.pct-pill.flat { background: var(--chip); color: var(--ink-2); }

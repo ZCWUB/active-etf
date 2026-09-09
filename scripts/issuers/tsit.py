@@ -8,15 +8,14 @@ from __future__ import annotations
 
 import re
 
-from common import (html_tables, is_symbol_like, now_tpe, parse_date, retry, split_symbol,
-                    text_of, to_float)
+from common import (html_tables, is_symbol_like, now_tpe, pcf_basis_date, retry,
+                    split_symbol, text_of, to_float)
 
 ISSUER = "台新"
 SUPPORTS_BACKFILL = True
 IDENTITY = True
 URL = "https://www.tsit.com.tw/ETF/Home/Pcf"
 
-DATE_RE = re.compile(r'name="DATA_DATE"[^>]*value="([^"]*)"')
 NAV_RE = re.compile(r"基金淨資產價值\(?元?\)?\s*(?:TWD)?\s*([\d,]+)")
 UNITS_RE = re.compile(r"已發行受益權單位總數\s*([\d,]+)")
 
@@ -73,16 +72,13 @@ def fetch(sess, code: str, internal_id: str, on_date=None) -> dict:
                 "kind": kind,
             })
 
-    m_date = DATE_RE.search(html)
     m_nav = NAV_RE.search(flat)
     m_units = UNITS_RE.search(flat)
     return {
         "code": code,
         "issuer": ISSUER,
         "fund_name": "",
-        # 表單裡的 DATA_DATE 是公告日；資料基準日通常是前一營業日，但頁面沒有另外標，
-        # 就以公告日當基準日，之後每天比較還是對齊的。
-        "as_of": parse_date(m_date.group(1)) if m_date else day,
+        "as_of": pcf_basis_date(flat),
         "basis": "fund",
         "nav_total": to_float(m_nav.group(1)) if m_nav else None,
         "fund_units": to_float(m_units.group(1)) if m_units else None,
