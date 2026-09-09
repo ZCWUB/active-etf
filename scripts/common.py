@@ -163,6 +163,10 @@ def parse_date(v) -> str:
     if m:
         y, mo, d = (int(x) for x in m.groups())
         return f"{y:04d}-{mo:02d}-{d:02d}"
+    m = re.match(r"^(\d{1,2})/(\d{1,2})/(\d{4})", s)  # 09/09/2026（美式）
+    if m:
+        mo, d, y = (int(x) for x in m.groups())
+        return f"{y:04d}-{mo:02d}-{d:02d}"
     m = re.match(r"^(\d{2,3})[-/](\d{1,2})[-/](\d{1,2})", s)  # 民國年
     if m:
         y, mo, d = (int(x) for x in m.groups())
@@ -215,3 +219,22 @@ def html_tables(html: str) -> list[list[list[str]]]:
 def text_of(html: str) -> str:
     """去標籤後的純文字，用來撈「資料日期：2026/09/08」這種散落的欄位。"""
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html))
+
+
+def twse_isin(code: str) -> str:
+    """台股 ETF 的 ISIN：TW + 000 + 六位代號 + Luhn 檢查碼。
+
+    有些投信的網址／API 用 ISIN 當識別碼（例如聯博），從代號直接算比去查對照表省事。
+    """
+    body = "TW000" + str(code).strip().upper()
+    digits = "".join(str(ord(c) - 55) if c.isalpha() else c for c in body)
+    total, double = 0, True
+    for ch in reversed(digits):
+        d = int(ch)
+        if double:
+            d *= 2
+            if d > 9:
+                d -= 9
+        total += d
+        double = not double
+    return body + str((10 - total % 10) % 10)

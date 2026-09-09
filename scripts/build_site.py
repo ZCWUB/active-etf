@@ -9,6 +9,7 @@
 """
 from __future__ import annotations
 
+import re
 import shutil
 from collections import defaultdict
 
@@ -98,7 +99,39 @@ def _coverage(rows: list[dict], aum: float | None) -> float | None:
     return round(value / (aum * weight / 100), 3)
 
 
-def build_fund(fund: dict, quote: dict, closes: dict, premium_hist: list[dict]) -> dict | None:
+CJK_RE = re.compile(r"[一-鿿]")
+
+
+def build_name_map(universe: dict, closes: dict) -> dict[str, str]:
+    """決定每檔標的的顯示名稱。
+
+    各投信對同一檔股票的叫法不一致（緯穎／緯穎科技、聯發科／聯發科技、
+    AMD／超微半導體公司），不統一的話同一檔個股在列表上會看起來像兩檔。
+    台股用證交所／櫃買的官方簡稱；海外標的沒有官方中文簡稱，就挑有中文的那個。
+    """
+    names: dict[str, str] = {}
+    for fund in universe.get("funds") or []:
+        for snap in snapshots(fund["code"])[-1:]:
+            for h in snap.get("holdings") or []:
+                sym, market = h.get("symbol"), h.get("market", "TW")
+                if not sym:
+                    continue
+                key = uid(sym, market)
+                if market == "TW":
+                    official = (closes.get(sym) or {}).get("name")
+                    if official:
+                        names[key] = official
+                        continue
+                cur, new = names.get(key), (h.get("name") or "").strip()
+                if not new:
+                    continue
+                if not cur or (CJK_RE.search(new) and not CJK_RE.search(cur)):
+                    names[key] = new
+    return names
+
+
+def build_fund(fund: dict, quote: dict, closes: dict, premium_hist: list[dict],
+               names: dict[str, str]) -> dict | None:
     snaps = snapshots(fund["code"])
     if not snaps:
         return None
@@ -116,7 +149,7 @@ def build_fund(fund: dict, quote: dict, closes: dict, premium_hist: list[dict]) 
         rows.append({
             "uid": key,
             "symbol": h["symbol"],
-            "name": h.get("name"),
+            "name": names.get(key) or h.get("name"),
             "market": h.get("market", "TW"),
             "kind": h.get("kind"),
             "weight": h.get("weight"),
@@ -139,7 +172,7 @@ def build_fund(fund: dict, quote: dict, closes: dict, premium_hist: list[dict]) 
         exited.append({
             "uid": key,
             "symbol": p["symbol"],
-            "name": p.get("name"),
+            "name": names.get(key) or p.get("name"),
             "market": p.get("market", "TW"),
             "kind": p.get("kind"),
             "weight_prev": p.get("weight"),
@@ -204,6 +237,8 @@ def main() -> int:
                 "units_change": q.get("units_change"),
             })
 
+    names = build_name_map(universe, closes)
+
     if WEB_DATA.exists():
         shutil.rmtree(WEB_DATA)
     (WEB_DATA / "funds").mkdir(parents=True, exist_ok=True)
@@ -212,7 +247,7 @@ def main() -> int:
     details: dict[str, dict] = {}
     for fund in universe.get("funds") or []:
         code = fund["code"]
-        detail = build_fund(fund, quotes.get(code, {}), closes, premium_hist.get(code, []))
+        detail = build_fund(fund, quotes.get(code, {}), closes, premium_hist.get(code, []), names)
         if not detail:
             continue
         details[code] = detail
