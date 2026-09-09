@@ -39,8 +39,14 @@ jobs:
       - name: 抓淨值與折溢價
         run: python scripts/fetch_quotes.py
 
-      - name: 抓個股收盤價
-        run: python scripts/fetch_stocks.py
+      - name: 抓收盤行情與成交均價
+        run: python scripts/fetch_prices.py
+
+      - name: 抓法人買賣超
+        run: python scripts/fetch_institutions.py
+
+      - name: 抓產業別
+        run: python scripts/fetch_industries.py
 
       - name: 抓各投信持股
         run: python scripts/fetch_pcf.py
@@ -56,7 +62,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data web/data
+          git add data
           git diff --staged --quiet || git commit -m "資料更新 $(TZ=Asia/Taipei date '+%Y-%m-%d %H:%M')"
           git push
 

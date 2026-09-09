@@ -1,0 +1,3227 @@
+{
+ "code": "00984D",
+ "issuer": "聯博",
+ "fund_name": "",
+ "as_of": "2026-08-19",
+ "basis": "fund",
+ "nav_total": null,
+ "fund_units": null,
+ "unit_size": null,
+ "holdings": [
+  {
+   "symbol": "US02406PBD15",
+   "name": "AMERICAN AXLE & MFG INC SER 144A 7.750000 % 15-OCT-2033",
+   "market": "TW",
+   "shares": 1136000.0,
+   "weight": 0.407200807,
+   "market_value": 1148178.2,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU0735JAB36",
+   "name": "BEACH ACQUISITION BIDCO 10% 15JUL2033",
+   "market": "TW",
+   "shares": 1414451.0,
+   "weight": 0.540643359,
+   "market_value": 1524444.21,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU30249AC72",
+   "name": "FMC CORP SER REGS (REG) (REG S) 8% 01JUN2031",
+   "market": "TW",
+   "shares": 699000.0,
+   "weight": 0.257386357,
+   "market_value": 725748.5599999999,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU7260AAA26",
+   "name": "PLANET FINANCIAL GROUP SER REGS 10.500000 % 15DEC2029",
+   "market": "TW",
+   "shares": 967000.0,
+   "weight": 0.336701793,
+   "market_value": 949393.1599999999,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US77314EAB48",
+   "name": "ROCKET SOFTWARE INC SER 144A 9% 28NOV2028",
+   "market": "TW",
+   "shares": 490000.0,
+   "weight": 0.17650965,
+   "market_value": 497701.68,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USL2000XAB66",
+   "name": "CONNECT FINCO SARL 9.000000% 15SEP2029",
+   "market": "TW",
+   "shares": 1161000.0,
+   "weight": 0.432370493,
+   "market_value": 1219148.78,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU9225YAA02",
+   "name": "AUSTIN BIDCO INC SER REGS (REG) (REG S) 7.125% 15DEC2028",
+   "market": "TW",
+   "shares": 954000.0,
+   "weight": 0.30213711,
+   "market_value": 851931.61,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU26947AA69",
+   "name": "EQUIPMENTSHARE.COM INC SER REGS (REG S) 9% 15MAY2028",
+   "market": "TW",
+   "shares": 45000.0,
+   "weight": 0.016309212,
+   "market_value": 45986.86,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US902613BF40",
+   "name": "UBS GROUP AG SER 144a (REG) VAR PERP 31DEC2049",
+   "market": "TW",
+   "shares": 1260000.0,
+   "weight": 0.478101832,
+   "market_value": 1348096.77,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US690732AJ10",
+   "name": "ACCENDRA HEALTH INC SER 144A 9 % 15-JUN-2032",
+   "market": "TW",
+   "shares": 725267.0,
+   "weight": 0.19200448,
+   "market_value": 541392.24,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU3702PAA40",
+   "name": "GB AIT BUYER SER REGS 8.75 % 30-APR-2034",
+   "market": "TW",
+   "shares": 370000.0,
+   "weight": 0.133259936,
+   "market_value": 375751.11,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU2069EAA83",
+   "name": "COREWEAVE INC SER REGS (REG S) 9.25% 01JUN2030",
+   "market": "TW",
+   "shares": 470000.0,
+   "weight": 0.15773567,
+   "market_value": 444764.97000000003,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU6836GAB42",
+   "name": "ORGANON & CO/ORGANON FOR SER RegS (REG S) 7.875% 15MAY2034",
+   "market": "TW",
+   "shares": 464000.0,
+   "weight": 0.17634288,
+   "market_value": 497231.45,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU5933QAB69",
+   "name": "MICHAELS COS INC/THE SER REGS (REG S) 8.5% 15MAR2033",
+   "market": "TW",
+   "shares": 1557000.0,
+   "weight": 0.548508023,
+   "market_value": 1546620.1,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USC97643AA57",
+   "name": "WESTJET AIRLINES LTD SER REGS (REG S) 8% 14FEB2031",
+   "market": "TW",
+   "shares": 1248584.0,
+   "weight": 0.427795419,
+   "market_value": 1206248.5099999998,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US21873SAB43",
+   "name": "COREWEAVE INC SER 144A 9.250000 % 01JUN2030",
+   "market": "TW",
+   "shares": 33000.0,
+   "weight": 0.011075054,
+   "market_value": 31228.18,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US04625HAJ86",
+   "name": "ASTON MARTIN CAPITAL HOL SER 144A 10% 31MAR2029",
+   "market": "TW",
+   "shares": 264000.0,
+   "weight": 0.054933858,
+   "market_value": 154896.19,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU31538AH18",
+   "name": "FERRELLGAS LP/FERRELLGAS SER REGS (REG S) 9.25% 15JAN2031",
+   "market": "TW",
+   "shares": 1196000.0,
+   "weight": 0.448084063,
+   "market_value": 1263456.1300000001,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU25783AL24",
+   "name": "RR DONNELLEY & SONS CO (REGS) (REG S) FRN 01JUN2031",
+   "market": "TW",
+   "shares": 810000.0,
+   "weight": 0.275916923,
+   "market_value": 777998.9400000001,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU9700AAA61",
+   "name": "WINDSOR HOLDINGS III LLC SER REGS 8.500000 % 15JUN2030",
+   "market": "TW",
+   "shares": 313000.0,
+   "weight": 0.115961099,
+   "market_value": 326973.82999999996,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US45674GAB05",
+   "name": "INEOS QUATTRO FINANCE 2 SER 144A 9.625% 15MAR2029",
+   "market": "TW",
+   "shares": 430000.0,
+   "weight": 0.131097648,
+   "market_value": 369654.12,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US40010PAC23",
+   "name": "GRUBHUB HOLDINGS INC (SER 144A) (REG) FRN 31JUL2030",
+   "market": "TW",
+   "shares": 688580.0,
+   "weight": 0.213327946,
+   "market_value": 601517.71,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USG04584AA97",
+   "name": "ARDONAGH FINCO LTD SER REGS (REG S) 7.75% 15FEB2031",
+   "market": "TW",
+   "shares": 1084000.0,
+   "weight": 0.392384283,
+   "market_value": 1106400.27,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US78573NAM48",
+   "name": "SABRE GLBL INC SER 144A 11.125000 % 15JUL2030",
+   "market": "TW",
+   "shares": 427000.0,
+   "weight": 0.147456709,
+   "market_value": 415781.54,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US28002AAA43",
+   "name": "EDGED COMPUTE LLC SER 144A 7.5% 30APR2031",
+   "market": "TW",
+   "shares": 272000.0,
+   "weight": 0.091161109,
+   "market_value": 257045.64,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU3133WAB64",
+   "name": "FREEDOM MORTGAGE HOLD SER REGS (REG S) 9.125% 15MAY2031",
+   "market": "TW",
+   "shares": 202000.0,
+   "weight": 0.074135979,
+   "market_value": 209040.14,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USD4000PAR31",
+   "name": "IHO VERWALTUNGS GMBH SER REGS (REG) (REG S) 8% 15NOV2032",
+   "market": "TW",
+   "shares": 1102000.0,
+   "weight": 0.4118216,
+   "market_value": 1161207.3699999999,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU04080AA22",
+   "name": "ARETEC ESCROW ISSUER 2 SER REGS (REG) (REG S) 10% 15AUG2030",
+   "market": "TW",
+   "shares": 1072000.0,
+   "weight": 0.401130412,
+   "market_value": 1131061.59,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU1638HAD99",
+   "name": "CIVITAS RESOURCES INC SER REGS (REG) (REG S) 9.625% 15JUN2033",
+   "market": "TW",
+   "shares": 1934000.0,
+   "weight": 0.758370593,
+   "market_value": 2138366.5300000003,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU8681CAB55",
+   "name": "SWORD PURCHASER LLC 8.25% 15APR2033",
+   "market": "TW",
+   "shares": 377000.0,
+   "weight": 0.138548041,
+   "market_value": 390661.91,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US21874LAA08",
+   "name": "CORE SCIENTIFIC FINANCE SER 144A 7.75% 15MAY2031",
+   "market": "TW",
+   "shares": 840000.0,
+   "weight": 0.291581799,
+   "market_value": 822168.96,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US83003AAA88",
+   "name": "SIX FLAGS/CAN WON/MILLEN SER 144A 8.625% 15JAN2032",
+   "market": "TW",
+   "shares": 1577000.0,
+   "weight": 0.567605549,
+   "market_value": 1600469.1,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USG00045AA56",
+   "name": "GLOBAL AUTO HO/AAG FH UK SER REGS (REG S) 11.5% 15AUG2029",
+   "market": "TW",
+   "shares": 1964000.0,
+   "weight": 0.737329975,
+   "market_value": 2079038.61,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU04553AA87",
+   "name": "JETBLUE AIRWAYS/LOYALTY SER REGS (REG S) 9.875% 20SEP2031",
+   "market": "TW",
+   "shares": 771000.0,
+   "weight": 0.233803371,
+   "market_value": 659251.9600000001,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU5286JAC37",
+   "name": "LGI HOMES INC SER REGS (REG S) 8.75% 15DEC2028",
+   "market": "TW",
+   "shares": 1240000.0,
+   "weight": 0.454946653,
+   "market_value": 1282806.4700000002,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US60832QAB68",
+   "name": "MOHEGAN TRIBAL / MS DIG SER 144A 11.875000 % 15APR2031",
+   "market": "TW",
+   "shares": 68000.0,
+   "weight": 0.026172481,
+   "market_value": 73798.16,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US45174HBJ59",
+   "name": "IHEARTCOMMUNICATIONS INC 9.125000 % 01MAY2029",
+   "market": "TW",
+   "shares": 22000.0,
+   "weight": 0.007002864,
+   "market_value": 19745.89,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU92573AA96",
+   "name": "VELOCITY VEHICLE GROUP SER REGS (REG S) 8% 01JUN2029",
+   "market": "TW",
+   "shares": 370000.0,
+   "weight": 0.131428867,
+   "market_value": 370588.06,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU24004AA80",
+   "name": "DCLI BIDCO LLC SER REGS 7.750000 % 15NOV2029",
+   "market": "TW",
+   "shares": 356000.0,
+   "weight": 0.130575374,
+   "market_value": 368181.48,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU17185AH96",
+   "name": "CITGO PETROLEUM CORP SER REGS (REG S) 8.375% 15JAN2029",
+   "market": "TW",
+   "shares": 535000.0,
+   "weight": 0.195126555,
+   "market_value": 550195.5,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US78438PAA03",
+   "name": "SE COSMOS LLC SER 144A (REG) 8.875% 01MAY2031",
+   "market": "TW",
+   "shares": 243000.0,
+   "weight": 0.086426959,
+   "market_value": 243696.83000000002,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US92332YAC57",
+   "name": "VENTURE GLOBAL LNG INC SER 144A 9.5% 01FEB2029",
+   "market": "TW",
+   "shares": 472000.0,
+   "weight": 0.180268766,
+   "market_value": 508301.23,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US90367UAD37",
+   "name": "US ACUTE CARE SOLUTIONS SER 144A 9.75% 15MAY2029",
+   "market": "TW",
+   "shares": 103000.0,
+   "weight": 0.035145523,
+   "market_value": 99099.32,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US428040DC08",
+   "name": "HERTZ CORP/THE SER 144A 12.625% 15JUL2029",
+   "market": "TW",
+   "shares": 395000.0,
+   "weight": 0.096569533,
+   "market_value": 272295.71,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US811054AH89",
+   "name": "EW SCRIPPS CO SER 144A 9.875000 % 15AUG2030",
+   "market": "TW",
+   "shares": 692000.0,
+   "weight": 0.225872479,
+   "market_value": 636889.36,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU9633LAB28",
+   "name": "WHIRLPOOL CORP SER REGS (REG) (REG S) 7.875% 01JUL2034",
+   "market": "TW",
+   "shares": 1221000.0,
+   "weight": 0.425461497,
+   "market_value": 1199667.59,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US48020RAB15",
+   "name": "JONES DESLAURIERS INSURA SER 144A 8.500000 % 15-MAR-2030",
+   "market": "TW",
+   "shares": 90000.0,
+   "weight": 0.032922393,
+   "market_value": 92830.8,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US17888HAD52",
+   "name": "CIVITAS RESOURCES INC SER 144A 9.625000 % 15JUN2033",
+   "market": "TW",
+   "shares": 1170000.0,
+   "weight": 0.458786767,
+   "market_value": 1293634.36,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US28734DAA37",
+   "name": "ELK GROVE VILLAGE PROPER 7.5% 15JUN2031",
+   "market": "TW",
+   "shares": 216000.0,
+   "weight": 0.073854032,
+   "market_value": 208245.13999999998,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU00962AA56",
+   "name": "AP CORE HOLDINGS II LLC SER REGS (REG S) 11% 15MAY2031",
+   "market": "TW",
+   "shares": 939000.0,
+   "weight": 0.351084491,
+   "market_value": 989947.85,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USG0003GAB08",
+   "name": "GLOBAL AUTO HO/AAG FH UK SER REGS (REG S) 8.75% 15JAN2032",
+   "market": "TW",
+   "shares": 200000.0,
+   "weight": 0.070081357,
+   "market_value": 197607.39,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU35924AA42",
+   "name": "GAINWELL ACQUISITION COR SER REGS (REG) (REG S) 9% 01SEP2031",
+   "market": "TW",
+   "shares": 375000.0,
+   "weight": 0.136933824,
+   "market_value": 386110.32,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU02400AC01",
+   "name": "AMC GLOBAL MEDIA INC SER REGS (REG) (REG S) 10.5% 15JUL2032",
+   "market": "TW",
+   "shares": 408000.0,
+   "weight": 0.152223495,
+   "market_value": 429222.38,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US045941AB79",
+   "name": "ASURION LLC/ASURION CO SER 144A 8.375% 01FEB2034",
+   "market": "TW",
+   "shares": 1046000.0,
+   "weight": 0.337484927,
+   "market_value": 951601.3300000001,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU17127BA51",
+   "name": "CHS/COMMUNITY HEALTH SYS SER REGS 9.750000 % 15JAN2034",
+   "market": "TW",
+   "shares": 1691000.0,
+   "weight": 0.613565621,
+   "market_value": 1730062.0699999998,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU62024AA94",
+   "name": "MPT OPER PARTNERSP/FINL SER REGS 8.500000 % 15FEB2032",
+   "market": "TW",
+   "shares": 853000.0,
+   "weight": 0.307700222,
+   "market_value": 867617.8400000001,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US87165BBA08",
+   "name": "SYNCHRONY FINANCIAL SER C VAR PERP 31-DEC-2049",
+   "market": "TW",
+   "shares": 571000.0,
+   "weight": 0.200245747,
+   "market_value": 564630.01,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US963320AX45",
+   "name": "WHIRLPOOL CORP (REG) 4.6% 15MAY2050",
+   "market": "TW",
+   "shares": 1377000.0,
+   "weight": 0.279298525,
+   "market_value": 787533.99,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US57767XAB64",
+   "name": "MAV ACQUISITION CORP SER 144A (REG) 8% 01AUG2029",
+   "market": "TW",
+   "shares": 147000.0,
+   "weight": 0.052256925,
+   "market_value": 147348.1,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU2069EAE06",
+   "name": "COREWEAVE INC SER REGS (REG) (REG S) 9.625% 15JUL2032",
+   "market": "TW",
+   "shares": 362000.0,
+   "weight": 0.116143604,
+   "market_value": 327488.44000000006,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU3377HAA69",
+   "name": "GARDEN SPINCO CORP SER REGS (REG) (REG S) 8.625% 20JUL2030",
+   "market": "TW",
+   "shares": 873000.0,
+   "weight": 0.326866819,
+   "market_value": 921661.6,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US651229AY21",
+   "name": "NEWELL RUBBERMAID INC 6% 01APR2046",
+   "market": "TW",
+   "shares": 621000.0,
+   "weight": 0.207959054,
+   "market_value": 586379.12,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US53219LAX73",
+   "name": "LIFEPOINT HEALTH INC SER 144A 10% 01JUN2032",
+   "market": "TW",
+   "shares": 992000.0,
+   "weight": 0.348139436,
+   "market_value": 981643.69,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US451102CK14",
+   "name": "ICAHN ENTERPRISES/FIN SER 144A (REG) 10.000000 % 15NOV2029",
+   "market": "TW",
+   "shares": 42000.0,
+   "weight": 0.014407195,
+   "market_value": 40623.76,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US389375AN64",
+   "name": "GRAY MEDIA INC SER 144A 9.625000 % 15JUL2032",
+   "market": "TW",
+   "shares": 1118000.0,
+   "weight": 0.409334356,
+   "market_value": 1154194.1300000001,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU9033UAE20",
+   "name": "US ACUTE CARE SOLUTIONS SER REGS (REG S) 9.75% 15MAY2029",
+   "market": "TW",
+   "shares": 482000.0,
+   "weight": 0.164467403,
+   "market_value": 463746.33,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU7024LAD92",
+   "name": "PARK RIVER HOLDINGS INC SER REGS (REG S) 8.75% 31DEC2030",
+   "market": "TW",
+   "shares": 618207.0,
+   "weight": 0.208322643,
+   "market_value": 587404.32,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU17127AX63",
+   "name": "CHS/COMMUNITY HEALTH SYS SER REGS 10.875000 % 15JAN2032",
+   "market": "TW",
+   "shares": 1284000.0,
+   "weight": 0.483663001,
+   "market_value": 1363777.5299999998,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USG05891AL32",
+   "name": "ASTON MARTIN CAPITAL HOL SER REGS (REG S) 10% 31MAR2029",
+   "market": "TW",
+   "shares": 1254000.0,
+   "weight": 0.260935806,
+   "market_value": 735756.9099999999,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU86043AK98",
+   "name": "SABRE GLBL INC SER REGS 11.125000 % 15JUL2030",
+   "market": "TW",
+   "shares": 527000.0,
+   "weight": 0.181989899,
+   "market_value": 513154.27,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU05375AX59",
+   "name": "AVIS BUDGET CAR/FINANCE SER REGS 8.375000 % 15JUN2032",
+   "market": "TW",
+   "shares": 1721000.0,
+   "weight": 0.619133342,
+   "market_value": 1745761.27,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USD1RA09AB94",
+   "name": "CERDIA FINANZ GMBH SER REGS (REG S) 9.375% 03OCT2031",
+   "market": "TW",
+   "shares": 1040000.0,
+   "weight": 0.332834473,
+   "market_value": 938488.53,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US18972EAB11",
+   "name": "CLYDESDALE ACQUISITION SER 144A (REG) 8.75% 15APR2030",
+   "market": "TW",
+   "shares": 707000.0,
+   "weight": 0.248886207,
+   "market_value": 701780.8200000001,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US35641AAA60",
+   "name": "FREEDOM MORTGAGE HOLD 9.25% 01FEB2029",
+   "market": "TW",
+   "shares": 91000.0,
+   "weight": 0.033436183,
+   "market_value": 94279.53,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US81180LBA26",
+   "name": "SEAGATE DATA STOR SER * 9.625 % 01-DEC-2032",
+   "market": "TW",
+   "shares": 580000.0,
+   "weight": 0.227191524,
+   "market_value": 640608.64,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU7667LAB54",
+   "name": "RIVIAN HLD/AUTO LLC SER REGS (REG) (REG S) 10% 15JAN2031",
+   "market": "TW",
+   "shares": 463000.0,
+   "weight": 0.16624748,
+   "market_value": 468765.58999999997,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US15853BAA98",
+   "name": "CHAMPION IRON CANADA INC SER 144A 7.875000 % 15JUL2032",
+   "market": "TW",
+   "shares": 139000.0,
+   "weight": 0.050371232,
+   "market_value": 142031.02,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US855030AQ50",
+   "name": "STAPLES INC SER 144A 10.75% 01SEP2029",
+   "market": "TW",
+   "shares": 1127000.0,
+   "weight": 0.382867524,
+   "market_value": 1079566.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US716964AA94",
+   "name": "PHH ESCROW ISS LCC/PHH C SER 144A 9.875000 % 01NOV2029",
+   "market": "TW",
+   "shares": 161000.0,
+   "weight": 0.05668031,
+   "market_value": 159820.65,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU75082AB03",
+   "name": "ROCKET SOFTWARE INC SER REGS (REG S) 9% 28NOV2028",
+   "market": "TW",
+   "shares": 1403000.0,
+   "weight": 0.505393941,
+   "market_value": 1425051.95,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US750098AA35",
+   "name": "RACKSPACE TECHNOLOGY 5.375% 01DEC2028",
+   "market": "TW",
+   "shares": 100000.0,
+   "weight": 0.029868756,
+   "market_value": 84220.51000000001,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US87817AAB35",
+   "name": "TEAM HEALTH HOLDINGS INC (SER 144A) FRN 03JUN2028",
+   "market": "TW",
+   "shares": 606000.0,
+   "weight": 0.220487386,
+   "market_value": 621705.07,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU5324YAA83",
+   "name": "ELK GROVE VILLAGE PROPER SER REGS (REG S) 7.5% 15JUN2031",
+   "market": "TW",
+   "shares": 560000.0,
+   "weight": 0.191473422,
+   "market_value": 539894.81,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US73943NAA46",
+   "name": "PRAIRIE ACQUIROR LP SER 144A 9% 01AUG2029",
+   "market": "TW",
+   "shares": 1171000.0,
+   "weight": 0.430706927,
+   "market_value": 1214458.05,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU20608AH57",
+   "name": "COOPER-STANDARD AUTOMOTI SER REGS (REG) (REG S) 9.25% 01MAR2031",
+   "market": "TW",
+   "shares": 137000.0,
+   "weight": 0.049352446,
+   "market_value": 139158.38,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU55288AB72",
+   "name": "MCAFEE CORP SER REGS 7.375000 % 15FEB2030",
+   "market": "TW",
+   "shares": 135000.0,
+   "weight": 0.042811324,
+   "market_value": 120714.48,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US29163VAG86",
+   "name": "EMPIRE COMMUNITIES CORP SER 144A 9.75% 01MAY2029",
+   "market": "TW",
+   "shares": 137000.0,
+   "weight": 0.050226649,
+   "market_value": 141623.34,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU91505AY02",
+   "name": "UNIVISION COMMUNICATIONS SER REGS (REG S) 9.375% 01AUG2032",
+   "market": "TW",
+   "shares": 2088000.0,
+   "weight": 0.755955197,
+   "market_value": 2131555.87,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU1468GAK05",
+   "name": "CARVANA CO VAR PERP 01JUN2031",
+   "market": "TW",
+   "shares": 2223000.0,
+   "weight": 0.872979245,
+   "market_value": 2461526.8800000004,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU74337AE30",
+   "name": "PROVIDENT FDG/PFG FIN SER REGS (REG S) 9.75% 15SEP2029",
+   "market": "TW",
+   "shares": 236000.0,
+   "weight": 0.087188239,
+   "market_value": 245843.41,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US89616MAB63",
+   "name": "TRIDENT ENERGY FINANCE SER 144A 12.5% 30NOV2029",
+   "market": "TW",
+   "shares": 234000.0,
+   "weight": 0.08802201,
+   "market_value": 248194.37,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU2285XBA38",
+   "name": "CSC HOLDINGS LLC SER REGS (REG S) 11.75% 31JAN2029",
+   "market": "TW",
+   "shares": 1163000.0,
+   "weight": 0.231100686,
+   "market_value": 651631.24,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU97907AA43",
+   "name": "YONDR JK 2 LLC SER REGS 6.875 % 30-JUN-2031",
+   "market": "TW",
+   "shares": 671000.0,
+   "weight": 0.223192903,
+   "market_value": 629333.79,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU59020AA29",
+   "name": "MERLIN ENTERTAINMENTS GR SER REGS (REG S) 7.375% 15FEB2031",
+   "market": "TW",
+   "shares": 682000.0,
+   "weight": 0.189216478,
+   "market_value": 533530.9400000001,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU04907AA64",
+   "name": "ASURION LLC/ASURION CO SER REGS 8 % 31-DEC-2032",
+   "market": "TW",
+   "shares": 901000.0,
+   "weight": 0.320582814,
+   "market_value": 903942.7,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US63938CAP32",
+   "name": "NAVIENT CORP (REG) 11.5% 15MAR2031",
+   "market": "TW",
+   "shares": 1709000.0,
+   "weight": 0.653534742,
+   "market_value": 1842762.4,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU2542MAA72",
+   "name": "DIRECTV FINANCING LLC SER REGS 8.875000 % 01-FEB-2030",
+   "market": "TW",
+   "shares": 91000.0,
+   "weight": 0.032984179,
+   "market_value": 93005.02,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US030981AP92",
+   "name": "AMERIGAS PART/FIN CORP SER 144A 9.500000 % 01JUN2030",
+   "market": "TW",
+   "shares": 880000.0,
+   "weight": 0.334016786,
+   "market_value": 941822.26,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USC4R906AA53",
+   "name": "GREAT CANADIAN GAMING CO SER REGS (REG S) 8.75% 15NOV2029",
+   "market": "TW",
+   "shares": 1643000.0,
+   "weight": 0.589547333,
+   "market_value": 1662338.04,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU4526LAL19",
+   "name": "CRESCENT ENERGY FINANCE SER REGS (REG S) 8.375% 15JAN2034",
+   "market": "TW",
+   "shares": 1177000.0,
+   "weight": 0.438838879,
+   "market_value": 1237387.61,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US097751CA78",
+   "name": "BOMBARDIER INC SER 144A (REG) 8.75% 15NOV2030",
+   "market": "TW",
+   "shares": 1155000.0,
+   "weight": 0.432133209,
+   "market_value": 1218479.74,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU7300PAA13",
+   "name": "PODS LLC (SER REGS) (REGS) 8.75% 15MAY2031",
+   "market": "TW",
+   "shares": 1934000.0,
+   "weight": 0.655026963,
+   "market_value": 1846970.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU6536LAC47",
+   "name": "NGL ENERGY PARTNERS LP SER REGS (REG S) 8.375% 15FEB2032",
+   "market": "TW",
+   "shares": 714000.0,
+   "weight": 0.265448617,
+   "market_value": 748481.61,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU71500AA72",
+   "name": "PETCO HEALTH & WELLNESS 8.25% 01FEB2031",
+   "market": "TW",
+   "shares": 385000.0,
+   "weight": 0.139126561,
+   "market_value": 392293.13,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US914906BA95",
+   "name": "UNIVISION COMMUNICATIONS SER 144A 9.375000 % 01AUG2032",
+   "market": "TW",
+   "shares": 1212000.0,
+   "weight": 0.438801579,
+   "market_value": 1237282.43,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU71896AA90",
+   "name": "PHOTO HOLDINGS LLC SER REGS (REG) (REG S) 12% 01JUL2031",
+   "market": "TW",
+   "shares": 299000.0,
+   "weight": 0.110940849,
+   "market_value": 312818.29,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU04010AF89",
+   "name": "ARCHES BUYER INC SER REGS (REG) (REG S) 9% 15AUG2031",
+   "market": "TW",
+   "shares": 590000.0,
+   "weight": 0.217439479,
+   "market_value": 613110.9400000001,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USG4648GAA51",
+   "name": "HOWDEN UK REFINANCE / US SER REGS (REG S) 8.125% 15FEB2032",
+   "market": "TW",
+   "shares": 2040000.0,
+   "weight": 0.666084028,
+   "market_value": 1878147.46,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US67124CAB90",
+   "name": "OAK-EAGLE ACQUIRECO INC SER 144A (REG) 8.75% 01JUL2034",
+   "market": "TW",
+   "shares": 852000.0,
+   "weight": 0.321719421,
+   "market_value": 907147.5700000001,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USJ57160CZ41",
+   "name": "NISSAN MOTOR CO SER REGS 8.125000 % 17JUL2035",
+   "market": "TW",
+   "shares": 1167000.0,
+   "weight": 0.441454049,
+   "market_value": 1244761.57,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU09265AF31",
+   "name": "BLOCK COMMUNICATIONS INC SER REGS (REG S) 10.25% 01MAR2031",
+   "market": "TW",
+   "shares": 859000.0,
+   "weight": 0.265659672,
+   "market_value": 749076.71,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US69354NAF33",
+   "name": "PRA GROUP INC SER 144A 8.875% 31JAN2030",
+   "market": "TW",
+   "shares": 96000.0,
+   "weight": 0.035399764,
+   "market_value": 99816.20999999999,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USC8692MAD68",
+   "name": "TASEKO MINES LTD SER REGS (REG S) 8.25% 01MAY2030",
+   "market": "TW",
+   "shares": 1527000.0,
+   "weight": 0.565804384,
+   "market_value": 1595390.3800000001,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU71907AA48",
+   "name": "PHH ESCROW ISS LCC/PHH C SER REGS (REG S) 9.875% 01NOV2029",
+   "market": "TW",
+   "shares": 786000.0,
+   "weight": 0.276712583,
+   "market_value": 780242.4500000001,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU42804AY78",
+   "name": "HERTZ CORP/THE SER REGS (REG S) 12.625% 15JUL2029",
+   "market": "TW",
+   "shares": 1507000.0,
+   "weight": 0.368431112,
+   "market_value": 1038859.85,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US80874DAA46",
+   "name": "SC GAMES HOLDIN/US FINCO SER 144A (REG) 6.625% 01MAR2030",
+   "market": "TW",
+   "shares": 410000.0,
+   "weight": 0.103479562,
+   "market_value": 291779.81,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US29450YAA73",
+   "name": "EQUIPMENTSHARE.COM INC SER 144A 9% 15MAY2028",
+   "market": "TW",
+   "shares": 396000.0,
+   "weight": 0.143521118,
+   "market_value": 404684.4,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US382550BT77",
+   "name": "GOODYEAR TIRE & RUBBER (REG) 8.875% 15JUL2032",
+   "market": "TW",
+   "shares": 2844999.9999999995,
+   "weight": 1.024013131,
+   "market_value": 2887394.94,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US163851AJ70",
+   "name": "CHEMOURS CO SER 144A (REG) 8.000000 % 15JAN2033",
+   "market": "TW",
+   "shares": 1180000.0,
+   "weight": 0.41196746,
+   "market_value": 1161618.66,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU9220NAC57",
+   "name": "VENTURE GLOBAL LNG INC SER REGS (REG S) 9.5% 01FEB2029",
+   "market": "TW",
+   "shares": 2884999.9999999995,
+   "weight": 1.101854668,
+   "market_value": 3106883.5900000003,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU85974AD27",
+   "name": "SPECIALTY BUILDING PRODU SER REGS 7.750000 % 15OCT2029",
+   "market": "TW",
+   "shares": 1448000.0,
+   "weight": 0.497350048,
+   "market_value": 1402370.7,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU3133WAA81",
+   "name": "FREEDOM MORTGAGE HOLD SER REGS (REG S) 9.25% 01FEB2029",
+   "market": "TW",
+   "shares": 542000.0,
+   "weight": 0.199147408,
+   "market_value": 561533.05,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USG315APAM05",
+   "name": "ENQUEST PLC SER REGS 9.875 % 30-APR-2031",
+   "market": "TW",
+   "shares": 407000.0,
+   "weight": 0.150620404,
+   "market_value": 424702.16,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US98380MAB19",
+   "name": "XPLR INFRAST OPERATING SER 144A 8.625000 % 15MAR2033",
+   "market": "TW",
+   "shares": 28000.0,
+   "weight": 0.010662038,
+   "market_value": 30063.58,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU63661AA74",
+   "name": "NATIONAL MENTOR HOLDINGS SER REGS (REG) (REG S) 10.5% 15DEC2030",
+   "market": "TW",
+   "shares": 1013000.0,
+   "weight": 0.381473101,
+   "market_value": 1075634.1400000001,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US81761LAE20",
+   "name": "SERVICE PROPERTIES TRUST (REG) 8.875% 15JUN2032",
+   "market": "TW",
+   "shares": 1197000.0,
+   "weight": 0.437482079,
+   "market_value": 1233561.87,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU18898AB98",
+   "name": "CLOUD SOFTWARE GRP INC SER REGS (REG) (REG S) 8.25% 30JUN2032",
+   "market": "TW",
+   "shares": 1869000.0,
+   "weight": 0.643071677,
+   "market_value": 1813259.8599999999,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US84749AAC18",
+   "name": "SPECIALTY BUILDING PRODU SER 144A 7.750000 % 15OCT2029",
+   "market": "TW",
+   "shares": 511000.0,
+   "weight": 0.175515106,
+   "market_value": 494897.39,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU45057AN37",
+   "name": "IHEARTCOMMUNICATIONS INC SER REGS 9.125000 % 01MAY2029",
+   "market": "TW",
+   "shares": 1136842.0,
+   "weight": 0.361870757,
+   "market_value": 1020361.71,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU2915CAG51",
+   "name": "ENCORE CAPITAL GROUP INC SER REGS 8.500000 % 15MAY2030",
+   "market": "TW",
+   "shares": 465000.0,
+   "weight": 0.175295978,
+   "market_value": 494279.50999999995,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US60832QAA85",
+   "name": "MOHEGAN TRIBAL / MS DIG SER 144A 8.250000 % 15-APR-2030",
+   "market": "TW",
+   "shares": 171000.0,
+   "weight": 0.063347381,
+   "market_value": 178619.69,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US00489LAL71",
+   "name": "ACRISURE LLC / FIN INC SER 144A 7.5% 06NOV2030",
+   "market": "TW",
+   "shares": 129000.0,
+   "weight": 0.041793105,
+   "market_value": 117843.4,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US02090DAA63",
+   "name": "ALTICE FRAN LUX 3/HOLD 1 SER 144A 9.500000 % 01-NOV-2029",
+   "market": "TW",
+   "shares": 843000.0,
+   "weight": 0.302916257,
+   "market_value": 854128.56,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USG9460GAC53",
+   "name": "VALARIS LTD SER REGS (REG S) 8.375% 30APR2030",
+   "market": "TW",
+   "shares": 631000.0,
+   "weight": 0.232626632,
+   "market_value": 655933.9400000001,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US55342UAQ76",
+   "name": "MPT OPER PARTNERSP/FINL SER 144A 8.500000 % 15FEB2032",
+   "market": "TW",
+   "shares": 586000.0,
+   "weight": 0.211386085,
+   "market_value": 596042.26,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US476920AA15",
+   "name": "JETBLUE AIRWAYS/LOYALTY 9.875% 20SEP2031",
+   "market": "TW",
+   "shares": 573000.0,
+   "weight": 0.173760481,
+   "market_value": 489949.9,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US053773BH95",
+   "name": "AVIS BUDGET CAR/FINANCE SER 144A 8% 15FEB2031",
+   "market": "TW",
+   "shares": 83000.0,
+   "weight": 0.029794599,
+   "market_value": 84011.39000000001,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU57363AF72",
+   "name": "MRT MID PART/MRT MID FIN SER REGS (REG) (REG S) 11.5% 15FEB2028",
+   "market": "TW",
+   "shares": 511000.0,
+   "weight": 0.185170063,
+   "market_value": 522121.31999999995,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU7501MAB38",
+   "name": "RAIN CARBON INC SER REGS (REG S) 12.25% 01SEP2029",
+   "market": "TW",
+   "shares": 176000.0,
+   "weight": 0.066418807,
+   "market_value": 187280.16,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US04020JAA43",
+   "name": "ARETEC ESCROW ISSUER 2 SER 144A (REG) 10% 15AUG2030",
+   "market": "TW",
+   "shares": 1184000.0,
+   "weight": 0.443039561,
+   "market_value": 1249232.21,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US053773BK25",
+   "name": "AVIS BUDGET CAR/FINANCE SER 144A 8.375000 % 15JUN2032",
+   "market": "TW",
+   "shares": 922000.0,
+   "weight": 0.331691426,
+   "market_value": 935265.48,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU3190CAA28",
+   "name": "GALAXY HELIOS DATA  9.875 % 01-AUG-2031",
+   "market": "TW",
+   "shares": 1176000.0,
+   "weight": 0.414468173,
+   "market_value": 1168669.8699999999,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU43279AN59",
+   "name": "HILCORP ENERGY I/HILCORP SER REGS (REG S) 8.375% 01NOV2033",
+   "market": "TW",
+   "shares": 1515000.0,
+   "weight": 0.570689412,
+   "market_value": 1609164.6300000001,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU0666HAA24",
+   "name": "BCPE FLAVOR DEBT/ISSUER SER REGS 9.500000 % 01-JUL-2032",
+   "market": "TW",
+   "shares": 848000.0,
+   "weight": 0.290261433,
+   "market_value": 818445.9400000001,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US36267QAA22",
+   "name": "FORWARD AIR CORP SER 144A (REG) 9.5% 15OCT2031",
+   "market": "TW",
+   "shares": 56000.0,
+   "weight": 0.020178375,
+   "market_value": 56896.66,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US36170JAA43",
+   "name": "GGAM FINANCE LTD SER 144A 8% 15JUN2028",
+   "market": "TW",
+   "shares": 111000.0,
+   "weight": 0.040816173,
+   "market_value": 115088.76999999999,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU8681CAA72",
+   "name": "SWORD PURCHASER LLC(SER REGS)(REG)(REG S)10.5% 15APR2034",
+   "market": "TW",
+   "shares": 1505000.0,
+   "weight": 0.55838997,
+   "market_value": 1574484.0899999999,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US83283WAE30",
+   "name": "SMYRNA READY MIX CONCRET SER 144A 8.875% 15NOV2031",
+   "market": "TW",
+   "shares": 471000.0,
+   "weight": 0.175503613,
+   "market_value": 494864.99,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US216762AK06",
+   "name": "COOPER-STANDARD AUTOMOTI 9.25% 01MAR2031",
+   "market": "TW",
+   "shares": 477000.0,
+   "weight": 0.171832979,
+   "market_value": 484514.96,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU59366AF83",
+   "name": "MIDCONTINENT COMMUNICATIONS (SER REGS REG S) 8% 15AUG2032",
+   "market": "TW",
+   "shares": 536000.0,
+   "weight": 0.167074544,
+   "market_value": 471097.67,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US254948AS14",
+   "name": "DISCOVERY HOLDINGS INC SER ** 5.141 % 15-MAR-2052",
+   "market": "TW",
+   "shares": 214000.0,
+   "weight": 0.050678265,
+   "market_value": 142896.78,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US12543DBN93",
+   "name": "CHS/COMMUNITY HEALTH SYS SER 144A 10.875% 15JAN2032",
+   "market": "TW",
+   "shares": 645000.0,
+   "weight": 0.242961549,
+   "market_value": 685075.16,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU9840YAB30",
+   "name": "XPLR INFRAST OPERATING SER REGS (REG) (REG S) 8.625% 15MAR2033",
+   "market": "TW",
+   "shares": 443000.0,
+   "weight": 0.168688584,
+   "market_value": 475648.76,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USC39555AE44",
+   "name": "GOEASY LTD SER REGS (REG S) 9.25% 01DEC2028",
+   "market": "TW",
+   "shares": 2244000.0,
+   "weight": 0.795888516,
+   "market_value": 2244155.2600000002,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU45709AD15",
+   "name": "INNOPHOS HOLDINGS INC SER REGS (REG S) 11.5% 15JUN2029",
+   "market": "TW",
+   "shares": 787446.0000000001,
+   "weight": 0.264593702,
+   "market_value": 746071.03,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US74751QAA67",
+   "name": "QTS CT/QTS TRS CT LLC SER (144A) 6.625% 01SEP2031",
+   "market": "TW",
+   "shares": 417000.0,
+   "weight": 0.145986452,
+   "market_value": 411635.87999999995,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USC2374BAA47",
+   "name": "CHAMPION IRON CANADA INC SER REGS 7.875000 % 15JUL2032",
+   "market": "TW",
+   "shares": 602000.0,
+   "weight": 0.21815453,
+   "market_value": 615127.17,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU0055LAH79",
+   "name": "ACRISURE LLC / FIN INC SER REGS (REG S) 7.5% 06NOV2030",
+   "market": "TW",
+   "shares": 2527000.0000000005,
+   "weight": 0.8186912,
+   "market_value": 2308451.67,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US59408QAB23",
+   "name": "MICHAELS COS INC/THE SER 144A 8.5% 15MAR2033",
+   "market": "TW",
+   "shares": 1079000.0,
+   "weight": 0.380115712,
+   "market_value": 1071806.74,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU1056LAC55",
+   "name": "BURFORD CAPITAL GLBL FIN SER REGS (REG) (REG S) 9.25% 01JUL2031",
+   "market": "TW",
+   "shares": 211000.0,
+   "weight": 0.074587417,
+   "market_value": 210313.05,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU58717AB28",
+   "name": "THE MEN'S WEARHOUSE LLC SER REGS (REG S) 9% 01FEB2031",
+   "market": "TW",
+   "shares": 336000.0,
+   "weight": 0.128122943,
+   "market_value": 361266.38999999996,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USJ64264AG96",
+   "name": "RAKUTEN GROUP INC SER REGS (REG S) 11.25% 15FEB2027",
+   "market": "TW",
+   "shares": 295000.0,
+   "weight": 0.107650994,
+   "market_value": 303541.93000000005,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US89377AAA34",
+   "name": "TRANSMONTAIGNE PARTNERS SER 144A 8.500000 % 15JUN2030",
+   "market": "TW",
+   "shares": 1354000.0,
+   "weight": 0.492244493,
+   "market_value": 1387974.6400000001,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USG9444PAG75",
+   "name": "VMED O2 UK FINANCING I SER REGS (REG S) 7.75% 15APR2032",
+   "market": "TW",
+   "shares": 1010000.0,
+   "weight": 0.306780079,
+   "market_value": 865023.33,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US92921EAA01",
+   "name": "VOYAGER PARENT LLC SER 144A 9.250000 % 01JUL2032",
+   "market": "TW",
+   "shares": 945000.0,
+   "weight": 0.359737797,
+   "market_value": 1014347.42,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU6203KAG95",
+   "name": "MPH ACQUISITION HOLDINGS 11.5% 31DEC2030",
+   "market": "TW",
+   "shares": 1651143.0,
+   "weight": 0.570297607,
+   "market_value": 1608059.8599999999,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US28201XAB10",
+   "name": "EFESTO BIDCO SPA/US LLC SER XR 7.500000 % 15FEB2032",
+   "market": "TW",
+   "shares": 645000.0,
+   "weight": 0.233337575,
+   "market_value": 657938.5800000001,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US70082LAD91",
+   "name": "PARK RIVER HOLDINGS INC SER 144A 8.750000 % 31-DEC-2030",
+   "market": "TW",
+   "shares": 592925.0,
+   "weight": 0.199803149,
+   "market_value": 563382.02,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US315292AU60",
+   "name": "FERRELLGAS LP/FERRELLGAS SER 144A 9.250000 % 15-JAN-2031",
+   "market": "TW",
+   "shares": 1115000.0,
+   "weight": 0.417737241,
+   "market_value": 1177887.6199999999,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU0080UAC72",
+   "name": "ADVANTAGE SALES & MARKET SER REGS 9 % 15-NOV-2030",
+   "market": "TW",
+   "shares": 690183.0,
+   "weight": 0.209112451,
+   "market_value": 589631.35,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USC36025AL50",
+   "name": "GARDA WORLD SECURITY SER REGS 8.375000 % 15NOV2032",
+   "market": "TW",
+   "shares": 1677000.0,
+   "weight": 0.610927621,
+   "market_value": 1722623.7200000002,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU81257AA27",
+   "name": "SE COSMOS LLC SER REGS (REG) (REG S) 8.875% 01MAY2031",
+   "market": "TW",
+   "shares": 567000.0,
+   "weight": 0.201662891,
+   "market_value": 568625.93,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US46206AAB89",
+   "name": "ION PLAT FIN US/SARL SER 144A 9.5 % 30-MAY-2029",
+   "market": "TW",
+   "shares": 156000.0,
+   "weight": 0.050402136,
+   "market_value": 142118.16999999998,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USC8T10XAA23",
+   "name": "SKEENA RESOURCES LIMITED 8.5% 01APR2031",
+   "market": "TW",
+   "shares": 897000.0,
+   "weight": 0.336331031,
+   "market_value": 948347.7300000001,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USG7088KAA63",
+   "name": "PHOENIX AVIATION CAPITAL SER REGS 9.250000 % 15JUL2030",
+   "market": "TW",
+   "shares": 1927000.0,
+   "weight": 0.719492617,
+   "market_value": 2028742.8599999999,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU70453AH58",
+   "name": "PBF HOLDING CO LLC SER REGS 9.875000 % 15MAR2030",
+   "market": "TW",
+   "shares": 385000.0,
+   "weight": 0.146268533,
+   "market_value": 412431.25,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU82775AA28",
+   "name": "SIX FLAGS/CAN WON/MILLE SER REGS (REG S) 8.625% 15JAN2032",
+   "market": "TW",
+   "shares": 1209000.0,
+   "weight": 0.435152255,
+   "market_value": 1226992.4800000002,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US431318BC74",
+   "name": "HILCORP ENERGY I/HILCORP SER 144A 8.375% 01NOV2033",
+   "market": "TW",
+   "shares": 61000.0,
+   "weight": 0.02297826,
+   "market_value": 64791.45,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU85543AA14",
+   "name": "STAR PARENT INC SER REGS 9.000000 % 01-OCT-2030",
+   "market": "TW",
+   "shares": 458000.0,
+   "weight": 0.171114441,
+   "market_value": 482488.91000000003,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU6837GAB33",
+   "name": "OSAIC HOLDINGS INC SER REGS 8.000000 % 01AUG2033",
+   "market": "TW",
+   "shares": 508000.0,
+   "weight": 0.183627426,
+   "market_value": 517771.58,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU8275QAQ39",
+   "name": "SINCLAIR TELEVISION GROU SER REGS 8.125000 % 15FEB2033",
+   "market": "TW",
+   "shares": 960000.0,
+   "weight": 0.355221265,
+   "market_value": 1001612.23,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USG3856WAA92",
+   "name": "GGAM FINANCE LTD SER REGS (REG S) 8% 15JUN2028",
+   "market": "TW",
+   "shares": 1082000.0,
+   "weight": 0.397865765,
+   "market_value": 1121856.31,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US380355AH08",
+   "name": "GOEASY LTD SER 144A 9.25% 01DEC2028",
+   "market": "TW",
+   "shares": 318000.0,
+   "weight": 0.112786343,
+   "market_value": 318022.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU64059AD79",
+   "name": "NEPTUNE BIDCO US INC SER REGS 10.375000 % 15-MAY-2031",
+   "market": "TW",
+   "shares": 1943000.0,
+   "weight": 0.728206243,
+   "market_value": 2053312.5399999998,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU44927BD96",
+   "name": "ICAHN ENTERPRISES/FIN SER REGS 10.000000 % 15NOV2029",
+   "market": "TW",
+   "shares": 1346000.0,
+   "weight": 0.461716364,
+   "market_value": 1301894.92,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US87110CAB37",
+   "name": "SWORD PURCHASER LLC SER 144A (REG) 8.25% 15APR2033",
+   "market": "TW",
+   "shares": 338000.0,
+   "weight": 0.124215491,
+   "market_value": 350248.61,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU8603YAA48",
+   "name": "STONEBRIAR ABF LLC SER REGS 8.125000 % 15-DEC-2030",
+   "market": "TW",
+   "shares": 684000.0,
+   "weight": 0.247930329,
+   "market_value": 699085.5499999999,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US254945AA66",
+   "name": "DIRECTV FINANCING LLC SER 144A 8.875000 % 01-FEB-2030",
+   "market": "TW",
+   "shares": 103000.0,
+   "weight": 0.037333741,
+   "market_value": 105269.42,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USG90073AK68",
+   "name": "TRANSOCEAN INC 8.75% 15FEB2030",
+   "market": "TW",
+   "shares": 2795000.0000000005,
+   "weight": 0.670241268,
+   "market_value": 1889869.57,
+   "kind": "bond"
+  },
+  {
+   "symbol": "XS2806383159",
+   "name": "FIBERCOP SPA SER REGS 7.721000 % 04JUN2038",
+   "market": "TW",
+   "shares": 462000.0,
+   "weight": 0.170305344,
+   "market_value": 480207.5,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU92379AA19",
+   "name": "VM CONSOLIDATED INC SER REGS (REG) (REG S) 5.5% 15APR2029",
+   "market": "TW",
+   "shares": 768000.0,
+   "weight": 0.253952319,
+   "market_value": 716065.6699999999,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US71601VAA35",
+   "name": "PETCO HEALTH & WELLNESS SER 144A (REG) 8.25% 01FEB2031",
+   "market": "TW",
+   "shares": 1024000.0,
+   "weight": 0.37004051,
+   "market_value": 1043397.84,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US19106CAB28",
+   "name": "COBRA ACQUISITIONCO LLC SER 144A 12.250000 % 01-NOV-2029",
+   "market": "TW",
+   "shares": 104000.0,
+   "weight": 0.037697363,
+   "market_value": 106294.7,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US1248EPCV30",
+   "name": "CCO HOLDINGS LLC / CCO HOLDINGS CAPITAL CORP SER 144A 7.375% 01FEB2036",
+   "market": "TW",
+   "shares": 251000.0,
+   "weight": 0.086040639,
+   "market_value": 242607.53,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US909214BX53",
+   "name": "UNISYS CORP SER 144A 10.625000 % 15JAN2031",
+   "market": "TW",
+   "shares": 90000.0,
+   "weight": 0.030877592,
+   "market_value": 87065.09,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US74387UAK79",
+   "name": "PROVIDENT FDG/PFG FIN SER 144A 9.75% 15SEP2029",
+   "market": "TW",
+   "shares": 182000.0,
+   "weight": 0.067238387,
+   "market_value": 189591.11000000002,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU25783AK41",
+   "name": "RR DONNELLEY & SONS CO SER REGS (REG S) 10.875% 01AUG2029",
+   "market": "TW",
+   "shares": 481000.0,
+   "weight": 0.176557123,
+   "market_value": 497835.54,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US92332YAD31",
+   "name": "VENTURE GLOBAL LNG INC SER 144A 9.875% 01FEB2032",
+   "market": "TW",
+   "shares": 48000.0,
+   "weight": 0.018171064,
+   "market_value": 51236.69,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU52845AB75",
+   "name": "LFS TOPCO LLC SER REGS 8.750000 % 15JUL2030",
+   "market": "TW",
+   "shares": 634000.0,
+   "weight": 0.226240154,
+   "market_value": 637926.08,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US606950AA10",
+   "name": "MOBIUS MERGER SUB SER 144A 9% 01JUN2030",
+   "market": "TW",
+   "shares": 272000.0,
+   "weight": 0.070170772,
+   "market_value": 197859.50000000003,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US62922LAD01",
+   "name": "NGL ENERGY PARTNERS LP SER 144A 8.375% 15FEB2032",
+   "market": "TW",
+   "shares": 610000.0,
+   "weight": 0.226783838,
+   "market_value": 639459.08,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US00791GAC15",
+   "name": "OSAIC HOLDINGS INC SER 144A 8.000000 % 01AUG2033",
+   "market": "TW",
+   "shares": 604000.0,
+   "weight": 0.218328674,
+   "market_value": 615618.1799999999,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US146869AM47",
+   "name": "CARVANA CO 9% 01JUN2031",
+   "market": "TW",
+   "shares": 103000.0,
+   "weight": 0.040448431,
+   "market_value": 114051.84999999999,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US29078EAA38",
+   "name": "EMBARQ CORP (REG) 7.995% 01JUN2036",
+   "market": "TW",
+   "shares": 1128000.0,
+   "weight": 0.081101121,
+   "market_value": 228679.65,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU85440AF96",
+   "name": "STAPLES INC SER REGS (REG S) 10.75% 01SEP2029",
+   "market": "TW",
+   "shares": 1622000.0,
+   "weight": 0.55103028,
+   "market_value": 1553732.08,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US465965AC53",
+   "name": "JB POINDEXTER & CO INC SER 144A 8.750000 % 15DEC2031",
+   "market": "TW",
+   "shares": 97000.0,
+   "weight": 0.035405839,
+   "market_value": 99833.34,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU0423UAA70",
+   "name": "ARTERA SERVICES LLC SER REGS 8.500000 % 15FEB2031",
+   "market": "TW",
+   "shares": 606233.0,
+   "weight": 0.184838122,
+   "market_value": 521185.35,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US29357KAK97",
+   "name": "ENOVA INTERNATIONAL INC SER 144A 9.125000 % 01AUG2029",
+   "market": "TW",
+   "shares": 40000.0,
+   "weight": 0.014859455,
+   "market_value": 41898.99,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USC4901QAB70",
+   "name": "JONES DESLAURIERS INSURA SER REGS 8.500000 % 15MAR2030",
+   "market": "TW",
+   "shares": 2047000.0,
+   "weight": 0.748801598,
+   "market_value": 2111384.97,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU04907AB48",
+   "name": "ASURION LLC/ASURION CO 8.375% 01FEB2034",
+   "market": "TW",
+   "shares": 1679000.0,
+   "weight": 0.541718157,
+   "market_value": 1527474.8,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US86177CAA71",
+   "name": "STONEBRIAR ABF LLC SER 144A 8.125000 % 15-DEC-2030",
+   "market": "TW",
+   "shares": 493000.0,
+   "weight": 0.178698323,
+   "market_value": 503873.07,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US92841HAA05",
+   "name": "VISTAJET MALTA/VM HOLDS SER 144A 9.5% 01JUN2028",
+   "market": "TW",
+   "shares": 139000.0,
+   "weight": 0.050114714,
+   "market_value": 141307.74,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU0900PAD43",
+   "name": "JB POINDEXTER & CO INC SER REGS (REG S) 8.75% 15DEC2031",
+   "market": "TW",
+   "shares": 304000.0,
+   "weight": 0.110962647,
+   "market_value": 312879.75,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US04625PAA93",
+   "name": "ASTEROID PRIVATE MERGER SER 144A (REG) 8.5% 15NOV2029",
+   "market": "TW",
+   "shares": 1207000.0,
+   "weight": 0.429578083,
+   "market_value": 1211275.0699999998,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU12501BT57",
+   "name": "CCO HLDGS LLC/CAP CORP SER REGS (REG) (REG S) 7.375% 01FEB2036",
+   "market": "TW",
+   "shares": 2592999.9999999995,
+   "weight": 0.888858052,
+   "market_value": 2506300.11,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US579063AB46",
+   "name": "CONDOR MERGER SUB INC SER 144A (REG) 7.375% 15FEB2030",
+   "market": "TW",
+   "shares": 201000.0,
+   "weight": 0.063741308,
+   "market_value": 179730.44999999998,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU33825AD93",
+   "name": "FIVE POINT OPERATING CO SER REGS 8.000000 % 01-OCT-2030",
+   "market": "TW",
+   "shares": 991000.0,
+   "weight": 0.36172442,
+   "market_value": 1019949.09,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU86042AA34",
+   "name": "SABRE FINANCIAL BORROWER SER REGS 11.125 % 15-JUN-2029",
+   "market": "TW",
+   "shares": 1162000.0,
+   "weight": 0.437126252,
+   "market_value": 1232558.53,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US25461LAD47",
+   "name": "DIRECTV FIN LLC/COINC SER 144A 10.000000 % 15FEB2031",
+   "market": "TW",
+   "shares": 1211000.0,
+   "weight": 0.45250736,
+   "market_value": 1275928.41,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US87821TAA88",
+   "name": "TEAM SERVICES HLDG INC (SER 144A) 9% 15FEB2033",
+   "market": "TW",
+   "shares": 64000.0,
+   "weight": 0.023436915,
+   "market_value": 66084.72,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU8768RAA06",
+   "name": "TEAM SERVICES HLDG INC SER REGS (REG S) 9% 15FEB2033",
+   "market": "TW",
+   "shares": 429000.0,
+   "weight": 0.157100561,
+   "market_value": 442974.16,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US07337JAC18",
+   "name": "BEACH ACQUISITION BIDCO SER 144a 10% 15JUL2033",
+   "market": "TW",
+   "shares": 1030000.0,
+   "weight": 0.393695266,
+   "market_value": 1110096.81,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU22033AC53",
+   "name": "CP ATLAS BUYER INC SER REGS 9.750000 % 15JUL2030",
+   "market": "TW",
+   "shares": 1420000.0,
+   "weight": 0.457735189,
+   "market_value": 1290669.24,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US61965RAC97",
+   "name": "MOSS CREEK RESOURCES HLD SER 144A 8.25% 01SEP2031",
+   "market": "TW",
+   "shares": 988000.0,
+   "weight": 0.356137866,
+   "market_value": 1004196.75,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU4609CAB38",
+   "name": "ION PLAT FIN US/SARL SER REGS 9.500000 % 30-MAY-2029",
+   "market": "TW",
+   "shares": 673000.0,
+   "weight": 0.217439979,
+   "market_value": 613112.3400000001,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU3232FAB32",
+   "name": "FULL HOUSE RESORTS INC SER REGS (REG) (REG S) 8.25% 15FEB2028",
+   "market": "TW",
+   "shares": 195000.0,
+   "weight": 0.06715327,
+   "market_value": 189351.1,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US225310AQ40",
+   "name": "CREDIT ACCEPTANC 9.25% 15DEC2028",
+   "market": "TW",
+   "shares": 593000.0,
+   "weight": 0.218011014,
+   "market_value": 614722.47,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU6302XAB20",
+   "name": "OAK-EAGLE ACQUIRECO INC 8.75% 01JUL2034",
+   "market": "TW",
+   "shares": 2159000.0,
+   "weight": 0.815249089,
+   "market_value": 2298746.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USJ64264AK09",
+   "name": "RAKUTEN GROUP INC SER REGS (REG S) 9.75% 15APR2029",
+   "market": "TW",
+   "shares": 259000.0,
+   "weight": 0.100047956,
+   "market_value": 282103.77,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US071734AQ04",
+   "name": "BAUSCH HEALTH COS INC SER 144A (REG) 11% 30SEP2028",
+   "market": "TW",
+   "shares": 1050000.0,
+   "weight": 0.389487311,
+   "market_value": 1098231.71,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU60712AA12",
+   "name": "MOBIUS MERGER SUB SER REGS 9.000000 % 01JUN2030",
+   "market": "TW",
+   "shares": 971000.0,
+   "weight": 0.250499325,
+   "market_value": 706329.32,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US74984AAA07",
+   "name": "RFNA LP SER 144A 7.875000 % 15FEB2030",
+   "market": "TW",
+   "shares": 1105000.0,
+   "weight": 0.398476132,
+   "market_value": 1123577.34,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU29298AE31",
+   "name": "ENOVA INTERNATIONAL INC SER REGS (REG S) 9.125% 01AUG2029",
+   "market": "TW",
+   "shares": 1120000.0,
+   "weight": 0.416064724,
+   "market_value": 1173171.65,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU92559AA86",
+   "name": "VELOCITY COM CAP LLC SER REGS (REG) (REG S) 9.375% 15FEB2031",
+   "market": "TW",
+   "shares": 446000.0,
+   "weight": 0.163938699,
+   "market_value": 462255.57,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU0055LAJ36",
+   "name": "ACRISURE LLC / FIN INC SER REGS (REG S) 8.5% 15JUN2029",
+   "market": "TW",
+   "shares": 489000.0,
+   "weight": 0.158278699,
+   "market_value": 446296.16,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US829259BH26",
+   "name": "SINCLAIR TELEVISION GROU SER 144A 8.125000 % 15FEB2033",
+   "market": "TW",
+   "shares": 390000.0,
+   "weight": 0.144308638,
+   "market_value": 406904.97000000003,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU9229LAA45",
+   "name": "VERDE PURCHASER LLC SER REGS (REG) (REG S) 10.5% 30NOV2030",
+   "market": "TW",
+   "shares": 978000.0,
+   "weight": 0.362663985,
+   "market_value": 1022598.36,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU2202XAA47",
+   "name": "HUDSON AUTOMOTIVE GROUP SER REGS (REG S) 8% 15MAY2032",
+   "market": "TW",
+   "shares": 410000.0,
+   "weight": 0.152767712,
+   "market_value": 430756.91000000003,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US25461LAB80",
+   "name": "DIRECTV FINANCING LLC SER 144A 8.875% 01FEB2030",
+   "market": "TW",
+   "shares": 241000.0,
+   "weight": 0.087312123,
+   "market_value": 246192.71000000002,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU1900QAB42",
+   "name": "CLYDESDALE ACQUISITION SER REGS (REG) (REG S) 8.75% 15APR2030",
+   "market": "TW",
+   "shares": 1348000.0,
+   "weight": 0.474538336,
+   "market_value": 1338048.8599999999,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU01797AM85",
+   "name": "BREAD FINANCIAL HLDGS SER REGS VAR 15JUN2035",
+   "market": "TW",
+   "shares": 916000.0,
+   "weight": 0.339078479,
+   "market_value": 956094.65,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US45774NAD03",
+   "name": "INNOPHOS HOLDINGS INC SER 144A 11.500000 % 15JUN2029",
+   "market": "TW",
+   "shares": 162012.0,
+   "weight": 0.054438469,
+   "market_value": 153499.36,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU72644AA28",
+   "name": "PM GENERAL PURCHASER LLC SER REGS (REG) (REG S) 9.5% 01OCT2028",
+   "market": "TW",
+   "shares": 544000.0,
+   "weight": 0.150670875,
+   "market_value": 424844.46,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US87485LAE48",
+   "name": "TALOS PRODUCTION INC SER 144A 9.375% 01FEB2031",
+   "market": "TW",
+   "shares": 877000.0,
+   "weight": 0.329859668,
+   "market_value": 930100.51,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US33834YAC21",
+   "name": "FIVE POINT OPERATING CO SER 144A 8.000000 % 01-OCT-2030",
+   "market": "TW",
+   "shares": 153000.0,
+   "weight": 0.055846462,
+   "market_value": 157469.44,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU60731AB91",
+   "name": "MOHEGAN TRIBAL / MS DIG SER REGS 11.875000 % 15APR2031",
+   "market": "TW",
+   "shares": 514000.0,
+   "weight": 0.197833149,
+   "market_value": 557827.26,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US00202DAA54",
+   "name": "APLD COMPUTECO LLC SER 144A 9.250000 % 15-DEC-2030",
+   "market": "TW",
+   "shares": 25000.0,
+   "weight": 0.009389644,
+   "market_value": 26475.85,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US69318FAM05",
+   "name": "PBF HOLDING CO LLC SER 144A 9.875000 % 15MAR2030",
+   "market": "TW",
+   "shares": 620000.0,
+   "weight": 0.235549323,
+   "market_value": 664175.0,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USL2000TAA71",
+   "name": "BREAKWATER ENRGY HOLD SER REGS 9.25 % 15-NOV-2030",
+   "market": "TW",
+   "shares": 250000.0,
+   "weight": 0.094641964,
+   "market_value": 266860.57999999996,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US651229BG06",
+   "name": "NEWELL BRANDS INC SER 144A 8.500000 % 01JUN2028",
+   "market": "TW",
+   "shares": 42000.0,
+   "weight": 0.015558415,
+   "market_value": 43869.85,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US21871DAH61",
+   "name": "CORELOGIC INC SER 144A (REG) 12% 01FEB2032",
+   "market": "TW",
+   "shares": 519000.0,
+   "weight": 0.171720178,
+   "market_value": 484196.88,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USG53431AA32",
+   "name": "LCPR SR SECURED FIN DAC SER REGS (REG) (REG S) 6.75% 15OCT2027",
+   "market": "TW",
+   "shares": 1418000.0,
+   "weight": 0.292504385,
+   "market_value": 824770.37,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU6295YAN32",
+   "name": "NABORS INDUSTRIES INC SER REGS (REG S) 9.125% 31JAN2030",
+   "market": "TW",
+   "shares": 1311000.0,
+   "weight": 0.486917488,
+   "market_value": 1372954.1600000001,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USC33203AD93",
+   "name": "EMPIRE COMMUNITIES CORP SER REGS (REG S) 9.75% 01MAY2029",
+   "market": "TW",
+   "shares": 148000.0,
+   "weight": 0.054259439,
+   "market_value": 152994.56,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU7493RAD80",
+   "name": "RADIOLOGY PARTNERS INC SER REGS 8.500000 % 15-JUL-2032",
+   "market": "TW",
+   "shares": 384000.0,
+   "weight": 0.143452447,
+   "market_value": 404490.77,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US76954LAD10",
+   "name": "RIVIAN HLD/AUTO LLC SER 144A 10.000000 % 15JAN2031",
+   "market": "TW",
+   "shares": 150000.0,
+   "weight": 0.053859871,
+   "market_value": 151867.90000000002,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US69120VBB62",
+   "name": "BLUE OWL CREDIT INCOME 7.950000 % 13JUN2028",
+   "market": "TW",
+   "shares": 957000.0,
+   "weight": 0.350854603,
+   "market_value": 989299.61,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USG04916AA39",
+   "name": "ARDONAGH GROUP FINANCE SER REGS (REG S) 8.875% 15FEB2032",
+   "market": "TW",
+   "shares": 501000.0,
+   "weight": 0.178937795,
+   "market_value": 504548.3,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU5764AAB53",
+   "name": "MAV ACQUISITION CORP SER REGS (REG) (REG S) 8% 01AUG2029",
+   "market": "TW",
+   "shares": 972000.0,
+   "weight": 0.345535616,
+   "market_value": 974301.74,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU2285XAZ97",
+   "name": "CSC HOLDINGS LLC SER REGS (REG S) 11.25% 15MAY2028",
+   "market": "TW",
+   "shares": 629000.0,
+   "weight": 0.128076359,
+   "market_value": 361135.05000000005,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US690732AL65",
+   "name": "ACCENDRA HEALTH INC SER 144A 9.75 % 15-JUN-2033",
+   "market": "TW",
+   "shares": 911785.9999999999,
+   "weight": 0.130613496,
+   "market_value": 368288.96,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU9338EAA83",
+   "name": "VOYAGER PARENT LLC SER REGS 9.250000 % 01JUL2032",
+   "market": "TW",
+   "shares": 1387000.0,
+   "weight": 0.527996097,
+   "market_value": 1488782.9300000002,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU18898AA16",
+   "name": "CLOUD SOFTWARE GRP INC SER REGS 9.000000 % 30SEP2029",
+   "market": "TW",
+   "shares": 471000.0,
+   "weight": 0.166712998,
+   "market_value": 470078.20999999996,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US093645AK51",
+   "name": "BLOCK COMMUNICATIONS INC SER 144A 10.25% 01MAR2031",
+   "market": "TW",
+   "shares": 131000.0,
+   "weight": 0.040513871,
+   "market_value": 114236.38,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USF0270BAA01",
+   "name": "ALTICE FRAN LUX 3/HOLD 1 SER REGS 9.500000 % 01-NOV-2029",
+   "market": "TW",
+   "shares": 1469000.0,
+   "weight": 0.527857622,
+   "market_value": 1488392.47,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU64228AA45",
+   "name": "NEW FLYER HOLDINGS SER REGS 9.250000 % 01JUL2030",
+   "market": "TW",
+   "shares": 315000.0,
+   "weight": 0.120050223,
+   "market_value": 338503.87,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US00164VAK98",
+   "name": "AMC NETWORKS INC SER 144A 10.500000 % 15-JUL-2032",
+   "market": "TW",
+   "shares": 470000.0,
+   "weight": 0.175355499,
+   "market_value": 494447.35,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USL6264MAA47",
+   "name": "MAXAM PRILL SARL SER REGS 7.750000 % 15JUL2030",
+   "market": "TW",
+   "shares": 349000.0,
+   "weight": 0.128005944,
+   "market_value": 360936.5,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU0449HAB43",
+   "name": "JEFFERSON CAPITAL HOLDIN SER REGS (REG S) 9.5% 15FEB2029",
+   "market": "TW",
+   "shares": 545000.0,
+   "weight": 0.201854435,
+   "market_value": 569166.02,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USX9816MAA81",
+   "name": "VISTAJET MALTA/VM HOLDS SER REGS (REG S) 9.5% 01JUN2028",
+   "market": "TW",
+   "shares": 410000.0,
+   "weight": 0.147820387,
+   "market_value": 416807.00000000006,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US683879AH36",
+   "name": "FIBERCOP SPA 7.721% 04JUN2038",
+   "market": "TW",
+   "shares": 448000.0,
+   "weight": 0.165144576,
+   "market_value": 465655.76,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU2541MAE04",
+   "name": "DIRECTV FIN LLC/COINC SER REGS 10.000000 % 15FEB2031",
+   "market": "TW",
+   "shares": 1588000.0,
+   "weight": 0.593378762,
+   "market_value": 1673141.46,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US45344LAG86",
+   "name": "CRESCENT ENERGY FINANCE SER 144A 8.375000 % 15JAN2034",
+   "market": "TW",
+   "shares": 280000.0,
+   "weight": 0.104396674,
+   "market_value": 294365.79000000004,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US74165HAC25",
+   "name": "PRIME HEALTHCARE SERVICE SER 144A 9.375% 01SEP2029",
+   "market": "TW",
+   "shares": 409000.0,
+   "weight": 0.150149744,
+   "market_value": 423375.04,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU2919QAA32",
+   "name": "ENDO FINANCE HOLDINGS SER REGS (REG S) 8.5% 15APR2031",
+   "market": "TW",
+   "shares": 52000.0,
+   "weight": 0.019448511,
+   "market_value": 54838.69,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US68389XCK90",
+   "name": "ORACLE CORP 6.9% 09NOV2052",
+   "market": "TW",
+   "shares": 1486000.0,
+   "weight": 0.47655552,
+   "market_value": 1343736.66,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US92553PAU66",
+   "name": "VIACOM INC (REG) 5.85% 01SEP2043",
+   "market": "TW",
+   "shares": 896000.0,
+   "weight": 0.23160024,
+   "market_value": 653039.82,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU03030AC49",
+   "name": "AMERIGAS PART/FIN CORP SER REGS 9.500000 % 01-JUN-2030",
+   "market": "TW",
+   "shares": 440000.0,
+   "weight": 0.167008393,
+   "market_value": 470911.13,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US855170AA41",
+   "name": "STAR PARENT INC SER 144A 9% 01OCT2030",
+   "market": "TW",
+   "shares": 485000.0,
+   "weight": 0.181201979,
+   "market_value": 510932.57999999996,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US072933AA25",
+   "name": "BCPE FLAVOR DEBT 9.500000 % 01JUL2032",
+   "market": "TW",
+   "shares": 93000.0,
+   "weight": 0.031832915,
+   "market_value": 89758.81,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU9220NAD31",
+   "name": "VENTURE GLOBAL LNG INC SER REGS (REG S) 9.875% 01FEB2032",
+   "market": "TW",
+   "shares": 680000.0,
+   "weight": 0.257423458,
+   "market_value": 725853.17,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US22208WAA18",
+   "name": "HUDSON AUTOMOTIVE GROUP SER 144A 8% 15MAY2032",
+   "market": "TW",
+   "shares": 407000.0,
+   "weight": 0.151649906,
+   "market_value": 427605.02999999997,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU3828QAA14",
+   "name": "CLUE OPCO LLC SER REGS 9.500000 % 15OCT2031",
+   "market": "TW",
+   "shares": 195000.0,
+   "weight": 0.070263973,
+   "market_value": 198122.30000000002,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US97360AAA51",
+   "name": "WINDSOR HOLDINGS III LLC SER 144A 8.5% 15JUN2030",
+   "market": "TW",
+   "shares": 915000.0,
+   "weight": 0.338991718,
+   "market_value": 955850.01,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU2781AAA35",
+   "name": "EDGED COMPUTE LLC SER REGS REG S  7.5% 30APR2031",
+   "market": "TW",
+   "shares": 614000.0,
+   "weight": 0.205782786,
+   "market_value": 580242.72,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU6830PAA22",
+   "name": "ONESKY FLIGHT LLC SER REGS 8.875000 % 15DEC2029",
+   "market": "TW",
+   "shares": 504000.0,
+   "weight": 0.188014676,
+   "market_value": 530142.25,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US553283AF90",
+   "name": "MPH ACQUISITION HOLDINGS 11.5% 31DEC2030",
+   "market": "TW",
+   "shares": 778000.0,
+   "weight": 0.268717817,
+   "market_value": 757699.71,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU69871AA69",
+   "name": "PARADIGM PRNT/CO-ISSUER SER REGS (REG S) 8.75% 17APR2032",
+   "market": "TW",
+   "shares": 1315000.0,
+   "weight": 0.431735596,
+   "market_value": 1217358.5899999999,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US87110CAA53",
+   "name": "SWORD PURCHASER LLC SER 144A (REG) 10.5% 15APR2034",
+   "market": "TW",
+   "shares": 242000.0,
+   "weight": 0.089787629,
+   "market_value": 253172.86000000002,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US71910DAA90",
+   "name": "PHOENIX AVIATION 9.250000 % 15JUL2030",
+   "market": "TW",
+   "shares": 257000.0,
+   "weight": 0.095957244,
+   "market_value": 270569.24,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU86057AA10",
+   "name": "SUMMIT MIDSTREAM HOLDING SER REGS (REG S) 8.625% 31OCT2029",
+   "market": "TW",
+   "shares": 419000.0,
+   "weight": 0.155228704,
+   "market_value": 437696.12000000005,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US37185LAR33",
+   "name": "GENESIS ENERGY LP/FIN (REG) 8.000000 % 15MAY2033",
+   "market": "TW",
+   "shares": 807000.0,
+   "weight": 0.300327506,
+   "market_value": 846829.09,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US00623PAB76",
+   "name": "ADAMS HOMES INC SER 144A 9.25% 15OCT2028",
+   "market": "TW",
+   "shares": 473000.0,
+   "weight": 0.172792677,
+   "market_value": 487221.01,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US359678AC31",
+   "name": "FULL HOUSE RESORTS INC SER 144A 8.25% 15FEB2028",
+   "market": "TW",
+   "shares": 39000.0,
+   "weight": 0.013430652,
+   "market_value": 37870.22,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU85254AH08",
+   "name": "W & T OFFSHORE INC SER REGS (REG) (REG S) 10.75% 01FEB2029",
+   "market": "TW",
+   "shares": 619000.0,
+   "weight": 0.229623955,
+   "market_value": 647467.33,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US563571AN82",
+   "name": "MANITOWOC COMPANY INC SER 144A 9.25% 01OCT2031",
+   "market": "TW",
+   "shares": 428000.0,
+   "weight": 0.164035987,
+   "market_value": 462529.88,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU6949NAD94",
+   "name": "PRA GROUP INC SER REGS 8.875000 % 31JAN2030",
+   "market": "TW",
+   "shares": 373000.0,
+   "weight": 0.137542847,
+   "market_value": 387827.57,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU8068AAA44",
+   "name": "SC GAMES HOLDIN/US FINCO SER REGS 6.625000 % 01MAR2030",
+   "market": "TW",
+   "shares": 1795000.0,
+   "weight": 0.453038562,
+   "market_value": 1277426.25,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU0379NAA73",
+   "name": "APLD COMPUTECO LLC SER REGS 9.250000 % 15-DEC-2030",
+   "market": "TW",
+   "shares": 747000.0,
+   "weight": 0.280562646,
+   "market_value": 791098.4099999999,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US29281RAA77",
+   "name": "ENDO FINANCE HOLDINGS SER 144A 8.5% 15APR2031",
+   "market": "TW",
+   "shares": 961000.0,
+   "weight": 0.359423513,
+   "market_value": 1013461.24,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU24570AC41",
+   "name": "DELEK LOG PART/FINANCE SER REGS (REG) (REG S) 8.625% 15MAR2029",
+   "market": "TW",
+   "shares": 1350000.0,
+   "weight": 0.497750904,
+   "market_value": 1403500.99,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU8528KAA61",
+   "name": "WULF COMPUTE LLC SER REGS 7.750000 % 15-OCT-2030",
+   "market": "TW",
+   "shares": 50000.0,
+   "weight": 0.018462428,
+   "market_value": 52058.24,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU90921AG93",
+   "name": "UNISYS CORP SER REGS 10.625000 % 15JAN2031",
+   "market": "TW",
+   "shares": 900000.0,
+   "weight": 0.308775886,
+   "market_value": 870650.86,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US389925AA64",
+   "name": "GREAT CANADIAN GAMING CO SER 144A 8.750000 % 15NOV2029",
+   "market": "TW",
+   "shares": 557000.0,
+   "weight": 0.199864802,
+   "market_value": 563555.87,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USC07885AL76",
+   "name": "BAUSCH HEALTH COS INC SER REGS (REG) (REG S) 11% 30SEP2028",
+   "market": "TW",
+   "shares": 1762000.0,
+   "weight": 0.653596806,
+   "market_value": 1842937.4000000001,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US78573XAA81",
+   "name": "SABRE FINANCIAL BORROWER SER 144A (REG) 11.125% 15JUN2029",
+   "market": "TW",
+   "shares": 571000.0,
+   "weight": 0.214801279,
+   "market_value": 605672.05,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US02007VAA89",
+   "name": "ALLWYN ENTERTAINMENT FIN SER 144A 7.875% 30APR2029",
+   "market": "TW",
+   "shares": 541000.0,
+   "weight": 0.196947375,
+   "market_value": 555329.66,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU4324PAB86",
+   "name": "HIGHTOWER HOLDING LLC SER REGS (REG S) 9.125% 31JAN2030",
+   "market": "TW",
+   "shares": 1200000.0,
+   "weight": 0.440531163,
+   "market_value": 1242159.3,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US63938CAR97",
+   "name": "NAVIENT CORP (REG) 9.375000% 15OCT2031",
+   "market": "TW",
+   "shares": 782000.0,
+   "weight": 0.281033261,
+   "market_value": 792425.41,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU1056LAF86",
+   "name": "BURFORD CAPITAL GLBL FIN SER REGS 8.5 % 15-JAN-2034",
+   "market": "TW",
+   "shares": 434000.0,
+   "weight": 0.138624774,
+   "market_value": 390878.27,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU6415RAE37",
+   "name": "NEWELL BRANDS INC SER REGS 8.500000 % 01JUN2028",
+   "market": "TW",
+   "shares": 2167000.0,
+   "weight": 0.802740379,
+   "market_value": 2263475.36,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USG2957NAA93",
+   "name": "AVIANCA MIDCO 2 PLC SER REGS 9.625000 % 14FEB2030",
+   "market": "TW",
+   "shares": 1311000.0,
+   "weight": 0.447763572,
+   "market_value": 1262552.43,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US69902PAA66",
+   "name": "PARADIGM PRNT/CO-ISSUER 8.750000 % 17APR2032",
+   "market": "TW",
+   "shares": 1048000.0,
+   "weight": 0.34407522,
+   "market_value": 970183.88,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU24039AA48",
+   "name": "DEALER TIRE FINANCIAL LL SER REGS (REG S) 10.375% 01OCT2031",
+   "market": "TW",
+   "shares": 700000.0,
+   "weight": 0.245323899,
+   "market_value": 691736.23,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US640695AC66",
+   "name": "NEPTUNE BIDCO US INC SER 144A 10.375000 % 15-MAY-2031",
+   "market": "TW",
+   "shares": 1071000.0,
+   "weight": 0.401394181,
+   "market_value": 1131805.32,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU5003PAC15",
+   "name": "KOHL'S CORPORATION 10% 01JUN2030",
+   "market": "TW",
+   "shares": 590000.0,
+   "weight": 0.226413687,
+   "market_value": 638415.38,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU7501WAA37",
+   "name": "RACKSPACE FINANCE LLC SER REGS (REG) (REG S) 3.5% 15MAY2028",
+   "market": "TW",
+   "shares": 329000.0,
+   "weight": 0.100218879,
+   "market_value": 282585.73,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US75026JAH32",
+   "name": "RADIATE HOLDCO / FINANCE (SER 144A) (REG)  FRN 25MAR2030",
+   "market": "TW",
+   "shares": 1507366.0,
+   "weight": 0.430429477,
+   "market_value": 1213675.75,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USL0178WAJ10",
+   "name": "ALTICE FINANCING SA SER REGs (REG S) 5.75% 15AUG2029",
+   "market": "TW",
+   "shares": 1140000.0,
+   "weight": 0.259573686,
+   "market_value": 731916.16,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US24906PAB58",
+   "name": "DENTSPLY SIRONA INC VAR 12SEP2055",
+   "market": "TW",
+   "shares": 847000.0,
+   "weight": 0.298687092,
+   "market_value": 842203.65,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU74922AA01",
+   "name": "RAND PARENT LLC SER REGS 8.500000 % 15FEB2030",
+   "market": "TW",
+   "shares": 543000.0,
+   "weight": 0.198955264,
+   "market_value": 560991.27,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU7410WAD75",
+   "name": "PRIME HEALTHCARE SERVICE SER REGS (REG S) 9.375% 01SEP2029",
+   "market": "TW",
+   "shares": 1890000.0,
+   "weight": 0.693845985,
+   "market_value": 1956427.45,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU60731AA19",
+   "name": "MOHEGAN TRIBAL / MS DIG SER REGS 8.250000 % 15APR2030",
+   "market": "TW",
+   "shares": 873000.0,
+   "weight": 0.323405052,
+   "market_value": 911900.51,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USG4772GAC99",
+   "name": "INEOS QUATTRO FINANCE 2 SER REGS (REG S) 9.625% 15MAR2029",
+   "market": "TW",
+   "shares": 1512000.0,
+   "weight": 0.460975895,
+   "market_value": 1299807.04,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US75041VAE48",
+   "name": "RADIOLOGY PARTNERS INC SER 144A 8.500000 % 15JUL2032",
+   "market": "TW",
+   "shares": 36000.0,
+   "weight": 0.013448663,
+   "market_value": 37921.01,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US69413FAA03",
+   "name": "PODS LLC SER 144A 8.75% 15MAY2031",
+   "market": "TW",
+   "shares": 361000.0,
+   "weight": 0.122267179,
+   "market_value": 344755.00000000006,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU53039AL44",
+   "name": "LIFEPOINT HEALTH INC SER REGS 10.000000 % 01-JUN-2032",
+   "market": "TW",
+   "shares": 2005000.0,
+   "weight": 0.703648745,
+   "market_value": 1984068.1400000001,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US75079LAB71",
+   "name": "RAIN CARBON INC SER 144A 12.25% 01SEP2029",
+   "market": "TW",
+   "shares": 30000.0,
+   "weight": 0.011321388,
+   "market_value": 31922.75,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USG47718AK02",
+   "name": "INEOS FINANCE PLC SER REGs (REG S) 7.5% 15APR2029",
+   "market": "TW",
+   "shares": 440000.0,
+   "weight": 0.15440948,
+   "market_value": 435386.17000000004,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US12597YAC30",
+   "name": "CP ATLAS BUYER INC SER 144A 9.750000 % 15JUL2030",
+   "market": "TW",
+   "shares": 1121000.0,
+   "weight": 0.361352914,
+   "market_value": 1018901.56,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU5140LAB63",
+   "name": "LBM ACQUISITION LLC SER REGS 9.500000 % 15JUN2031",
+   "market": "TW",
+   "shares": 416000.0,
+   "weight": 0.122696407,
+   "market_value": 345965.26,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU83252AD58",
+   "name": "SMYRNA READY MIX CONCRET SER REGS (REG S) 8.875% 15NOV2031",
+   "market": "TW",
+   "shares": 656000.0,
+   "weight": 0.244438158,
+   "market_value": 689238.7100000001,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US624943AC03",
+   "name": "MULTI COLOR CORP (REG) 8.5% 11MAY2033",
+   "market": "TW",
+   "shares": 550671.0,
+   "weight": 0.170405819,
+   "market_value": 480490.82,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU1911CAB29",
+   "name": "COBRA ACQUISITIONCO LLC SER REGS (REG S) 12.25% 01NOV2029",
+   "market": "TW",
+   "shares": 493000.0,
+   "weight": 0.178699978,
+   "market_value": 503877.74,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US50201DAA19",
+   "name": "LCPR SR SECURED FIN DAC SER 144A (REG) 6.75% 15OCT2027",
+   "market": "TW",
+   "shares": 458000.0,
+   "weight": 0.094476027,
+   "market_value": 266392.69,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU8729AAA52",
+   "name": "TRANSMONTAIGNE PARTNERS SER REGS 8.500000 % 15JUN2030",
+   "market": "TW",
+   "shares": 836000.0,
+   "weight": 0.303926437,
+   "market_value": 856976.9500000001,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US36322DAA46",
+   "name": "GALAXY HELIOS DATA CNTR SER 144A 9.875% 01AUG2031",
+   "market": "TW",
+   "shares": 483000.0,
+   "weight": 0.170228,
+   "market_value": 479989.41,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US37954FAK03",
+   "name": "GLOBAL PART/GLP FINANCE SER 144A (REG) 8.25% 15JAN2032",
+   "market": "TW",
+   "shares": 122000.0,
+   "weight": 0.045430369,
+   "market_value": 128099.36,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU4053JAA17",
+   "name": "HAH GROUP HOLDING CO LLC SER REGS (REG S) 9.75% 01OCT2031",
+   "market": "TW",
+   "shares": 821000.0,
+   "weight": 0.271460723,
+   "market_value": 765433.86,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU16309AK94",
+   "name": "CHEMOURS CO SER REGS (REG) (REG S) 8% 15JAN2033",
+   "market": "TW",
+   "shares": 1502000.0,
+   "weight": 0.524385695,
+   "market_value": 1478602.73,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US18912UAC62",
+   "name": "CLOUD SOFTWARE GRP INC SER 144A (REG) 8.25% 30JUN2032",
+   "market": "TW",
+   "shares": 1973000.0,
+   "weight": 0.678855229,
+   "market_value": 1914158.2100000002,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US71924PAA66",
+   "name": "PHOTO HOLDINGS LLC SER 144A (REG) 12% 01JUL2031",
+   "market": "TW",
+   "shares": 702000.0,
+   "weight": 0.26046981,
+   "market_value": 734442.9400000001,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US86614JAA34",
+   "name": "SUMMIT MIDSTREAM HOLDING SER 144A 8.625% 31OCT2029",
+   "market": "TW",
+   "shares": 1399000.0,
+   "weight": 0.518293446,
+   "market_value": 1461424.5,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU3164VAF14",
+   "name": "GLOBAL PART/GLP FINANCE SER REGS (REG S) 8.25% 15JAN2032",
+   "market": "TW",
+   "shares": 832000.0,
+   "weight": 0.309820246,
+   "market_value": 873595.64,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU83037AD01",
+   "name": "TALOS PRODUCTION INC SER REGS (REG S) 9.375% 01FEB2031",
+   "market": "TW",
+   "shares": 1073000.0,
+   "weight": 0.403579733,
+   "market_value": 1137967.9,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US68288AAA51",
+   "name": "1261229 BC LTD SER 144A 10.000000 % 15APR2032",
+   "market": "TW",
+   "shares": 554000.0,
+   "weight": 0.202198035,
+   "market_value": 570134.85,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US00033GAB14",
+   "name": "GLOBAL AUTO HO/AAG FH UK SER 144A 8.75% 15JAN2032",
+   "market": "TW",
+   "shares": 208000.0,
+   "weight": 0.072884617,
+   "market_value": 205511.69,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US71677KAD00",
+   "name": "PETSMART INC/PETSMART FI 10.000000 % 15SEP2033",
+   "market": "TW",
+   "shares": 2508000.0,
+   "weight": 0.885617279,
+   "market_value": 2497162.15,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU02436AG54",
+   "name": "AMERICAN AXLE & MFG INC SER REGS (REG) (REG S) 7.75% 15OCT2033",
+   "market": "TW",
+   "shares": 82000.0,
+   "weight": 0.029393021,
+   "market_value": 82879.06,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US92837TAA07",
+   "name": "AUSTIN BIDCO INC SER 144A (REG) 7.125% 15DEC2028",
+   "market": "TW",
+   "shares": 707000.0,
+   "weight": 0.22391083,
+   "market_value": 631358.12,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US36485MAP41",
+   "name": "GARDA WORLD SECURITY SER 144A (REG) 8.375000 % 15NOV2032",
+   "market": "TW",
+   "shares": 1021000.0,
+   "weight": 0.37194818,
+   "market_value": 1048776.8800000001,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USC0787WAA39",
+   "name": "BAUSCH & LOMB ESCROW COR SER REGS (REG S) 8.375% 01OCT2028",
+   "market": "TW",
+   "shares": 1318000.0,
+   "weight": 0.479475679,
+   "market_value": 1351970.59,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US83056PAA12",
+   "name": "SKEENA RESOURCES LIMITED SER 144A 8.5% 01APR2031",
+   "market": "TW",
+   "shares": 648000.0,
+   "weight": 0.242968234,
+   "market_value": 685094.01,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USC6900QAA51",
+   "name": "1261229 BC LTD SER REGS 10.000000 % 15APR2032",
+   "market": "TW",
+   "shares": 636000.0,
+   "weight": 0.232126256,
+   "market_value": 654523.04,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU0380KAA08",
+   "name": "APLD COMPUTECO 3 LLC SER REGS (REG) (REG S) 7% 15JUN2031",
+   "market": "TW",
+   "shares": 213000.0,
+   "weight": 0.072282667,
+   "market_value": 203814.39,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU0203LAB19",
+   "name": "ALTA EQUIPMENT GROUP SER REGS (REG) (REG S) 9% 01JUN2029",
+   "market": "TW",
+   "shares": 493000.0,
+   "weight": 0.17161817,
+   "market_value": 483909.26999999996,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU62000AC58",
+   "name": "MOSS CREEK RESOURCES HLD SER REGS (REG S) 8.25% 01SEP2031",
+   "market": "TW",
+   "shares": 1214000.0,
+   "weight": 0.437602598,
+   "market_value": 1233901.67,
+   "kind": "bond"
+  }
+ ],
+ "source": "abfunds.com.tw / 申購買回清單",
+ "fetched_at": "2026-09-09T21:18:20+08:00"
+}

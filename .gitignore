@@ -2,3 +2,8 @@ __pycache__/
 *.pyc
 universe.txt
 .venv/
+
+# 網站資料是 build_site.py 的產物，每次執行都會整包重生。
+# 進版控只會在每天的自動更新與本機開發之間製造衝突；
+# GitHub Pages 是直接上傳建置後的 web/ 目錄，不需要它留在 git 裡。
+web/data/

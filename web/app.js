@@ -1,12 +1,10 @@
 'use strict';
 
-/* ---------------- 資料載入 ---------------- */
-const DATA = 'data/';
+/* ---------------- 資料 ---------------- */
 const cache = new Map();
-
 async function load(name) {
   if (!cache.has(name)) {
-    cache.set(name, fetch(DATA + name, { cache: 'no-cache' }).then(r => {
+    cache.set(name, fetch('data/' + name, { cache: 'no-cache' }).then(r => {
       if (!r.ok) throw new Error(name + ' ' + r.status);
       return r.json();
     }));
@@ -14,408 +12,494 @@ async function load(name) {
   return cache.get(name);
 }
 
-/* ---------------- 格式化 ---------------- */
-const fmt = {
-  yi(v, digits = 1) {                       // 元 → 億元
-    if (v == null || !isFinite(v)) return '—';
-    return (v / 1e8).toLocaleString('zh-TW', { minimumFractionDigits: digits, maximumFractionDigits: digits });
-  },
-  lots(v, digits = 0) {                     // 股 → 張
-    if (v == null || !isFinite(v)) return '—';
-    return (v / 1000).toLocaleString('zh-TW', { minimumFractionDigits: digits, maximumFractionDigits: digits });
-  },
-  pct(v, digits = 2) {
-    if (v == null || !isFinite(v)) return '—';
-    return v.toFixed(digits) + '%';
-  },
-  signed(v, digits = 2) {
-    if (v == null || !isFinite(v)) return '—';
-    return (v > 0 ? '+' : '') + v.toFixed(digits);
-  },
-  num(v, digits = 0) {
-    if (v == null || !isFinite(v)) return '—';
-    return v.toLocaleString('zh-TW', { minimumFractionDigits: digits, maximumFractionDigits: digits });
-  },
-  date(s) { return s ? s.slice(5).replace('-', '/') : '—'; },
+/* ---------------- 格式 ---------------- */
+const esc = s => String(s == null ? '' : s)
+  .replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+const n0 = v => Math.round(v).toLocaleString('zh-TW');
+
+/** 金額：億 / 萬 兩段，跟 App 一樣 */
+function money(v, signed = true) {
+  if (v == null || !isFinite(v) || v === 0) return signed ? '0' : '—';
+  const sign = signed && v > 0 ? '+' : (v < 0 ? '-' : '');
+  const a = Math.abs(v);
+  if (a >= 1e8) return `${sign}${(a / 1e8).toFixed(1)}億`;
+  if (a >= 1e4) return `${sign}${n0(a / 1e4)}萬`;
+  return `${sign}${n0(a)}`;
+}
+const lots = v => (v == null || !isFinite(v)) ? '—' : n0(v / 1000);
+const signedLots = v => {
+  if (v == null || !isFinite(v) || Math.round(v / 1000) === 0) return '0';
+  return (v > 0 ? '+' : '−') + n0(Math.abs(v) / 1000);
 };
+const pct = (v, d = 2) => (v == null || !isFinite(v)) ? '—' : v.toFixed(d) + '%';
+const signedPct = (v, d = 2) => (v == null || !isFinite(v)) ? '—'
+  : (v > 0 ? '+' : '') + v.toFixed(d) + '%';
+const dir = v => (v == null || !isFinite(v) || Math.abs(v) < 1e-9) ? 'flat' : (v > 0 ? 'up' : 'down');
+const mmdd = s => s ? s.slice(5).replace('-', '/') : '';
 
-const dirClass = v => (v == null || !isFinite(v) || Math.abs(v) < 1e-9) ? 'flat' : (v > 0 ? 'up' : 'down');
-const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const STATUS = { add: '加碼', trim: '減碼', new: '新增', exit: '刪除', hold: '持平' };
 
-const STATUS = { add: '加碼', trim: '減碼', new: '新進', exit: '出清', hold: '持平' };
+/* ---------------- 共用片段 ---------------- */
+const head = (title, right = '') => `
+  <div class="page-head"><h1>${title}</h1><div class="spacer"></div>${right}</div>`;
 
-/* ---------------- 自選（存在瀏覽器本機） ---------------- */
-const watch = {
-  key: 'active-etf-watch',
-  get() { try { return JSON.parse(localStorage.getItem(this.key)) || []; } catch { return []; } },
-  has(id) { return this.get().includes(id); },
-  toggle(id) {
-    const list = this.get();
-    const i = list.indexOf(id);
-    if (i >= 0) list.splice(i, 1); else list.push(id);
-    try { localStorage.setItem(this.key, JSON.stringify(list)); } catch { /* 無痕模式忽略 */ }
-    return i < 0;
-  },
-};
-
-function starButton(id) {
-  return `<button class="star ${watch.has(id) ? 'on' : ''}" data-star="${esc(id)}"
-    aria-label="加入自選" title="加入自選">${watch.has(id) ? '★' : '☆'}</button>`;
+function bar(value, max, cls) {
+  const w = max ? Math.max(6, Math.min(100, Math.abs(value) / max * 100)) : 0;
+  return `<div class="bar ${cls}" style="width:${w}%"></div>`;
 }
 
-/* ---------------- 小工具 ---------------- */
-function sparkline(series, key) {
-  const pts = series.filter(p => p[key] != null);
-  if (pts.length < 2) return '';
-  const vs = pts.map(p => p[key]);
-  const min = Math.min(0, ...vs), max = Math.max(0, ...vs);
-  const span = (max - min) || 1;
-  const w = 300, h = 56, pad = 4;
-  const x = i => pad + i * (w - 2 * pad) / (pts.length - 1);
-  const y = v => h - pad - (v - min) / span * (h - 2 * pad);
-  const d = pts.map((p, i) => `${i ? 'L' : 'M'}${x(i).toFixed(1)},${y(p[key]).toFixed(1)}`).join(' ');
-  const zero = (min <= 0 && max >= 0) ? `<line x1="${pad}" x2="${w - pad}" y1="${y(0).toFixed(1)}"
-      y2="${y(0).toFixed(1)}" stroke="currentColor" stroke-opacity=".25" stroke-dasharray="3 3"/>` : '';
-  const last = pts[pts.length - 1][key];
-  return `<svg class="spark" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" role="img"
-    aria-label="折溢價走勢，最新 ${last.toFixed(2)}%" style="color:var(--ink-3)">
-    ${zero}<path d="${d}" fill="none" stroke="${last >= 0 ? 'var(--up)' : 'var(--down)'}" stroke-width="1.8"/></svg>`;
+function changeChips(c, prevDate) {
+  if (prevDate == null) return '<span class="badge">首日資料</span>';
+  const out = [];
+  if (c.add) out.push(`<span class="badge add">加 ${c.add}</span>`);
+  if (c.trim) out.push(`<span class="badge trim">減 ${c.trim}</span>`);
+  if (c.new) out.push(`<span class="badge new">新 ${c.new}</span>`);
+  if (c.exit) out.push(`<span class="badge exit">清 ${c.exit}</span>`);
+  return out.join(' ') || '<span class="badge">無異動</span>';
 }
 
-function changeBadges(c, prevDate) {
-  // 沒有前一日快照就不能說「無異動」——那是還沒得比，不是經理人沒動作
-  if (prevDate === null || prevDate === undefined) {
-    return '<span class="badge">首日資料，明天起可比對</span>';
-  }
-  const parts = [];
-  if (c.add) parts.push(`<span class="badge add">加 ${c.add}</span>`);
-  if (c.trim) parts.push(`<span class="badge trim">減 ${c.trim}</span>`);
-  if (c.new) parts.push(`<span class="badge new">新 ${c.new}</span>`);
-  if (c.exit) parts.push(`<span class="badge exit">清 ${c.exit}</span>`);
-  return parts.join(' ') || '<span class="badge">無異動</span>';
-}
-
-/* ---------------- 視圖：ETF 總覽 ---------------- */
-async function viewFunds(q) {
-  const funds = await load('funds.json');
-  const list = funds.filter(f => match(q, [f.code, f.name, f.issuer]));
-  if (!list.length) return `<div class="empty">找不到符合「${esc(q)}」的 ETF</div>`;
-  return `<div class="card">${list.map(f => {
-    const flow = (f.units_change != null && f.nav != null) ? f.units_change * f.nav : null;
-    return `<a class="row" href="#/fund/${f.code}">
-      <div class="row-head">
-        <span class="code">${f.code}</span>
-        <span class="rname">${esc(f.name)}</span>
-        <span class="issuer">${esc(f.issuer)}</span>
-      </div>
-      <div class="row-sub">
-        <span>規模 ${fmt.yi(f.aum, 0)} 億</span>
-        <span>折溢價 <b class="${dirClass(f.premium_pct)}">${fmt.signed(f.premium_pct)}%</b></span>
-        <span>持股 ${f.holding_count} 檔</span>
-        ${flow != null ? `<span>資金流 <b class="${dirClass(flow)}">${fmt.signed(flow / 1e8, 1)} 億</b></span>` : ''}
-      </div>
-      <div class="row-sub">${changeBadges(f.changes || {}, f.prev_as_of)}
-        <span class="flat">持股日 ${fmt.date(f.as_of)}</span></div>
-    </a>`;
-  }).join('')}</div>`;
-}
-
-/* ---------------- 視圖：今日動作 ---------------- */
-let moveFilter = 'all';
-async function viewMoves(q) {
-  const moves = await load('moves.json');
-  const pills = [['all', '全部'], ['add', '加碼'], ['trim', '減碼'], ['new', '新進'], ['exit', '出清']];
-  const list = moves
-    .filter(m => moveFilter === 'all' || m.status === moveFilter)
-    .filter(m => match(q, [m.symbol, m.name, m.fund, m.code]));
-
-  const head = `<div class="pill-row">${pills.map(([k, label]) =>
-    `<button class="pill ${moveFilter === k ? 'on' : ''}" data-move="${k}">${label}</button>`).join('')}</div>`;
-
-  if (!moves.length) {
-    return head + `<div class="empty">還沒有可比較的前一日持股。<br>明天收盤後就會出現加減碼。</div>`;
-  }
-  if (!list.length) return head + `<div class="empty">沒有符合條件的動作</div>`;
-
-  return head + `<div class="card"><div class="scroll"><table>
-    <thead><tr><th class="name">ETF ／ 個股</th><th>張數</th><th>估算金額</th><th>權重</th></tr></thead>
-    <tbody>${list.slice(0, 200).map(m => `<tr>
-      <td class="name">
-        <a href="#/stock/${encodeURIComponent(m.uid)}"><span class="sym">${m.symbol}</span> ${esc(m.name || '')}</a>
-        <span class="badge ${m.status}">${STATUS[m.status] || m.status}</span>
-        <div class="flat" style="font-size:11px">
-          <a href="#/fund/${m.code}">${esc(m.fund)}</a></div>
-      </td>
-      <td class="${dirClass(m.est_shares_delta)}">${fmt.signed(m.est_shares_delta / 1000, 0)}</td>
-      <td class="${dirClass(m.est_value_delta)}">${m.est_value_delta == null ? '—'
-        : fmt.signed(m.est_value_delta / 1e8, 2) + ' 億'}</td>
-      <td>${fmt.pct(m.weight)}</td>
-    </tr>`).join('')}</tbody></table></div></div>`;
-}
-
-/* ---------------- 視圖：共同持股 ---------------- */
-let stockFilter = 'all';
-async function viewStocks(q) {
-  const stocks = await load('stocks.json');
-  const pills = [['all', '全部'], ['multi', '2 檔以上'], ['bought', '今日淨買'], ['sold', '今日淨賣']];
-  let list = stocks.filter(s => match(q, [s.symbol, s.name]));
-  if (stockFilter === 'multi') list = list.filter(s => s.fund_count > 1);
-  if (stockFilter === 'bought') list = list.filter(s => (s.net_est_shares_delta || 0) > 0)
-    .sort((a, b) => b.net_est_shares_delta - a.net_est_shares_delta);
-  if (stockFilter === 'sold') list = list.filter(s => (s.net_est_shares_delta || 0) < 0)
-    .sort((a, b) => a.net_est_shares_delta - b.net_est_shares_delta);
-
-  const head = `<div class="pill-row">${pills.map(([k, label]) =>
-    `<button class="pill ${stockFilter === k ? 'on' : ''}" data-stock="${k}">${label}</button>`).join('')}</div>`;
-  if (!list.length) return head + `<div class="empty">沒有符合條件的個股</div>`;
-
-  return head + `<div class="card"><div class="scroll"><table>
-    <thead><tr><th class="name">個股</th><th>幾檔持有</th><th>合計張數</th><th>合計市值</th><th>今日淨買賣</th></tr></thead>
-    <tbody>${list.slice(0, 300).map(s => `<tr>
-      <td class="name"><a href="#/stock/${encodeURIComponent(s.uid)}">
-        <span class="sym">${s.symbol}</span>${s.market !== 'TW' ? `<span class="mkt">${s.market}</span>` : ''}
-        ${esc(s.name || '')}</a></td>
-      <td><b>${s.fund_count}</b></td>
-      <td>${fmt.lots(s.total_est_shares)}</td>
-      <td>${s.total_est_value ? fmt.yi(s.total_est_value) + ' 億' : '—'}</td>
-      <td class="${dirClass(s.net_est_shares_delta)}">${s.net_est_shares_delta
-        ? fmt.signed(s.net_est_shares_delta / 1000, 0) : '—'}</td>
-    </tr>`).join('')}</tbody></table></div></div>`;
-}
-
-/* ---------------- 視圖：自選 ---------------- */
-async function viewWatch() {
-  const ids = watch.get();
-  if (!ids.length) {
-    return `<div class="empty">還沒有自選。<br>在 ETF 或個股頁面點 ☆ 就會加進來。<br>
-      <span class="fine">（自選只存在這台裝置的瀏覽器裡）</span></div>`;
-  }
-  const [funds, stocks] = await Promise.all([load('funds.json'), load('stocks.json')]);
-  const myFunds = funds.filter(f => ids.includes(f.code));
-  const myStocks = stocks.filter(s => ids.includes(s.uid));
-  let html = '';
-  if (myFunds.length) {
-    html += `<div class="section-title">自選 ETF</div><div class="card">${myFunds.map(f => `
+/* ================================================================ ETF 列表 */
+async function viewFunds() {
+  const [funds, meta] = await Promise.all([load('funds.json'), load('meta.json')]);
+  return head('ETF 列表') + `
+  <div class="head-sub">共 ${funds.length} 檔<div class="spacer"></div>${meta.trade_date} 收盤</div>
+  <div class="block" style="padding-top:0">
+    <div class="rows">${funds.map((f, i) => `
       <a class="row" href="#/fund/${f.code}">
-        <div class="row-head"><span class="code">${f.code}</span>
-          <span class="rname">${esc(f.name)}</span></div>
-        <div class="row-sub"><span>折溢價 <b class="${dirClass(f.premium_pct)}">${fmt.signed(f.premium_pct)}%</b></span>
-          ${changeBadges(f.changes || {}, f.prev_as_of)}</div>
-      </a>`).join('')}</div>`;
-  }
-  if (myStocks.length) {
-    html += `<div class="section-title">自選個股</div><div class="card">${myStocks.map(s => `
-      <a class="row" href="#/stock/${encodeURIComponent(s.uid)}">
-        <div class="row-head"><span class="code">${s.symbol}</span>
-          <span class="rname">${esc(s.name || '')}</span>
-          <span class="issuer">${s.fund_count} 檔持有</span></div>
-        <div class="row-sub"><span>合計 ${fmt.lots(s.total_est_shares)} 張</span>
-          <span>今日 <b class="${dirClass(s.net_est_shares_delta)}">${s.net_est_shares_delta
-            ? fmt.signed(s.net_est_shares_delta / 1000, 0) + ' 張' : '無異動'}</b></span></div>
-      </a>`).join('')}</div>`;
-  }
-  return html;
+        <span class="rank">${i + 1}</span>
+        <div class="main">
+          <div class="title">${esc(f.name)}</div>
+          <div class="sub">${f.code} · 規模 ${money(f.aum, false)} · 持股 ${f.holding_count} 檔
+            · 折溢價 <span class="${dir(f.premium_pct)}">${signedPct(f.premium_pct)}</span></div>
+          <div class="sub">${changeChips(f.changes || {}, f.prev_as_of)}</div>
+        </div>
+        <div class="right">
+          <div class="amount ${dir(f.net_value)}">${money(f.net_value)}</div>
+          <div class="sub">${f.top_move ? esc(f.top_move.name) + ' ' + money(f.top_move.value) : ''}</div>
+        </div>
+      </a>`).join('')}</div>
+  </div>
+  <div class="note-text">「金額」為當日成分股淨變動的推估值，依各檔張數變動 × 當日成交均價計算。</div>`;
 }
 
-/* ---------------- 視圖：單一 ETF ---------------- */
+/* ================================================================ 個股反查 */
+const stockSort = { key: 'fund_count', asc: false };
+let stockQuery = '';
+
+async function viewStocks() {
+  const [stocks, meta] = await Promise.all([load('stocks.json'), load('meta.json')]);
+  const q = stockQuery.trim().toLowerCase();
+  let list = stocks;
+  if (q) list = list.filter(s => (s.symbol + s.name).toLowerCase().includes(q));
+
+  const k = stockSort.key;
+  list = list.slice().sort((a, b) => {
+    const va = a[k] == null ? -Infinity : a[k];
+    const vb = b[k] == null ? -Infinity : b[k];
+    if (va === vb) return b.total_value - a.total_value;
+    return (va > vb ? 1 : -1) * (stockSort.asc ? 1 : -1);
+  });
+
+  const th = (key, label) =>
+    `<th class="sortable ${k === key ? 'on' : ''}" data-sort="${key}">${label}${
+      k === key ? (stockSort.asc ? ' ▲' : ' ▼') : ' ⇅'}</th>`;
+
+  return head('個股反查', `<button class="icon-btn" id="toggle-search" aria-label="搜尋">
+      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></button>`) + `
+  <div class="head-sub">共 ${stocks.length} 檔 · 依「${SORT_LABEL[k]}」排序
+    <div class="spacer"></div>${meta.trade_date} 收盤</div>
+  <div class="searchbar" ${stockQuery ? '' : 'hidden'} id="searchbar">
+    <input id="stock-q" type="search" placeholder="輸入代號或名稱，例如 2330、台積電"
+      value="${esc(stockQuery)}" autocomplete="off"></div>
+  <div class="block" style="padding-top:0">
+    <div class="tablewrap"><table>
+      <thead><tr><th>個股</th>${th('change_pct', '漲跌')}${th('total_value', '持有市值')}${th('fund_count', '檔數')}</tr></thead>
+      <tbody>${list.slice(0, 400).map(s => `
+        <tr onclick="location.hash='#/stock/${encodeURIComponent(s.uid)}'">
+          <td><div class="sym-name">${esc(s.name)}</div><div class="sym-code">${s.symbol}</div></td>
+          <td class="${dir(s.change_pct)}">${signedPct(s.change_pct)}</td>
+          <td><div>${money(s.total_value, false)}</div>
+              <div class="sym-code">${lots(s.total_shares)} 張</div></td>
+          <td><span class="count-badge">${s.fund_count}</span></td>
+        </tr>`).join('')}</tbody>
+    </table></div>
+    ${list.length ? '' : '<div class="empty">找不到符合的個股</div>'}
+  </div>`;
+}
+const SORT_LABEL = {
+  fund_count: '被幾家主動 ETF 持有', total_value: '持有市值', change_pct: '漲跌',
+};
+
+/* ================================================================ 個股詳情 */
+async function viewStock(raw) {
+  const uid = decodeURIComponent(raw);
+  const [stocks, meta] = await Promise.all([load('stocks.json'), load('meta.json')]);
+  const s = stocks.find(x => x.uid === uid);
+  if (!s) return `<div class="empty">目前沒有主動式 ETF 持有 ${esc(uid)}</div>`;
+
+  const holders = s.funds.filter(f => f.status !== 'exit');
+  const dropped = s.funds.filter(f => f.status === 'exit');
+  const win = [['d1', meta.trade_date ? mmdd(meta.trade_date) : '今日'],
+               ['d3', '近 3 日'], ['d5', '近 5 日']];
+  const maxAbs = Math.max(...win.map(([k]) => Math.abs(s[k + '_shares'] || 0)), 1);
+
+  return `
+  <div class="page-head">
+    <a class="back-btn" href="#/stocks" aria-label="返回">
+      <svg viewBox="0 0 24 24"><path d="m14.5 5-7 7 7 7"/></svg></a>
+    <div class="spacer"></div><h1 style="font-size:20px">${esc(s.name)}</h1>
+    <div class="spacer"></div><div style="width:42px"></div>
+  </div>
+
+  <div class="card"><div class="card-pad hero">
+    <div>
+      <div class="big">${esc(s.name)}</div>
+      <div class="code">${s.symbol}</div>
+      <span class="tag">${esc(s.industry || '—')}</span>
+    </div>
+    <div class="right">
+      <div class="price ${dir(s.change_pct)}">${s.close != null ? s.close : '—'}</div>
+      <div class="${dir(s.change_pct)}">${s.change_pct > 0 ? '▲' : s.change_pct < 0 ? '▼' : ''} ${signedPct(s.change_pct)}</div>
+      <div class="sym-code">${mmdd(meta.trade_date)} 盤後更新</div>
+    </div>
+  </div></div>
+
+  <div class="card">
+    <div class="stat-row">${win.map(([k, label]) => `
+      <div class="stat">
+        <span style="margin:0 0 4px">${label}</span>
+        <b class="${dir(s[k + '_shares'])}">${signedLots(s[k + '_shares'])} 張</b>
+        <div class="sub ${dir(s[k + '_value'])}">${money(s[k + '_value'])}</div>
+        ${s[k + '_shares'] ? `<div class="bar ${s[k + '_shares'] > 0 ? 'bg-up' : 'bg-down'}"
+          style="width:${Math.max(8, Math.abs(s[k + '_shares']) / maxAbs * 100)}%"></div>` : ''}
+      </div>`).join('')}</div>
+    <div class="note-text" style="padding-top:0">主動 ETF 淨買賣超${
+      s.streak > 1 ? ` · 已連續買超 ${s.streak} 天` : ''}${
+      s.foreign_net_shares != null
+        ? ` · 外資今日 ${signedLots(s.foreign_net_shares)} 張${s.foreign_aligned ? '（同向）' : ''}` : ''}</div>
+  </div>
+
+  <div class="block">
+    <div class="block-head"><h2>被 ${s.fund_count} 家主動 ETF 持有</h2></div>
+    <div class="tablewrap"><table>
+      <thead><tr><th>ETF</th><th>${mmdd(meta.trade_date)}<br>變動</th>
+        <th>庫存均價<br>報酬率</th><th>權重<br>張數</th></tr></thead>
+      <tbody>${holders.map(f => `
+        <tr onclick="location.hash='#/fund/${f.code}'">
+          <td><div class="sym-name">${esc(f.name)}</div><div class="sym-code">${f.code}</div></td>
+          <td><div class="${dir(f.shares_delta)}">${signedLots(f.shares_delta)} 張</div>
+            ${f.status && f.status !== 'hold'
+              ? `<div class="badge ${f.status}" style="margin-top:4px">${STATUS[f.status]}</div>` : ''}</td>
+          <td><div>${f.avg_cost != null ? n0(f.avg_cost) : '—'}</div>
+            <div class="${dir(f.return_pct)}">${signedPct(f.return_pct)}</div></td>
+          <td><div>${pct(f.weight)}</div><div class="sym-code">${lots(f.shares)} 張</div></td>
+        </tr>`).join('')}
+        ${dropped.map(f => `
+        <tr onclick="location.hash='#/fund/${f.code}'">
+          <td><div class="sym-name">${esc(f.name)}</div><div class="sym-code">${f.code}</div></td>
+          <td><div class="down">${signedLots(f.shares_delta)} 張</div>
+            <div class="badge exit" style="margin-top:4px">刪除</div></td>
+          <td>—</td><td>—</td>
+        </tr>`).join('')}</tbody>
+    </table></div>
+    <p class="disclaimer" style="margin-top:18px">
+      庫存均價由本站依每日持股變動與當日成交均價、以平均成本法推算，非投信揭露亦非實際成交價。
+      報酬率為該均價與最新收盤價之比較，只涵蓋目前仍持有的部位，不含已實現損益。
+      ${holders.some(f => f.cost_estimated)
+        ? `其中標示成本起算日的部位在本站開始記錄前就已存在，建倉成本無從得知，
+           以起算日當天的成交均價為起點，數字僅供參考。` : ''}
+      ${holders.filter(f => f.cost_from).map(f => `${f.code} 自 ${mmdd(f.cost_from)} 起算`).join('、')}。
+    </p>
+  </div>`;
+}
+
+/* ================================================================ 今日訊號 */
+let rankTab = 'buy';
+let rankChip = 'all';
+let foreignOnly = false;
+
+async function viewSignals() {
+  const sig = await load('signals.json');
+  const top = (list, cls) => list.length ? list.map(f => `
+    <a class="row" href="#/fund/${f.code}" style="padding-left:0;padding-right:0">
+      <div class="main">
+        <div class="title">${esc(f.name)}</div>
+        <div class="sub">${f.code}${f.top_move ? ' ' + esc(f.top_move.name) + ' ' + money(f.top_move.value) : ''}</div>
+      </div>
+      <div class="right"><div class="amount ${cls}">${money(f.net_value)}</div></div>
+    </a>`).join('') : '<div class="empty" style="padding:24px">今日沒有資料</div>';
+
+  let list = sig.ranking.slice();
+  if (rankTab === 'buy') list = list.filter(s => s.d1_value > 0).sort((a, b) => b.d1_value - a.d1_value);
+  else if (rankTab === 'sell') list = list.filter(s => s.d1_value < 0).sort((a, b) => a.d1_value - b.d1_value);
+  else list = list.filter(s => s.streak > 1).sort((a, b) => b.streak - a.streak || b.d1_value - a.d1_value);
+  if (rankChip !== 'all') list = list.filter(s => s.status === rankChip);
+  if (foreignOnly) list = list.filter(s => s.foreign_aligned);
+
+  const counts = { new: 0, exit: 0, add: 0, trim: 0 };
+  sig.ranking.forEach(s => { if (counts[s.status] != null) counts[s.status]++; });
+
+  return head('今日訊號') + `
+  <div class="block">
+    <div class="rail up">ETF 淨買超 TOP 3</div>
+    <div class="rows" style="margin:0">${top(sig.top_buy, 'up')}</div>
+  </div>
+  <div class="block">
+    <div class="rail down">ETF 淨賣超 TOP 3</div>
+    <div class="rows" style="margin:0">${top(sig.top_sell, 'down')}</div>
+    <p class="disclaimer" style="margin-top:12px">依成分股當日淨變動金額計算，僅計入有收盤價的成分股。</p>
+  </div>
+  <div class="block">
+    <div class="block-head"><h2>排行</h2><span class="note">共 ${sig.ranking.length} 檔</span></div>
+    <div class="texttabs">
+      <button data-rank="buy" class="${rankTab === 'buy' ? 'on' : ''}">淨買超</button>
+      <button data-rank="sell" class="${rankTab === 'sell' ? 'on' : ''}">淨賣超</button>
+      <button data-rank="streak" class="${rankTab === 'streak' ? 'on' : ''}">連續買超</button>
+      <div class="spacer"></div>
+      <button class="toggle-pill ${foreignOnly ? 'on' : ''}" data-foreign="1">外資同向</button>
+    </div>
+    <div class="pills small">
+      <button data-chip="all" class="${rankChip === 'all' ? 'on' : ''}">全部 ${sig.ranking.length}</button>
+      <button data-chip="new" class="${rankChip === 'new' ? 'on' : ''}">新增 ${counts.new}</button>
+      <button data-chip="exit" class="${rankChip === 'exit' ? 'on' : ''}">刪除 ${counts.exit}</button>
+      <button data-chip="add" class="${rankChip === 'add' ? 'on' : ''}">加碼 ${counts.add}</button>
+      <button data-chip="trim" class="${rankChip === 'trim' ? 'on' : ''}">減碼 ${counts.trim}</button>
+    </div>
+    <p class="disclaimer">外資同向 ＝ 當日外資買賣超與主動 ETF 的動作方向一致。</p>
+    <div class="rows">${list.length ? list.slice(0, 200).map(s => `
+      <a class="row" href="#/stock/${encodeURIComponent(s.uid)}">
+        <div class="main">
+          <div class="title">${esc(s.name)}
+            ${s.foreign_aligned ? '<span class="badge outline">外資</span>' : ''}
+            ${s.streak > 1 ? `<span class="badge outline">連 ${s.streak} 天</span>` : ''}</div>
+          <div class="sub">${s.symbol} · ${esc(s.industry)}</div>
+        </div>
+        <div class="right">
+          <div>${s.close != null ? n0(s.close) : '—'}</div>
+          <div class="${dir(s.change_pct)}">${s.change_pct > 0 ? '▲' : s.change_pct < 0 ? '▼' : ''} ${signedPct(s.change_pct)}</div>
+        </div>
+        <div class="right" style="min-width:92px">
+          <div class="amount ${dir(s.d1_shares)}">${signedLots(s.d1_shares)} 張</div>
+          <div class="sub ${dir(s.d1_value)}">${money(s.d1_value)}</div>
+        </div>
+      </a>`).join('') : '<div class="empty">沒有符合條件的個股</div>'}</div>
+  </div>`;
+}
+
+/* ================================================================ 板塊輪動 */
+let sectorRange = 'd1';
+let sectorFilter = 'buy';
+
+async function viewSectors() {
+  const [sec, meta] = await Promise.all([load('sectors.json'), load('meta.json')]);
+  const vk = sectorRange + '_value';
+  const list = (sectorRange === 'd1' ? sec.today : sec.five_day)
+    .slice().sort((a, b) => b[vk] - a[vk]);
+  const buys = list.filter(e => e[vk] > 0);
+  const sells = list.filter(e => e[vk] < 0).sort((a, b) => a[vk] - b[vk]);
+  const shown = sectorFilter === 'buy' ? buys : sectorFilter === 'sell' ? sells : list;
+  const maxAbs = Math.max(...list.map(e => Math.abs(e[vk])), 1);
+
+  const topBuy = sectorRange === 'd1' ? sec.top_buy : sec.top_buy_5d;
+  const topSell = sectorRange === 'd1' ? sec.top_sell : sec.top_sell_5d;
+  const cmpMax = Math.max(...[...topBuy, ...topSell].map(e => Math.abs(e[vk])), 1);
+  const column = (items, cls) => `<ol>${items.length ? items.map((e, i) => `
+    <li>
+      <div class="cmp-name"><span class="rank">${i + 1}</span>${esc(e.industry)}</div>
+      <div class="cmp-val ${cls}">${money(e[vk])}<small>· ${e.changed} 檔</small></div>
+      ${bar(e[vk], cmpMax, cls === 'up' ? 'bg-up' : 'bg-down')}
+    </li>`).join('') : '<li class="flat">今日無</li>'}</ol>`;
+
+  return head('板塊輪動') + `
+  <div class="segmented">
+    <button data-range="d1" class="${sectorRange === 'd1' ? 'on' : ''}">今日</button>
+    <button data-range="d5" class="${sectorRange === 'd5' ? 'on' : ''}">近 5 日</button>
+  </div>
+  <div class="block">
+    <div class="block-head"><h2>${mmdd(meta.trade_date)} 加減碼對照</h2>
+      <span class="note">金額為推估</span></div>
+    <div class="compare">
+      <div><div class="rail up">主要加碼</div>${column(topBuy, 'up')}</div>
+      <div><div class="rail down">主要減碼</div>${column(topSell, 'down')}</div>
+    </div>
+  </div>
+  <div class="block">
+    <div class="block-head"><h2>全部板塊</h2><span class="note">共 ${list.length} 個</span></div>
+    <div class="pills">
+      <button data-sector="buy" class="${sectorFilter === 'buy' ? 'on' : ''}">加碼 ${buys.length}</button>
+      <button data-sector="sell" class="${sectorFilter === 'sell' ? 'on' : ''}">減碼 ${sells.length}</button>
+      <button data-sector="all" class="${sectorFilter === 'all' ? 'on' : ''}">全部 ${list.length}</button>
+    </div>
+    <div class="rows">${shown.length ? shown.map((e, i) => `
+      <div class="row">
+        <span class="rank">${i + 1}</span>
+        <div class="main">
+          <div class="title">${esc(e.industry)}</div>
+          <div class="sub">${e.holdings} 檔持股 · ${e.changed} 檔有異動</div>
+          <div class="sub">${sectorRange === 'd1' ? '近 5 日 ' + money(e.d5_value) : '今日 ' + money(e.d1_value)}</div>
+        </div>
+        <div class="right">
+          <div class="amount ${dir(e[vk])}">${money(e[vk])}</div>
+          ${bar(e[vk], maxAbs, e[vk] >= 0 ? 'bg-up' : 'bg-down')}
+        </div>
+      </div>`).join('') : '<div class="empty">沒有符合條件的板塊</div>'}</div>
+    <p class="disclaimer" style="margin-top:16px">
+      板塊採主管機關公告的官方產業別（上市／上櫃公司基本資料）。金額為各成分股張數變動 × 當日成交均價的推估值。</p>
+  </div>`;
+}
+
+/* ================================================================ ETF 詳情 */
 let holdSort = { key: 'weight', asc: false };
+
 async function viewFund(code) {
   let d;
   try { d = await load('funds/' + code + '.json'); }
   catch { return `<div class="empty">找不到 ${esc(code)} 的持股資料</div>`; }
 
   const flow = (d.units_change != null && d.nav != null) ? d.units_change * d.nav : null;
-  // 手機優先：最重要的「張數增減」放在需要橫捲之前就看得到
-  const cols = [
-    ['name', '個股', 'name'], ['weight', '權重', ''], ['est_shares_delta', '張數增減', ''],
-    ['weight_delta', '權重增減', ''], ['est_shares', '張數', ''], ['market_value', '市值(億)', ''],
-  ];
+  const cols = [['name', '個股'], ['weight', '權重'], ['shares_delta', '張數增減'],
+                ['shares', '張數'], ['avg_cost', '均價／報酬'], ['market_value', '市值']];
+  const k = holdSort.key;
   const rows = d.holdings.slice().sort((a, b) => {
-    const k = holdSort.key;
     const va = k === 'name' ? a.symbol : (a[k] == null ? -Infinity : a[k]);
     const vb = k === 'name' ? b.symbol : (b[k] == null ? -Infinity : b[k]);
     if (va === vb) return 0;
     return (va > vb ? 1 : -1) * (holdSort.asc ? 1 : -1);
   });
 
-  return `<a class="back" href="#/funds">← 全部 ETF</a>
-  <div class="card">
-    <div class="card-pad">
-      <div class="row-head">
-        <span class="code">${d.code}</span>
-        <span class="rname"><b>${esc(d.name)}</b></span>
-        ${starButton(d.code)}
-      </div>
-      <div class="row-sub"><span>${esc(d.issuer)}投信</span>
-        <span>持股基準日 ${d.as_of}${d.prev_as_of ? `（對比 ${fmt.date(d.prev_as_of)}）` : ''}</span></div>
-    </div>
-    <div class="stats">
-      <div class="stat"><b>${fmt.yi(d.aum, 0)}</b><span>規模（億）</span></div>
-      <div class="stat"><b>${d.nav != null ? d.nav.toFixed(2) : '—'}</b><span>淨值</span></div>
-      <div class="stat"><b class="${dirClass(d.premium_pct)}">${fmt.signed(d.premium_pct)}%</b><span>折溢價</span></div>
-      <div class="stat"><b>${d.holding_count}</b><span>持股檔數</span></div>
-      <div class="stat"><b class="${dirClass(flow)}">${flow == null ? '—' : fmt.signed(flow / 1e8, 1)}</b><span>當日資金流（億）</span></div>
-      <div class="stat"><b>${fmt.pct(d.stock_weight, 1)}</b><span>持股水位</span></div>
-    </div>
-    <div class="card-pad">${changeBadges(d.changes || {}, d.prev_as_of)}</div>
-    ${d.premium_series && d.premium_series.length > 1
-      ? `<div class="card-pad" style="padding-top:0">
-           <div class="section-title" style="margin-top:0">折溢價走勢（近 ${d.premium_series.length} 日）</div>
-           ${sparkline(d.premium_series, 'premium_pct')}</div>` : ''}
+  return `
+  <div class="page-head">
+    <a class="back-btn" href="#/funds" aria-label="返回">
+      <svg viewBox="0 0 24 24"><path d="m14.5 5-7 7 7 7"/></svg></a>
+    <div class="spacer"></div><h1 style="font-size:20px">${esc(d.name)}</h1>
+    <div class="spacer"></div><div style="width:42px"></div>
   </div>
 
-  <div class="section-title">完整持股（${d.holding_count} 檔）</div>
-  <div class="card"><div class="scroll"><table>
-    <thead><tr>${cols.map(([k, label, cls]) =>
-      `<th class="${cls} ${holdSort.key === k ? (holdSort.asc ? 'asc sorted' : 'sorted') : ''}"
-        data-sort="${k}">${label}</th>`).join('')}</tr></thead>
-    <tbody>${rows.map(h => `<tr>
-      <td class="name"><a href="#/stock/${encodeURIComponent(h.uid)}">
-        <span class="sym">${h.symbol}</span>${h.market !== 'TW' ? `<span class="mkt">${h.market}</span>` : ''}
-        ${esc(h.name || '')}</a>${h.kind !== 'stock' ? ` <span class="badge">${h.kind}</span>` : ''}
-        ${h.status && h.status !== 'hold' ? ` <span class="badge ${h.status}">${STATUS[h.status]}</span>` : ''}</td>
-      <td>${fmt.pct(h.weight)}</td>
-      <td class="${dirClass(h.est_shares_delta)}">${h.est_shares_delta == null ? '—'
-        : fmt.signed(h.est_shares_delta / 1000, 0)}</td>
-      <td class="${dirClass(h.weight_delta)}">${h.weight_delta == null ? '—' : fmt.signed(h.weight_delta)}</td>
-      <td>${fmt.lots(h.est_shares)}</td>
-      <td>${h.market_value ? fmt.yi(h.market_value) : '—'}</td>
-    </tr>`).join('')}</tbody></table></div></div>
-
-  ${d.exited && d.exited.length ? `<div class="section-title">已出清</div>
-    <div class="card"><div class="scroll"><table>
-      <thead><tr><th class="name">個股</th><th>前一日權重</th><th>張數</th></tr></thead>
-      <tbody>${d.exited.map(h => `<tr>
-        <td class="name"><a href="#/stock/${encodeURIComponent(h.uid)}">
-          <span class="sym">${h.symbol}</span> ${esc(h.name || '')}</a></td>
-        <td>${fmt.pct(h.weight_prev)}</td>
-        <td>${fmt.lots(h.est_shares)}</td></tr>`).join('')}</tbody></table></div></div>` : ''}
-
-  <p class="note">揭露基礎：${d.basis === 'fund' ? '投信公告之全基金持股' : '每一申購買回基數之籃子，已依受益權單位數放大估算'}。
-  資料來源：${esc(d.source || '')}。已累積 ${d.history.length} 天持股快照。</p>`;
-}
-
-/* ---------------- 視圖：個股反查 ---------------- */
-async function viewStock(uidRaw) {
-  const uid = decodeURIComponent(uidRaw);
-  const stocks = await load('stocks.json');
-  const s = stocks.find(x => x.uid === uid);
-  if (!s) return `<div class="empty">目前沒有主動式 ETF 持有 ${esc(uid)}</div>`;
-
-  return `<a class="back" href="#/stocks">← 共同持股</a>
-  <div class="card">
-    <div class="card-pad">
-      <div class="row-head">
-        <span class="code">${s.symbol}</span>
-        <span class="rname"><b>${esc(s.name || '')}</b></span>
-        ${s.market !== 'TW' ? `<span class="issuer">${s.market}</span>` : ''}
-        ${starButton(s.uid)}
-      </div>
+  <div class="card"><div class="card-pad hero">
+    <div>
+      <div class="big">${esc(d.name)}</div>
+      <div class="code">${d.code} · ${esc(d.issuer)}投信</div>
+      <span class="tag">持股基準日 ${d.as_of}</span>
     </div>
-    <div class="stats">
-      <div class="stat"><b>${s.fund_count}</b><span>幾檔主動 ETF 持有</span></div>
-      <div class="stat"><b>${fmt.lots(s.total_est_shares)}</b><span>合計張數</span></div>
-      <div class="stat"><b>${s.total_est_value ? fmt.yi(s.total_est_value) : '—'}</b><span>合計市值（億）</span></div>
-      <div class="stat"><b class="${dirClass(s.net_est_shares_delta)}">${s.net_est_shares_delta
-        ? fmt.signed(s.net_est_shares_delta / 1000, 0) : '0'}</b><span>今日淨買賣（張）</span></div>
-      <div class="stat"><b>${s.close != null ? s.close : '—'}</b><span>收盤價</span></div>
-      <div class="stat"><b>${(s.added_by.length + s.new_by.length)} / ${(s.trimmed_by.length + s.exited_by.length)}</b>
-        <span>今日買進／賣出檔數</span></div>
+    <div class="right">
+      <div class="price ${dir(d.net_value)}">${money(d.net_value)}</div>
+      <div class="sym-code">當日淨買賣超</div>
     </div>
+  </div></div>
+
+  <div class="card"><div class="stat-row">
+    <div class="stat"><b>${money(d.aum, false)}</b><span>規模</span></div>
+    <div class="stat"><b>${d.nav != null ? d.nav.toFixed(2) : '—'}</b><span>淨值</span></div>
+    <div class="stat"><b class="${dir(d.premium_pct)}">${signedPct(d.premium_pct)}</b><span>折溢價</span></div>
+    <div class="stat"><b>${d.holding_count}</b><span>持股檔數</span></div>
+    <div class="stat"><b class="${dir(flow)}">${money(flow)}</b><span>當日資金流</span></div>
+    <div class="stat"><b>${pct(d.stock_weight, 1)}</b><span>持股水位</span></div>
+  </div></div>
+
+  <div class="block">
+    <div class="block-head"><h2>完整持股</h2><span class="note">${changeChips(d.changes || {}, d.prev_as_of)}</span></div>
+    <div class="tablewrap"><table>
+      <thead><tr>${cols.map(([key, label]) =>
+        `<th class="sortable ${k === key ? 'on' : ''}" data-hold="${key}">${label}${
+          k === key ? (holdSort.asc ? ' ▲' : ' ▼') : ''}</th>`).join('')}</tr></thead>
+      <tbody>${rows.map(h => `
+        <tr onclick="location.hash='#/stock/${encodeURIComponent(h.uid)}'">
+          <td><div class="sym-name">${esc(h.name)}
+            ${h.status && h.status !== 'hold' ? `<span class="badge ${h.status}">${STATUS[h.status]}</span>` : ''}</div>
+            <div class="sym-code">${h.symbol}${h.market !== 'TW' ? ' · ' + h.market : ''}</div></td>
+          <td>${pct(h.weight)}</td>
+          <td class="${dir(h.shares_delta)}">${h.shares_delta == null ? '—' : signedLots(h.shares_delta)}</td>
+          <td>${lots(h.shares)}</td>
+          <td><div>${h.avg_cost != null ? n0(h.avg_cost) : '—'}</div>
+              <div class="${dir(h.return_pct)}">${signedPct(h.return_pct)}</div></td>
+          <td>${money(h.market_value, false)}</td>
+        </tr>`).join('')}</tbody>
+    </table></div>
   </div>
 
-  <div class="section-title">持有它的主動式 ETF</div>
-  <div class="card"><div class="scroll"><table>
-    <thead><tr><th class="name">ETF</th><th>權重</th><th>張數</th><th>今日增減</th><th>動作</th></tr></thead>
-    <tbody>${s.funds.map(f => `<tr>
-      <td class="name"><a href="#/fund/${f.code}"><span class="sym">${f.code}</span> ${esc(f.name)}</a></td>
-      <td>${fmt.pct(f.weight)}</td>
-      <td>${fmt.lots(f.est_shares)}</td>
-      <td class="${dirClass(f.est_shares_delta)}">${f.est_shares_delta == null ? '—'
-        : fmt.signed(f.est_shares_delta / 1000, 0)}</td>
-      <td><span class="badge ${f.status}">${STATUS[f.status] || ''}</span></td>
-    </tr>`).join('')}</tbody></table></div></div>
-  ${s.exited_by.length ? `<p class="note">今日出清：${s.exited_by.join('、')}</p>` : ''}`;
+  ${d.exited.length ? `<div class="block">
+    <div class="block-head"><h2>已出清</h2></div>
+    <div class="rows">${d.exited.map(h => `
+      <a class="row" href="#/stock/${encodeURIComponent(h.uid)}">
+        <div class="main"><div class="title">${esc(h.name)}</div>
+          <div class="sub">${h.symbol} · 前一日權重 ${pct(h.weight_prev)}</div></div>
+        <div class="right"><div class="amount down">${signedLots(h.shares_delta)} 張</div>
+          <div class="sub down">${money(h.value_delta)}</div></div>
+      </a>`).join('')}</div>
+  </div>` : ''}
+
+  <div class="note-text">資料來源：${esc(d.source || '')}。已累積 ${d.history.length} 天持股快照。
+    均價為本站依每日持股變動推算，非投信揭露值。</div>`;
 }
 
-/* ---------------- 路由 ---------------- */
-function match(q, fields) {
-  if (!q) return true;
-  const needle = q.trim().toLowerCase();
-  return fields.some(f => String(f || '').toLowerCase().includes(needle));
-}
-
+/* ================================================================ 路由 */
 const view = document.getElementById('view');
-const searchBox = document.getElementById('search');
 
 async function render() {
   const hash = location.hash.replace(/^#\/?/, '') || 'funds';
-  const [route, arg] = [hash.split('/')[0], hash.split('/').slice(1).join('/')];
-  const q = searchBox.value.trim();
+  const route = hash.split('/')[0];
+  const arg = hash.split('/').slice(1).join('/');
 
-  document.querySelectorAll('#tabs a').forEach(a => {
-    const tab = a.dataset.tab;
-    a.classList.toggle('on', tab === route ||
-      (route === 'fund' && tab === 'funds') || (route === 'stock' && tab === 'stocks'));
+  document.querySelectorAll('#tabbar a').forEach(a => {
+    const t = a.dataset.tab;
+    a.classList.toggle('on', t === route ||
+      (route === 'fund' && t === 'funds') || (route === 'stock' && t === 'stocks'));
   });
-  searchBox.style.display = (route === 'fund' || route === 'stock') ? 'none' : '';
 
   view.innerHTML = '<div class="loading">載入中…</div>';
   try {
     let html;
     if (route === 'fund') html = await viewFund(arg);
     else if (route === 'stock') html = await viewStock(arg);
-    else if (route === 'moves') html = await viewMoves(q);
-    else if (route === 'stocks') html = await viewStocks(q);
-    else if (route === 'watch') html = await viewWatch();
-    else html = await viewFunds(q);
+    else if (route === 'stocks') html = await viewStocks();
+    else if (route === 'signals') html = await viewSignals();
+    else if (route === 'sectors') html = await viewSectors();
+    else html = await viewFunds();
     view.innerHTML = html;
     if (route === 'fund' || route === 'stock') window.scrollTo(0, 0);
+    const q = document.getElementById('stock-q');
+    if (q && stockQuery) { q.focus(); q.setSelectionRange(q.value.length, q.value.length); }
   } catch (err) {
     view.innerHTML = `<div class="empty">資料載入失敗：${esc(err.message)}</div>`;
   }
 }
 
-async function renderStamp() {
-  try {
-    const m = await load('meta.json');
-    document.getElementById('stamp').textContent =
-      `${m.trade_date} 收盤　更新 ${(m.built_at || '').slice(11, 16)}`;
-    document.getElementById('coverage').textContent =
-      `已涵蓋 ${m.covered_count} / ${m.universe_count} 檔主動式 ETF，約 ${Number(m.covered_aum).toLocaleString('zh-TW')} 億元規模` +
-      (m.issuers_without_adapter && m.issuers_without_adapter.length
-        ? `。尚未接入：${m.issuers_without_adapter.join('、')}投信。` : '。');
-  } catch { document.getElementById('stamp').textContent = '資料尚未產生'; }
-}
-
-/* ---------------- 事件 ---------------- */
-let searchTimer;
-searchBox.addEventListener('input', () => {
-  clearTimeout(searchTimer);
-  searchTimer = setTimeout(render, 150);
-});
-
+/* ---------------- 互動 ---------------- */
 document.addEventListener('click', e => {
-  const star = e.target.closest('[data-star]');
-  if (star) {
-    e.preventDefault();
-    const on = watch.toggle(star.dataset.star);
-    star.classList.toggle('on', on);
-    star.textContent = on ? '★' : '☆';
+  const t = e.target.closest('[data-sort],[data-hold],[data-rank],[data-chip],[data-foreign],[data-sector],[data-range],#toggle-search');
+  if (!t) return;
+  if (t.id === 'toggle-search') {
+    const bar = document.getElementById('searchbar');
+    bar.hidden = !bar.hidden;
+    if (!bar.hidden) bar.querySelector('input').focus();
     return;
   }
-  const mv = e.target.closest('[data-move]');
-  if (mv) { moveFilter = mv.dataset.move; render(); return; }
-  const st = e.target.closest('[data-stock]');
-  if (st) { stockFilter = st.dataset.stock; render(); return; }
-  const th = e.target.closest('[data-sort]');
-  if (th) {
-    const k = th.dataset.sort;
-    holdSort = { key: k, asc: holdSort.key === k ? !holdSort.asc : false };
-    render();
-  }
+  if (t.dataset.sort) {
+    const key = t.dataset.sort;
+    holdSortReset();
+    stockSort.asc = stockSort.key === key ? !stockSort.asc : false;
+    stockSort.key = key;
+  } else if (t.dataset.hold) {
+    const key = t.dataset.hold;
+    holdSort.asc = holdSort.key === key ? !holdSort.asc : false;
+    holdSort.key = key;
+  } else if (t.dataset.rank) rankTab = t.dataset.rank;
+  else if (t.dataset.chip) rankChip = t.dataset.chip;
+  else if (t.dataset.foreign) foreignOnly = !foreignOnly;
+  else if (t.dataset.sector) sectorFilter = t.dataset.sector;
+  else if (t.dataset.range) sectorRange = t.dataset.range;
+  render();
+});
+function holdSortReset() { /* 兩張表的排序狀態各自獨立，這裡只是語意佔位 */ }
+
+let qTimer;
+document.addEventListener('input', e => {
+  if (e.target.id !== 'stock-q') return;
+  stockQuery = e.target.value;
+  clearTimeout(qTimer);
+  qTimer = setTimeout(render, 180);
 });
 
 window.addEventListener('hashchange', render);
-renderStamp();
 render();

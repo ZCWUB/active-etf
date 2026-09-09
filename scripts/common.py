@@ -131,6 +131,9 @@ def norm_symbol(raw: str) -> str:
 
 
 SYMBOL_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._\-]{0,11}$")
+# 4 碼股票（含 2887B 這類特別股）與 00 開頭的 ETF。
+# 權證有一萬多檔且與本專案無關，全部濾掉，否則每天多存好幾百 KB，一年就把 repo 撐爆。
+TW_SECURITY_RE = re.compile(r"^(?:\d{4}[A-Z]?|00\d{2,4}[A-Z]?)$")
 
 
 def is_symbol_like(sym: str) -> bool:
