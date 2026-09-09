@@ -4,25 +4,23 @@
  "issuer": "統一",
  "fund_name": "統一台股增長主動式ETF基金",
  "basis": "fund",
- "as_of": "2026-09-08",
- "prev_as_of": "2026-09-07",
- "fetched_at": "2026-09-08T21:42:26+08:00",
+ "as_of": "2026-09-09",
+ "prev_as_of": "2026-09-08",
+ "fetched_at": "2026-09-09T20:47:07+08:00",
  "source": "ezmoney.com.tw / 申購買回清單+投資組合明細",
- "nav": 29.7,
- "price": 29.73,
- "premium_pct": 0.1,
- "units": 9510709000.0,
- "units_change": -4500000.0,
- "aum": 282468057300.0,
+ "nav": 30.04,
+ "price": 29.92,
+ "premium_pct": -0.4,
+ "units": 9508709000.0,
+ "units_change": -2000000.0,
+ "aum": 285641618360.0,
  "holding_count": 51,
  "changes": {
-  "add": 2,
-  "hold": 46,
-  "trim": 3,
+  "hold": 51,
   "exit": 0
  },
- "stock_weight": 96.91,
- "tw_weight": 96.91,
+ "stock_weight": 97.03,
+ "tw_weight": 97.03,
  "value_coverage": 0.999,
  "holdings": [
   {
@@ -31,14 +29,14 @@
    "name": "台積電",
    "market": "TW",
    "kind": "stock",
-   "weight": 10.38,
-   "weight_delta": 0.98,
+   "weight": 10.25,
+   "weight_delta": -0.13,
    "shares": 11864000.0,
    "est_shares": 11864000.0,
-   "est_shares_delta": 850000.0,
-   "market_value": 29304080000.0,
-   "close": 2460.0,
-   "status": "add"
+   "est_shares_delta": 0.0,
+   "market_value": 29244760000.0,
+   "close": 2470.0,
+   "status": "hold"
   },
   {
    "uid": "2383",
@@ -46,13 +44,13 @@
    "name": "台光電",
    "market": "TW",
    "kind": "stock",
-   "weight": 8.98,
-   "weight_delta": -0.08,
+   "weight": 8.95,
+   "weight_delta": -0.03,
    "shares": 4750000.0,
    "est_shares": 4750000.0,
    "est_shares_delta": 0.0,
-   "market_value": 25365000000.0,
-   "close": 5495.0,
+   "market_value": 25531250000.0,
+   "close": 5340.0,
    "status": "hold"
   },
   {
@@ -61,28 +59,13 @@
    "name": "聯發科",
    "market": "TW",
    "kind": "stock",
-   "weight": 8.65,
-   "weight_delta": 0.08,
+   "weight": 8.41,
+   "weight_delta": -0.24,
    "shares": 5186000.0,
    "est_shares": 5186000.0,
    "est_shares_delta": 0.0,
-   "market_value": 24426060000.0,
-   "close": 4760.0,
-   "status": "hold"
-  },
-  {
-   "uid": "3017",
-   "symbol": "3017",
-   "name": "奇鋐",
-   "market": "TW",
-   "kind": "stock",
-   "weight": 6.92,
-   "weight_delta": -0.14,
-   "shares": 5949000.0,
-   "est_shares": 5949000.0,
-   "est_shares_delta": 0.0,
-   "market_value": 19542465000.0,
-   "close": 3420.0,
+   "market_value": 23985250000.0,
+   "close": 4710.0,
    "status": "hold"
   },
   {
@@ -91,13 +74,28 @@
    "name": "欣興",
    "market": "TW",
    "kind": "stock",
-   "weight": 6.86,
-   "weight_delta": 0.17,
+   "weight": 7.07,
+   "weight_delta": 0.21,
    "shares": 20300000.0,
    "est_shares": 20300000.0,
    "est_shares_delta": 0.0,
-   "market_value": 19366200000.0,
-   "close": 949.0,
+   "market_value": 20157900000.0,
+   "close": 954.0,
+   "status": "hold"
+  },
+  {
+   "uid": "3017",
+   "symbol": "3017",
+   "name": "奇鋐",
+   "market": "TW",
+   "kind": "stock",
+   "weight": 7.05,
+   "weight_delta": 0.13,
+   "shares": 5949000.0,
+   "est_shares": 5949000.0,
+   "est_shares_delta": 0.0,
+   "market_value": 20107620000.0,
+   "close": 3285.0,
    "status": "hold"
   },
   {
@@ -106,13 +104,13 @@
    "name": "緯穎",
    "market": "TW",
    "kind": "stock",
-   "weight": 5.38,
-   "weight_delta": -0.23,
+   "weight": 5.29,
+   "weight_delta": -0.09,
    "shares": 6490561.0,
    "est_shares": 6490561.0,
    "est_shares_delta": 0.0,
-   "market_value": 15187912740.0,
-   "close": 2490.0,
+   "market_value": 15090554325.0,
+   "close": 2340.0,
    "status": "hold"
   },
   {
@@ -121,14 +119,14 @@
    "name": "旺矽",
    "market": "TW",
    "kind": "stock",
-   "weight": 5.23,
-   "weight_delta": 0.51,
+   "weight": 5.01,
+   "weight_delta": -0.22,
    "shares": 2546000.0,
    "est_shares": 2546000.0,
-   "est_shares_delta": 70000.0,
-   "market_value": 14754070000.0,
-   "close": 5795.0,
-   "status": "add"
+   "est_shares_delta": 0.0,
+   "market_value": 14295790000.0,
+   "close": 5615.0,
+   "status": "hold"
   },
   {
    "uid": "2327",
@@ -136,13 +134,13 @@
    "name": "國巨*",
    "market": "TW",
    "kind": "stock",
-   "weight": 5.02,
-   "weight_delta": -0.09,
+   "weight": 4.95,
+   "weight_delta": -0.07,
    "shares": 24987000.0,
    "est_shares": 24987000.0,
    "est_shares_delta": 0.0,
-   "market_value": 14167629000.0,
-   "close": 589.0,
+   "market_value": 14117655000.0,
+   "close": 567.0,
    "status": "hold"
   },
   {
@@ -151,28 +149,13 @@
    "name": "健策",
    "market": "TW",
    "kind": "stock",
-   "weight": 4.81,
-   "weight_delta": 0.01,
+   "weight": 4.94,
+   "weight_delta": 0.13,
    "shares": 2447000.0,
    "est_shares": 2447000.0,
    "est_shares_delta": 0.0,
-   "market_value": 13580850000.0,
-   "close": 5655.0,
-   "status": "hold"
-  },
-  {
-   "uid": "2308",
-   "symbol": "2308",
-   "name": "台達電",
-   "market": "TW",
-   "kind": "stock",
-   "weight": 4.63,
-   "weight_delta": -0.02,
-   "shares": 7240000.0,
-   "est_shares": 7240000.0,
-   "est_shares_delta": 0.0,
-   "market_value": 13068200000.0,
-   "close": 1850.0,
+   "market_value": 14094720000.0,
+   "close": 5550.0,
    "status": "hold"
   },
   {
@@ -181,13 +164,28 @@
    "name": "智邦",
    "market": "TW",
    "kind": "stock",
-   "weight": 4.48,
-   "weight_delta": -0.23,
+   "weight": 4.57,
+   "weight_delta": 0.09,
    "shares": 6464000.0,
    "est_shares": 6464000.0,
    "est_shares_delta": 0.0,
-   "market_value": 12637120000.0,
-   "close": 2100.0,
+   "market_value": 13024960000.0,
+   "close": 1955.0,
+   "status": "hold"
+  },
+  {
+   "uid": "2308",
+   "symbol": "2308",
+   "name": "台達電",
+   "market": "TW",
+   "kind": "stock",
+   "weight": 4.55,
+   "weight_delta": -0.08,
+   "shares": 7240000.0,
+   "est_shares": 7240000.0,
+   "est_shares_delta": 0.0,
+   "market_value": 12995800000.0,
+   "close": 1805.0,
    "status": "hold"
   },
   {
@@ -196,13 +194,13 @@
    "name": "聯電",
    "market": "TW",
    "kind": "stock",
-   "weight": 4.32,
-   "weight_delta": -0.1,
+   "weight": 4.42,
+   "weight_delta": 0.1,
    "shares": 89118000.0,
    "est_shares": 89118000.0,
    "est_shares_delta": 0.0,
-   "market_value": 12209166000.0,
-   "close": 143.0,
+   "market_value": 12610197000.0,
+   "close": 137.0,
    "status": "hold"
   },
   {
@@ -211,13 +209,13 @@
    "name": "日月光投控",
    "market": "TW",
    "kind": "stock",
-   "weight": 3.68,
-   "weight_delta": 0.06,
+   "weight": 3.77,
+   "weight_delta": 0.09,
    "shares": 16811000.0,
    "est_shares": 16811000.0,
    "est_shares_delta": 0.0,
-   "market_value": 10389198000.0,
-   "close": 621.0,
+   "market_value": 10759040000.0,
+   "close": 618.0,
    "status": "hold"
   },
   {
@@ -226,13 +224,13 @@
    "name": "南電",
    "market": "TW",
    "kind": "stock",
-   "weight": 3.42,
-   "weight_delta": -0.01,
+   "weight": 3.67,
+   "weight_delta": 0.25,
    "shares": 9426000.0,
    "est_shares": 9426000.0,
    "est_shares_delta": 0.0,
-   "market_value": 9661650000.0,
-   "close": 1050.0,
+   "market_value": 10462860000.0,
+   "close": 1025.0,
    "status": "hold"
   },
   {
@@ -241,14 +239,14 @@
    "name": "貿聯-KY",
    "market": "TW",
    "kind": "stock",
-   "weight": 2.93,
-   "weight_delta": -0.23,
+   "weight": 2.96,
+   "weight_delta": 0.03,
    "shares": 4280848.0,
    "est_shares": 4280848.0,
-   "est_shares_delta": -123000.0,
-   "market_value": 8283440880.0,
-   "close": 2070.0,
-   "status": "trim"
+   "est_shares_delta": 0.0,
+   "market_value": 8454674800.0,
+   "close": 1935.0,
+   "status": "hold"
   },
   {
    "uid": "6274",
@@ -256,8 +254,8 @@
    "name": "台燿",
    "market": "TW",
    "kind": "stock",
-   "weight": 2.57,
-   "weight_delta": 0.0,
+   "weight": 2.54,
+   "weight_delta": -0.03,
    "shares": 5398000.0,
    "est_shares": 5398000.0,
    "est_shares_delta": 0.0,
@@ -271,28 +269,13 @@
    "name": "台指期貨",
    "market": "TW",
    "kind": "future",
-   "weight": 2.26,
-   "weight_delta": 0.02,
+   "weight": 2.25,
+   "weight_delta": -0.01,
    "shares": 679.0,
    "est_shares": 679.0,
    "est_shares_delta": 0.0,
-   "market_value": 6376489000.0,
+   "market_value": 6406772400.0,
    "close": null,
-   "status": "hold"
-  },
-  {
-   "uid": "5274",
-   "symbol": "5274",
-   "name": "信驊",
-   "market": "TW",
-   "kind": "stock",
-   "weight": 1.42,
-   "weight_delta": 0.03,
-   "shares": 207900.0,
-   "est_shares": 207900.0,
-   "est_shares_delta": 0.0,
-   "market_value": 3995838000.0,
-   "close": 19220.0,
    "status": "hold"
   },
   {
@@ -301,13 +284,28 @@
    "name": "富世達",
    "market": "TW",
    "kind": "stock",
-   "weight": 1.32,
-   "weight_delta": -0.04,
+   "weight": 1.39,
+   "weight_delta": 0.07,
    "shares": 1731000.0,
    "est_shares": 1731000.0,
    "est_shares_delta": 0.0,
-   "market_value": 3730305000.0,
-   "close": 2265.0,
+   "market_value": 3972645000.0,
+   "close": 2155.0,
+   "status": "hold"
+  },
+  {
+   "uid": "5274",
+   "symbol": "5274",
+   "name": "信驊",
+   "market": "TW",
+   "kind": "stock",
+   "weight": 1.36,
+   "weight_delta": -0.06,
+   "shares": 207900.0,
+   "est_shares": 207900.0,
+   "est_shares_delta": 0.0,
+   "market_value": 3867979500.0,
+   "close": 18605.0,
    "status": "hold"
   },
   {
@@ -316,13 +314,13 @@
    "name": "京元電子",
    "market": "TW",
    "kind": "stock",
-   "weight": 1.22,
-   "weight_delta": 0.01,
+   "weight": 1.21,
+   "weight_delta": -0.01,
    "shares": 12818450.0,
    "est_shares": 12818450.0,
    "est_shares_delta": 0.0,
-   "market_value": 3441753825.0,
-   "close": 273.0,
+   "market_value": 3460981500.0,
+   "close": 268.5,
    "status": "hold"
   },
   {
@@ -331,13 +329,13 @@
    "name": "精測",
    "market": "TW",
    "kind": "stock",
-   "weight": 0.82,
-   "weight_delta": 0.05,
+   "weight": 0.81,
+   "weight_delta": -0.01,
    "shares": 637000.0,
    "est_shares": 637000.0,
    "est_shares_delta": 0.0,
-   "market_value": 2305940000.0,
-   "close": 3620.0,
+   "market_value": 2299570000.0,
+   "close": 3610.0,
    "status": "hold"
   },
   {
@@ -346,13 +344,13 @@
    "name": "創意",
    "market": "TW",
    "kind": "stock",
-   "weight": 0.79,
-   "weight_delta": 0.02,
+   "weight": 0.77,
+   "weight_delta": -0.02,
    "shares": 372000.0,
    "est_shares": 372000.0,
    "est_shares_delta": 0.0,
-   "market_value": 2217120000.0,
-   "close": 5935.0,
+   "market_value": 2204100000.0,
+   "close": 5960.0,
    "status": "hold"
   },
   {
@@ -362,13 +360,13 @@
    "market": "TW",
    "kind": "stock",
    "weight": 0.61,
-   "weight_delta": -0.1,
+   "weight_delta": 0.0,
    "shares": 1902000.0,
    "est_shares": 1902000.0,
-   "est_shares_delta": -282000.0,
-   "market_value": 1725114000.0,
-   "close": 937.0,
-   "status": "trim"
+   "est_shares_delta": 0.0,
+   "market_value": 1742232000.0,
+   "close": 907.0,
+   "status": "hold"
   },
   {
    "uid": "4958",
@@ -376,13 +374,13 @@
    "name": "臻鼎-KY",
    "market": "TW",
    "kind": "stock",
-   "weight": 0.49,
-   "weight_delta": 0.02,
+   "weight": 0.48,
+   "weight_delta": -0.01,
    "shares": 2712000.0,
    "est_shares": 2712000.0,
    "est_shares_delta": 0.0,
-   "market_value": 1369560000.0,
-   "close": 501.0,
+   "market_value": 1361424000.0,
+   "close": 505.0,
    "status": "hold"
   },
   {
@@ -391,13 +389,13 @@
    "name": "欣銓",
    "market": "TW",
    "kind": "stock",
-   "weight": 0.4,
-   "weight_delta": 0.0,
+   "weight": 0.41,
+   "weight_delta": 0.01,
    "shares": 5028000.0,
    "est_shares": 5028000.0,
    "est_shares_delta": 0.0,
-   "market_value": 1131300000.0,
-   "close": 225.0,
+   "market_value": 1171524000.0,
+   "close": 233.0,
    "status": "hold"
   },
   {
@@ -406,14 +404,14 @@
    "name": "高力",
    "market": "TW",
    "kind": "stock",
-   "weight": 0.32,
-   "weight_delta": -0.13,
+   "weight": 0.35,
+   "weight_delta": 0.03,
    "shares": 745000.0,
    "est_shares": 745000.0,
-   "est_shares_delta": -295000.0,
-   "market_value": 912625000.0,
-   "close": 1240.0,
-   "status": "trim"
+   "est_shares_delta": 0.0,
+   "market_value": 1002025000.0,
+   "close": 1225.0,
+   "status": "hold"
   },
   {
    "uid": "6515",
@@ -421,13 +419,13 @@
    "name": "穎崴",
    "market": "TW",
    "kind": "stock",
-   "weight": 0.26,
-   "weight_delta": 0.03,
+   "weight": 0.24,
+   "weight_delta": -0.02,
    "shares": 95000.0,
    "est_shares": 95000.0,
    "est_shares_delta": 0.0,
-   "market_value": 731500000.0,
-   "close": 7000.0,
+   "market_value": 691600000.0,
+   "close": 7700.0,
    "status": "hold"
   },
   {
@@ -441,8 +439,8 @@
    "shares": 3248000.0,
    "est_shares": 3248000.0,
    "est_shares_delta": 0.0,
-   "market_value": 612248000.0,
-   "close": 195.0,
+   "market_value": 628488000.0,
+   "close": 188.5,
    "status": "hold"
   },
   {
@@ -452,12 +450,12 @@
    "market": "TW",
    "kind": "stock",
    "weight": 0.2,
-   "weight_delta": 0.01,
+   "weight_delta": 0.0,
    "shares": 924000.0,
    "est_shares": 924000.0,
    "est_shares_delta": 0.0,
-   "market_value": 559020000.0,
-   "close": 605.0,
+   "market_value": 563640000.0,
+   "close": 610.0,
    "status": "hold"
   },
   {
@@ -471,8 +469,8 @@
    "shares": 2222000.0,
    "est_shares": 2222000.0,
    "est_shares_delta": 0.0,
-   "market_value": 495506000.0,
-   "close": 232.5,
+   "market_value": 503283000.0,
+   "close": 223.0,
    "status": "hold"
   },
   {
@@ -482,12 +480,12 @@
    "market": "TW",
    "kind": "stock",
    "weight": 0.13,
-   "weight_delta": 0.01,
+   "weight_delta": 0.0,
    "shares": 1740000.0,
    "est_shares": 1740000.0,
    "est_shares_delta": 0.0,
-   "market_value": 354090000.0,
-   "close": 206.5,
+   "market_value": 358440000.0,
+   "close": 203.5,
    "status": "hold"
   },
   {
@@ -497,12 +495,12 @@
    "market": "TW",
    "kind": "stock",
    "weight": 0.12,
-   "weight_delta": 0.01,
+   "weight_delta": 0.0,
    "shares": 3988000.0,
    "est_shares": 3988000.0,
    "est_shares_delta": 0.0,
-   "market_value": 325819600.0,
-   "close": 82.8,
+   "market_value": 331402800.0,
+   "close": 81.7,
    "status": "hold"
   },
   {
@@ -512,12 +510,12 @@
    "market": "TW",
    "kind": "stock",
    "weight": 0.08,
-   "weight_delta": -0.01,
+   "weight_delta": 0.0,
    "shares": 219000.0,
    "est_shares": 219000.0,
    "est_shares_delta": 0.0,
-   "market_value": 235425000.0,
-   "close": 1120.0,
+   "market_value": 240900000.0,
+   "close": 1075.0,
    "status": "hold"
   },
   {
@@ -531,8 +529,8 @@
    "shares": 501000.0,
    "est_shares": 501000.0,
    "est_shares_delta": 0.0,
-   "market_value": 115731000.0,
-   "close": 240.0,
+   "market_value": 114228000.0,
+   "close": 231.0,
    "status": "hold"
   },
   {
@@ -546,8 +544,8 @@
    "shares": 5163000.0,
    "est_shares": 5163000.0,
    "est_shares_delta": 0.0,
-   "market_value": 98613300.0,
-   "close": 19.0,
+   "market_value": 99387750.0,
+   "close": 19.1,
    "status": "hold"
   },
   {
@@ -561,8 +559,8 @@
    "shares": 1000.0,
    "est_shares": 1000.0,
    "est_shares_delta": 0.0,
-   "market_value": 520000.0,
-   "close": 520.0,
+   "market_value": 526000.0,
+   "close": 526.0,
    "status": "hold"
   },
   {
@@ -576,8 +574,8 @@
    "shares": 1000.0,
    "est_shares": 1000.0,
    "est_shares_delta": 0.0,
-   "market_value": 4030000.0,
-   "close": 4040.0,
+   "market_value": 3905000.0,
+   "close": 4030.0,
    "status": "hold"
   },
   {
@@ -591,8 +589,8 @@
    "shares": 1000.0,
    "est_shares": 1000.0,
    "est_shares_delta": 0.0,
-   "market_value": 76100.0,
-   "close": 76.9,
+   "market_value": 74900.0,
+   "close": 76.1,
    "status": "hold"
   },
   {
@@ -606,8 +604,8 @@
    "shares": 1000.0,
    "est_shares": 1000.0,
    "est_shares_delta": 0.0,
-   "market_value": 1335000.0,
-   "close": 1370.0,
+   "market_value": 1330000.0,
+   "close": 1335.0,
    "status": "hold"
   },
   {
@@ -621,8 +619,8 @@
    "shares": 1000.0,
    "est_shares": 1000.0,
    "est_shares_delta": 0.0,
-   "market_value": 6500000.0,
-   "close": 6660.0,
+   "market_value": 6870000.0,
+   "close": 6500.0,
    "status": "hold"
   },
   {
@@ -636,8 +634,8 @@
    "shares": 1000.0,
    "est_shares": 1000.0,
    "est_shares_delta": 0.0,
-   "market_value": 328000.0,
-   "close": 347.5,
+   "market_value": 342000.0,
+   "close": 328.0,
    "status": "hold"
   },
   {
@@ -651,8 +649,8 @@
    "shares": 1000.0,
    "est_shares": 1000.0,
    "est_shares_delta": 0.0,
-   "market_value": 1385000.0,
-   "close": 1385.0,
+   "market_value": 1330000.0,
+   "close": 1330.0,
    "status": "hold"
   },
   {
@@ -666,8 +664,8 @@
    "shares": 1000.0,
    "est_shares": 1000.0,
    "est_shares_delta": 0.0,
-   "market_value": 531000.0,
-   "close": 517.0,
+   "market_value": 523000.0,
+   "close": 531.0,
    "status": "hold"
   },
   {
@@ -681,8 +679,8 @@
    "shares": 1000.0,
    "est_shares": 1000.0,
    "est_shares_delta": 0.0,
-   "market_value": 98100.0,
-   "close": 99.2,
+   "market_value": 100500.0,
+   "close": 98.1,
    "status": "hold"
   },
   {
@@ -696,8 +694,8 @@
    "shares": 1000.0,
    "est_shares": 1000.0,
    "est_shares_delta": 0.0,
-   "market_value": 2265000.0,
-   "close": 2230.0,
+   "market_value": 2335000.0,
+   "close": 2265.0,
    "status": "hold"
   },
   {
@@ -726,8 +724,8 @@
    "shares": 1000.0,
    "est_shares": 1000.0,
    "est_shares_delta": 0.0,
-   "market_value": 547000.0,
-   "close": 547.0,
+   "market_value": 550000.0,
+   "close": 550.0,
    "status": "hold"
   },
   {
@@ -741,8 +739,8 @@
    "shares": 1000.0,
    "est_shares": 1000.0,
    "est_shares_delta": 0.0,
-   "market_value": 90300.0,
-   "close": 91.3,
+   "market_value": 91500.0,
+   "close": 90.3,
    "status": "hold"
   },
   {
@@ -756,8 +754,8 @@
    "shares": 1000.0,
    "est_shares": 1000.0,
    "est_shares_delta": 0.0,
-   "market_value": 251500.0,
-   "close": 256.0,
+   "market_value": 252000.0,
+   "close": 251.5,
    "status": "hold"
   },
   {
@@ -771,8 +769,8 @@
    "shares": 1000.0,
    "est_shares": 1000.0,
    "est_shares_delta": 0.0,
-   "market_value": 152000.0,
-   "close": 152.0,
+   "market_value": 157000.0,
+   "close": 157.0,
    "status": "hold"
   },
   {
@@ -786,8 +784,8 @@
    "shares": 5000.0,
    "est_shares": 5000.0,
    "est_shares_delta": 0.0,
-   "market_value": 762500.0,
-   "close": 158.0,
+   "market_value": 760000.0,
+   "close": 152.5,
    "status": "hold"
   }
  ],
@@ -809,7 +807,8 @@
   "2026-09-03",
   "2026-09-04",
   "2026-09-07",
-  "2026-09-08"
+  "2026-09-08",
+  "2026-09-09"
  ],
  "premium_series": [
   {
@@ -819,6 +818,14 @@
    "premium_pct": 0.1,
    "units": 9510709000.0,
    "units_change": -4500000.0
+  },
+  {
+   "date": "2026-09-09",
+   "nav": 30.04,
+   "price": 29.92,
+   "premium_pct": -0.4,
+   "units": 9508709000.0,
+   "units_change": -2000000.0
   }
  ]
 }

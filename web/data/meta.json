@@ -1,10 +1,10 @@
 {
- "built_at": "2026-09-08T22:28:38+08:00",
- "trade_date": "2026-09-08",
+ "built_at": "2026-09-09T20:47:43+08:00",
+ "trade_date": "2026-09-09",
  "universe_count": 40,
  "covered_count": 25,
- "covered_aum": 9174,
- "universe_aum": 9964,
+ "covered_aum": 9246,
+ "universe_aum": 9814,
  "missing": [
   "00984D",
   "00993A",
