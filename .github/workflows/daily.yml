@@ -67,13 +67,20 @@ jobs:
       - name: 產生網站資料
         run: python scripts/build_site.py
 
+      # 存檔失敗不該擋住發佈：網站是用剛建置好的目錄上傳的，跟這一步無關
       - name: 把當日資料存回 repo
+        continue-on-error: true
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data
-          git diff --staged --quiet || git commit -m "資料更新 $(TZ=Asia/Taipei date '+%Y-%m-%d %H:%M')"
-          git push
+          git diff --staged --quiet && exit 0
+          git commit -m "資料更新 $(TZ=Asia/Taipei date '+%Y-%m-%d %H:%M')"
+          for i in 1 2 3; do
+            git pull --rebase --autostash && git push && exit 0
+            sleep 5
+          done
+          echo "推不上去（期間有別的 commit），資料下次再存"
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
