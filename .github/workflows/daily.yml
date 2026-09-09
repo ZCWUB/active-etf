@@ -5,6 +5,12 @@ on:
     # 台灣時間 18:10 與 21:40（投信多在 16:30～18:00 之間公告，跑兩次比較保險）
     - cron: "10 10 * * 1-5"
     - cron: "40 13 * * 1-5"
+  # 改了程式就重新建置並發佈；忽略 data/，否則工作流程自己 commit 資料會觸發自己
+  push:
+    branches: [main]
+    paths-ignore:
+      - "data/**"
+      - "README.md"
   workflow_dispatch:
     inputs:
       backfill_days:
