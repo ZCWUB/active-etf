@@ -5,24 +5,25 @@
 
 純靜態網站 + GitHub Actions 排程，**不需要自己開電腦或養伺服器**，手機開網址就能看，連結可以直接分享。
 
-## 它會回答什麼
+## 四個畫面
 
-| 頁面 | 內容 |
+| 分頁 | 內容 |
 | --- | --- |
-| ETF | 每檔主動式 ETF 的規模、折溢價、當日淨申購／買回金額、持股檔數、當日加減碼張數 |
-| 今日動作 | 全市場當日最大的加碼／減碼／新進／出清，含估算金額 |
-| 共同持股 | 哪一檔個股被最多主動式 ETF 持有、合計張數與市值、當日淨買賣 |
-| 個股反查 | 輸入 2330，看哪些主動 ETF 持有它、各自權重與當日增減 |
-| 自選 | 追蹤的 ETF 與個股（存在瀏覽器本機，不上傳） |
+| ETF 列表 | 每檔主動式 ETF 的規模、折溢價、持股檔數、當日淨買賣超金額與最大貢獻個股 |
+| 個股反查 | 全部個股依「被幾家主動 ETF 持有」排序，可改用持有市值或漲跌排序；點進去看 1／3／5 日淨買賣超、被哪幾家持有，以及**每一家的庫存均價與報酬率** |
+| 今日訊號 | ETF 淨買超／賣超 TOP 3；個股排行可切淨買超／淨賣超／連續買超，並依新增、刪除、加碼、減碼篩選，或只看與外資同向的 |
+| 板塊輪動 | 今日與近 5 日的板塊加減碼對照與完整排行 |
 
-## 資料從哪來
+### 庫存均價是怎麼算出來的
 
-全部是公開資訊，直接取自第一手來源：
+投信只公告「今天持有多少股」，不公告成本。這裡用**平均成本法**回推：
+每天的持股增量 × 當天的成交均價累加成本，減碼不動成本，最後與最新收盤價比較得出報酬率。
 
-- **持股明細**：各投信官網每日公告的「申購買回清單／投資組合明細」。主動式 ETF 依規定須每日揭露完整持股。
-- **ETF 清單**：證交所 ETF e添富投資篩選器，再用 MIS 即時報價補上剛掛牌、篩選器還沒收錄的基金。
-- **淨值、市價、折溢價、受益權單位數**：證交所 MIS `all_etf`。單位數的日增減就是當日淨申購／買回，也就是資金流。
-- **個股收盤價**：TWSE 與 TPEx 的每日收盤行情，用來把張數換算成市值。
+有兩個限制必須講清楚，介面上也會標示：
+
+- 這是推估值，不是投信揭露的數字，也不是實際成交價。
+- 本站開始記錄之前就已經在的部位，建倉成本無從得知，只能以起算日當天的均價當起點。
+  這種部位會標明「自 X 月 X 日起算」，數字只能參考；之後才新建的部位才是真的知道買進價。
 
 ## 目前接了哪幾家投信
 
@@ -75,17 +76,25 @@ def fetch(sess, code, internal_id, on_date=None) -> dict
 
 ```bash
 pip install -r requirements.txt
-python scripts/fetch_universe.py   # ETF 清單
-python scripts/fetch_quotes.py     # 淨值、折溢價、受益權單位數
-python scripts/fetch_stocks.py     # 個股收盤價
-python scripts/fetch_pcf.py        # 各投信持股 → data/pcf/<代號>/<日期>.json
-python scripts/build_site.py       # 算出加減碼與共同持股 → web/data/
+python -m playwright install chromium   # 只有安聯那家需要
+
+python scripts/fetch_universe.py     # ETF 清單
+python scripts/fetch_quotes.py       # 淨值、折溢價、受益權單位數
+python scripts/fetch_prices.py       # 收盤價與成交均價
+python scripts/fetch_institutions.py # 三大法人買賣超
+python scripts/fetch_industries.py   # 產業別
+python scripts/fetch_pcf.py          # 各投信持股 → data/pcf/<代號>/<日期>.json
+python scripts/build_site.py         # 算出四個畫面要的資料 → web/data/
 ```
 
-回補歷史（第一次架站時很有用，可以立刻看到加減碼，不必等隔天）：
+回補歷史（第一次架站時很有用，可以立刻看到加減碼與均價，不必等隔天）：
 
 ```bash
 python scripts/backfill.py --days 30
+```
+
+```bash
+python scripts/fetch_prices.py --backfill 30
 ```
 
 本機預覽：
@@ -100,6 +109,7 @@ python -m http.server 8791 --directory web
 2. Settings → Pages → Source 選 **GitHub Actions**。
 3. Actions 分頁跑一次 `每日更新主動式 ETF 持股`（可在 `backfill_days` 填 30 先補歷史）。
 
+推程式碼上去也會自動重新建置發佈（忽略 data/，避免工作流程自己觸發自己）。
 之後每個交易日台灣時間 18:10 與 21:40 會自動更新：抓資料 → 算結果 → 把當日快照 commit 回 repo → 重新發佈網站。
 資料留在 git 裡，所以歷史會愈積愈完整，也不會因為某天抓失敗就消失。
 
