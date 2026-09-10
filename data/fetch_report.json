@@ -1,5 +1,5 @@
 {
- "ran_at": "2026-09-10T18:25:12+08:00",
+ "ran_at": "2026-09-10T22:24:34+08:00",
  "ok": [
   {
    "code": "00403A",
@@ -7,7 +7,7 @@
    "as_of": "2026-09-10",
    "holdings": 50,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00411A",
@@ -15,7 +15,7 @@
    "as_of": "2026-09-09",
    "holdings": 35,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00981A",
@@ -23,7 +23,7 @@
    "as_of": "2026-09-10",
    "holdings": 51,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00987D",
@@ -31,7 +31,7 @@
    "as_of": "2026-09-09",
    "holdings": 3,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00988A",
@@ -39,7 +39,7 @@
    "as_of": "2026-09-09",
    "holdings": 43,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00982A",
@@ -47,7 +47,7 @@
    "as_of": "2026-09-10",
    "holdings": 56,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00992A",
@@ -55,7 +55,7 @@
    "as_of": "2026-09-10",
    "holdings": 41,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00997A",
@@ -63,13 +63,45 @@
    "as_of": "2026-09-09",
    "holdings": 57,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00990A",
    "issuer": "元大",
    "as_of": "2026-09-09",
    "holdings": 45,
+   "basis": "fund",
+   "changed": false
+  },
+  {
+   "code": "00409A",
+   "issuer": "復華",
+   "as_of": "2026-09-09",
+   "holdings": 52,
+   "basis": "fund",
+   "changed": true
+  },
+  {
+   "code": "00986D",
+   "issuer": "復華",
+   "as_of": "2026-09-09",
+   "holdings": 27,
+   "basis": "fund",
+   "changed": true
+  },
+  {
+   "code": "00991A",
+   "issuer": "復華",
+   "as_of": "2026-09-10",
+   "holdings": 50,
+   "basis": "fund",
+   "changed": true
+  },
+  {
+   "code": "00998A",
+   "issuer": "復華",
+   "as_of": "2026-09-09",
+   "holdings": 48,
    "basis": "fund",
    "changed": true
   },
@@ -79,7 +111,7 @@
    "as_of": "2026-09-10",
    "holdings": 49,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00406A",
@@ -87,7 +119,7 @@
    "as_of": "2026-09-10",
    "holdings": 62,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00981D",
@@ -95,7 +127,7 @@
    "as_of": "2026-09-09",
    "holdings": 98,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00983A",
@@ -103,7 +135,7 @@
    "as_of": "2026-09-09",
    "holdings": 44,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00995A",
@@ -111,7 +143,7 @@
    "as_of": "2026-09-10",
    "holdings": 53,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00405A",
@@ -119,7 +151,7 @@
    "as_of": "2026-09-10",
    "holdings": 48,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00982D",
@@ -127,7 +159,7 @@
    "as_of": "2026-09-09",
    "holdings": 66,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00983D",
@@ -135,7 +167,7 @@
    "as_of": "2026-09-09",
    "holdings": 85,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00407A",
@@ -143,7 +175,7 @@
    "as_of": "2026-09-10",
    "holdings": 50,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00980A",
@@ -151,7 +183,7 @@
    "as_of": "2026-09-10",
    "holdings": 51,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00985A",
@@ -159,7 +191,7 @@
    "as_of": "2026-09-10",
    "holdings": 51,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00999A",
@@ -167,7 +199,7 @@
    "as_of": "2026-09-10",
    "holdings": 54,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00404A",
@@ -175,7 +207,7 @@
    "as_of": "2026-09-10",
    "holdings": 54,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00984D",
@@ -183,7 +215,7 @@
    "as_of": "2026-09-09",
    "holdings": 391,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00401A",
@@ -191,7 +223,7 @@
    "as_of": "2026-09-10",
    "holdings": 58,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00989A",
@@ -199,7 +231,7 @@
    "as_of": "2026-09-09",
    "holdings": 66,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00410A",
@@ -207,15 +239,7 @@
    "as_of": "2026-09-10",
    "holdings": 30,
    "basis": "fund",
-   "changed": true
-  },
-  {
-   "code": "00996A",
-   "issuer": "兆豐國際",
-   "as_of": "2026-09-10",
-   "holdings": 52,
-   "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00986A",
@@ -223,7 +247,7 @@
    "as_of": "2026-09-08",
    "holdings": 36,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00987A",
@@ -231,7 +255,7 @@
    "as_of": "2026-09-09",
    "holdings": 29,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00408A",
@@ -239,7 +263,7 @@
    "as_of": "2026-09-10",
    "holdings": 50,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00994A",
@@ -247,7 +271,7 @@
    "as_of": "2026-09-10",
    "holdings": 39,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00402A",
@@ -255,7 +279,7 @@
    "as_of": "2026-09-09",
    "holdings": 50,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00984A",
@@ -263,7 +287,7 @@
    "as_of": "2026-09-10",
    "holdings": 98,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00993A",
@@ -271,19 +295,14 @@
    "as_of": "2026-09-10",
    "holdings": 52,
    "basis": "fund",
-   "changed": true
+   "changed": false
   }
  ],
  "failed": [
   {
-   "code": "00991A",
-   "issuer": "復華",
-   "error": "discover: fuhhwa fundList failed after 4 tries: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-  },
-  {
-   "code": "00409A",
-   "issuer": "復華",
-   "error": "discover: fuhhwa fundList failed after 4 tries: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+   "code": "00996A",
+   "issuer": "兆豐國際",
+   "error": "not found on issuer site"
   }
  ],
  "issuers_without_adapter": []
