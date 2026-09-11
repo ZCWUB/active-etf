@@ -1,0 +1,446 @@
+{
+ "code": "00998A",
+ "issuer": "復華",
+ "fund_name": "復華全球金融股票入息主動式ETF基金",
+ "as_of": "2026-09-10",
+ "basis": "fund",
+ "nav_total": 4706785840.0,
+ "fund_units": 267609000.0,
+ "unit_size": null,
+ "holdings": [
+  {
+   "symbol": "ABN",
+   "name": "荷蘭銀行公眾有限公司",
+   "market": "NA",
+   "shares": 140000.0,
+   "weight": 4.658,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AGN",
+   "name": "荷蘭保險公司",
+   "market": "NA",
+   "shares": 680000.0,
+   "weight": 4.148,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AV/",
+   "name": "英傑華保險",
+   "market": "LN",
+   "shares": 630000.0,
+   "weight": 4.027,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "TPEIR",
+   "name": "Piraeus Bank SA",
+   "market": "GA",
+   "shares": 475000.0,
+   "weight": 3.893,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "ADM",
+   "name": "Admiral集團公開有限公司",
+   "market": "LN",
+   "shares": 105000.0,
+   "weight": 3.612,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NWG",
+   "name": "國民西敏集團公開有限公司",
+   "market": "LN",
+   "shares": 540000.0,
+   "weight": 3.348,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MNG",
+   "name": "M&G公開有限公司",
+   "market": "LN",
+   "shares": 1000000.0,
+   "weight": 3.018,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "DBK",
+   "name": "德意志銀行",
+   "market": "GY",
+   "shares": 110000.0,
+   "weight": 2.991,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "LLOY",
+   "name": "勞埃德銀行集團",
+   "market": "LN",
+   "shares": 3000000.0,
+   "weight": 2.974,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CHYM",
+   "name": "Chime Financial Inc",
+   "market": "US",
+   "shares": 130000.0,
+   "weight": 2.847,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "ASRNL",
+   "name": "ASR荷蘭公眾有限公司",
+   "market": "NA",
+   "shares": 45000.0,
+   "weight": 2.551,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "BAMI",
+   "name": "BPM銀行股份公司",
+   "market": "IM",
+   "shares": 200000.0,
+   "weight": 2.512,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "STAN",
+   "name": "渣打集團有限公司",
+   "market": "LN",
+   "shares": 120000.0,
+   "weight": 2.475,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "WFC",
+   "name": "富國銀行",
+   "market": "US",
+   "shares": 40000.0,
+   "weight": 2.398,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "GPN",
+   "name": "環匯公司",
+   "market": "US",
+   "shares": 40000.0,
+   "weight": 2.374,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "BMPS",
+   "name": "義大利西恩那銀行股份公司",
+   "market": "IM",
+   "shares": 250000.0,
+   "weight": 2.28,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "7167",
+   "name": "Mebuki金融集團公司",
+   "market": "JP",
+   "shares": 300000.0,
+   "weight": 2.182,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "JPM",
+   "name": "摩根大通銀行",
+   "market": "US",
+   "shares": 9000.0,
+   "weight": 2.133,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "BARC",
+   "name": "巴克萊集團",
+   "market": "LN",
+   "shares": 480000.0,
+   "weight": 2.112,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "ARES",
+   "name": "戰神管理公司",
+   "market": "US",
+   "shares": 23000.0,
+   "weight": 2.014,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "UCG",
+   "name": "裕信銀行",
+   "market": "IM",
+   "shares": 30000.0,
+   "weight": 1.962,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "UNI",
+   "name": "Unipol保險股份公司",
+   "market": "IM",
+   "shares": 85000.0,
+   "weight": 1.848,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AMUN",
+   "name": "東方匯理資產管理有限責任公司",
+   "market": "FP",
+   "shares": 25000.0,
+   "weight": 1.845,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SDLF",
+   "name": "標準人壽公開有限公司",
+   "market": "LN",
+   "shares": 220000.0,
+   "weight": 1.821,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "LGEN",
+   "name": "法通保險集團公開有限公司",
+   "market": "LN",
+   "shares": 700000.0,
+   "weight": 1.819,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "UBS",
+   "name": "瑞銀集團公司",
+   "market": "US",
+   "shares": 50000.0,
+   "weight": 1.81,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "G",
+   "name": "忠意保險股份公司",
+   "market": "IM",
+   "shares": 50000.0,
+   "weight": 1.745,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MRX",
+   "name": "馬雷克斯集團有限公司",
+   "market": "US",
+   "shares": 33000.0,
+   "weight": 1.639,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "ETE",
+   "name": "希臘國家銀行",
+   "market": "GA",
+   "shares": 120000.0,
+   "weight": 1.624,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "HSBA",
+   "name": "匯豐控股有限公司",
+   "market": "LN",
+   "shares": 110000.0,
+   "weight": 1.528,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "8331",
+   "name": "千葉銀行有限公司",
+   "market": "JP",
+   "shares": 125000.0,
+   "weight": 1.49,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "INGA",
+   "name": "荷蘭國際集團",
+   "market": "NA",
+   "shares": 60000.0,
+   "weight": 1.481,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "BLK",
+   "name": "貝萊德公司",
+   "market": "US",
+   "shares": 2000.0,
+   "weight": 1.424,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "HOOD",
+   "name": "羅賓漢市場公司",
+   "market": "US",
+   "shares": 17000.0,
+   "weight": 1.291,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "BNP",
+   "name": "法國巴黎銀行股份有限公司",
+   "market": "FP",
+   "shares": 16000.0,
+   "weight": 1.281,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "BX",
+   "name": "黑石公司",
+   "market": "US",
+   "shares": 15000.0,
+   "weight": 1.261,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "V",
+   "name": "威士卡",
+   "market": "US",
+   "shares": 5000.0,
+   "weight": 1.231,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "GLE",
+   "name": "法國興業銀行股份有限公司",
+   "market": "FP",
+   "shares": 20000.0,
+   "weight": 1.153,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "BOCHGR",
+   "name": "賽普勒斯銀行控股公開有限公司",
+   "market": "GA",
+   "shares": 135000.0,
+   "weight": 1.106,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "RELY",
+   "name": "Remitly全球公司",
+   "market": "US",
+   "shares": 72000.0,
+   "weight": 1.058,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CRCL",
+   "name": "Circle網路集團公司",
+   "market": "US",
+   "shares": 17000.0,
+   "weight": 1.029,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "BNY",
+   "name": "紐約梅隆銀行",
+   "market": "US",
+   "shares": 9000.0,
+   "weight": 0.981,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CABK",
+   "name": "凱克薩銀行有限責任公司",
+   "market": "SM",
+   "shares": 88000.0,
+   "weight": 0.908,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "8377",
+   "name": "北北金融集團公司",
+   "market": "JP",
+   "shares": 25000.0,
+   "weight": 0.898,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "8308",
+   "name": "Resona控股公司",
+   "market": "JP",
+   "shares": 80000.0,
+   "weight": 0.87,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "8309",
+   "name": "三井住友信託集團公司",
+   "market": "JP",
+   "shares": 110000.0,
+   "weight": 0.845,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "BAC",
+   "name": "美國銀行",
+   "market": "US",
+   "shares": 20000.0,
+   "weight": 0.839,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "FESB202609",
+   "name": "202609 歐盟STOXX銀行指數期貨",
+   "market": "EU",
+   "shares": -600.0,
+   "weight": -7.45,
+   "market_value": null,
+   "kind": "future"
+  }
+ ],
+ "source": "fhtrust.com.tw / 基金資產明細",
+ "fetched_at": "2026-09-11T18:22:32+08:00"
+}

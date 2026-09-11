@@ -1,0 +1,257 @@
+{
+ "code": "00986D",
+ "issuer": "復華",
+ "fund_name": "復華全球金融債券入息主動式ETF基金",
+ "as_of": "2026-09-10",
+ "basis": "fund",
+ "nav_total": 2061452948.0,
+ "fund_units": 145677000.0,
+ "unit_size": null,
+ "holdings": [
+  {
+   "symbol": "US202612",
+   "name": "202612 美國三十年期政府公債",
+   "market": "US",
+   "shares": 50.0,
+   "weight": 8.18,
+   "market_value": null,
+   "kind": "future"
+  },
+  {
+   "symbol": "TY202612",
+   "name": "202612 美國十年期公債",
+   "market": "US",
+   "shares": 15.0,
+   "weight": 2.44,
+   "market_value": null,
+   "kind": "future"
+  },
+  {
+   "symbol": "US59023VAA89",
+   "name": "BAC 7 3/4 05/14/38",
+   "market": "US",
+   "shares": 4300000.0,
+   "weight": 7.649,
+   "market_value": null,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US89117F8Z56",
+   "name": "TD 8 1/8 10/31/2082",
+   "market": "US",
+   "shares": 4800000.0,
+   "weight": 7.607,
+   "market_value": null,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US172967EW71",
+   "name": "C 8 1/8 07/15/39",
+   "market": "US",
+   "shares": 3700000.0,
+   "weight": 6.811,
+   "market_value": null,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US06423AAJ25",
+   "name": "JPM 8 3/4 09/01/30",
+   "market": "US",
+   "shares": 3900000.0,
+   "weight": 6.728,
+   "market_value": null,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US0641598S88",
+   "name": "BNS 8 5/8 10/27/2082",
+   "market": "US",
+   "shares": 4000000.0,
+   "weight": 6.4,
+   "market_value": null,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USU8035UAD47",
+   "name": "SASOL 8 3/4 04/10/33",
+   "market": "US",
+   "shares": 3100000.0,
+   "weight": 5.172,
+   "market_value": null,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US404280DT33",
+   "name": "HSBC 8 PERP",
+   "market": "US",
+   "shares": 3000000.0,
+   "weight": 4.731,
+   "market_value": null,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USF11494CK99",
+   "name": "BPCEGP 6.915 01/14/46",
+   "market": "US",
+   "shares": 3000000.0,
+   "weight": 4.558,
+   "market_value": null,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US92976GAJ04",
+   "name": "WFC 6.6 01/15/38",
+   "market": "US",
+   "shares": 2750000.0,
+   "weight": 4.456,
+   "market_value": null,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US345370CX67",
+   "name": "F 9 5/8 04/22/30",
+   "market": "US",
+   "shares": 2500000.0,
+   "weight": 4.414,
+   "market_value": null,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US617482V925",
+   "name": "MS 6 3/8 07/24/42",
+   "market": "US",
+   "shares": 2700000.0,
+   "weight": 4.28,
+   "market_value": null,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USY0606WBQ25",
+   "name": "BBLTB 9.025 03/15/29",
+   "market": "US",
+   "shares": 2146000.0,
+   "weight": 3.69,
+   "market_value": null,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USJ54675BE26",
+   "name": "NIPLIF 6 1/2 04/30/55",
+   "market": "US",
+   "shares": 2250000.0,
+   "weight": 3.582,
+   "market_value": null,
+   "kind": "bond"
+  },
+  {
+   "symbol": "XS2725962638",
+   "name": "ISPIM 7.8 11/28/53",
+   "market": "US",
+   "shares": 2000000.0,
+   "weight": 3.56,
+   "market_value": null,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US83368TBT43",
+   "name": "SOCGEN 7.367 01/10/53",
+   "market": "US",
+   "shares": 2200000.0,
+   "weight": 3.417,
+   "market_value": null,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US53944YAV56",
+   "name": "LLOYDS 8 PERP",
+   "market": "US",
+   "shares": 2000000.0,
+   "weight": 3.26,
+   "market_value": null,
+   "kind": "bond"
+  },
+  {
+   "symbol": "USJ64264AK09",
+   "name": "RAKUTN 9 3/4 04/15/29",
+   "market": "US",
+   "shares": 1800000.0,
+   "weight": 3.09,
+   "market_value": null,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US682680BN20",
+   "name": "OKE 6 5/8 09/01/53",
+   "market": "US",
+   "shares": 1900000.0,
+   "weight": 2.957,
+   "market_value": null,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US38141GFD16",
+   "name": "GS 6 3/4 10/01/37",
+   "market": "US",
+   "shares": 1500000.0,
+   "weight": 2.451,
+   "market_value": null,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US29250NBZ78",
+   "name": "ENBCN 6.7 11/15/53",
+   "market": "US",
+   "shares": 1300000.0,
+   "weight": 2.107,
+   "market_value": null,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US71654QDP46",
+   "name": "PEMEX 10 02/07/33",
+   "market": "US",
+   "shares": 1100000.0,
+   "weight": 1.949,
+   "market_value": null,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US097023DU67",
+   "name": "BA 7.008 05/01/64",
+   "market": "US",
+   "shares": 1000000.0,
+   "weight": 1.665,
+   "market_value": null,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US054989AD07",
+   "name": "BATSLN 7.081 08/02/53",
+   "market": "US",
+   "shares": 1000000.0,
+   "weight": 1.641,
+   "market_value": null,
+   "kind": "bond"
+  },
+  {
+   "symbol": "XS1972731787",
+   "name": "UCGIM 7.296 04/02/34",
+   "market": "US",
+   "shares": 1000000.0,
+   "weight": 1.634,
+   "market_value": null,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US65339KEH95",
+   "name": "NEE 6 5/8 10/01/66",
+   "market": "US",
+   "shares": 300000.0,
+   "weight": 0.451,
+   "market_value": null,
+   "kind": "bond"
+  }
+ ],
+ "source": "fhtrust.com.tw / 基金資產明細",
+ "fetched_at": "2026-09-11T18:22:31+08:00"
+}
