@@ -243,10 +243,10 @@
    "kind": "stock"
   },
   {
-   "symbol": "2308",
-   "name": "台達電",
+   "symbol": "6187",
+   "name": "萬潤",
    "market": "TW",
-   "shares": 10900.0,
+   "shares": 15000.0,
    "weight": 1.23,
    "market_value": null,
    "kind": "stock"
@@ -261,10 +261,10 @@
    "kind": "stock"
   },
   {
-   "symbol": "6187",
-   "name": "萬潤",
+   "symbol": "2308",
+   "name": "台達電",
    "market": "TW",
-   "shares": 15000.0,
+   "shares": 10900.0,
    "weight": 1.23,
    "market_value": null,
    "kind": "stock"
@@ -478,5 +478,5 @@
   }
  ],
  "source": "fsitc.com.tw / 投資組合",
- "fetched_at": "2026-09-15T18:23:51+08:00"
+ "fetched_at": "2026-09-15T22:24:59+08:00"
 }
