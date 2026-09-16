@@ -36,19 +36,19 @@
    "kind": "stock"
   },
   {
-   "symbol": "3017",
-   "name": "奇鋐",
+   "symbol": "2383",
+   "name": "台光電",
    "market": "TW",
-   "shares": 16000.0,
+   "shares": 10000.0,
    "weight": 3.4,
    "market_value": null,
    "kind": "stock"
   },
   {
-   "symbol": "2383",
-   "name": "台光電",
+   "symbol": "3017",
+   "name": "奇鋐",
    "market": "TW",
-   "shares": 10000.0,
+   "shares": 16000.0,
    "weight": 3.4,
    "market_value": null,
    "kind": "stock"
@@ -135,19 +135,19 @@
    "kind": "stock"
   },
   {
-   "symbol": "2880",
-   "name": "華南金",
+   "symbol": "5434",
+   "name": "崇越",
    "market": "TW",
-   "shares": 656500.0,
+   "shares": 58000.0,
    "weight": 2.08,
    "market_value": null,
    "kind": "stock"
   },
   {
-   "symbol": "5434",
-   "name": "崇越",
+   "symbol": "2880",
+   "name": "華南金",
    "market": "TW",
-   "shares": 58000.0,
+   "shares": 656500.0,
    "weight": 2.08,
    "market_value": null,
    "kind": "stock"
@@ -478,5 +478,5 @@
   }
  ],
  "source": "fsitc.com.tw / 投資組合",
- "fetched_at": "2026-09-16T18:23:39+08:00"
+ "fetched_at": "2026-09-16T22:25:02+08:00"
 }
