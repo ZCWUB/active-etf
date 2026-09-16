@@ -1,0 +1,354 @@
+{
+ "code": "00411A",
+ "issuer": "統一",
+ "fund_name": "統一前沿科技主動式ETF基金",
+ "as_of": "2026-09-15",
+ "basis": "fund",
+ "nav_total": 5440377001.0,
+ "fund_units": null,
+ "unit_size": null,
+ "holdings": [
+  {
+   "symbol": "BE",
+   "name": "BLOOM ENERGY CORP- A",
+   "market": "US",
+   "currency": "USD",
+   "shares": 47392.0,
+   "weight": 7.21,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SPCX",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "market": "US",
+   "currency": "USD",
+   "shares": 76874.0,
+   "weight": 6.47,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA CORP(輝達公司)",
+   "market": "US",
+   "currency": "USD",
+   "shares": 50262.0,
+   "weight": 6.25,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "LITE",
+   "name": "LUMENTUM HOLDINGS INC",
+   "market": "US",
+   "currency": "USD",
+   "shares": 11924.0,
+   "weight": 5.86,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "PLTR",
+   "name": "PALANTIR TECHNOLOGIES INC-A",
+   "market": "US",
+   "currency": "USD",
+   "shares": 51297.0,
+   "weight": 5.19,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CRWD",
+   "name": "CROWDSTRIKE HOLDINGS INC - A",
+   "market": "US",
+   "currency": "USD",
+   "shares": 27377.0,
+   "weight": 3.89,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3443",
+   "name": "創意",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 33000.0,
+   "weight": 3.66,
+   "market_value": 199155000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "AMAZON.COM INC(亞馬遜公司)",
+   "market": "US",
+   "currency": "USD",
+   "shares": 25085.0,
+   "weight": 3.65,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "8996",
+   "name": "高力",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 162000.0,
+   "weight": 3.63,
+   "market_value": 197640000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NBIS",
+   "name": "NEBIUS GROUP NV",
+   "market": "US",
+   "currency": "USD",
+   "shares": 29091.0,
+   "weight": 3.54,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AMD",
+   "name": "ADVANCED MICRO DEVICES.amd us(超微半導體公司)",
+   "market": "US",
+   "currency": "USD",
+   "shares": 11664.0,
+   "weight": 3.45,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3017",
+   "name": "奇鋐",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 59000.0,
+   "weight": 3.38,
+   "market_value": 183785000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "ALPHABET INC-CL A(Alphabet公司)",
+   "market": "US",
+   "currency": "USD",
+   "shares": 15480.0,
+   "weight": 3.13,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "TESLA INC(特斯拉公司)",
+   "market": "US",
+   "currency": "USD",
+   "shares": 14518.0,
+   "weight": 3.03,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NET",
+   "name": "CLOUDFLARE INC - CLASS A",
+   "market": "US",
+   "currency": "USD",
+   "shares": 14742.0,
+   "weight": 2.83,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6669",
+   "name": "緯穎",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 64518.0,
+   "weight": 2.75,
+   "market_value": 149359170.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SNOW",
+   "name": "SNOWFLAKE INC-CLASS A(Snowflake公司)",
+   "market": "US",
+   "currency": "USD",
+   "shares": 14081.0,
+   "weight": 2.67,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SMTC",
+   "name": "SEMTECH CORP",
+   "market": "US",
+   "currency": "USD",
+   "shares": 29876.0,
+   "weight": 2.64,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "ANET",
+   "name": "ARISTA NETWORKS INC.anet us",
+   "market": "US",
+   "currency": "USD",
+   "shares": 23297.0,
+   "weight": 2.63,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SITM",
+   "name": "SITIME CORP",
+   "market": "US",
+   "currency": "USD",
+   "shares": 7614.0,
+   "weight": 2.46,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "581A",
+   "name": "GO INC",
+   "market": "JP",
+   "currency": "JPY",
+   "shares": 179700.0,
+   "weight": 2.33,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "4979",
+   "name": "華星光",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 239000.0,
+   "weight": 2.24,
+   "market_value": 121651000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MU",
+   "name": "MICRON TECHNOLOGY INC",
+   "market": "US",
+   "currency": "USD",
+   "shares": 4104.0,
+   "weight": 2.23,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NTSK",
+   "name": "NETSKOPE INC-CL A",
+   "market": "US",
+   "currency": "USD",
+   "shares": 210458.0,
+   "weight": 2.16,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "4062",
+   "name": "IBIDEN CO LTD",
+   "market": "JP",
+   "currency": "JPY",
+   "shares": 24700.0,
+   "weight": 1.79,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CRWV",
+   "name": "COREWEAVE INC-CL A",
+   "market": "US",
+   "currency": "USD",
+   "shares": 33733.0,
+   "weight": 1.6,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "DELL",
+   "name": "DELL INC",
+   "market": "US",
+   "currency": "USD",
+   "shares": 4971.0,
+   "weight": 1.58,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "MICROSOFT CORP(微軟公司)",
+   "market": "US",
+   "currency": "USD",
+   "shares": 4732.0,
+   "weight": 1.38,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "285A",
+   "name": "KIOXIA HOLDINGS CORP",
+   "market": "JP",
+   "currency": "JPY",
+   "shares": 6400.0,
+   "weight": 1.25,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "STX",
+   "name": "SEAGATE TECHNOLOGY",
+   "market": "US",
+   "currency": "USD",
+   "shares": 1647.0,
+   "weight": 0.75,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "UBER",
+   "name": "UBER TECHNOLOGIES INC",
+   "market": "US",
+   "currency": "USD",
+   "shares": 13711.0,
+   "weight": 0.57,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "IONQ",
+   "name": "IONQ INC",
+   "market": "US",
+   "currency": "USD",
+   "shares": 25002.0,
+   "weight": 0.54,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "RKLB",
+   "name": "ROCKET LAB USA INC",
+   "market": "US",
+   "currency": "USD",
+   "shares": 14239.0,
+   "weight": 0.53,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3037",
+   "name": "欣興",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 14000.0,
+   "weight": 0.24,
+   "market_value": 13314000.0,
+   "kind": "stock"
+  }
+ ],
+ "source": "ezmoney.com.tw / 申購買回清單+投資組合明細",
+ "fetched_at": "2026-09-16T18:22:46+08:00"
+}
