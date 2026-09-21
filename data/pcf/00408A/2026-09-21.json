@@ -270,19 +270,19 @@
    "kind": "stock"
   },
   {
-   "symbol": "8996",
-   "name": "高力",
+   "symbol": "6239",
+   "name": "力成",
    "market": "TW",
-   "shares": 13000.0,
+   "shares": 67000.0,
    "weight": 1.28,
    "market_value": null,
    "kind": "stock"
   },
   {
-   "symbol": "6239",
-   "name": "力成",
+   "symbol": "8996",
+   "name": "高力",
    "market": "TW",
-   "shares": 67000.0,
+   "shares": 13000.0,
    "weight": 1.28,
    "market_value": null,
    "kind": "stock"
@@ -487,5 +487,5 @@
   }
  ],
  "source": "fsitc.com.tw / 投資組合",
- "fetched_at": "2026-09-21T18:24:11+08:00"
+ "fetched_at": "2026-09-21T22:24:52+08:00"
 }

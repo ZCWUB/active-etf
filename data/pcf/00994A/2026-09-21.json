@@ -270,19 +270,19 @@
    "kind": "stock"
   },
   {
-   "symbol": "3665",
-   "name": "貿聯-KY",
+   "symbol": "7769",
+   "name": "鴻勁",
    "market": "TW",
-   "shares": 13000.0,
+   "shares": 5000.0,
    "weight": 0.66,
    "market_value": null,
    "kind": "stock"
   },
   {
-   "symbol": "7769",
-   "name": "鴻勁",
+   "symbol": "3665",
+   "name": "貿聯-KY",
    "market": "TW",
-   "shares": 5000.0,
+   "shares": 13000.0,
    "weight": 0.66,
    "market_value": null,
    "kind": "stock"
@@ -352,5 +352,5 @@
   }
  ],
  "source": "fsitc.com.tw / 投資組合",
- "fetched_at": "2026-09-21T18:24:12+08:00"
+ "fetched_at": "2026-09-21T22:24:52+08:00"
 }
