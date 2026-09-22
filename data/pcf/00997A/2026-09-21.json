@@ -1,0 +1,491 @@
+{
+ "code": "00997A",
+ "issuer": "群益",
+ "fund_name": "群益美國增長主動式ETF基金",
+ "as_of": "2026-09-21",
+ "basis": "fund",
+ "nav_total": 12848387036.0,
+ "fund_units": 1119377000.0,
+ "unit_size": 500000.0,
+ "holdings": [
+  {
+   "symbol": "MU",
+   "name": "美光科技公司",
+   "market": "US",
+   "shares": 16661.0,
+   "weight": 4.2981,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SNDK",
+   "name": "晟碟公司（德拉瓦州）",
+   "market": "US",
+   "shares": 9760.0,
+   "weight": 4.2608,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MRVL",
+   "name": "Marvell Technology Inc",
+   "market": "US",
+   "shares": 56385.0,
+   "weight": 3.5861,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "4062",
+   "name": "揖斐電有限公司",
+   "market": "JP",
+   "shares": 115764.0,
+   "weight": 3.5615,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "LITE",
+   "name": "魯門特姆控股公司",
+   "market": "US",
+   "shares": 14776.0,
+   "weight": 3.4851,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CRWD",
+   "name": "Crowdstrike控股公司",
+   "market": "US",
+   "shares": 55605.0,
+   "weight": 3.4262,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "輝達公司",
+   "market": "US",
+   "shares": 58576.0,
+   "weight": 3.2912,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "STX",
+   "name": "希捷科技控股公開有限公司",
+   "market": "US",
+   "shares": 14885.0,
+   "weight": 3.227,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3037",
+   "name": "欣興",
+   "market": "TW",
+   "shares": 360000.0,
+   "weight": 2.8579,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "INTC",
+   "name": "英特爾",
+   "market": "US",
+   "shares": 88158.0,
+   "weight": 2.6529,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AMD",
+   "name": "ADVANCED MICRO DEVICES",
+   "market": "US",
+   "shares": 17342.0,
+   "weight": 2.6377,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "shares": 132000.0,
+   "weight": 2.5478,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MRK",
+   "name": "默克藥廠",
+   "market": "US",
+   "shares": 65967.0,
+   "weight": 2.437,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "DT",
+   "name": "Dynatrace公司",
+   "market": "US",
+   "shares": 174101.0,
+   "weight": 2.4264,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "DELL",
+   "name": "戴爾科技公司",
+   "market": "US",
+   "shares": 17000.0,
+   "weight": 2.4168,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "009150",
+   "name": "三星電機",
+   "market": "KR",
+   "shares": 9224.0,
+   "weight": 2.3632,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "PANW",
+   "name": "Palo Alto Networks Inc",
+   "market": "US",
+   "shares": 25679.0,
+   "weight": 2.359,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SNOW",
+   "name": "Snowflake公司",
+   "market": "US",
+   "shares": 27997.0,
+   "weight": 2.348,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "蘋果公司",
+   "market": "US",
+   "shares": 25523.0,
+   "weight": 2.1379,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "WDC",
+   "name": "WESTERN DIGITAL CORP",
+   "market": "US",
+   "shares": 19006.0,
+   "weight": 2.1048,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AMAT",
+   "name": "應用材料",
+   "market": "US",
+   "shares": 17646.0,
+   "weight": 2.0243,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "LRCX",
+   "name": "科林研發股份有限公司",
+   "market": "US",
+   "shares": 26938.0,
+   "weight": 2.0121,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "FTNT",
+   "name": "防特網公司",
+   "market": "US",
+   "shares": 46055.0,
+   "weight": 1.9942,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NOW",
+   "name": "ServiceNow公司",
+   "market": "US",
+   "shares": 55353.0,
+   "weight": 1.8832,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "ALPHABET INC-CL A",
+   "market": "US",
+   "shares": 20392.0,
+   "weight": 1.7887,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "OKTA",
+   "name": "Okta公司",
+   "market": "US",
+   "shares": 36882.0,
+   "weight": 1.7437,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2383",
+   "name": "台光電",
+   "market": "TW",
+   "shares": 41000.0,
+   "weight": 1.562,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "BE",
+   "name": "布魯姆能源公司",
+   "market": "US",
+   "shares": 20698.0,
+   "weight": 1.3957,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "微軟公司",
+   "market": "US",
+   "shares": 10586.0,
+   "weight": 1.3121,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "TER",
+   "name": "泰瑞達公司",
+   "market": "US",
+   "shares": 13245.0,
+   "weight": 1.2487,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "DE",
+   "name": "迪爾",
+   "market": "US",
+   "shares": 7067.0,
+   "weight": 1.1957,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "ARM",
+   "name": "安謀控股公開有限公司",
+   "market": "US",
+   "shares": 13562.0,
+   "weight": 1.0821,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "PLTR",
+   "name": "帕蘭提爾科技公司",
+   "market": "US",
+   "shares": 23556.0,
+   "weight": 1.0657,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "ANET",
+   "name": "Arista網路公司",
+   "market": "US",
+   "shares": 20812.0,
+   "weight": 1.0564,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "APH",
+   "name": "安費諾",
+   "market": "US",
+   "shares": 52516.0,
+   "weight": 1.0475,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "博通公司",
+   "market": "US",
+   "shares": 11017.0,
+   "weight": 0.9873,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "shares": 25000.0,
+   "weight": 0.9748,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6640",
+   "name": "均華",
+   "market": "TW",
+   "shares": 105000.0,
+   "weight": 0.9071,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CSCO",
+   "name": "CISCO SYSTEMS INC",
+   "market": "US",
+   "shares": 31992.0,
+   "weight": 0.8811,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "GE",
+   "name": "奇異公司",
+   "market": "US",
+   "shares": 10935.0,
+   "weight": 0.862,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "HWM",
+   "name": "Howmet航太公司",
+   "market": "US",
+   "shares": 15147.0,
+   "weight": 0.851,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "HOOD",
+   "name": "羅賓漢市場公司",
+   "market": "US",
+   "shares": 27483.0,
+   "weight": 0.8373,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "ADI",
+   "name": "亞德諾公司",
+   "market": "US",
+   "shares": 8777.0,
+   "weight": 0.8306,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SPCX",
+   "name": "太空探索科技公司",
+   "market": "US",
+   "shares": 21093.0,
+   "weight": 0.7914,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "285A",
+   "name": "鎧俠控股公司",
+   "market": "JP",
+   "shares": 9182.0,
+   "weight": 0.7883,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "VRT",
+   "name": "維諦控股公司",
+   "market": "US",
+   "shares": 12136.0,
+   "weight": 0.7523,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "DDOG",
+   "name": "數據狗公司",
+   "market": "US",
+   "shares": 11884.0,
+   "weight": 0.7196,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "COHR",
+   "name": "連貫公司",
+   "market": "US",
+   "shares": 9022.0,
+   "weight": 0.7168,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "TXN",
+   "name": "德州儀器公司",
+   "market": "US",
+   "shares": 9954.0,
+   "weight": 0.6662,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "LMT",
+   "name": "洛克希德馬丁",
+   "market": "US",
+   "shares": 4854.0,
+   "weight": 0.6422,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "IOT",
+   "name": "森萬聯有限公司",
+   "market": "US",
+   "shares": 60455.0,
+   "weight": 0.5684,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "KLAC",
+   "name": "KLA CORP",
+   "market": "US",
+   "shares": 11245.0,
+   "weight": 0.5112,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CDNS",
+   "name": "Cadence設計系統公司",
+   "market": "US",
+   "shares": 4405.0,
+   "weight": 0.321,
+   "market_value": null,
+   "kind": "stock"
+  }
+ ],
+ "source": "capitalfund.com.tw / 申購買回清單",
+ "fetched_at": "2026-09-22T18:22:40+08:00"
+}

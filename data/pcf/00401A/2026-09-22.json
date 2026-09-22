@@ -1,0 +1,518 @@
+{
+ "code": "00401A",
+ "issuer": "摩根",
+ "fund_name": "",
+ "as_of": "2026-09-22",
+ "basis": "fund",
+ "nav_total": null,
+ "fund_units": null,
+ "unit_size": null,
+ "holdings": [
+  {
+   "symbol": "2330",
+   "name": "台灣積體電路製造",
+   "market": "TW",
+   "shares": 300960.0,
+   "weight": 19.721,
+   "market_value": 740361600.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科技",
+   "market": "TW",
+   "shares": 50610.0,
+   "weight": 6.9831,
+   "market_value": 262159800.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2303",
+   "name": "聯華電子",
+   "market": "TW",
+   "shares": 604000.0,
+   "weight": 2.5742,
+   "market_value": 96640000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2308",
+   "name": "台達電子工業",
+   "market": "TW",
+   "shares": 49990.0,
+   "weight": 2.53,
+   "market_value": 94981000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3711",
+   "name": "日月光",
+   "market": "TW",
+   "shares": 135000.0,
+   "weight": 2.492,
+   "market_value": 93555000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3008",
+   "name": "大立光電",
+   "market": "TW",
+   "shares": 13108.0,
+   "weight": 2.2363,
+   "market_value": 83956740.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2455",
+   "name": "全新光電科技",
+   "market": "TW",
+   "shares": 153000.0,
+   "weight": 2.2293,
+   "market_value": 83691000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "5274",
+   "name": "信驊科技",
+   "market": "TW",
+   "shares": 3966.0,
+   "weight": 2.2084,
+   "market_value": 82909230.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3037",
+   "name": "欣興電子",
+   "market": "TW",
+   "shares": 74000.0,
+   "weight": 2.2077,
+   "market_value": 82880000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2382",
+   "name": "廣達電腦",
+   "market": "TW",
+   "shares": 233000.0,
+   "weight": 2.1226,
+   "market_value": 79686000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2881",
+   "name": "富邦金融控股",
+   "market": "TW",
+   "shares": 476000.0,
+   "weight": 1.9589,
+   "market_value": 73542000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2884",
+   "name": "玉山金融控股",
+   "market": "TW",
+   "shares": 1536000.0,
+   "weight": 1.8841,
+   "market_value": 70732800.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6669",
+   "name": "緯穎",
+   "market": "TW",
+   "shares": 32083.0,
+   "weight": 1.8075,
+   "market_value": 67855545.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "7828",
+   "name": "創新服務",
+   "market": "TW",
+   "shares": 34370.0,
+   "weight": 1.7578,
+   "market_value": 65990400.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2357",
+   "name": "華碩電腦",
+   "market": "TW",
+   "shares": 68000.0,
+   "weight": 1.7262,
+   "market_value": 64804000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6515",
+   "name": "穎崴",
+   "market": "TW",
+   "shares": 10743.0,
+   "weight": 1.6497,
+   "market_value": 61933395.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3491",
+   "name": "昇達科技",
+   "market": "TW",
+   "shares": 41660.0,
+   "weight": 1.6423,
+   "market_value": 61656800.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2883",
+   "name": "凱基金",
+   "market": "TW",
+   "shares": 1563000.0,
+   "weight": 1.6362,
+   "market_value": 61425900.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6531",
+   "name": "愛普",
+   "market": "TW",
+   "shares": 64000.0,
+   "weight": 1.5922,
+   "market_value": 59776000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6223",
+   "name": "旺矽科技",
+   "market": "TW",
+   "shares": 11114.0,
+   "weight": 1.5823,
+   "market_value": 59404330.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "7769",
+   "name": "鴻勁",
+   "market": "TW",
+   "shares": 9597.0,
+   "weight": 1.5734,
+   "market_value": 59069535.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3231",
+   "name": "緯創",
+   "market": "TW",
+   "shares": 324000.0,
+   "weight": 1.5578,
+   "market_value": 58482000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2360",
+   "name": "致茂電子",
+   "market": "TW",
+   "shares": 23120.0,
+   "weight": 1.5027,
+   "market_value": 56412800.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2891",
+   "name": "中國信託金融控股",
+   "market": "TW",
+   "shares": 801000.0,
+   "weight": 1.485,
+   "market_value": 55749600.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6147",
+   "name": "頎邦科技",
+   "market": "TW",
+   "shares": 232000.0,
+   "weight": 1.3534,
+   "market_value": 50808000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2313",
+   "name": "華通電腦",
+   "market": "TW",
+   "shares": 221356.0,
+   "weight": 1.309,
+   "market_value": 49141032.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2886",
+   "name": "兆豐金融控股",
+   "market": "TW",
+   "shares": 962000.0,
+   "weight": 1.294,
+   "market_value": 48581000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "5347",
+   "name": "世界先進積體電路",
+   "market": "TW",
+   "shares": 278000.0,
+   "weight": 1.2811,
+   "market_value": 48094000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6285",
+   "name": "啟碁科技",
+   "market": "TW",
+   "shares": 204000.0,
+   "weight": 1.2688,
+   "market_value": 47634000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "4958",
+   "name": "臻鼎-KY",
+   "market": "TW",
+   "shares": 94000.0,
+   "weight": 1.2244,
+   "market_value": 45966000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2345",
+   "name": "智邦科技",
+   "market": "TW",
+   "shares": 23423.0,
+   "weight": 1.1948,
+   "market_value": 44855045.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2887",
+   "name": "台新新光金",
+   "market": "TW",
+   "shares": 926160.0,
+   "weight": 1.0583,
+   "market_value": 39732264.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2379",
+   "name": "瑞昱半導體",
+   "market": "TW",
+   "shares": 51000.0,
+   "weight": 1.0257,
+   "market_value": 38505000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2603",
+   "name": "長榮海運",
+   "market": "TW",
+   "shares": 155000.0,
+   "weight": 1.0012,
+   "market_value": 37587500.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2882",
+   "name": "國泰金融控股",
+   "market": "TW",
+   "shares": 335000.0,
+   "weight": 0.9994,
+   "market_value": 37520000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2059",
+   "name": "川湖科技",
+   "market": "TW",
+   "shares": 2951.0,
+   "weight": 0.9959,
+   "market_value": 37389170.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "8464",
+   "name": "億豐綜合工業",
+   "market": "TW",
+   "shares": 98000.0,
+   "weight": 0.9789,
+   "market_value": 36750000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "4991",
+   "name": "環宇通訊半導體控股",
+   "market": "TW",
+   "shares": 73000.0,
+   "weight": 0.9197,
+   "market_value": 34529000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "1303",
+   "name": "南亞塑膠工業",
+   "market": "TW",
+   "shares": 146000.0,
+   "weight": 0.9003,
+   "market_value": 33799000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "1477",
+   "name": "聚陽實業",
+   "market": "TW",
+   "shares": 160000.0,
+   "weight": 0.8119,
+   "market_value": 30480000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2412",
+   "name": "中華電信",
+   "market": "TW",
+   "shares": 202000.0,
+   "weight": 0.7802,
+   "market_value": 29290000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "4904",
+   "name": "遠傳電信",
+   "market": "TW",
+   "shares": 255000.0,
+   "weight": 0.7166,
+   "market_value": 26902500.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2383",
+   "name": "台光電子材料",
+   "market": "TW",
+   "shares": 5520.0,
+   "weight": 0.7146,
+   "market_value": 26827200.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3131",
+   "name": "弘塑科技",
+   "market": "TW",
+   "shares": 10760.0,
+   "weight": 0.6907,
+   "market_value": 25931600.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6187",
+   "name": "萬潤科技",
+   "market": "TW",
+   "shares": 19065.0,
+   "weight": 0.617,
+   "market_value": 23163975.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2327",
+   "name": "國巨",
+   "market": "TW",
+   "shares": 40000.0,
+   "weight": 0.6084,
+   "market_value": 22840000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2317",
+   "name": "鴻海精密工業",
+   "market": "TW",
+   "shares": 82000.0,
+   "weight": 0.5526,
+   "market_value": 20746000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "5904",
+   "name": "寶雅國際",
+   "market": "TW",
+   "shares": 271000.0,
+   "weight": 0.5104,
+   "market_value": 19159700.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2890",
+   "name": "永豐金融控股",
+   "market": "TW",
+   "shares": 239920.0,
+   "weight": 0.2901,
+   "market_value": 10892368.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "4938",
+   "name": "和碩聯合科技",
+   "market": "TW",
+   "shares": 119000.0,
+   "weight": 0.2853,
+   "market_value": 10710000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "1216",
+   "name": "統一企業",
+   "market": "TW",
+   "shares": 129000.0,
+   "weight": 0.2563,
+   "market_value": 9623400.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2912",
+   "name": "統一超商",
+   "market": "TW",
+   "shares": 42000.0,
+   "weight": 0.2394,
+   "market_value": 8988000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3034",
+   "name": "聯詠科技",
+   "market": "TW",
+   "shares": 14000.0,
+   "weight": 0.2077,
+   "market_value": 7798000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "5871",
+   "name": "中租-KY",
+   "market": "TW",
+   "shares": 44920.0,
+   "weight": 0.1292,
+   "market_value": 4851360.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2885",
+   "name": "元大金融控股",
+   "market": "TW",
+   "shares": 10040.0,
+   "weight": 0.0189,
+   "market_value": 708824.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "FTV6",
+   "name": "台股期貨10/26",
+   "market": "TW",
+   "shares": 27.0,
+   "weight": 0.319,
+   "market_value": 11977600.0,
+   "kind": "future"
+  }
+ ],
+ "source": "am.jpmorgan.com / 申購買回清單",
+ "fetched_at": "2026-09-22T18:23:14+08:00"
+}
