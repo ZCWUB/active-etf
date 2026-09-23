@@ -225,19 +225,19 @@
    "kind": "stock"
   },
   {
-   "symbol": "2449",
-   "name": "京元電子",
+   "symbol": "3711",
+   "name": "日月光投控",
    "market": "TW",
-   "shares": 75000.0,
+   "shares": 33000.0,
    "weight": 1.54,
    "market_value": null,
    "kind": "stock"
   },
   {
-   "symbol": "3711",
-   "name": "日月光投控",
+   "symbol": "2449",
+   "name": "京元電子",
    "market": "TW",
-   "shares": 33000.0,
+   "shares": 75000.0,
    "weight": 1.54,
    "market_value": null,
    "kind": "stock"
@@ -297,19 +297,19 @@
    "kind": "stock"
   },
   {
-   "symbol": "2891",
-   "name": "中信金",
+   "symbol": "2481",
+   "name": "強茂",
    "market": "TW",
-   "shares": 240000.0,
+   "shares": 96000.0,
    "weight": 1.12,
    "market_value": null,
    "kind": "stock"
   },
   {
-   "symbol": "2481",
-   "name": "強茂",
+   "symbol": "2891",
+   "name": "中信金",
    "market": "TW",
-   "shares": 96000.0,
+   "shares": 240000.0,
    "weight": 1.12,
    "market_value": null,
    "kind": "stock"
@@ -333,19 +333,19 @@
    "kind": "stock"
   },
   {
-   "symbol": "2345",
-   "name": "智邦",
+   "symbol": "6187",
+   "name": "萬潤",
    "market": "TW",
-   "shares": 7000.0,
+   "shares": 11000.0,
    "weight": 0.89,
    "market_value": null,
    "kind": "stock"
   },
   {
-   "symbol": "6187",
-   "name": "萬潤",
+   "symbol": "2345",
+   "name": "智邦",
    "market": "TW",
-   "shares": 11000.0,
+   "shares": 7000.0,
    "weight": 0.89,
    "market_value": null,
    "kind": "stock"
@@ -460,5 +460,5 @@
   }
  ],
  "source": "fsitc.com.tw / 投資組合",
- "fetched_at": "2026-09-23T18:24:14+08:00"
+ "fetched_at": "2026-09-23T22:26:05+08:00"
 }
