@@ -1,0 +1,347 @@
+{
+ "code": "00994A",
+ "issuer": "第一金",
+ "fund_name": "",
+ "as_of": "2026-09-23",
+ "basis": "fund",
+ "nav_total": null,
+ "fund_units": null,
+ "unit_size": null,
+ "holdings": [
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "shares": 265999.0,
+   "weight": 14.41,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "shares": 70101.0,
+   "weight": 7.87,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3017",
+   "name": "奇鋐",
+   "market": "TW",
+   "shares": 103500.0,
+   "weight": 7.77,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3037",
+   "name": "欣興",
+   "market": "TW",
+   "shares": 246001.0,
+   "weight": 6.18,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2383",
+   "name": "台光電",
+   "market": "TW",
+   "shares": 50001.0,
+   "weight": 5.43,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6223",
+   "name": "旺矽",
+   "market": "TW",
+   "shares": 39901.0,
+   "weight": 4.85,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6274",
+   "name": "台燿",
+   "market": "TW",
+   "shares": 138000.0,
+   "weight": 4.36,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3443",
+   "name": "創意",
+   "market": "TW",
+   "shares": 22050.0,
+   "weight": 4.0,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2059",
+   "name": "川湖",
+   "market": "TW",
+   "shares": 14501.0,
+   "weight": 3.89,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3653",
+   "name": "健策",
+   "market": "TW",
+   "shares": 25000.0,
+   "weight": 3.47,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "8046",
+   "name": "南電",
+   "market": "TW",
+   "shares": 125000.0,
+   "weight": 3.27,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "5274",
+   "name": "信驊",
+   "market": "TW",
+   "shares": 6420.0,
+   "weight": 2.82,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2303",
+   "name": "聯電",
+   "market": "TW",
+   "shares": 800000.0,
+   "weight": 2.77,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6669",
+   "name": "緯穎",
+   "market": "TW",
+   "shares": 55518.0,
+   "weight": 2.53,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2408",
+   "name": "南亞科",
+   "market": "TW",
+   "shares": 210000.0,
+   "weight": 2.34,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3711",
+   "name": "日月光投控",
+   "market": "TW",
+   "shares": 146002.0,
+   "weight": 2.19,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6805",
+   "name": "富世達",
+   "market": "TW",
+   "shares": 37000.0,
+   "weight": 2.08,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2308",
+   "name": "台達電",
+   "market": "TW",
+   "shares": 46500.0,
+   "weight": 1.91,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3189",
+   "name": "景碩",
+   "market": "TW",
+   "shares": 95000.0,
+   "weight": 1.86,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3081",
+   "name": "聯亞",
+   "market": "TW",
+   "shares": 28000.0,
+   "weight": 1.62,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2345",
+   "name": "智邦",
+   "market": "TW",
+   "shares": 39000.0,
+   "weight": 1.6,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2360",
+   "name": "致茂",
+   "market": "TW",
+   "shares": 25000.0,
+   "weight": 1.26,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "8996",
+   "name": "高力",
+   "market": "TW",
+   "shares": 37000.0,
+   "weight": 1.23,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2449",
+   "name": "京元電子",
+   "market": "TW",
+   "shares": 180000.0,
+   "weight": 1.18,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2481",
+   "name": "強茂",
+   "market": "TW",
+   "shares": 290000.0,
+   "weight": 1.09,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6239",
+   "name": "力成",
+   "market": "TW",
+   "shares": 175000.0,
+   "weight": 1.09,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3491",
+   "name": "昇達科",
+   "market": "TW",
+   "shares": 30000.0,
+   "weight": 1.02,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6187",
+   "name": "萬潤",
+   "market": "TW",
+   "shares": 27000.0,
+   "weight": 0.7,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3665",
+   "name": "貿聯-KY",
+   "market": "TW",
+   "shares": 13000.0,
+   "weight": 0.66,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "7769",
+   "name": "鴻勁",
+   "market": "TW",
+   "shares": 5000.0,
+   "weight": 0.65,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3264",
+   "name": "欣銓",
+   "market": "TW",
+   "shares": 91000.0,
+   "weight": 0.5,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "1303",
+   "name": "南亞",
+   "market": "TW",
+   "shares": 95000.0,
+   "weight": 0.47,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3008",
+   "name": "大立光",
+   "market": "TW",
+   "shares": 3000.0,
+   "weight": 0.4,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2368",
+   "name": "金像電",
+   "market": "TW",
+   "shares": 16000.0,
+   "weight": 0.39,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "1560",
+   "name": "中砂",
+   "market": "TW",
+   "shares": 16000.0,
+   "weight": 0.33,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2801",
+   "name": "彰銀",
+   "market": "TW",
+   "shares": 51000.0,
+   "weight": 0.03,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "9941",
+   "name": "裕融",
+   "market": "TW",
+   "shares": 260.0,
+   "weight": 0.0,
+   "market_value": null,
+   "kind": "stock"
+  }
+ ],
+ "source": "fsitc.com.tw / 投資組合",
+ "fetched_at": "2026-09-23T18:24:14+08:00"
+}
