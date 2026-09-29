@@ -297,19 +297,19 @@
    "kind": "stock"
   },
   {
-   "symbol": "3491",
-   "name": "昇達科",
+   "symbol": "3045",
+   "name": "台灣大",
    "market": "TW",
-   "shares": 10000.0,
+   "shares": 125000.0,
    "weight": 1.03,
    "market_value": null,
    "kind": "stock"
   },
   {
-   "symbol": "3045",
-   "name": "台灣大",
+   "symbol": "3491",
+   "name": "昇達科",
    "market": "TW",
-   "shares": 125000.0,
+   "shares": 10000.0,
    "weight": 1.03,
    "market_value": null,
    "kind": "stock"
@@ -460,5 +460,5 @@
   }
  ],
  "source": "fsitc.com.tw / 投資組合",
- "fetched_at": "2026-09-29T18:25:20+08:00"
+ "fetched_at": "2026-09-29T22:28:00+08:00"
 }
