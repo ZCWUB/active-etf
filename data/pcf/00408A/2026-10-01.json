@@ -306,19 +306,19 @@
    "kind": "stock"
   },
   {
-   "symbol": "3008",
-   "name": "大立光",
+   "symbol": "9802",
+   "name": "鈺齊-KY",
    "market": "TW",
-   "shares": 2000.0,
+   "shares": 192000.0,
    "weight": 0.84,
    "market_value": null,
    "kind": "stock"
   },
   {
-   "symbol": "9802",
-   "name": "鈺齊-KY",
+   "symbol": "3008",
+   "name": "大立光",
    "market": "TW",
-   "shares": 192000.0,
+   "shares": 2000.0,
    "weight": 0.84,
    "market_value": null,
    "kind": "stock"
@@ -423,19 +423,19 @@
    "kind": "stock"
   },
   {
-   "symbol": "3026",
-   "name": "禾伸堂",
+   "symbol": "6691",
+   "name": "洋基工程",
    "market": "TW",
-   "shares": 6000.0,
+   "shares": 7000.0,
    "weight": 0.35,
    "market_value": null,
    "kind": "stock"
   },
   {
-   "symbol": "6691",
-   "name": "洋基工程",
+   "symbol": "3026",
+   "name": "禾伸堂",
    "market": "TW",
-   "shares": 7000.0,
+   "shares": 6000.0,
    "weight": 0.35,
    "market_value": null,
    "kind": "stock"
@@ -460,5 +460,5 @@
   }
  ],
  "source": "fsitc.com.tw / 投資組合",
- "fetched_at": "2026-10-01T18:26:45+08:00"
+ "fetched_at": "2026-10-01T22:28:45+08:00"
 }
