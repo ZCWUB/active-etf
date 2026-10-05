@@ -225,19 +225,19 @@
    "kind": "stock"
   },
   {
-   "symbol": "6805",
-   "name": "富世達",
+   "symbol": "2449",
+   "name": "京元電子",
    "market": "TW",
-   "shares": 9000.0,
+   "shares": 75000.0,
    "weight": 1.42,
    "market_value": null,
    "kind": "stock"
   },
   {
-   "symbol": "2449",
-   "name": "京元電子",
+   "symbol": "6805",
+   "name": "富世達",
    "market": "TW",
-   "shares": 75000.0,
+   "shares": 9000.0,
    "weight": 1.42,
    "market_value": null,
    "kind": "stock"
@@ -324,19 +324,19 @@
    "kind": "stock"
   },
   {
-   "symbol": "2345",
-   "name": "智邦",
+   "symbol": "9802",
+   "name": "鈺齊-KY",
    "market": "TW",
-   "shares": 6000.0,
+   "shares": 192000.0,
    "weight": 0.8,
    "market_value": null,
    "kind": "stock"
   },
   {
-   "symbol": "9802",
-   "name": "鈺齊-KY",
+   "symbol": "2345",
+   "name": "智邦",
    "market": "TW",
-   "shares": 192000.0,
+   "shares": 6000.0,
    "weight": 0.8,
    "market_value": null,
    "kind": "stock"
@@ -360,19 +360,19 @@
    "kind": "stock"
   },
   {
-   "symbol": "7769",
-   "name": "鴻勁",
+   "symbol": "3443",
+   "name": "創意",
    "market": "TW",
-   "shares": 1500.0,
+   "shares": 1000.0,
    "weight": 0.56,
    "market_value": null,
    "kind": "stock"
   },
   {
-   "symbol": "3443",
-   "name": "創意",
+   "symbol": "7769",
+   "name": "鴻勁",
    "market": "TW",
-   "shares": 1000.0,
+   "shares": 1500.0,
    "weight": 0.56,
    "market_value": null,
    "kind": "stock"
@@ -460,5 +460,5 @@
   }
  ],
  "source": "fsitc.com.tw / 投資組合",
- "fetched_at": "2026-10-05T18:27:45+08:00"
+ "fetched_at": "2026-10-05T22:32:01+08:00"
 }
