@@ -153,19 +153,19 @@
    "kind": "stock"
   },
   {
-   "symbol": "2408",
-   "name": "南亞科",
+   "symbol": "2357",
+   "name": "華碩",
    "market": "TW",
-   "shares": 57000.0,
+   "shares": 30000.0,
    "weight": 1.93,
    "market_value": null,
    "kind": "stock"
   },
   {
-   "symbol": "2357",
-   "name": "華碩",
+   "symbol": "2408",
+   "name": "南亞科",
    "market": "TW",
-   "shares": 30000.0,
+   "shares": 57000.0,
    "weight": 1.93,
    "market_value": null,
    "kind": "stock"
@@ -451,5 +451,5 @@
   }
  ],
  "source": "fsitc.com.tw / 投資組合",
- "fetched_at": "2026-10-06T18:25:48+08:00"
+ "fetched_at": "2026-10-06T22:01:08+08:00"
 }
