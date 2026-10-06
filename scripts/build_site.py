@@ -448,6 +448,25 @@ def build_stocks(details: dict, series: dict, prices: Prices, names: dict,
     return stocks
 
 
+def stale_funds(summaries: list[dict], trade_date: str, max_days: int = 5) -> list[dict]:
+    """列出持股日期落後太多的基金。
+
+    海外型與債券型基金本來就會慢一兩天，所以留了寬限；超過就代表那一家大概抓壞了。
+    """
+    if not trade_date:
+        return []
+    today = date.fromisoformat(trade_date)
+    out = []
+    for s in summaries:
+        if not s.get("as_of"):
+            continue
+        days = (today - date.fromisoformat(s["as_of"])).days
+        if days > max_days:
+            out.append({"code": s["code"], "name": s["name"],
+                        "as_of": s["as_of"], "days": days})
+    return sorted(out, key=lambda s: -s["days"])
+
+
 def build_sectors(stocks: list[dict]) -> dict:
     """板塊輪動：把個股的加減碼金額依產業別加總。"""
     agg: dict[str, dict] = {}
@@ -546,9 +565,9 @@ def main() -> int:
         "price_days": len(prices.days),
         "issuers_without_adapter": report.get("issuers_without_adapter", []),
         "failures": report.get("failed", []),
-        "sources": ["各投信官網申購買回清單／投資組合明細", "TWSE ETF e添富",
-                    "TWSE MIS 淨值折溢價", "TWSE/TPEx 每日收盤行情與成交均價",
-                    "TWSE/TPEx 三大法人買賣超", "TWSE/TPEx 公司產業別"],
+        # 抓取失敗時會沿用舊快照，數字看起來正常卻是過期的；
+        # 把落後太多的基金列出來，不然一檔壞掉可以好幾週沒人發現。
+        "stale": stale_funds(summaries, trade_date),
     }
 
     write_json(WEB_DATA / "meta.json", meta)

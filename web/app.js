@@ -51,6 +51,18 @@ function bar(value, max, cls) {
   return `<div class="bar ${cls}" style="width:${w}%"></div>`;
 }
 
+function staleBanner(meta) {
+  const stale = meta.stale || [];
+  const failed = meta.failures || [];
+  if (!stale.length && !failed.length) return '';
+  const names = stale.map(s => `${esc(s.name)}（${s.code}，停在 ${mmdd(s.as_of)}，${s.days} 天前）`);
+  return `<div class="warn">
+    <b>有 ${stale.length || failed.length} 檔的持股資料沒有更新</b>
+    <div>${names.join('、') || failed.map(f => esc(f.code)).join('、')}。
+    這幾檔仍沿用最後一次抓到的持股，加減碼與板塊統計不包含它們。</div>
+  </div>`;
+}
+
 function changeChips(c, prevDate) {
   if (prevDate == null) return '<span class="badge">首日資料</span>';
   const out = [];
@@ -123,6 +135,7 @@ async function viewFunds() {
     <div class="spacer"></div>
     <span>持股 ${meta.covered_count} 檔已入庫</span>
   </div>
+  ${staleBanner(meta)}
   <div class="texttabs" style="padding-left:20px;padding-right:20px">
     <button data-fundtab="quote" class="${fundTab === 'quote' ? 'on' : ''}">行情</button>
     <button data-fundtab="perf" class="${fundTab === 'perf' ? 'on' : ''}">報酬</button>

@@ -90,4 +90,14 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: web
+
+      # GitHub 的產物索引偶爾會比上傳慢一拍，deploy 就會說找不到 github-pages，
+      # 等一下再試一次就好，不必為了這個發一封失敗通知。
       - uses: actions/deploy-pages@v4
+        id: deploy
+        continue-on-error: true
+      - name: 等產物索引同步
+        if: steps.deploy.outcome == 'failure'
+        run: sleep 45
+      - uses: actions/deploy-pages@v4
+        if: steps.deploy.outcome == 'failure'

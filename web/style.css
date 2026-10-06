@@ -232,3 +232,13 @@ tbody tr:active { background: var(--card); }
 .pct-pill.up { background: var(--up); }
 .pct-pill.down { background: var(--down); }
 .pct-pill.flat { background: var(--chip); color: var(--ink-2); }
+
+/* ---------- 資料異常警示 ---------- */
+.warn {
+  margin: 0 20px 14px; padding: 12px 14px; border-radius: 12px;
+  background: color-mix(in srgb, var(--new) 14%, transparent);
+  border: 1px solid color-mix(in srgb, var(--new) 40%, transparent);
+  color: var(--new); font-size: 13px; line-height: 1.6;
+}
+.warn b { display: block; margin-bottom: 4px; font-size: 14px; }
+.warn div { color: var(--ink-2); }
