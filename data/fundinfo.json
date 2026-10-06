@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-06T21:59:59+08:00",
+ "updated_at": "2026-10-06T22:26:23+08:00",
  "source": "TWSE ETF e添富商品頁（績效來源：全曜財經資訊）",
  "funds": {
   "00981A": {
@@ -48,11 +48,25 @@
    "dividends": []
   },
   "00991A": {
-   "manager": null,
-   "aum_100m": null,
-   "holders_10k": null,
-   "performance": {},
-   "dividends": []
+   "manager": "呂宏宇",
+   "aum_100m": 824.49,
+   "holders_10k": 32.61,
+   "performance": {
+    "d1": -0.62,
+    "w1": 7.8,
+    "m1": 9.14,
+    "m3": 1.23,
+    "m6": 65.02,
+    "y1": 0.0,
+    "y3": 0.0,
+    "y5": 0.0
+   },
+   "dividends": [
+    {
+     "date": "2026-08-14",
+     "amount": 0.77
+    }
+   ]
   },
   "00406A": {
    "manager": "張書廷",
