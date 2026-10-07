@@ -288,19 +288,19 @@
    "kind": "stock"
   },
   {
-   "symbol": "7769",
-   "name": "鴻勁",
+   "symbol": "3105",
+   "name": "穩懋",
    "market": "TW",
-   "shares": 4000.0,
+   "shares": 40000.0,
    "weight": 0.5,
    "market_value": null,
    "kind": "stock"
   },
   {
-   "symbol": "3105",
-   "name": "穩懋",
+   "symbol": "7769",
+   "name": "鴻勁",
    "market": "TW",
-   "shares": 40000.0,
+   "shares": 4000.0,
    "weight": 0.5,
    "market_value": null,
    "kind": "stock"
@@ -370,5 +370,5 @@
   }
  ],
  "source": "fsitc.com.tw / 投資組合",
- "fetched_at": "2026-10-07T18:26:47+08:00"
+ "fetched_at": "2026-10-07T22:28:42+08:00"
 }
