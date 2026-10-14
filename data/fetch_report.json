@@ -1,10 +1,10 @@
 {
- "ran_at": "2026-10-08T22:30:36+08:00",
+ "ran_at": "2026-10-14T20:36:48+08:00",
  "ok": [
   {
    "code": "00403A",
    "issuer": "統一",
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-14",
    "holdings": 50,
    "basis": "fund",
    "changed": false
@@ -12,7 +12,7 @@
   {
    "code": "00411A",
    "issuer": "統一",
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-13",
    "holdings": 31,
    "basis": "fund",
    "changed": false
@@ -20,7 +20,7 @@
   {
    "code": "00981A",
    "issuer": "統一",
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-14",
    "holdings": 51,
    "basis": "fund",
    "changed": false
@@ -28,7 +28,7 @@
   {
    "code": "00987D",
    "issuer": "統一",
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-13",
    "holdings": 3,
    "basis": "fund",
    "changed": false
@@ -36,15 +36,15 @@
   {
    "code": "00988A",
    "issuer": "統一",
-   "as_of": "2026-10-07",
-   "holdings": 38,
+   "as_of": "2026-10-13",
+   "holdings": 37,
    "basis": "fund",
    "changed": false
   },
   {
    "code": "00982A",
    "issuer": "群益",
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-14",
    "holdings": 56,
    "basis": "fund",
    "changed": false
@@ -52,31 +52,31 @@
   {
    "code": "00992A",
    "issuer": "群益",
-   "as_of": "2026-10-08",
-   "holdings": 41,
+   "as_of": "2026-10-14",
+   "holdings": 42,
    "basis": "fund",
    "changed": false
   },
   {
    "code": "00997A",
    "issuer": "群益",
-   "as_of": "2026-10-07",
-   "holdings": 48,
+   "as_of": "2026-10-13",
+   "holdings": 47,
    "basis": "fund",
    "changed": false
   },
   {
    "code": "00990A",
    "issuer": "元大",
-   "as_of": "2026-10-07",
-   "holdings": 47,
+   "as_of": "2026-10-13",
+   "holdings": 42,
    "basis": "fund",
    "changed": false
   },
   {
    "code": "00409A",
    "issuer": "復華",
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-13",
    "holdings": 49,
    "basis": "fund",
    "changed": false
@@ -84,15 +84,15 @@
   {
    "code": "00986D",
    "issuer": "復華",
-   "as_of": "2026-10-07",
-   "holdings": 25,
+   "as_of": "2026-10-13",
+   "holdings": 28,
    "basis": "fund",
    "changed": false
   },
   {
    "code": "00991A",
    "issuer": "復華",
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-14",
    "holdings": 50,
    "basis": "fund",
    "changed": false
@@ -100,31 +100,31 @@
   {
    "code": "00998A",
    "issuer": "復華",
-   "as_of": "2026-10-07",
-   "holdings": 55,
+   "as_of": "2026-10-13",
+   "holdings": 62,
    "basis": "fund",
    "changed": false
   },
   {
    "code": "00400A",
    "issuer": "國泰",
-   "as_of": "2026-10-08",
-   "holdings": 50,
+   "as_of": "2026-10-14",
+   "holdings": 52,
    "basis": "fund",
    "changed": false
   },
   {
    "code": "00406A",
    "issuer": "中國信託",
-   "as_of": "2026-10-08",
-   "holdings": 61,
+   "as_of": "2026-10-14",
+   "holdings": 63,
    "basis": "fund",
    "changed": false
   },
   {
    "code": "00981D",
    "issuer": "中國信託",
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-13",
    "holdings": 107,
    "basis": "fund",
    "changed": false
@@ -132,7 +132,7 @@
   {
    "code": "00983A",
    "issuer": "中國信託",
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-13",
    "holdings": 45,
    "basis": "fund",
    "changed": false
@@ -140,7 +140,7 @@
   {
    "code": "00995A",
    "issuer": "中國信託",
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-14",
    "holdings": 57,
    "basis": "fund",
    "changed": false
@@ -148,7 +148,7 @@
   {
    "code": "00405A",
    "issuer": "富邦",
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-14",
    "holdings": 47,
    "basis": "fund",
    "changed": false
@@ -156,7 +156,7 @@
   {
    "code": "00982D",
    "issuer": "富邦",
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-13",
    "holdings": 66,
    "basis": "fund",
    "changed": false
@@ -164,7 +164,7 @@
   {
    "code": "00983D",
    "issuer": "富邦",
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-13",
    "holdings": 84,
    "basis": "fund",
    "changed": false
@@ -172,7 +172,7 @@
   {
    "code": "00407A",
    "issuer": "凱基",
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-14",
    "holdings": 50,
    "basis": "fund",
    "changed": false
@@ -180,7 +180,7 @@
   {
    "code": "00980A",
    "issuer": "野村",
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-14",
    "holdings": 51,
    "basis": "fund",
    "changed": false
@@ -188,7 +188,7 @@
   {
    "code": "00985A",
    "issuer": "野村",
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-14",
    "holdings": 51,
    "basis": "fund",
    "changed": false
@@ -196,7 +196,7 @@
   {
    "code": "00999A",
    "issuer": "野村",
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-14",
    "holdings": 53,
    "basis": "fund",
    "changed": false
@@ -204,7 +204,7 @@
   {
    "code": "00404A",
    "issuer": "聯博",
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-14",
    "holdings": 51,
    "basis": "fund",
    "changed": false
@@ -212,15 +212,15 @@
   {
    "code": "00984D",
    "issuer": "聯博",
-   "as_of": "2026-10-07",
-   "holdings": 399,
+   "as_of": "2026-10-13",
+   "holdings": 401,
    "basis": "fund",
    "changed": false
   },
   {
    "code": "00401A",
    "issuer": "摩根",
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-14",
    "holdings": 57,
    "basis": "fund",
    "changed": false
@@ -228,23 +228,31 @@
   {
    "code": "00989A",
    "issuer": "摩根",
-   "as_of": "2026-10-07",
-   "holdings": 67,
+   "as_of": "2026-10-13",
+   "holdings": 68,
    "basis": "fund",
    "changed": false
   },
   {
    "code": "00410A",
    "issuer": "永豐",
-   "as_of": "2026-10-08",
-   "holdings": 28,
+   "as_of": "2026-10-14",
+   "holdings": 29,
+   "basis": "fund",
+   "changed": false
+  },
+  {
+   "code": "00996A",
+   "issuer": "兆豐國際",
+   "as_of": "2026-10-14",
+   "holdings": 53,
    "basis": "fund",
    "changed": false
   },
   {
    "code": "00986A",
    "issuer": "台新",
-   "as_of": "2026-10-06",
+   "as_of": "2026-10-12",
    "holdings": 39,
    "basis": "fund",
    "changed": false
@@ -252,7 +260,7 @@
   {
    "code": "00987A",
    "issuer": "台新",
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-13",
    "holdings": 28,
    "basis": "fund",
    "changed": false
@@ -260,55 +268,52 @@
   {
    "code": "00408A",
    "issuer": "第一金",
-   "as_of": "2026-10-08",
-   "holdings": 48,
+   "as_of": "2026-10-14",
+   "holdings": 50,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00994A",
    "issuer": "第一金",
-   "as_of": "2026-10-08",
-   "holdings": 39,
+   "as_of": "2026-10-14",
+   "holdings": 41,
    "basis": "fund",
    "changed": false
   },
   {
    "code": "00402A",
    "issuer": "安聯",
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-13",
    "holdings": 50,
+   "basis": "fund",
+   "changed": false
+  },
+  {
+   "code": "00412A",
+   "issuer": "安聯",
+   "as_of": "2026-10-13",
+   "holdings": 49,
    "basis": "fund",
    "changed": false
   },
   {
    "code": "00984A",
    "issuer": "安聯",
-   "as_of": "2026-10-08",
-   "holdings": 81,
+   "as_of": "2026-10-14",
+   "holdings": 80,
    "basis": "fund",
    "changed": false
   },
   {
    "code": "00993A",
    "issuer": "安聯",
-   "as_of": "2026-10-08",
-   "holdings": 50,
+   "as_of": "2026-10-14",
+   "holdings": 51,
    "basis": "fund",
    "changed": false
   }
  ],
- "failed": [
-  {
-   "code": "00996A",
-   "issuer": "兆豐國際",
-   "error": "discover: mega page failed after 4 tries: 403 Client Error: Forbidden for url: https://www.megafunds.com.tw/MEGA/etf/trade_pcf.aspx"
-  },
-  {
-   "code": "00412A",
-   "issuer": "安聯",
-   "error": "ValueError: missing as_of"
-  }
- ],
+ "failed": [],
  "issuers_without_adapter": []
 }

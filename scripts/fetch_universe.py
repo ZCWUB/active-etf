@@ -8,7 +8,7 @@ from __future__ import annotations
 import re
 import sys
 
-from common import DATA, now_tpe, retry, session, to_float, write_json
+from common import DATA, now_tpe, read_json, retry, session, to_float, write_json
 
 URL = "https://www.twse.com.tw/zh/ETFortune/ajaxProductsResult"
 REFERER = "https://www.twse.com.tw/zh/ETFortune/products"
@@ -57,10 +57,21 @@ def main() -> int:
         r.raise_for_status()
         return r.json()
 
-    payload = retry(call, label="twse products")
+    try:
+        payload = retry(call, label="twse products")
+    except Exception as exc:  # noqa: BLE001
+        payload = {}
+        print(f"證交所清單抓不到：{exc}", file=sys.stderr)
+
     rows = [r for r in payload.get("data", []) if ACTIVE_RE.match(r.get("stockNo", ""))]
     if not rows:
-        print("no active ETF rows returned", file=sys.stderr)
+        # ETF 清單幾乎不會變，上一份就夠用；為了這個讓整天的持股都不更新不划算
+        existing = read_json(DATA / "universe.json")
+        if existing and existing.get("funds"):
+            print(f"沿用上一份清單（{existing['count']} 檔，更新於 {existing['updated_at']}）",
+                  file=sys.stderr)
+            return 0
+        print("抓不到 ETF 清單，而且本機也沒有舊的可用", file=sys.stderr)
         return 1
 
     funds = []

@@ -97,20 +97,24 @@ def main() -> int:
 
     sess = session("https://www.twse.com.tw/")
     today = date.fromisoformat(args.date) if args.date else now_tpe().date()
-    days = [today] if not args.backfill else [
-        today - timedelta(days=i) for i in range(args.backfill, -1, -1)]
+    if args.date:
+        days = [today]
+    else:
+        # 同 fetch_prices：排程可能在凌晨才跑，改成補齊最近幾天的缺口
+        back = args.backfill or 7
+        days = [today - timedelta(days=i) for i in range(back, -1, -1)]
 
     total = 0
     for day in days:
         if day.weekday() >= 5:
             continue
-        if args.backfill and (DATA / "inst" / f"{day.isoformat()}.json").exists():
+        if not args.date and (DATA / "inst" / f"{day.isoformat()}.json").exists():
             continue
         n = fetch_day(sess, day)
         if n:
             total += 1
             print(f"  {day} {n} 檔")
-    print(f"institutions: {total} 個交易日")
+    print(f"institutions: 新增 {total} 個交易日")
     return 0
 
 

@@ -54,6 +54,17 @@ function bar(value, max, cls) {
 function staleBanner(meta) {
   const stale = meta.stale || [];
   const failed = meta.failures || [];
+
+  // 整條管線卡住時，基準日和各檔持股日會一起變舊，相減看不出異常，
+  // 所以另外拿瀏覽器的今天比對一次。
+  const behind = meta.trade_date
+    ? Math.floor((Date.now() - new Date(meta.trade_date + 'T00:00:00+08:00')) / 86400000)
+    : 0;
+  if (behind > 4) {
+    return `<div class="warn"><b>整站資料已經 ${behind} 天沒有更新</b>
+      <div>最後一次收盤資料是 ${mmdd(meta.trade_date)}，之後的更新沒有成功。
+      下面所有數字都是那一天的，不是最新的。</div></div>`;
+  }
   if (!stale.length && !failed.length) return '';
   const names = stale.map(s => `${esc(s.name)}（${s.code}，停在 ${mmdd(s.as_of)}，${s.days} 天前）`);
   return `<div class="warn">

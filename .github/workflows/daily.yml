@@ -44,30 +44,39 @@ jobs:
         run: python -m playwright install --with-deps chromium
 
       - name: 抓 ETF 清單
+        continue-on-error: true
         run: python scripts/fetch_universe.py
 
       - name: 抓淨值與折溢價
+        continue-on-error: true
         run: python scripts/fetch_quotes.py
 
       - name: 抓收盤行情與成交均價
+        continue-on-error: true
         run: python scripts/fetch_prices.py
 
       - name: 抓法人買賣超
+        continue-on-error: true
         run: python scripts/fetch_institutions.py
 
       - name: 抓產業別
+        continue-on-error: true
         run: python scripts/fetch_industries.py
 
       - name: 抓績效與配息
+        continue-on-error: true
         run: python scripts/fetch_fundinfo.py
 
       - name: 抓各投信持股
+        continue-on-error: true
         run: python scripts/fetch_pcf.py
 
       - name: 回補歷史（手動觸發時才跑）
         if: github.event_name == 'workflow_dispatch' && inputs.backfill_days != '0'
         run: python scripts/backfill.py --days ${{ inputs.backfill_days }}
 
+      # 這一步不能用 continue-on-error：上面任一來源抓不到都還能用舊資料重建，
+      # 但網站資料本身產不出來就真的壞了，要讓它紅燈。
       - name: 產生網站資料
         run: python scripts/build_site.py
 

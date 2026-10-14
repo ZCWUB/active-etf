@@ -157,23 +157,32 @@ def main() -> int:
     sess = session("https://www.twse.com.tw/")
     today = date.fromisoformat(args.date) if args.date else now_tpe().date()
 
-    days = [today]
-    if args.backfill:
-        days = [today - timedelta(days=i) for i in range(args.backfill, -1, -1)]
+    if args.date:
+        days = [today]
+    else:
+        # 排程時間不保證準：GitHub 的 cron 常常延遲好幾小時，可能在台灣的凌晨才跑，
+        # 那時證交所還沒有當天資料。所以預設不是「抓今天」，而是補齊最近幾天的缺口，
+        # 遇到假日或盤前也能自己補回來。
+        back = args.backfill or 7
+        days = [today - timedelta(days=i) for i in range(back, -1, -1)]
 
-    total = 0
+    total, skipped = 0, 0
     for day in days:
         if day.weekday() >= 5:
             continue
         path = DATA / "prices" / f"{day.isoformat()}.json"
-        if args.backfill and path.exists():
+        if not args.date and path.exists():
             continue  # 已經有了就不重抓
         n = fetch_day(sess, day)
         if n:
             total += 1
             print(f"  {day} {n} 檔")
-    print(f"prices: {total} 個交易日")
-    return 0 if total or not days else 1
+        else:
+            skipped += 1
+    print(f"prices: 新增 {total} 個交易日"
+          + (f"（{skipped} 天沒有資料，多半是假日或還沒收盤）" if skipped else ""))
+    # 沒有新資料是常態（假日、盤前、已經補齊），不該讓整條管線停擺
+    return 0
 
 
 if __name__ == "__main__":

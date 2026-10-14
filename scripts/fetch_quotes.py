@@ -26,11 +26,17 @@ def main() -> int:
         r.raise_for_status()
         return r.json()
 
-    j = retry(call, label="mis all_etf")
+    try:
+        j = retry(call, label="mis all_etf")
+    except Exception as exc:  # noqa: BLE001
+        j = {}
+        print(f"MIS 抓不到：{exc}", file=sys.stderr)
+
     rows = [x for g in j.get("a1", []) for x in g.get("msgArray", [])]
     if not rows:
-        print("MIS returned no rows", file=sys.stderr)
-        return 1
+        # 盤前、假日或 MIS 維護時都會是空的；沿用上一份報價即可，不必擋住整條管線
+        print("MIS 沒有回傳資料，沿用上一次的報價", file=sys.stderr)
+        return 0
 
     quotes, trade_date = {}, ""
     for x in rows:

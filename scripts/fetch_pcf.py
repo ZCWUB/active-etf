@@ -73,7 +73,12 @@ def main() -> int:
         print("universe.json is empty — run fetch_universe.py first", file=sys.stderr)
         return 1
 
-    wanted = {f["code"]: f for f in funds}
+    # 還沒掛牌的基金沒有持股可抓，不要每天報一次假失敗
+    today = now_tpe().date().isoformat()
+    pending = [f["code"] for f in funds if (f.get("listing_date") or "") > today]
+    wanted = {f["code"]: f for f in funds if (f.get("listing_date") or "") <= today}
+    if pending:
+        print("尚未掛牌，略過：" + "、".join(pending))
     if args.only:
         wanted = {c: f for c, f in wanted.items() if c in set(args.only)}
     if args.issuer:
