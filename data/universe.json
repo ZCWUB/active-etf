@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-14T23:02:01+08:00",
+ "updated_at": "2026-10-15T02:32:32+08:00",
  "source": "TWSE ETF e添富",
  "count": 42,
  "funds": [
@@ -9,7 +9,7 @@
    "issuer": "統一",
    "kind": "equity",
    "listing_date": "2025-05-27",
-   "aum_100m": 2813.0,
+   "aum_100m": 2827.0,
    "holders": 910714.0,
    "close": 31.19
   },
@@ -19,7 +19,7 @@
    "issuer": "統一",
    "kind": "equity",
    "listing_date": "2026-05-12",
-   "aum_100m": 1389.0,
+   "aum_100m": 1394.0,
    "holders": 780724.0,
    "close": 11.0
   },
@@ -29,7 +29,7 @@
    "issuer": "中國信託",
    "kind": "equity",
    "listing_date": "2026-06-11",
-   "aum_100m": 755.0,
+   "aum_100m": 784.0,
    "holders": 235679.0,
    "close": 9.91
   },
@@ -39,7 +39,7 @@
    "issuer": "復華",
    "kind": "equity",
    "listing_date": "2025-12-18",
-   "aum_100m": 745.0,
+   "aum_100m": 750.0,
    "holders": 314177.0,
    "close": 18.3
   },
@@ -49,7 +49,7 @@
    "issuer": "統一",
    "kind": "equity",
    "listing_date": "2025-11-05",
-   "aum_100m": 515.0,
+   "aum_100m": 507.0,
    "holders": 221304.0,
    "close": 16.6
   },
@@ -59,7 +59,7 @@
    "issuer": "群益",
    "kind": "equity",
    "listing_date": "2025-05-22",
-   "aum_100m": 498.0,
+   "aum_100m": 500.0,
    "holders": 172284.0,
    "close": 23.51
   },
@@ -69,7 +69,7 @@
    "issuer": "群益",
    "kind": "equity",
    "listing_date": "2025-12-30",
-   "aum_100m": 467.0,
+   "aum_100m": 469.0,
    "holders": 176284.0,
    "close": 19.52
   },
@@ -79,7 +79,7 @@
    "issuer": "元大",
    "kind": "equity",
    "listing_date": "2025-12-22",
-   "aum_100m": 368.0,
+   "aum_100m": 365.0,
    "holders": 117305.0,
    "close": 15.95
   },
@@ -89,9 +89,19 @@
    "issuer": "國泰",
    "kind": "equity",
    "listing_date": "2026-04-09",
-   "aum_100m": 304.0,
+   "aum_100m": 308.0,
    "holders": 133775.0,
    "close": 15.78
+  },
+  {
+   "code": "00985A",
+   "name": "主動野村台灣50",
+   "issuer": "野村",
+   "kind": "equity",
+   "listing_date": "2025-07-21",
+   "aum_100m": 258.0,
+   "holders": 72390.0,
+   "close": 23.8
   },
   {
    "code": "00405A",
@@ -104,22 +114,12 @@
    "close": 9.37
   },
   {
-   "code": "00985A",
-   "name": "主動野村台灣50",
-   "issuer": "野村",
-   "kind": "equity",
-   "listing_date": "2025-07-21",
-   "aum_100m": 238.0,
-   "holders": 72390.0,
-   "close": 23.8
-  },
-  {
    "code": "00407A",
    "name": "主動凱基台灣",
    "issuer": "凱基",
    "kind": "equity",
    "listing_date": "2026-06-24",
-   "aum_100m": 223.0,
+   "aum_100m": 224.0,
    "holders": 111282.0,
    "close": 10.25
   },
@@ -129,7 +129,7 @@
    "issuer": "野村",
    "kind": "equity",
    "listing_date": "2025-05-05",
-   "aum_100m": 196.0,
+   "aum_100m": 198.0,
    "holders": 69580.0,
    "close": 25.95
   },
@@ -144,24 +144,24 @@
    "close": 9.93
   },
   {
-   "code": "00997A",
-   "name": "主動群益美國增長",
-   "issuer": "群益",
-   "kind": "equity",
-   "listing_date": "2026-04-14",
-   "aum_100m": 122.0,
-   "holders": 63543.0,
-   "close": 11.48
-  },
-  {
    "code": "00984D",
    "name": "主動聯博全球非投",
    "issuer": "聯博",
    "kind": "bond",
    "listing_date": "2026-02-04",
-   "aum_100m": 120.0,
+   "aum_100m": 121.0,
    "holders": 15939.0,
    "close": 9.67
+  },
+  {
+   "code": "00997A",
+   "name": "主動群益美國增長",
+   "issuer": "群益",
+   "kind": "equity",
+   "listing_date": "2026-04-14",
+   "aum_100m": 120.0,
+   "holders": 63543.0,
+   "close": 11.48
   },
   {
    "code": "00999A",
@@ -179,7 +179,7 @@
    "issuer": "安聯",
    "kind": "equity",
    "listing_date": "2025-07-14",
-   "aum_100m": 105.0,
+   "aum_100m": 106.0,
    "holders": 62830.0,
    "close": 16.34
   },
@@ -209,7 +209,7 @@
    "issuer": "安聯",
    "kind": "equity",
    "listing_date": "2026-10-13",
-   "aum_100m": 60.0,
+   "aum_100m": 61.0,
    "holders": 1.0,
    "close": 9.84
   },
@@ -219,7 +219,7 @@
    "issuer": "安聯",
    "kind": "equity",
    "listing_date": "2026-06-09",
-   "aum_100m": 57.0,
+   "aum_100m": 58.0,
    "holders": 38434.0,
    "close": 10.14
   },
@@ -239,7 +239,7 @@
    "issuer": "兆豐國際",
    "kind": "equity",
    "listing_date": "2026-03-25",
-   "aum_100m": 51.0,
+   "aum_100m": 52.0,
    "holders": 24420.0,
    "close": 15.07
   },

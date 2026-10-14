@@ -1,5 +1,5 @@
 {
- "ran_at": "2026-10-14T23:04:42+08:00",
+ "ran_at": "2026-10-15T02:34:56+08:00",
  "ok": [
   {
    "code": "00403A",
@@ -244,18 +244,18 @@
   {
    "code": "00986A",
    "issuer": "台新",
-   "as_of": "2026-10-12",
+   "as_of": "2026-10-13",
    "holdings": 39,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00987A",
    "issuer": "台新",
-   "as_of": "2026-10-13",
-   "holdings": 28,
+   "as_of": "2026-10-14",
+   "holdings": 27,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00408A",
