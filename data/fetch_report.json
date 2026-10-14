@@ -1,5 +1,5 @@
 {
- "ran_at": "2026-10-14T20:36:48+08:00",
+ "ran_at": "2026-10-14T20:41:30+08:00",
  "ok": [
   {
    "code": "00403A",
@@ -242,14 +242,6 @@
    "changed": false
   },
   {
-   "code": "00996A",
-   "issuer": "兆豐國際",
-   "as_of": "2026-10-14",
-   "holdings": 53,
-   "basis": "fund",
-   "changed": false
-  },
-  {
    "code": "00986A",
    "issuer": "台新",
    "as_of": "2026-10-12",
@@ -314,6 +306,12 @@
    "changed": false
   }
  ],
- "failed": [],
+ "failed": [
+  {
+   "code": "00996A",
+   "issuer": "兆豐國際",
+   "error": "discover: mega page failed after 4 tries: 403 Client Error: Forbidden for url: https://www.megafunds.com.tw/MEGA/etf/trade_pcf.aspx"
+  }
+ ],
  "issuers_without_adapter": []
 }
