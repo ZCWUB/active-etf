@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-23T02:28:59+08:00",
+ "updated_at": "2026-10-23T22:57:30+08:00",
  "source": "TWSE ETF e添富",
  "count": 42,
  "funds": [
@@ -339,7 +339,7 @@
    "issuer": "",
    "kind": "bond",
    "listing_date": "",
-   "aum_100m": 19.280243568,
+   "aum_100m": 19.280145111,
    "holders": null,
    "close": 19.56
   },

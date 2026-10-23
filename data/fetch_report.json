@@ -1,5 +1,5 @@
 {
- "ran_at": "2026-10-23T02:31:39+08:00",
+ "ran_at": "2026-10-23T23:01:48+08:00",
  "ok": [
   {
    "code": "00403A",
@@ -110,14 +110,6 @@
    "issuer": "復華",
    "as_of": "2026-10-21",
    "holdings": 59,
-   "basis": "fund",
-   "changed": false
-  },
-  {
-   "code": "00400A",
-   "issuer": "國泰",
-   "as_of": "2026-10-22",
-   "holdings": 53,
    "basis": "fund",
    "changed": false
   },
@@ -255,7 +247,7 @@
    "as_of": "2026-10-21",
    "holdings": 36,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00987A",
@@ -263,7 +255,7 @@
    "as_of": "2026-10-22",
    "holdings": 28,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00408A",
@@ -271,7 +263,7 @@
    "as_of": "2026-10-22",
    "holdings": 52,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00994A",
@@ -279,7 +271,7 @@
    "as_of": "2026-10-22",
    "holdings": 40,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00402A",
@@ -315,6 +307,11 @@
   }
  ],
  "failed": [
+  {
+   "code": "00400A",
+   "issuer": "國泰",
+   "error": "discover: cathay Fund/GetFundList failed after 4 tries: 403 Client Error: Forbidden for url: https://cwapi.cathaysite.com.tw/api/Fund/GetFundList?CurrentPage=1&PerPageCount=300&status=1"
+  },
   {
    "code": "00996A",
    "issuer": "兆豐國際",

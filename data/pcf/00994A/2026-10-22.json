@@ -306,15 +306,6 @@
    "kind": "stock"
   },
   {
-   "symbol": "6488",
-   "name": "環球晶",
-   "market": "TW",
-   "shares": 15000.0,
-   "weight": 0.32,
-   "market_value": null,
-   "kind": "stock"
-  },
-  {
    "symbol": "6526",
    "name": "達發",
    "market": "TW",
@@ -328,6 +319,15 @@
    "name": "欣銓",
    "market": "TW",
    "shares": 49000.0,
+   "weight": 0.32,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6488",
+   "name": "環球晶",
+   "market": "TW",
+   "shares": 15000.0,
    "weight": 0.32,
    "market_value": null,
    "kind": "stock"
@@ -370,5 +370,5 @@
   }
  ],
  "source": "fsitc.com.tw / 投資組合",
- "fetched_at": "2026-10-22T23:10:10+08:00"
+ "fetched_at": "2026-10-23T23:00:51+08:00"
 }
