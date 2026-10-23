@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-23T22:57:30+08:00",
+ "updated_at": "2026-10-24T02:15:57+08:00",
  "source": "TWSE ETF e添富",
  "count": 42,
  "funds": [
@@ -10,7 +10,7 @@
    "kind": "equity",
    "listing_date": "2025-05-27",
    "aum_100m": 2665.0,
-   "holders": 939895.0,
+   "holders": 953873.0,
    "close": 28.19
   },
   {
@@ -20,7 +20,7 @@
    "kind": "equity",
    "listing_date": "2026-05-12",
    "aum_100m": 1267.0,
-   "holders": 784531.0,
+   "holders": 784963.0,
    "close": 10.04
   },
   {
@@ -30,7 +30,7 @@
    "kind": "equity",
    "listing_date": "2026-06-11",
    "aum_100m": 1078.0,
-   "holders": 341407.0,
+   "holders": 400571.0,
    "close": 9.06
   },
   {
@@ -40,7 +40,7 @@
    "kind": "equity",
    "listing_date": "2025-12-18",
    "aum_100m": 682.0,
-   "holders": 319723.0,
+   "holders": 320551.0,
    "close": 16.67
   },
   {
@@ -50,7 +50,7 @@
    "kind": "equity",
    "listing_date": "2025-11-05",
    "aum_100m": 471.0,
-   "holders": 220777.0,
+   "holders": 219694.0,
    "close": 15.11
   },
   {
@@ -60,7 +60,7 @@
    "kind": "equity",
    "listing_date": "2025-05-22",
    "aum_100m": 459.0,
-   "holders": 174641.0,
+   "holders": 175528.0,
    "close": 21.45
   },
   {
@@ -70,7 +70,7 @@
    "kind": "equity",
    "listing_date": "2025-12-30",
    "aum_100m": 450.0,
-   "holders": 192431.0,
+   "holders": 196545.0,
    "close": 16.93
   },
   {
@@ -80,7 +80,7 @@
    "kind": "equity",
    "listing_date": "2025-12-22",
    "aum_100m": 343.0,
-   "holders": 117328.0,
+   "holders": 116931.0,
    "close": 14.81
   },
   {
@@ -90,7 +90,7 @@
    "kind": "equity",
    "listing_date": "2026-04-09",
    "aum_100m": 299.0,
-   "holders": 139338.0,
+   "holders": 140922.0,
    "close": 14.41
   },
   {
@@ -100,7 +100,7 @@
    "kind": "equity",
    "listing_date": "2025-07-21",
    "aum_100m": 290.0,
-   "holders": 136431.0,
+   "holders": 155449.0,
    "close": 20.23
   },
   {
@@ -110,7 +110,7 @@
    "kind": "equity",
    "listing_date": "2026-06-09",
    "aum_100m": 216.0,
-   "holders": 126454.0,
+   "holders": 126764.0,
    "close": 8.47
   },
   {
@@ -120,7 +120,7 @@
    "kind": "equity",
    "listing_date": "2026-06-24",
    "aum_100m": 204.0,
-   "holders": 113182.0,
+   "holders": 113168.0,
    "close": 9.33
   },
   {
@@ -130,7 +130,7 @@
    "kind": "equity",
    "listing_date": "2025-05-05",
    "aum_100m": 183.0,
-   "holders": 71065.0,
+   "holders": 71314.0,
    "close": 23.75
   },
   {
@@ -140,7 +140,7 @@
    "kind": "equity",
    "listing_date": "2026-09-02",
    "aum_100m": 129.0,
-   "holders": 51167.0,
+   "holders": 51986.0,
    "close": 9.05
   },
   {
@@ -150,7 +150,7 @@
    "kind": "equity",
    "listing_date": "2026-10-20",
    "aum_100m": 122.0,
-   "holders": 1.0,
+   "holders": 49144.0,
    "close": 9.3
   },
   {
@@ -160,7 +160,7 @@
    "kind": "bond",
    "listing_date": "2026-02-04",
    "aum_100m": 119.0,
-   "holders": 15723.0,
+   "holders": 15904.0,
    "close": 9.68
   },
   {
@@ -170,7 +170,7 @@
    "kind": "equity",
    "listing_date": "2026-04-14",
    "aum_100m": 113.0,
-   "holders": 63012.0,
+   "holders": 62611.0,
    "close": 10.57
   },
   {
@@ -180,7 +180,7 @@
    "kind": "equity",
    "listing_date": "2026-05-05",
    "aum_100m": 105.0,
-   "holders": 83652.0,
+   "holders": 83575.0,
    "close": 10.56
   },
   {
@@ -190,7 +190,7 @@
    "kind": "equity",
    "listing_date": "2025-07-14",
    "aum_100m": 103.0,
-   "holders": 67434.0,
+   "holders": 68487.0,
    "close": 15.06
   },
   {
@@ -200,7 +200,7 @@
    "kind": "equity",
    "listing_date": "2026-02-03",
    "aum_100m": 93.0,
-   "holders": 44406.0,
+   "holders": 44320.0,
    "close": 12.85
   },
   {
@@ -210,7 +210,7 @@
    "kind": "equity",
    "listing_date": "2026-10-13",
    "aum_100m": 74.0,
-   "holders": 30036.0,
+   "holders": 34553.0,
    "close": 8.88
   },
   {
@@ -230,7 +230,7 @@
    "kind": "equity",
    "listing_date": "2026-06-09",
    "aum_100m": 55.0,
-   "holders": 38017.0,
+   "holders": 37907.0,
    "close": 9.61
   },
   {
@@ -240,7 +240,7 @@
    "kind": "equity",
    "listing_date": "2026-03-25",
    "aum_100m": 54.0,
-   "holders": 30058.0,
+   "holders": 31541.0,
    "close": 12.94
   },
   {
@@ -270,7 +270,7 @@
    "kind": "equity",
    "listing_date": "2026-01-22",
    "aum_100m": 42.0,
-   "holders": 23595.0,
+   "holders": 23626.0,
    "close": 15.8
   },
   {
@@ -280,7 +280,7 @@
    "kind": "equity",
    "listing_date": "2026-06-09",
    "aum_100m": 39.0,
-   "holders": 28132.0,
+   "holders": 28358.0,
    "close": 9.37
   },
   {
@@ -290,7 +290,7 @@
    "kind": "equity",
    "listing_date": "2026-04-10",
    "aum_100m": 38.0,
-   "holders": 19648.0,
+   "holders": 20025.0,
    "close": 13.47
   },
   {
@@ -300,7 +300,7 @@
    "kind": "equity",
    "listing_date": "2026-01-07",
    "aum_100m": 38.0,
-   "holders": 25186.0,
+   "holders": 25151.0,
    "close": 15.79
   },
   {
@@ -310,7 +310,7 @@
    "kind": "equity",
    "listing_date": "2025-12-30",
    "aum_100m": 22.0,
-   "holders": 15951.0,
+   "holders": 15955.0,
    "close": 15.78
   },
   {
@@ -320,7 +320,7 @@
    "kind": "equity",
    "listing_date": "2026-08-03",
    "aum_100m": 21.0,
-   "holders": 11875.0,
+   "holders": 14296.0,
    "close": 11.51
   },
   {
@@ -350,7 +350,7 @@
    "kind": "equity",
    "listing_date": "2026-07-15",
    "aum_100m": 13.0,
-   "holders": 8416.0,
+   "holders": 8851.0,
    "close": 9.62
   },
   {
@@ -370,7 +370,7 @@
    "kind": "equity",
    "listing_date": "2025-10-22",
    "aum_100m": 11.0,
-   "holders": 6329.0,
+   "holders": 6328.0,
    "close": 17.2
   },
   {
@@ -380,7 +380,7 @@
    "kind": "bond",
    "listing_date": "2025-10-14",
    "aum_100m": 10.0,
-   "holders": 3867.0,
+   "holders": 3837.0,
    "close": 9.8
   },
   {
@@ -390,7 +390,7 @@
    "kind": "equity",
    "listing_date": "2025-06-18",
    "aum_100m": 9.0,
-   "holders": 8230.0,
+   "holders": 8247.0,
    "close": 12.68
   },
   {
@@ -410,7 +410,7 @@
    "kind": "bond",
    "listing_date": "2025-10-14",
    "aum_100m": 7.0,
-   "holders": 2809.0,
+   "holders": 2803.0,
    "close": 9.51
   },
   {
@@ -420,7 +420,7 @@
    "kind": "equity",
    "listing_date": "2025-08-27",
    "aum_100m": 5.0,
-   "holders": 4600.0,
+   "holders": 4605.0,
    "close": 14.06
   }
  ]
