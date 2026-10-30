@@ -1,0 +1,329 @@
+{
+ "code": "00990A",
+ "issuer": "元大",
+ "fund_name": "元大全球AI新經濟主動式ETF基金",
+ "as_of": "2026-10-29",
+ "basis": "fund",
+ "nav_total": 33222195844.0,
+ "fund_units": 2275522000.0,
+ "unit_size": 500000.0,
+ "holdings": [
+  {
+   "symbol": "MSFT",
+   "name": "MICROSOFT CORP",
+   "market": "US",
+   "shares": 126080.0,
+   "weight": 6.55,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA CORP",
+   "market": "US",
+   "shares": 280800.0,
+   "weight": 5.88,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "BE",
+   "name": "BLOOM ENERGY CORP- A",
+   "market": "US",
+   "shares": 251300.0,
+   "weight": 5.47,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "LITE",
+   "name": "LUMENTUM HOLDINGS INC",
+   "market": "US",
+   "shares": 59279.0,
+   "weight": 5.34,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "PLTR",
+   "name": "PALANTIR TECHNOLOGIES INC-A",
+   "market": "US",
+   "shares": 266842.0,
+   "weight": 5.13,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AMD",
+   "name": "ADVANCED MICRO DEVICES",
+   "market": "US",
+   "shares": 81379.0,
+   "weight": 4.52,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "META",
+   "name": "META PLATFORMS INC-CLASS A",
+   "market": "US",
+   "shares": 64600.0,
+   "weight": 3.95,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SPCX",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "market": "US",
+   "shares": 256528.0,
+   "weight": 3.62,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MU",
+   "name": "MICRON TECHNOLOGY INC",
+   "market": "US",
+   "shares": 38005.0,
+   "weight": 3.48,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SHOP",
+   "name": "SHOPIFY INC - CLASS A",
+   "market": "US",
+   "shares": 204100.0,
+   "weight": 3.34,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SNOW",
+   "name": "SNOWFLAKE INC",
+   "market": "US",
+   "shares": 101200.0,
+   "weight": 3.27,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "shares": 406000.0,
+   "weight": 2.95,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NET",
+   "name": "CLOUDFLARE INC - CLASS A",
+   "market": "US",
+   "shares": 89900.0,
+   "weight": 2.73,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "DDOG",
+   "name": "DATADOG INC - CLASS A",
+   "market": "US",
+   "shares": 98000.0,
+   "weight": 2.55,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NOW",
+   "name": "SERVICENOW INC",
+   "market": "US",
+   "shares": 229281.0,
+   "weight": 2.46,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "ZS",
+   "name": "ZSCALER INC",
+   "market": "US",
+   "shares": 98300.0,
+   "weight": 2.39,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3037",
+   "name": "欣興",
+   "market": "TW",
+   "shares": 667000.0,
+   "weight": 2.09,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6098",
+   "name": "RECRUIT HOLDINGS CO LTD",
+   "market": "JP",
+   "shares": 174100.0,
+   "weight": 2.04,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2383",
+   "name": "台光電",
+   "market": "TW",
+   "shares": 134000.0,
+   "weight": 2.02,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "shares": 165000.0,
+   "weight": 2.01,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "AMAZON.COM INC",
+   "market": "US",
+   "shares": 79500.0,
+   "weight": 1.9,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CRWD",
+   "name": "CROWDSTRIKE HOLDINGS INC - A",
+   "market": "US",
+   "shares": 74263.0,
+   "weight": 1.9,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "RBRK",
+   "name": "RUBRIK INC-A",
+   "market": "US",
+   "shares": 140800.0,
+   "weight": 1.84,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "OKTA",
+   "name": "OKTA INC",
+   "market": "US",
+   "shares": 82600.0,
+   "weight": 1.8,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "TWST",
+   "name": "TWIST BIOSCIENCE CORP",
+   "market": "US",
+   "shares": 103936.0,
+   "weight": 1.77,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SMTC",
+   "name": "SEMTECH CORP",
+   "market": "US",
+   "shares": 108300.0,
+   "weight": 1.49,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3017",
+   "name": "奇鋐",
+   "market": "TW",
+   "shares": 158000.0,
+   "weight": 1.48,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "8046",
+   "name": "南電",
+   "market": "TW",
+   "shares": 348000.0,
+   "weight": 1.31,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2368",
+   "name": "金像電",
+   "market": "TW",
+   "shares": 368000.0,
+   "weight": 1.24,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "ALPHABET INC-CL A",
+   "market": "US",
+   "shares": 39280.0,
+   "weight": 1.09,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CLS",
+   "name": "CELESTICA INC",
+   "market": "US",
+   "shares": 37680.0,
+   "weight": 1.04,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3443",
+   "name": "創意",
+   "market": "TW",
+   "shares": 44000.0,
+   "weight": 1.01,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "TESLA INC",
+   "market": "US",
+   "shares": 25560.0,
+   "weight": 1.01,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2308",
+   "name": "台達電",
+   "market": "TW",
+   "shares": 176000.0,
+   "weight": 0.78,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "GH",
+   "name": "GUARDANT HEALTH INC",
+   "market": "US",
+   "shares": 31900.0,
+   "weight": 0.58,
+   "market_value": null,
+   "kind": "stock"
+  }
+ ],
+ "source": "yuantaetfs.com / 申購買回清單 API",
+ "fetched_at": "2026-10-31T00:41:36+08:00"
+}
