@@ -1,0 +1,385 @@
+{
+ "date": "2026-11-02",
+ "fetched_at": "2026-11-03T04:16:28+08:00",
+ "source": "TWSE MIS all_etf",
+ "quotes": {
+  "00986A": {
+   "price": 13.64,
+   "nav": 13.59,
+   "premium_pct": 0.37,
+   "units": 37827000.0,
+   "units_change": 0.0,
+   "quoted_at": "16:59:46",
+   "aum": 514068930.0
+  },
+  "00987A": {
+   "price": 14.93,
+   "nav": 14.95,
+   "premium_pct": -0.13,
+   "units": 140643000.0,
+   "units_change": 0.0,
+   "quoted_at": "16:59:46",
+   "aum": 2102612850.0
+  },
+  "00408A": {
+   "price": 9.26,
+   "nav": 9.24,
+   "premium_pct": 0.22,
+   "units": 146634000.0,
+   "units_change": 0.0,
+   "quoted_at": "17:00:52",
+   "aum": 1354898160.0
+  },
+  "00994A": {
+   "price": 15.26,
+   "nav": 15.2,
+   "premium_pct": 0.39,
+   "units": 240690000.0,
+   "units_change": -500000.0,
+   "quoted_at": "17:00:52",
+   "aum": 3658488000.0
+  },
+  "00406A": {
+   "price": 8.58,
+   "nav": 8.56,
+   "premium_pct": 0.23,
+   "units": 15182562000.0,
+   "units_change": 1014500000.0,
+   "quoted_at": "13:34:45",
+   "aum": 129962730720.0
+  },
+  "00981D": {
+   "price": 10.18,
+   "nav": 10.191,
+   "premium_pct": -0.11,
+   "units": 516800000.0,
+   "units_change": 0.0,
+   "quoted_at": "17:00:01",
+   "aum": 5266708800.0
+  },
+  "00983A": {
+   "price": 12.25,
+   "nav": 12.11,
+   "premium_pct": 1.16,
+   "units": 70686000.0,
+   "units_change": -1000000.0,
+   "quoted_at": "17:00:01",
+   "aum": 856007460.0
+  },
+  "00995A": {
+   "price": 15.01,
+   "nav": 14.95,
+   "premium_pct": 0.4,
+   "units": 272535000.0,
+   "units_change": 0.0,
+   "quoted_at": "13:34:45",
+   "aum": 4074398250.0
+  },
+  "00981A": {
+   "price": 26.57,
+   "nav": 26.51,
+   "premium_pct": 0.23,
+   "units": 9985209000.0,
+   "units_change": 168000000.0,
+   "quoted_at": "16:59:59",
+   "aum": 264707890590.00003
+  },
+  "00988A": {
+   "price": 14.36,
+   "nav": 14.27,
+   "premium_pct": 0.63,
+   "units": 3045937000.0,
+   "units_change": 0.0,
+   "quoted_at": "16:59:55",
+   "aum": 43465520990.0
+  },
+  "00403A": {
+   "price": 9.62,
+   "nav": 9.6,
+   "premium_pct": 0.21,
+   "units": 12941519000.0,
+   "units_change": 82000000.0,
+   "quoted_at": "16:59:54",
+   "aum": 124238582400.0
+  },
+  "00411A": {
+   "price": 9.6,
+   "nav": 9.49,
+   "premium_pct": 1.16,
+   "units": 455076000.0,
+   "units_change": -1500000.0,
+   "quoted_at": "16:59:58",
+   "aum": 4318671240.0
+  },
+  "00987D": {
+   "price": 10.19,
+   "nav": 10.21,
+   "premium_pct": -0.2,
+   "units": 78023000.0,
+   "units_change": -1000000.0,
+   "quoted_at": "16:59:57",
+   "aum": 796614830.0000001
+  },
+  "00980A": {
+   "price": 22.79,
+   "nav": 22.76,
+   "premium_pct": 0.13,
+   "units": 781730000.0,
+   "units_change": 4000000.0,
+   "quoted_at": "17:09:36",
+   "aum": 17792174800.0
+  },
+  "00985A": {
+   "price": 19.8,
+   "nav": 19.74,
+   "premium_pct": 0.3,
+   "units": 1438289000.0,
+   "units_change": 2500000.0,
+   "quoted_at": "17:09:36",
+   "aum": 28391824859.999996
+  },
+  "00999A": {
+   "price": 10.23,
+   "nav": 10.21,
+   "premium_pct": 0.2,
+   "units": 1000017000.0,
+   "units_change": 500000.0,
+   "quoted_at": "17:09:36",
+   "aum": 10210173570.0
+  },
+  "00407A": {
+   "price": 8.93,
+   "nav": 8.92,
+   "premium_pct": 0.11,
+   "units": 2283739000.0,
+   "units_change": 54000000.0,
+   "quoted_at": "17:00:02",
+   "aum": 20370951880.0
+  },
+  "00402A": {
+   "price": 9.33,
+   "nav": 9.19,
+   "premium_pct": 1.52,
+   "units": 563127000.0,
+   "units_change": 500000.0,
+   "quoted_at": "16:59:45",
+   "aum": 5175137130.0
+  },
+  "00984A": {
+   "price": 14.72,
+   "nav": 14.68,
+   "premium_pct": 0.27,
+   "units": 688458000.0,
+   "units_change": 0.0,
+   "quoted_at": "16:59:45",
+   "aum": 10106563440.0
+  },
+  "00993A": {
+   "price": 12.31,
+   "nav": 12.3,
+   "premium_pct": 0.08,
+   "units": 728091000.0,
+   "units_change": 0.0,
+   "quoted_at": "16:59:45",
+   "aum": 8955519300.0
+  },
+  "00412A": {
+   "price": 8.49,
+   "nav": 8.45,
+   "premium_pct": 0.47,
+   "units": 890988000.0,
+   "units_change": 2500000.0,
+   "quoted_at": "14:59:52",
+   "aum": 7528848599.999999
+  },
+  "00404A": {
+   "price": 9.1,
+   "nav": 9.072,
+   "premium_pct": 0.31,
+   "units": 423295000.0,
+   "units_change": 0.0,
+   "quoted_at": "16:59:49",
+   "aum": 3840132239.9999995
+  },
+  "00980D": {
+   "price": 19.71,
+   "nav": 19.7754,
+   "premium_pct": -0.33,
+   "units": 98457000.0,
+   "units_change": 0.0,
+   "quoted_at": "16:59:52",
+   "aum": 1947026557.8000002
+  },
+  "00984D": {
+   "price": 9.74,
+   "nav": 9.7096,
+   "premium_pct": 0.31,
+   "units": 1232557000.0,
+   "units_change": 0.0,
+   "quoted_at": "16:59:42",
+   "aum": 11967635447.2
+  },
+  "00989A": {
+   "price": 16.45,
+   "nav": 16.33,
+   "premium_pct": 0.71,
+   "units": 61117000.0,
+   "units_change": 0.0,
+   "quoted_at": "17:00:00",
+   "aum": 998040609.9999999
+  },
+  "00401A": {
+   "price": 13.1,
+   "nav": 13.0,
+   "premium_pct": 0.74,
+   "units": 292895000.0,
+   "units_change": 5500000.0,
+   "quoted_at": "17:00:00",
+   "aum": 3807635000.0
+  },
+  "00985D": {
+   "price": 9.86,
+   "nav": 9.87,
+   "premium_pct": -0.08,
+   "units": 121232000.0,
+   "units_change": -1000000.0,
+   "quoted_at": "17:09:45",
+   "aum": 1196559840.0
+  },
+  "00982D": {
+   "price": 9.59,
+   "nav": 9.6119,
+   "premium_pct": -0.23,
+   "units": 76729000.0,
+   "units_change": 0.0,
+   "quoted_at": "17:05:00",
+   "aum": 737511475.1
+  },
+  "00983D": {
+   "price": 9.88,
+   "nav": 9.8846,
+   "premium_pct": -0.05,
+   "units": 99197000.0,
+   "units_change": 0.0,
+   "quoted_at": "17:05:00",
+   "aum": 980522666.2
+  },
+  "00405A": {
+   "price": 8.06,
+   "nav": 8.05,
+   "premium_pct": 0.12,
+   "units": 2582245000.0,
+   "units_change": 11500000.0,
+   "quoted_at": "17:05:00",
+   "aum": 20787072250.0
+  },
+  "00990A": {
+   "price": 14.02,
+   "nav": 13.94,
+   "premium_pct": 0.57,
+   "units": 2272522000.0,
+   "units_change": -2000000.0,
+   "quoted_at": "17:00:00",
+   "aum": 31678956680.0
+  },
+  "00400A": {
+   "price": 13.79,
+   "nav": 13.73,
+   "premium_pct": 0.44,
+   "units": 2167640000.0,
+   "units_change": 34000000.0,
+   "quoted_at": "16:59:56",
+   "aum": 29761697200.0
+  },
+  "00410A": {
+   "price": 11.1,
+   "nav": 11.09,
+   "premium_pct": 0.09,
+   "units": 183360000.0,
+   "units_change": -500000.0,
+   "quoted_at": "13:59:56",
+   "aum": 2033462400.0
+  },
+  "00998A": {
+   "price": 16.17,
+   "nav": 16.2,
+   "premium_pct": -0.19,
+   "units": 430609000.0,
+   "units_change": -4000000.0,
+   "quoted_at": "16:59:51",
+   "aum": 6975865800.0
+  },
+  "00991A": {
+   "price": 16.12,
+   "nav": 16.08,
+   "premium_pct": 0.25,
+   "units": 4191916000.0,
+   "units_change": 31500000.0,
+   "quoted_at": "16:59:51",
+   "aum": 67406009279.99999
+  },
+  "00986D": {
+   "price": 14.34,
+   "nav": 14.32,
+   "premium_pct": 0.14,
+   "units": 138177000.0,
+   "units_change": 0.0,
+   "quoted_at": "16:59:51",
+   "aum": 1978694640.0
+  },
+  "00418A": {
+   "price": 0.0,
+   "nav": 9.99,
+   "premium_pct": 0.0,
+   "units": 964618000.0,
+   "units_change": 0.0,
+   "quoted_at": "16:59:51",
+   "aum": 9636533820.0
+  },
+  "00409A": {
+   "price": 8.57,
+   "nav": 8.42,
+   "premium_pct": 1.78,
+   "units": 1428948000.0,
+   "units_change": 5000000.0,
+   "quoted_at": "16:59:51",
+   "aum": 12031742160.0
+  },
+  "00982A": {
+   "price": 20.65,
+   "nav": 20.6,
+   "premium_pct": 0.24,
+   "units": 2203936000.0,
+   "units_change": 26500000.0,
+   "quoted_at": "15:00:00",
+   "aum": 45401081600.0
+  },
+  "00992A": {
+   "price": 15.84,
+   "nav": 15.83,
+   "premium_pct": 0.06,
+   "units": 2793455000.0,
+   "units_change": 28500000.0,
+   "quoted_at": "15:00:00",
+   "aum": 44220392650.0
+  },
+  "00997A": {
+   "price": 10.32,
+   "nav": 10.26,
+   "premium_pct": 0.58,
+   "units": 1041377000.0,
+   "units_change": -1500000.0,
+   "quoted_at": "17:00:00",
+   "aum": 10684528020.0
+  },
+  "00415A": {
+   "price": 8.91,
+   "nav": 8.89,
+   "premium_pct": 0.22,
+   "units": 1397190000.0,
+   "units_change": 29500000.0,
+   "quoted_at": "15:00:00",
+   "aum": 12421019100.0
+  }
+ }
+}
