@@ -1,332 +1,315 @@
 {
- "ran_at": "2026-11-04T04:31:53+08:00",
+ "ran_at": "2026-11-05T02:00:02+08:00",
  "ok": [
   {
    "code": "00403A",
    "issuer": "統一",
-   "as_of": "2026-11-03",
+   "as_of": "2026-11-04",
    "holdings": 50,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00411A",
    "issuer": "統一",
-   "as_of": "2026-11-02",
+   "as_of": "2026-11-03",
    "holdings": 30,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00981A",
    "issuer": "統一",
-   "as_of": "2026-11-03",
+   "as_of": "2026-11-04",
    "holdings": 52,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00987D",
    "issuer": "統一",
-   "as_of": "2026-11-02",
+   "as_of": "2026-11-03",
    "holdings": 3,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00988A",
    "issuer": "統一",
-   "as_of": "2026-11-02",
-   "holdings": 34,
+   "as_of": "2026-11-03",
+   "holdings": 33,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00415A",
    "issuer": "群益",
-   "as_of": "2026-11-03",
+   "as_of": "2026-11-04",
    "holdings": 50,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00982A",
    "issuer": "群益",
-   "as_of": "2026-11-03",
+   "as_of": "2026-11-04",
    "holdings": 57,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00992A",
    "issuer": "群益",
-   "as_of": "2026-11-03",
+   "as_of": "2026-11-04",
    "holdings": 44,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00997A",
    "issuer": "群益",
-   "as_of": "2026-11-02",
-   "holdings": 48,
+   "as_of": "2026-11-03",
+   "holdings": 47,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00990A",
    "issuer": "元大",
-   "as_of": "2026-11-02",
-   "holdings": 39,
+   "as_of": "2026-11-03",
+   "holdings": 38,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00409A",
    "issuer": "復華",
-   "as_of": "2026-11-02",
+   "as_of": "2026-11-03",
    "holdings": 50,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00986D",
    "issuer": "復華",
-   "as_of": "2026-11-02",
+   "as_of": "2026-11-03",
    "holdings": 24,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00991A",
    "issuer": "復華",
-   "as_of": "2026-11-03",
+   "as_of": "2026-11-04",
    "holdings": 50,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00998A",
    "issuer": "復華",
-   "as_of": "2026-11-02",
-   "holdings": 55,
+   "as_of": "2026-11-03",
+   "holdings": 54,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00400A",
    "issuer": "國泰",
-   "as_of": "2026-11-03",
+   "as_of": "2026-11-04",
    "holdings": 53,
    "basis": "fund",
-   "changed": false
-  },
-  {
-   "code": "00406A",
-   "issuer": "中國信託",
-   "as_of": "2026-11-03",
-   "holdings": 67,
-   "basis": "fund",
-   "changed": false
-  },
-  {
-   "code": "00981D",
-   "issuer": "中國信託",
-   "as_of": "2026-11-02",
-   "holdings": 107,
-   "basis": "fund",
-   "changed": false
-  },
-  {
-   "code": "00983A",
-   "issuer": "中國信託",
-   "as_of": "2026-11-02",
-   "holdings": 44,
-   "basis": "fund",
-   "changed": false
-  },
-  {
-   "code": "00995A",
-   "issuer": "中國信託",
-   "as_of": "2026-11-03",
-   "holdings": 54,
-   "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00405A",
    "issuer": "富邦",
-   "as_of": "2026-11-03",
+   "as_of": "2026-11-04",
    "holdings": 47,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00982D",
    "issuer": "富邦",
-   "as_of": "2026-11-02",
+   "as_of": "2026-11-03",
    "holdings": 65,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00983D",
    "issuer": "富邦",
-   "as_of": "2026-11-02",
+   "as_of": "2026-11-03",
    "holdings": 83,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00407A",
    "issuer": "凱基",
-   "as_of": "2026-11-03",
+   "as_of": "2026-11-04",
    "holdings": 50,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00980A",
    "issuer": "野村",
-   "as_of": "2026-11-03",
+   "as_of": "2026-11-04",
    "holdings": 51,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00985A",
    "issuer": "野村",
-   "as_of": "2026-11-03",
+   "as_of": "2026-11-04",
    "holdings": 51,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00999A",
    "issuer": "野村",
-   "as_of": "2026-11-03",
+   "as_of": "2026-11-04",
    "holdings": 55,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00404A",
    "issuer": "聯博",
-   "as_of": "2026-11-03",
+   "as_of": "2026-11-04",
    "holdings": 50,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00984D",
    "issuer": "聯博",
-   "as_of": "2026-11-02",
-   "holdings": 395,
+   "as_of": "2026-11-03",
+   "holdings": 393,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00401A",
    "issuer": "摩根",
-   "as_of": "2026-11-03",
+   "as_of": "2026-11-04",
    "holdings": 58,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00989A",
    "issuer": "摩根",
-   "as_of": "2026-11-02",
+   "as_of": "2026-11-03",
    "holdings": 66,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00410A",
    "issuer": "永豐",
-   "as_of": "2026-11-03",
-   "holdings": 27,
+   "as_of": "2026-11-04",
+   "holdings": 26,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00416A",
    "issuer": "台新",
-   "as_of": "2026-11-03",
+   "as_of": "2026-11-04",
    "holdings": 29,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00986A",
    "issuer": "台新",
-   "as_of": "2026-11-02",
-   "holdings": 35,
+   "as_of": "2026-11-03",
+   "holdings": 33,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00987A",
    "issuer": "台新",
-   "as_of": "2026-11-03",
-   "holdings": 26,
+   "as_of": "2026-11-04",
+   "holdings": 25,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00408A",
    "issuer": "第一金",
-   "as_of": "2026-11-03",
+   "as_of": "2026-11-04",
    "holdings": 48,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00994A",
    "issuer": "第一金",
-   "as_of": "2026-11-03",
+   "as_of": "2026-11-04",
    "holdings": 37,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00402A",
    "issuer": "安聯",
-   "as_of": "2026-11-02",
+   "as_of": "2026-11-03",
    "holdings": 49,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00412A",
    "issuer": "安聯",
-   "as_of": "2026-11-02",
+   "as_of": "2026-11-03",
    "holdings": 58,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00984A",
    "issuer": "安聯",
-   "as_of": "2026-11-03",
-   "holdings": 82,
+   "as_of": "2026-11-04",
+   "holdings": 81,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00993A",
    "issuer": "安聯",
-   "as_of": "2026-11-03",
+   "as_of": "2026-11-04",
    "holdings": 51,
    "basis": "fund",
-   "changed": false
+   "changed": true
   }
  ],
  "failed": [
   {
    "code": "00418A",
    "issuer": "復華",
-   "error": "RuntimeError: no usable snapshot in the last 7 days: missing as_of"
+   "error": "RuntimeError: no usable snapshot in the last 7 days: no holdings"
+  },
+  {
+   "code": "00406A",
+   "issuer": "中國信託",
+   "error": "discover: ctbc token failed after 4 tries: 403 Client Error: Forbidden for url: https://www.ctbcinvestments.com.tw/API/home/AuthToken?token=www.ctbcinvestments.com"
+  },
+  {
+   "code": "00995A",
+   "issuer": "中國信託",
+   "error": "discover: ctbc token failed after 4 tries: 403 Client Error: Forbidden for url: https://www.ctbcinvestments.com.tw/API/home/AuthToken?token=www.ctbcinvestments.com"
+  },
+  {
+   "code": "00983A",
+   "issuer": "中國信託",
+   "error": "discover: ctbc token failed after 4 tries: 403 Client Error: Forbidden for url: https://www.ctbcinvestments.com.tw/API/home/AuthToken?token=www.ctbcinvestments.com"
   },
   {
    "code": "00996A",
