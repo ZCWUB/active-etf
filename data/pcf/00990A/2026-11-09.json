@@ -1,0 +1,338 @@
+{
+ "code": "00990A",
+ "issuer": "元大",
+ "fund_name": "元大全球AI新經濟主動式ETF基金",
+ "as_of": "2026-11-09",
+ "basis": "fund",
+ "nav_total": 29609500419.0,
+ "fund_units": 2263522000.0,
+ "unit_size": 500000.0,
+ "holdings": [
+  {
+   "symbol": "MSFT",
+   "name": "MICROSOFT CORP",
+   "market": "US",
+   "shares": 126080.0,
+   "weight": 7.62,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AMD",
+   "name": "ADVANCED MICRO DEVICES",
+   "market": "US",
+   "shares": 100699.0,
+   "weight": 5.68,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA CORP",
+   "market": "US",
+   "shares": 280800.0,
+   "weight": 5.56,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "BE",
+   "name": "BLOOM ENERGY CORP- A",
+   "market": "US",
+   "shares": 251300.0,
+   "weight": 5.4,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "PLTR",
+   "name": "PALANTIR TECHNOLOGIES INC-A",
+   "market": "US",
+   "shares": 266842.0,
+   "weight": 5.0,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "META",
+   "name": "META PLATFORMS INC-CLASS A",
+   "market": "US",
+   "shares": 64600.0,
+   "weight": 4.59,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "AMAZON.COM INC",
+   "market": "US",
+   "shares": 151860.0,
+   "weight": 4.49,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "ALPHABET INC-CL A",
+   "market": "US",
+   "shares": 131480.0,
+   "weight": 4.2,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SHOP",
+   "name": "SHOPIFY INC - CLASS A",
+   "market": "US",
+   "shares": 204100.0,
+   "weight": 3.44,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "shares": 406000.0,
+   "weight": 3.06,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SPCX",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "market": "US",
+   "shares": 188528.0,
+   "weight": 2.97,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CRWD",
+   "name": "CROWDSTRIKE HOLDINGS INC - A",
+   "market": "US",
+   "shares": 112463.0,
+   "weight": 2.85,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "GE",
+   "name": "GENERAL ELECTRIC",
+   "market": "US",
+   "shares": 75800.0,
+   "weight": 2.82,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "LLY",
+   "name": "ELI LILLY & CO",
+   "market": "US",
+   "shares": 16160.0,
+   "weight": 2.53,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3443",
+   "name": "創意",
+   "market": "TW",
+   "shares": 109000.0,
+   "weight": 2.47,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SNOW",
+   "name": "SNOWFLAKE INC",
+   "market": "US",
+   "shares": 69400.0,
+   "weight": 2.24,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "ZS",
+   "name": "ZSCALER INC",
+   "market": "US",
+   "shares": 98300.0,
+   "weight": 2.17,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6098",
+   "name": "RECRUIT HOLDINGS CO LTD",
+   "market": "JP",
+   "shares": 174100.0,
+   "weight": 2.16,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "APPLE INC",
+   "market": "US",
+   "shares": 55640.0,
+   "weight": 2.16,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "shares": 165000.0,
+   "weight": 2.08,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2383",
+   "name": "台光電",
+   "market": "TW",
+   "shares": 134000.0,
+   "weight": 1.84,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NET",
+   "name": "CLOUDFLARE INC - CLASS A",
+   "market": "US",
+   "shares": 56060.0,
+   "weight": 1.83,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MU",
+   "name": "MICRON TECHNOLOGY INC",
+   "market": "US",
+   "shares": 22425.0,
+   "weight": 1.82,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3037",
+   "name": "欣興",
+   "market": "TW",
+   "shares": 667000.0,
+   "weight": 1.71,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "HWM",
+   "name": "HOWMET AEROSPACE INC",
+   "market": "US",
+   "shares": 65100.0,
+   "weight": 1.56,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "BROADCOM INC",
+   "market": "US",
+   "shares": 43040.0,
+   "weight": 1.52,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3017",
+   "name": "奇鋐",
+   "market": "TW",
+   "shares": 158000.0,
+   "weight": 1.36,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "TESLA INC",
+   "market": "US",
+   "shares": 32480.0,
+   "weight": 1.36,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "ANET",
+   "name": "ARISTA NETWORKS INC",
+   "market": "US",
+   "shares": 55000.0,
+   "weight": 1.14,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AEM",
+   "name": "AGNICO EAGLE MINES LTD",
+   "market": "US",
+   "shares": 50400.0,
+   "weight": 1.12,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "RPRX",
+   "name": "ROYALTY PHARMA PLC- CL A",
+   "market": "US",
+   "shares": 147400.0,
+   "weight": 1.12,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2368",
+   "name": "金像電",
+   "market": "TW",
+   "shares": 368000.0,
+   "weight": 1.11,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "DDOG",
+   "name": "DATADOG INC - CLASS A",
+   "market": "US",
+   "shares": 40500.0,
+   "weight": 0.81,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "8046",
+   "name": "南電",
+   "market": "TW",
+   "shares": 170000.0,
+   "weight": 0.54,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "THC",
+   "name": "TENET HEALTHCARE CORP",
+   "market": "US",
+   "shares": 15800.0,
+   "weight": 0.51,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "9602",
+   "name": "TOHO CO LTD",
+   "market": "JP",
+   "shares": 159500.0,
+   "weight": 0.2,
+   "market_value": null,
+   "kind": "stock"
+  }
+ ],
+ "source": "yuantaetfs.com / 申購買回清單 API",
+ "fetched_at": "2026-11-11T04:48:40+08:00"
+}
