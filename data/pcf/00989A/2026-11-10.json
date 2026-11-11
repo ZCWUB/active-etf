@@ -1,0 +1,581 @@
+{
+ "code": "00989A",
+ "issuer": "摩根",
+ "fund_name": "",
+ "as_of": "2026-11-10",
+ "basis": "fund",
+ "nav_total": null,
+ "fund_units": null,
+ "unit_size": null,
+ "holdings": [
+  {
+   "symbol": "META",
+   "name": "META PLATFORMS INC-CLASS A",
+   "market": "TW",
+   "shares": 2034.0,
+   "weight": 4.4522,
+   "market_value": 42902657.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA CORP",
+   "market": "TW",
+   "shares": 6740.0,
+   "weight": 3.8848,
+   "market_value": 37434745.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AMD",
+   "name": "ADVANCED MICRO DEVICES",
+   "market": "TW",
+   "shares": 2105.0,
+   "weight": 3.7012,
+   "market_value": 35665428.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "MICROSOFT CORP",
+   "market": "TW",
+   "shares": 2022.0,
+   "weight": 3.6791,
+   "market_value": 35452737.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "BROADCOM INC",
+   "market": "TW",
+   "shares": 3241.0,
+   "weight": 3.6719,
+   "market_value": 35383599.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CRWD",
+   "name": "CROWDSTRIKE HOLDINGS INC - A",
+   "market": "TW",
+   "shares": 4690.0,
+   "weight": 3.6135,
+   "market_value": 34820170.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "TTWO",
+   "name": "TAKE-TWO INTERACTIVE SOFTWRE",
+   "market": "TW",
+   "shares": 4602.0,
+   "weight": 3.5281,
+   "market_value": 33997326.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "PANW",
+   "name": "PALO ALTO NETWORKS INC",
+   "market": "TW",
+   "shares": 3000.0,
+   "weight": 3.3414,
+   "market_value": 32198025.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CRM",
+   "name": "SALESFORCE INC",
+   "market": "TW",
+   "shares": 4392.0,
+   "weight": 3.1998,
+   "market_value": 30834050.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SHOP",
+   "name": "SHOPIFY INC - CLASS A",
+   "market": "TW",
+   "shares": 6103.0,
+   "weight": 3.0536,
+   "market_value": 29425105.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NET",
+   "name": "CLOUDFLARE INC - CLASS A",
+   "market": "TW",
+   "shares": 2919.0,
+   "weight": 3.0463,
+   "market_value": 29355037.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "TESLA INC",
+   "market": "TW",
+   "shares": 2331.0,
+   "weight": 3.0212,
+   "market_value": 29112896.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SNOW",
+   "name": "SNOWFLAKE INC-CLASS A",
+   "market": "TW",
+   "shares": 2881.0,
+   "weight": 2.908,
+   "market_value": 28021653.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "AMAZON.COM INC",
+   "market": "TW",
+   "shares": 2437.0,
+   "weight": 2.2528,
+   "market_value": 21708384.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "ASML",
+   "name": "ASML HOLDING NV-NY REG SHS",
+   "market": "TW",
+   "shares": 430.0,
+   "weight": 2.2127,
+   "market_value": 21322477.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "GOOG",
+   "name": "ALPHABET INC-CL C",
+   "market": "TW",
+   "shares": 2256.0,
+   "weight": 2.1936,
+   "market_value": 21138447.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "TWLO",
+   "name": "TWILIO INC - A",
+   "market": "TW",
+   "shares": 2842.0,
+   "weight": 2.0776,
+   "market_value": 20020498.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "LRCX",
+   "name": "LAM RESEARCH CORP",
+   "market": "TW",
+   "shares": 2604.0,
+   "weight": 1.9763,
+   "market_value": 19044400.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "TXN",
+   "name": "TEXAS INSTRUMENTS INC",
+   "market": "TW",
+   "shares": 1731.0,
+   "weight": 1.7753,
+   "market_value": 17107301.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "ZM",
+   "name": "ZOOM COMMUNICATIONS INC",
+   "market": "TW",
+   "shares": 5670.0,
+   "weight": 1.7591,
+   "market_value": 16951408.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "HUBS",
+   "name": "HUBSPOT INC",
+   "market": "TW",
+   "shares": 2599.0,
+   "weight": 1.7472,
+   "market_value": 16836876.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MPWR",
+   "name": "MONOLITHIC POWER SYSTEMS INC",
+   "market": "TW",
+   "shares": 346.0,
+   "weight": 1.6031,
+   "market_value": 15447528.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "HOOD",
+   "name": "ROBINHOOD MARKETS INC - A",
+   "market": "TW",
+   "shares": 5668.0,
+   "weight": 1.5732,
+   "market_value": 15159737.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "U",
+   "name": "UNITY SOFTWARE INC",
+   "market": "TW",
+   "shares": 9095.0,
+   "weight": 1.5625,
+   "market_value": 15056602.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "INTC",
+   "name": "INTEL CORP",
+   "market": "TW",
+   "shares": 7794.0,
+   "weight": 1.5462,
+   "market_value": 14899503.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "TEM",
+   "name": "TEMPUS AI INC",
+   "market": "TW",
+   "shares": 5266.0,
+   "weight": 1.4474,
+   "market_value": 13947730.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "ACN",
+   "name": "ACCENTURE PLC-CL A",
+   "market": "TW",
+   "shares": 1601.0,
+   "weight": 1.4125,
+   "market_value": 13610677.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "ADBE",
+   "name": "ADOBE INC",
+   "market": "TW",
+   "shares": 1684.0,
+   "weight": 1.3603,
+   "market_value": 13108452.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "RIVN",
+   "name": "RIVIAN AUTOMOTIVE INC-A",
+   "market": "TW",
+   "shares": 28278.0,
+   "weight": 1.3221,
+   "market_value": 12740319.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "PLTR",
+   "name": "PALANTIR TECHNOLOGIES INC-A",
+   "market": "TW",
+   "shares": 2257.0,
+   "weight": 1.3003,
+   "market_value": 12530445.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "ADI",
+   "name": "ANALOG DEVICES INC",
+   "market": "TW",
+   "shares": 935.0,
+   "weight": 1.255,
+   "market_value": 12093350.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "TEAM",
+   "name": "ATLASSIAN CORP PLC-CLASS A",
+   "market": "TW",
+   "shares": 2182.0,
+   "weight": 1.1066,
+   "market_value": 10663128.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "VEEV",
+   "name": "VEEVA SYSTEMS INC-CLASS A",
+   "market": "TW",
+   "shares": 1051.0,
+   "weight": 1.0959,
+   "market_value": 10560781.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "ILMN",
+   "name": "ILLUMINA INC",
+   "market": "TW",
+   "shares": 1464.0,
+   "weight": 1.0737,
+   "market_value": 10346864.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CDNS",
+   "name": "CADENCE DESIGN SYS INC",
+   "market": "TW",
+   "shares": 916.0,
+   "weight": 1.0367,
+   "market_value": 9990183.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "LITE",
+   "name": "LUMENTUM HOLDINGS INC",
+   "market": "TW",
+   "shares": 515.0,
+   "weight": 1.0292,
+   "market_value": 9917383.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "TSM",
+   "name": "TAIWAN SEMICONDUCTOR-SP ADR",
+   "market": "TW",
+   "shares": 725.0,
+   "weight": 0.981,
+   "market_value": 9453015.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "WRBY",
+   "name": "WARBY PARKER INC-CLASS A",
+   "market": "TW",
+   "shares": 9116.0,
+   "weight": 0.9302,
+   "market_value": 8963684.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SPCX",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "market": "TW",
+   "shares": 1866.0,
+   "weight": 0.9112,
+   "market_value": 8780757.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "DDOG",
+   "name": "DATADOG INC - CLASS A",
+   "market": "TW",
+   "shares": 1490.0,
+   "weight": 0.9072,
+   "market_value": 8741625.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NOW",
+   "name": "SERVICENOW INC",
+   "market": "TW",
+   "shares": 2523.0,
+   "weight": 0.8577,
+   "market_value": 8264779.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "ROK",
+   "name": "ROCKWELL AUTOMATION INC",
+   "market": "TW",
+   "shares": 631.0,
+   "weight": 0.8553,
+   "market_value": 8241493.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "ESTC",
+   "name": "ELASTIC NV",
+   "market": "TW",
+   "shares": 2746.0,
+   "weight": 0.8177,
+   "market_value": 7879107.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CIEN",
+   "name": "CIENA CORP",
+   "market": "TW",
+   "shares": 868.0,
+   "weight": 0.806,
+   "market_value": 7767108.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "OKTA",
+   "name": "OKTA INC",
+   "market": "TW",
+   "shares": 1281.0,
+   "weight": 0.7797,
+   "market_value": 7513766.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MDB",
+   "name": "MONGODB INC",
+   "market": "TW",
+   "shares": 657.0,
+   "weight": 0.7444,
+   "market_value": 7172794.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "TXG",
+   "name": "10X GENOMICS INC-CLASS A",
+   "market": "TW",
+   "shares": 3403.0,
+   "weight": 0.7305,
+   "market_value": 7039206.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "ALAB",
+   "name": "ASTERA LABS INC",
+   "market": "TW",
+   "shares": 965.0,
+   "weight": 0.7119,
+   "market_value": 6860470.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "GWRE",
+   "name": "GUIDEWIRE SOFTWARE INC",
+   "market": "TW",
+   "shares": 1315.0,
+   "weight": 0.6978,
+   "market_value": 6723747.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "LMND",
+   "name": "LEMONADE INC",
+   "market": "TW",
+   "shares": 5199.0,
+   "weight": 0.6969,
+   "market_value": 6715871.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CRDO",
+   "name": "CREDO TECHNOLOGY GROUP HOLDI",
+   "market": "TW",
+   "shares": 1556.0,
+   "weight": 0.6893,
+   "market_value": 6641946.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "XYZ",
+   "name": "BLOCK INC",
+   "market": "TW",
+   "shares": 2152.0,
+   "weight": 0.6285,
+   "market_value": 6056554.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MTSI",
+   "name": "MACOM TECHNOLOGY SOLUTIONS H",
+   "market": "TW",
+   "shares": 757.0,
+   "weight": 0.5851,
+   "market_value": 5638152.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MU",
+   "name": "MICRON TECHNOLOGY INC",
+   "market": "TW",
+   "shares": 206.0,
+   "weight": 0.5098,
+   "market_value": 4912269.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "TWST",
+   "name": "TWIST BIOSCIENCE CORP",
+   "market": "TW",
+   "shares": 1124.0,
+   "weight": 0.5068,
+   "market_value": 4884035.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "ENTG",
+   "name": "ENTEGRIS INC",
+   "market": "TW",
+   "shares": 1071.0,
+   "weight": 0.5065,
+   "market_value": 4880561.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SYM",
+   "name": "SYMBOTIC INC",
+   "market": "TW",
+   "shares": 3843.0,
+   "weight": 0.4934,
+   "market_value": 4754449.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SWKS",
+   "name": "SKYWORKS SOLUTIONS INC",
+   "market": "TW",
+   "shares": 1254.0,
+   "weight": 0.354,
+   "market_value": 3410881.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SNDK",
+   "name": "SANDISK CORP-W/I",
+   "market": "TW",
+   "shares": 117.0,
+   "weight": 0.3434,
+   "market_value": 3308951.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NU",
+   "name": "NU HOLDINGS LTD/CAYMAN ISL-A",
+   "market": "TW",
+   "shares": 7564.0,
+   "weight": 0.3118,
+   "market_value": 3004896.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "WDAY",
+   "name": "WORKDAY INC-CLASS A",
+   "market": "TW",
+   "shares": 471.0,
+   "weight": 0.3036,
+   "market_value": 2925775.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "VICR",
+   "name": "VICOR CORP",
+   "market": "TW",
+   "shares": 532.0,
+   "weight": 0.2935,
+   "market_value": 2828649.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "GENB",
+   "name": "GENERATE BIOMEDICINES INC",
+   "market": "TW",
+   "shares": 2245.0,
+   "weight": 0.1056,
+   "market_value": 1017365.0,
+   "kind": "stock"
+  }
+ ],
+ "source": "am.jpmorgan.com / 申購買回清單",
+ "fetched_at": "2026-11-12T01:53:03+08:00"
+}
