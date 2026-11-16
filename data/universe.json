@@ -1,7 +1,7 @@
 {
- "updated_at": "2026-11-14T04:52:37+08:00",
+ "updated_at": "2026-11-17T04:20:46+08:00",
  "source": "TWSE ETF e添富",
- "count": 45,
+ "count": 46,
  "funds": [
   {
    "code": "00981A",
@@ -9,9 +9,9 @@
    "issuer": "統一",
    "kind": "equity",
    "listing_date": "2025-05-27",
-   "aum_100m": 2752.0,
-   "holders": 1002387.0,
-   "close": 24.7
+   "aum_100m": 2533.0,
+   "holders": 1010132.0,
+   "close": 22.5
   },
   {
    "code": "00406A",
@@ -19,9 +19,9 @@
    "issuer": "中國信託",
    "kind": "equity",
    "listing_date": "2026-06-11",
-   "aum_100m": 1561.0,
-   "holders": 547631.0,
-   "close": 7.75
+   "aum_100m": 1455.0,
+   "holders": 581020.0,
+   "close": 7.1
   },
   {
    "code": "00403A",
@@ -29,9 +29,9 @@
    "issuer": "統一",
    "kind": "equity",
    "listing_date": "2026-05-12",
-   "aum_100m": 1237.0,
-   "holders": 802274.0,
-   "close": 9.02
+   "aum_100m": 1147.0,
+   "holders": 801195.0,
+   "close": 8.3
   },
   {
    "code": "00991A",
@@ -39,9 +39,9 @@
    "issuer": "復華",
    "kind": "equity",
    "listing_date": "2025-12-18",
-   "aum_100m": 629.0,
-   "holders": 321774.0,
-   "close": 14.42
+   "aum_100m": 574.0,
+   "holders": 321395.0,
+   "close": 13.09
   },
   {
    "code": "00982A",
@@ -49,9 +49,9 @@
    "issuer": "群益",
    "kind": "equity",
    "listing_date": "2025-05-22",
-   "aum_100m": 470.0,
-   "holders": 179982.0,
-   "close": 19.46
+   "aum_100m": 435.0,
+   "holders": 181634.0,
+   "close": 17.89
   },
   {
    "code": "00992A",
@@ -59,9 +59,9 @@
    "issuer": "群益",
    "kind": "equity",
    "listing_date": "2025-12-30",
-   "aum_100m": 454.0,
-   "holders": 202870.0,
-   "close": 14.68
+   "aum_100m": 415.0,
+   "holders": 204224.0,
+   "close": 13.33
   },
   {
    "code": "00988A",
@@ -69,19 +69,9 @@
    "issuer": "統一",
    "kind": "equity",
    "listing_date": "2025-11-05",
-   "aum_100m": 404.0,
-   "holders": 216623.0,
-   "close": 13.45
-  },
-  {
-   "code": "00400A",
-   "name": "主動國泰動能高息",
-   "issuer": "國泰",
-   "kind": "equity",
-   "listing_date": "2026-04-09",
-   "aum_100m": 312.0,
-   "holders": 147257.0,
-   "close": 12.86
+   "aum_100m": 400.0,
+   "holders": 214396.0,
+   "close": 12.71
   },
   {
    "code": "00990A",
@@ -89,9 +79,19 @@
    "issuer": "元大",
    "kind": "equity",
    "listing_date": "2025-12-22",
-   "aum_100m": 300.0,
-   "holders": 115589.0,
-   "close": 13.35
+   "aum_100m": 297.0,
+   "holders": 114631.0,
+   "close": 12.84
+  },
+  {
+   "code": "00400A",
+   "name": "主動國泰動能高息",
+   "issuer": "國泰",
+   "kind": "equity",
+   "listing_date": "2026-04-09",
+   "aum_100m": 288.0,
+   "holders": 147736.0,
+   "close": 11.73
   },
   {
    "code": "00985A",
@@ -99,19 +99,9 @@
    "issuer": "野村",
    "kind": "equity",
    "listing_date": "2025-07-21",
-   "aum_100m": 271.0,
-   "holders": 155578.0,
-   "close": 18.55
-  },
-  {
-   "code": "00407A",
-   "name": "主動凱基台灣",
-   "issuer": "凱基",
-   "kind": "equity",
-   "listing_date": "2026-06-24",
-   "aum_100m": 204.0,
-   "holders": 114530.0,
-   "close": 8.36
+   "aum_100m": 254.0,
+   "holders": 155390.0,
+   "close": 17.4
   },
   {
    "code": "00405A",
@@ -119,9 +109,19 @@
    "issuer": "富邦",
    "kind": "equity",
    "listing_date": "2026-06-09",
-   "aum_100m": 203.0,
-   "holders": 129114.0,
-   "close": 7.4
+   "aum_100m": 188.0,
+   "holders": 128871.0,
+   "close": 6.8
+  },
+  {
+   "code": "00407A",
+   "name": "主動凱基台灣",
+   "issuer": "凱基",
+   "kind": "equity",
+   "listing_date": "2026-06-24",
+   "aum_100m": 188.0,
+   "holders": 114212.0,
+   "close": 7.67
   },
   {
    "code": "00980A",
@@ -129,9 +129,9 @@
    "issuer": "野村",
    "kind": "equity",
    "listing_date": "2025-05-05",
-   "aum_100m": 177.0,
-   "holders": 72714.0,
-   "close": 21.0
+   "aum_100m": 164.0,
+   "holders": 74314.0,
+   "close": 19.47
   },
   {
    "code": "00415A",
@@ -139,9 +139,9 @@
    "issuer": "群益",
    "kind": "equity",
    "listing_date": "2026-10-20",
-   "aum_100m": 124.0,
-   "holders": 59883.0,
-   "close": 8.12
+   "aum_100m": 114.0,
+   "holders": 60254.0,
+   "close": 7.41
   },
   {
    "code": "00984D",
@@ -150,8 +150,8 @@
    "kind": "bond",
    "listing_date": "2026-02-04",
    "aum_100m": 114.0,
-   "holders": 15432.0,
-   "close": 9.76
+   "holders": 15109.0,
+   "close": 9.74
   },
   {
    "code": "00409A",
@@ -159,9 +159,9 @@
    "issuer": "復華",
    "kind": "equity",
    "listing_date": "2026-09-02",
-   "aum_100m": 111.0,
-   "holders": 53862.0,
-   "close": 7.73
+   "aum_100m": 110.0,
+   "holders": 53720.0,
+   "close": 7.25
   },
   {
    "code": "00997A",
@@ -169,9 +169,9 @@
    "issuer": "群益",
    "kind": "equity",
    "listing_date": "2026-04-14",
-   "aum_100m": 99.0,
-   "holders": 61673.0,
-   "close": 9.55
+   "aum_100m": 96.0,
+   "holders": 61359.0,
+   "close": 9.2
   },
   {
    "code": "00999A",
@@ -179,9 +179,9 @@
    "issuer": "野村",
    "kind": "equity",
    "listing_date": "2026-05-05",
-   "aum_100m": 98.0,
-   "holders": 83567.0,
-   "close": 9.52
+   "aum_100m": 92.0,
+   "holders": 83556.0,
+   "close": 8.92
   },
   {
    "code": "00984A",
@@ -189,9 +189,9 @@
    "issuer": "安聯",
    "kind": "equity",
    "listing_date": "2025-07-14",
-   "aum_100m": 96.0,
-   "holders": 68698.0,
-   "close": 13.75
+   "aum_100m": 90.0,
+   "holders": 68514.0,
+   "close": 12.91
   },
   {
    "code": "00418A",
@@ -199,9 +199,9 @@
    "issuer": "復華",
    "kind": "equity",
    "listing_date": "2026-11-11",
-   "aum_100m": 91.0,
-   "holders": null,
-   "close": 10.08
+   "aum_100m": 79.0,
+   "holders": 22129.0,
+   "close": 9.11
   },
   {
    "code": "00993A",
@@ -209,19 +209,9 @@
    "issuer": "安聯",
    "kind": "equity",
    "listing_date": "2026-02-03",
-   "aum_100m": 82.0,
-   "holders": 44333.0,
-   "close": 11.15
-  },
-  {
-   "code": "00416A",
-   "name": "主動台新臺灣中小",
-   "issuer": "台新",
-   "kind": "equity",
-   "listing_date": "2026-11-03",
    "aum_100m": 75.0,
-   "holders": 26637.0,
-   "close": 9.27
+   "holders": 44168.0,
+   "close": 10.14
   },
   {
    "code": "00412A",
@@ -230,8 +220,18 @@
    "kind": "equity",
    "listing_date": "2026-10-13",
    "aum_100m": 74.0,
-   "holders": 38862.0,
-   "close": 8.01
+   "holders": 38928.0,
+   "close": 7.34
+  },
+  {
+   "code": "00416A",
+   "name": "主動台新臺灣中小",
+   "issuer": "台新",
+   "kind": "equity",
+   "listing_date": "2026-11-03",
+   "aum_100m": 69.0,
+   "holders": 26894.0,
+   "close": 8.46
   },
   {
    "code": "00998A",
@@ -239,19 +239,9 @@
    "issuer": "",
    "kind": "equity",
    "listing_date": "",
-   "aum_100m": 66.5310774,
+   "aum_100m": 66.4916165,
    "holders": null,
    "close": 16.81
-  },
-  {
-   "code": "00996A",
-   "name": "主動兆豐台灣豐收",
-   "issuer": "兆豐國際",
-   "kind": "equity",
-   "listing_date": "2026-03-25",
-   "aum_100m": 54.0,
-   "holders": 32497.0,
-   "close": 11.46
   },
   {
    "code": "00402A",
@@ -259,9 +249,19 @@
    "issuer": "安聯",
    "kind": "equity",
    "listing_date": "2026-06-09",
-   "aum_100m": 51.0,
-   "holders": 37707.0,
-   "close": 9.04
+   "aum_100m": 50.0,
+   "holders": 37627.0,
+   "close": 8.82
+  },
+  {
+   "code": "00996A",
+   "name": "主動兆豐台灣豐收",
+   "issuer": "兆豐國際",
+   "kind": "equity",
+   "listing_date": "2026-03-25",
+   "aum_100m": 50.0,
+   "holders": 32629.0,
+   "close": 10.55
   },
   {
    "code": "00981D",
@@ -269,9 +269,9 @@
    "issuer": "",
    "kind": "bond",
    "listing_date": "",
-   "aum_100m": 48.651708,
+   "aum_100m": 48.6631152,
    "holders": null,
-   "close": 10.25
+   "close": 10.26
   },
   {
    "code": "00411A",
@@ -279,9 +279,9 @@
    "issuer": "",
    "kind": "equity",
    "listing_date": "",
-   "aum_100m": 43.4378104,
+   "aum_100m": 42.2035944,
    "holders": null,
-   "close": 9.34
+   "close": 8.88
   },
   {
    "code": "00401A",
@@ -289,9 +289,9 @@
    "issuer": "摩根",
    "kind": "equity",
    "listing_date": "2026-04-10",
-   "aum_100m": 41.0,
-   "holders": 21200.0,
-   "close": 12.53
+   "aum_100m": 39.0,
+   "holders": 21682.0,
+   "close": 11.77
   },
   {
    "code": "00995A",
@@ -299,9 +299,9 @@
    "issuer": "中國信託",
    "kind": "equity",
    "listing_date": "2026-01-22",
-   "aum_100m": 40.0,
-   "holders": 23743.0,
-   "close": 14.01
+   "aum_100m": 36.0,
+   "holders": 23638.0,
+   "close": 12.8
   },
   {
    "code": "00404A",
@@ -309,9 +309,9 @@
    "issuer": "聯博",
    "kind": "equity",
    "listing_date": "2026-06-09",
-   "aum_100m": 38.0,
-   "holders": 28428.0,
-   "close": 8.62
+   "aum_100m": 35.0,
+   "holders": 28453.0,
+   "close": 8.05
   },
   {
    "code": "00994A",
@@ -319,29 +319,9 @@
    "issuer": "第一金",
    "kind": "equity",
    "listing_date": "2026-01-07",
-   "aum_100m": 33.0,
-   "holders": 25118.0,
-   "close": 14.3
-  },
-  {
-   "code": "00987A",
-   "name": "主動台新優勢成長",
-   "issuer": "台新",
-   "kind": "equity",
-   "listing_date": "2025-12-30",
-   "aum_100m": 22.0,
-   "holders": 16007.0,
-   "close": 14.22
-  },
-  {
-   "code": "00410A",
-   "name": "主動永豐科技趨勢",
-   "issuer": "永豐",
-   "kind": "equity",
-   "listing_date": "2026-08-03",
-   "aum_100m": 21.0,
-   "holders": 14818.0,
-   "close": 10.54
+   "aum_100m": 30.0,
+   "holders": 25009.0,
+   "close": 13.02
   },
   {
    "code": "00986D",
@@ -349,7 +329,7 @@
    "issuer": "",
    "kind": "bond",
    "listing_date": "",
-   "aum_100m": 19.4153787,
+   "aum_100m": 19.401811,
    "holders": null,
    "close": 14.29
   },
@@ -359,9 +339,29 @@
    "issuer": "",
    "kind": "bond",
    "listing_date": "",
-   "aum_100m": 19.173052836,
+   "aum_100m": 19.158606242999998,
    "holders": null,
-   "close": 19.78
+   "close": 19.75
+  },
+  {
+   "code": "00410A",
+   "name": "主動永豐科技趨勢",
+   "issuer": "永豐",
+   "kind": "equity",
+   "listing_date": "2026-08-03",
+   "aum_100m": 19.0,
+   "holders": 14686.0,
+   "close": 9.65
+  },
+  {
+   "code": "00987A",
+   "name": "主動台新優勢成長",
+   "issuer": "台新",
+   "kind": "equity",
+   "listing_date": "2025-12-30",
+   "aum_100m": 19.0,
+   "holders": 15956.0,
+   "close": 12.95
   },
   {
    "code": "00413A",
@@ -369,9 +369,9 @@
    "issuer": "玉山",
    "kind": "equity",
    "listing_date": "2026-11-11",
-   "aum_100m": 16.0,
-   "holders": null,
-   "close": 10.68
+   "aum_100m": 14.0,
+   "holders": 5923.0,
+   "close": 9.79
   },
   {
    "code": "00408A",
@@ -379,9 +379,9 @@
    "issuer": "第一金",
    "kind": "equity",
    "listing_date": "2026-07-15",
-   "aum_100m": 13.0,
-   "holders": 9200.0,
-   "close": 8.59
+   "aum_100m": 12.0,
+   "holders": 9213.0,
+   "close": 8.0
   },
   {
    "code": "00985D",
@@ -389,9 +389,9 @@
    "issuer": "",
    "kind": "bond",
    "listing_date": "",
-   "aum_100m": 11.6832288,
+   "aum_100m": 11.6594824,
    "holders": null,
-   "close": 9.82
+   "close": 9.81
   },
   {
    "code": "00989A",
@@ -400,8 +400,8 @@
    "kind": "equity",
    "listing_date": "2025-10-22",
    "aum_100m": 10.0,
-   "holders": 6288.0,
-   "close": 15.98
+   "holders": 6221.0,
+   "close": 15.72
   },
   {
    "code": "00983D",
@@ -410,8 +410,8 @@
    "kind": "bond",
    "listing_date": "2025-10-14",
    "aum_100m": 9.0,
-   "holders": 3707.0,
-   "close": 9.92
+   "holders": 3648.0,
+   "close": 9.89
   },
   {
    "code": "00983A",
@@ -420,8 +420,8 @@
    "kind": "equity",
    "listing_date": "2025-06-18",
    "aum_100m": 8.0,
-   "holders": 8132.0,
-   "close": 11.7
+   "holders": 8093.0,
+   "close": 11.4
   },
   {
    "code": "00987D",
@@ -429,9 +429,9 @@
    "issuer": "",
    "kind": "bond",
    "listing_date": "",
-   "aum_100m": 7.678323,
+   "aum_100m": 7.6935276,
    "holders": null,
-   "close": 10.1
+   "close": 10.11
   },
   {
    "code": "00982D",
@@ -440,8 +440,8 @@
    "kind": "bond",
    "listing_date": "2025-10-14",
    "aum_100m": 7.0,
-   "holders": 2694.0,
-   "close": 9.58
+   "holders": 2650.0,
+   "close": 9.54
   },
   {
    "code": "00986A",
@@ -450,8 +450,18 @@
    "kind": "equity",
    "listing_date": "2025-08-27",
    "aum_100m": 5.0,
-   "holders": 4577.0,
-   "close": 13.4
+   "holders": 4544.0,
+   "close": 13.05
+  },
+  {
+   "code": "00420A",
+   "name": "主動野村亞洲科技",
+   "issuer": "",
+   "kind": "equity",
+   "listing_date": "2026-11-19",
+   "aum_100m": 0.0,
+   "holders": null,
+   "close": 0.0
   }
  ]
 }
