@@ -1,0 +1,275 @@
+{
+ "code": "00986A",
+ "issuer": "台新",
+ "fund_name": "",
+ "as_of": "2026-11-16",
+ "basis": "fund",
+ "nav_total": 457382422.0,
+ "fund_units": 35827000.0,
+ "unit_size": null,
+ "holdings": [
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "shares": 18000.0,
+   "weight": 8.717,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Alphabet 公司",
+   "market": "US",
+   "shares": 3000.0,
+   "weight": 6.1296,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "Microsoft Corp",
+   "market": "US",
+   "shares": 1400.0,
+   "weight": 5.2224,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "AMAZON. COM INC",
+   "market": "US",
+   "shares": 2800.0,
+   "weight": 5.1973,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AMD",
+   "name": "超微半導體公司",
+   "market": "US",
+   "shares": 1400.0,
+   "weight": 5.0841,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CRWD",
+   "name": "Crowdstrike控股公司",
+   "market": "US",
+   "shares": 3000.0,
+   "weight": 4.8223,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "LLY",
+   "name": "禮來公司",
+   "market": "US",
+   "shares": 450.0,
+   "weight": 4.6395,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "博通公司",
+   "market": "US",
+   "shares": 1800.0,
+   "weight": 4.3217,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MU",
+   "name": "美光科技公司",
+   "market": "US",
+   "shares": 800.0,
+   "weight": 4.1424,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "蘋果公司",
+   "market": "US",
+   "shares": 1250.0,
+   "weight": 3.1756,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "LITE",
+   "name": "魯門特姆控股公司",
+   "market": "US",
+   "shares": 780.0,
+   "weight": 3.0669,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "JPM",
+   "name": "摩根大通銀行",
+   "market": "US",
+   "shares": 1100.0,
+   "weight": 2.6791,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NET",
+   "name": "Cloudflare公司",
+   "market": "US",
+   "shares": 1200.0,
+   "weight": 2.5371,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "ETN",
+   "name": "伊頓公開有限公司",
+   "market": "US",
+   "shares": 1000.0,
+   "weight": 2.426,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "輝達",
+   "market": "US",
+   "shares": 2000.0,
+   "weight": 2.2489,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SNOW",
+   "name": "Snowflake公司",
+   "market": "US",
+   "shares": 1100.0,
+   "weight": 2.2223,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "GEV",
+   "name": "奇異維諾瓦公司",
+   "market": "US",
+   "shares": 400.0,
+   "weight": 2.1995,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "BE",
+   "name": "布魯姆能源公司",
+   "market": "US",
+   "shares": 1700.0,
+   "weight": 2.1703,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "ASML",
+   "name": "艾司摩爾控股公司",
+   "market": "NA",
+   "shares": 200.0,
+   "weight": 2.0723,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "GLEN",
+   "name": "嘉能可公司",
+   "market": "LN",
+   "shares": 40000.0,
+   "weight": 1.9047,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SU",
+   "name": "施奈德電機公司",
+   "market": "FP",
+   "shares": 900.0,
+   "weight": 1.724,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MA",
+   "name": "萬事達卡",
+   "market": "US",
+   "shares": 350.0,
+   "weight": 1.6678,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "shares": 2000.0,
+   "weight": 1.6594,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "PLTR",
+   "name": "帕蘭提爾科技公司",
+   "market": "US",
+   "shares": 1400.0,
+   "weight": 1.617,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "GS",
+   "name": "高盛集團",
+   "market": "US",
+   "shares": 200.0,
+   "weight": 1.2841,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "8306",
+   "name": "三菱UFJ金融集團公司",
+   "market": "JP",
+   "shares": 8000.0,
+   "weight": 1.2331,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "RBRK",
+   "name": "Rubrik Inc",
+   "market": "US",
+   "shares": 1300.0,
+   "weight": 0.9926,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "IFX",
+   "name": "英飛凌科技股份有限公司",
+   "market": "GY",
+   "shares": 2500.0,
+   "weight": 0.9762,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SKHY",
+   "name": "愛思開海力士公司",
+   "market": "US",
+   "shares": 1000.0,
+   "weight": 0.8799,
+   "market_value": null,
+   "kind": "stock"
+  }
+ ],
+ "source": "tsit.com.tw / 申購買回清單",
+ "fetched_at": "2026-11-18T03:08:36+08:00"
+}
