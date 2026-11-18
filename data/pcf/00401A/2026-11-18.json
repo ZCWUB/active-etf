@@ -414,21 +414,21 @@
    "kind": "stock"
   },
   {
-   "symbol": "5904",
-   "name": "寶雅國際",
-   "market": "TW",
-   "shares": 295000.0,
-   "weight": 0.5443,
-   "market_value": 21387500.0,
-   "kind": "stock"
-  },
-  {
    "symbol": "7769",
    "name": "鴻勁",
    "market": "TW",
    "shares": 6000.0,
    "weight": 0.5443,
    "market_value": 21390000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "5904",
+   "name": "寶雅國際",
+   "market": "TW",
+   "shares": 295000.0,
+   "weight": 0.5443,
+   "market_value": 21387500.0,
    "kind": "stock"
   },
   {
@@ -541,5 +541,5 @@
   }
  ],
  "source": "am.jpmorgan.com / 申購買回清單",
- "fetched_at": "2026-11-19T02:49:38+08:00"
+ "fetched_at": "2026-11-19T05:53:16+08:00"
 }
