@@ -1,336 +1,341 @@
 {
- "ran_at": "2026-11-18T06:16:12+08:00",
+ "ran_at": "2026-11-19T02:50:59+08:00",
  "ok": [
   {
    "code": "00403A",
    "issuer": "統一",
-   "as_of": "2026-11-17",
-   "holdings": 51,
+   "as_of": "2026-11-18",
+   "holdings": 50,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00411A",
    "issuer": "統一",
-   "as_of": "2026-11-16",
+   "as_of": "2026-11-17",
    "holdings": 30,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00981A",
    "issuer": "統一",
-   "as_of": "2026-11-17",
+   "as_of": "2026-11-18",
    "holdings": 51,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00987D",
    "issuer": "統一",
-   "as_of": "2026-11-16",
+   "as_of": "2026-11-17",
    "holdings": 4,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00988A",
    "issuer": "統一",
-   "as_of": "2026-11-16",
+   "as_of": "2026-11-17",
    "holdings": 30,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00415A",
    "issuer": "群益",
-   "as_of": "2026-11-17",
+   "as_of": "2026-11-18",
    "holdings": 50,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00982A",
    "issuer": "群益",
-   "as_of": "2026-11-17",
-   "holdings": 58,
+   "as_of": "2026-11-18",
+   "holdings": 75,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00992A",
    "issuer": "群益",
-   "as_of": "2026-11-17",
+   "as_of": "2026-11-18",
    "holdings": 44,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00997A",
    "issuer": "群益",
-   "as_of": "2026-11-16",
-   "holdings": 44,
+   "as_of": "2026-11-17",
+   "holdings": 43,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00990A",
    "issuer": "元大",
-   "as_of": "2026-11-16",
-   "holdings": 34,
+   "as_of": "2026-11-17",
+   "holdings": 35,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00409A",
    "issuer": "復華",
-   "as_of": "2026-11-16",
-   "holdings": 49,
+   "as_of": "2026-11-17",
+   "holdings": 50,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00418A",
    "issuer": "復華",
-   "as_of": "2026-11-17",
+   "as_of": "2026-11-18",
    "holdings": 33,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00986D",
    "issuer": "復華",
-   "as_of": "2026-11-16",
+   "as_of": "2026-11-17",
    "holdings": 24,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00991A",
    "issuer": "復華",
-   "as_of": "2026-11-17",
+   "as_of": "2026-11-18",
    "holdings": 50,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00998A",
    "issuer": "復華",
-   "as_of": "2026-11-16",
-   "holdings": 51,
+   "as_of": "2026-11-17",
+   "holdings": 50,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00400A",
    "issuer": "國泰",
-   "as_of": "2026-11-17",
-   "holdings": 50,
+   "as_of": "2026-11-18",
+   "holdings": 48,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00406A",
    "issuer": "中國信託",
-   "as_of": "2026-11-17",
+   "as_of": "2026-11-18",
    "holdings": 63,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00981D",
    "issuer": "中國信託",
-   "as_of": "2026-11-16",
+   "as_of": "2026-11-17",
    "holdings": 107,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00983A",
    "issuer": "中國信託",
-   "as_of": "2026-11-16",
-   "holdings": 38,
+   "as_of": "2026-11-17",
+   "holdings": 36,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00995A",
    "issuer": "中國信託",
-   "as_of": "2026-11-17",
-   "holdings": 56,
+   "as_of": "2026-11-18",
+   "holdings": 52,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00405A",
    "issuer": "富邦",
-   "as_of": "2026-11-17",
+   "as_of": "2026-11-18",
    "holdings": 47,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00982D",
    "issuer": "富邦",
-   "as_of": "2026-11-16",
+   "as_of": "2026-11-17",
    "holdings": 66,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00983D",
    "issuer": "富邦",
-   "as_of": "2026-11-16",
+   "as_of": "2026-11-17",
    "holdings": 82,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00407A",
    "issuer": "凱基",
-   "as_of": "2026-11-17",
+   "as_of": "2026-11-18",
    "holdings": 50,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00980A",
    "issuer": "野村",
-   "as_of": "2026-11-17",
+   "as_of": "2026-11-18",
    "holdings": 51,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00985A",
    "issuer": "野村",
-   "as_of": "2026-11-17",
-   "holdings": 51,
+   "as_of": "2026-11-18",
+   "holdings": 50,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00999A",
    "issuer": "野村",
-   "as_of": "2026-11-17",
+   "as_of": "2026-11-18",
    "holdings": 55,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00404A",
    "issuer": "聯博",
-   "as_of": "2026-11-17",
+   "as_of": "2026-11-18",
    "holdings": 50,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00984D",
    "issuer": "聯博",
-   "as_of": "2026-11-16",
+   "as_of": "2026-11-17",
    "holdings": 379,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00401A",
    "issuer": "摩根",
-   "as_of": "2026-11-17",
+   "as_of": "2026-11-18",
    "holdings": 59,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00989A",
    "issuer": "摩根",
-   "as_of": "2026-11-16",
+   "as_of": "2026-11-17",
    "holdings": 62,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00410A",
    "issuer": "永豐",
-   "as_of": "2026-11-17",
-   "holdings": 23,
+   "as_of": "2026-11-18",
+   "holdings": 22,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00416A",
    "issuer": "台新",
-   "as_of": "2026-11-17",
-   "holdings": 29,
+   "as_of": "2026-11-18",
+   "holdings": 30,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00986A",
    "issuer": "台新",
-   "as_of": "2026-11-16",
+   "as_of": "2026-11-17",
    "holdings": 29,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00987A",
    "issuer": "台新",
-   "as_of": "2026-11-17",
-   "holdings": 26,
+   "as_of": "2026-11-18",
+   "holdings": 24,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00408A",
    "issuer": "第一金",
-   "as_of": "2026-11-17",
+   "as_of": "2026-11-18",
    "holdings": 36,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00994A",
    "issuer": "第一金",
-   "as_of": "2026-11-17",
+   "as_of": "2026-11-18",
    "holdings": 31,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00402A",
    "issuer": "安聯",
-   "as_of": "2026-11-16",
+   "as_of": "2026-11-17",
    "holdings": 49,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00412A",
    "issuer": "安聯",
-   "as_of": "2026-11-16",
+   "as_of": "2026-11-17",
    "holdings": 52,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00984A",
    "issuer": "安聯",
-   "as_of": "2026-11-17",
-   "holdings": 87,
+   "as_of": "2026-11-18",
+   "holdings": 88,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00993A",
    "issuer": "安聯",
-   "as_of": "2026-11-17",
-   "holdings": 51,
+   "as_of": "2026-11-18",
+   "holdings": 50,
    "basis": "fund",
-   "changed": false
+   "changed": true
   }
  ],
  "failed": [
+  {
+   "code": "00420A",
+   "issuer": "野村",
+   "error": "ValueError: missing as_of"
+  },
   {
    "code": "00996A",
    "issuer": "兆豐國際",
