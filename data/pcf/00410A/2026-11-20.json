@@ -1,0 +1,194 @@
+{
+ "code": "00410A",
+ "issuer": "永豐",
+ "fund_name": "",
+ "as_of": "2026-11-20",
+ "basis": "fund",
+ "nav_total": null,
+ "fund_units": 187860000.0,
+ "unit_size": null,
+ "holdings": [
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "shares": 80000.0,
+   "weight": 10.42,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2383",
+   "name": "台光電",
+   "market": "TW",
+   "shares": 40000.0,
+   "weight": 7.32,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3491",
+   "name": "昇達科",
+   "market": "TW",
+   "shares": 67000.0,
+   "weight": 5.35,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6223",
+   "name": "旺矽",
+   "market": "TW",
+   "shares": 20000.0,
+   "weight": 4.64,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3017",
+   "name": "奇鋐",
+   "market": "TW",
+   "shares": 31000.0,
+   "weight": 4.45,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "shares": 20000.0,
+   "weight": 4.37,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3661",
+   "name": "世芯-KY",
+   "market": "TW",
+   "shares": 20000.0,
+   "weight": 4.22,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "8996",
+   "name": "高力",
+   "market": "TW",
+   "shares": 70000.0,
+   "weight": 4.21,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3529",
+   "name": "力旺",
+   "market": "TW",
+   "shares": 35000.0,
+   "weight": 4.1,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3653",
+   "name": "健策",
+   "market": "TW",
+   "shares": 17000.0,
+   "weight": 4.1,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "1303",
+   "name": "南亞",
+   "market": "TW",
+   "shares": 300000.0,
+   "weight": 4.03,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2455",
+   "name": "全新",
+   "market": "TW",
+   "shares": 223000.0,
+   "weight": 3.85,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3008",
+   "name": "大立光",
+   "market": "TW",
+   "shares": 15000.0,
+   "weight": 3.59,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3711",
+   "name": "日月光投控",
+   "market": "TW",
+   "shares": 100000.0,
+   "weight": 2.98,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3081",
+   "name": "聯亞",
+   "market": "TW",
+   "shares": 28000.0,
+   "weight": 2.49,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "4958",
+   "name": "臻鼎-KY",
+   "market": "TW",
+   "shares": 120000.0,
+   "weight": 2.42,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "4749",
+   "name": "新應材",
+   "market": "TW",
+   "shares": 60000.0,
+   "weight": 2.31,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "1301",
+   "name": "台塑",
+   "market": "TW",
+   "shares": 600000.0,
+   "weight": 2.19,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2059",
+   "name": "川湖",
+   "market": "TW",
+   "shares": 6000.0,
+   "weight": 2.09,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "1519",
+   "name": "華城",
+   "market": "TW",
+   "shares": 50000.0,
+   "weight": 1.37,
+   "market_value": null,
+   "kind": "stock"
+  }
+ ],
+ "source": "sitc.sinopac.com / 現金申購買回清單",
+ "fetched_at": "2026-11-21T02:34:13+08:00"
+}

@@ -1,269 +1,269 @@
 {
- "ran_at": "2026-11-20T06:12:53+08:00",
+ "ran_at": "2026-11-21T02:35:20+08:00",
  "ok": [
   {
    "code": "00403A",
    "issuer": "統一",
-   "as_of": "2026-11-19",
+   "as_of": "2026-11-20",
    "holdings": 50,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00411A",
    "issuer": "統一",
-   "as_of": "2026-11-18",
+   "as_of": "2026-11-19",
    "holdings": 30,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00981A",
    "issuer": "統一",
-   "as_of": "2026-11-19",
+   "as_of": "2026-11-20",
    "holdings": 51,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00987D",
    "issuer": "統一",
-   "as_of": "2026-11-18",
+   "as_of": "2026-11-19",
    "holdings": 4,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00988A",
    "issuer": "統一",
-   "as_of": "2026-11-18",
+   "as_of": "2026-11-19",
    "holdings": 30,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00415A",
    "issuer": "群益",
-   "as_of": "2026-11-19",
+   "as_of": "2026-11-20",
    "holdings": 50,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00982A",
    "issuer": "群益",
-   "as_of": "2026-11-19",
-   "holdings": 74,
+   "as_of": "2026-11-20",
+   "holdings": 63,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00992A",
    "issuer": "群益",
-   "as_of": "2026-11-19",
+   "as_of": "2026-11-20",
    "holdings": 44,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00997A",
    "issuer": "群益",
-   "as_of": "2026-11-18",
-   "holdings": 43,
+   "as_of": "2026-11-19",
+   "holdings": 44,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00990A",
    "issuer": "元大",
-   "as_of": "2026-11-18",
-   "holdings": 35,
+   "as_of": "2026-11-19",
+   "holdings": 34,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00409A",
    "issuer": "復華",
-   "as_of": "2026-11-18",
+   "as_of": "2026-11-19",
    "holdings": 50,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00418A",
    "issuer": "復華",
-   "as_of": "2026-11-19",
-   "holdings": 33,
+   "as_of": "2026-11-20",
+   "holdings": 32,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00986D",
    "issuer": "復華",
-   "as_of": "2026-11-18",
-   "holdings": 24,
+   "as_of": "2026-11-19",
+   "holdings": 25,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00991A",
    "issuer": "復華",
-   "as_of": "2026-11-19",
+   "as_of": "2026-11-20",
    "holdings": 50,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00998A",
    "issuer": "復華",
-   "as_of": "2026-11-18",
-   "holdings": 47,
+   "as_of": "2026-11-19",
+   "holdings": 45,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00400A",
    "issuer": "國泰",
-   "as_of": "2026-11-19",
-   "holdings": 48,
+   "as_of": "2026-11-20",
+   "holdings": 52,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00406A",
    "issuer": "中國信託",
-   "as_of": "2026-11-19",
+   "as_of": "2026-11-20",
    "holdings": 63,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00981D",
    "issuer": "中國信託",
-   "as_of": "2026-11-18",
+   "as_of": "2026-11-19",
    "holdings": 106,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00983A",
    "issuer": "中國信託",
-   "as_of": "2026-11-18",
-   "holdings": 36,
+   "as_of": "2026-11-19",
+   "holdings": 37,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00995A",
    "issuer": "中國信託",
-   "as_of": "2026-11-19",
+   "as_of": "2026-11-20",
    "holdings": 52,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00405A",
    "issuer": "富邦",
-   "as_of": "2026-11-19",
+   "as_of": "2026-11-20",
    "holdings": 47,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00982D",
    "issuer": "富邦",
-   "as_of": "2026-11-18",
+   "as_of": "2026-11-19",
    "holdings": 66,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00983D",
    "issuer": "富邦",
-   "as_of": "2026-11-18",
+   "as_of": "2026-11-19",
    "holdings": 82,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00407A",
    "issuer": "凱基",
-   "as_of": "2026-11-19",
+   "as_of": "2026-11-20",
    "holdings": 50,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00420A",
    "issuer": "野村",
-   "as_of": "2026-11-18",
+   "as_of": "2026-11-19",
    "holdings": 33,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00980A",
    "issuer": "野村",
-   "as_of": "2026-11-19",
+   "as_of": "2026-11-20",
    "holdings": 51,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00985A",
    "issuer": "野村",
-   "as_of": "2026-11-19",
+   "as_of": "2026-11-20",
    "holdings": 50,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00999A",
    "issuer": "野村",
-   "as_of": "2026-11-19",
+   "as_of": "2026-11-20",
    "holdings": 55,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00404A",
    "issuer": "聯博",
-   "as_of": "2026-11-19",
+   "as_of": "2026-11-20",
    "holdings": 50,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00984D",
    "issuer": "聯博",
-   "as_of": "2026-11-18",
-   "holdings": 379,
+   "as_of": "2026-11-19",
+   "holdings": 378,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00401A",
    "issuer": "摩根",
-   "as_of": "2026-11-19",
+   "as_of": "2026-11-20",
    "holdings": 59,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00989A",
    "issuer": "摩根",
-   "as_of": "2026-11-18",
-   "holdings": 62,
+   "as_of": "2026-11-19",
+   "holdings": 63,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00410A",
    "issuer": "永豐",
-   "as_of": "2026-11-19",
-   "holdings": 21,
+   "as_of": "2026-11-20",
+   "holdings": 20,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00416A",
@@ -292,26 +292,50 @@
   {
    "code": "00408A",
    "issuer": "第一金",
-   "as_of": "2026-11-19",
+   "as_of": "2026-11-20",
    "holdings": 33,
    "basis": "fund",
-   "changed": false
+   "changed": true
   },
   {
    "code": "00994A",
    "issuer": "第一金",
-   "as_of": "2026-11-19",
+   "as_of": "2026-11-20",
    "holdings": 27,
    "basis": "fund",
-   "changed": false
+   "changed": true
+  },
+  {
+   "code": "00402A",
+   "issuer": "安聯",
+   "as_of": "2026-11-19",
+   "holdings": 49,
+   "basis": "fund",
+   "changed": true
   },
   {
    "code": "00412A",
    "issuer": "安聯",
-   "as_of": "2026-11-18",
-   "holdings": 52,
+   "as_of": "2026-11-19",
+   "holdings": 51,
    "basis": "fund",
-   "changed": false
+   "changed": true
+  },
+  {
+   "code": "00984A",
+   "issuer": "安聯",
+   "as_of": "2026-11-20",
+   "holdings": 88,
+   "basis": "fund",
+   "changed": true
+  },
+  {
+   "code": "00993A",
+   "issuer": "安聯",
+   "as_of": "2026-11-20",
+   "holdings": 50,
+   "basis": "fund",
+   "changed": true
   }
  ],
  "failed": [
@@ -319,21 +343,6 @@
    "code": "00996A",
    "issuer": "兆豐國際",
    "error": "discover: mega page failed after 4 tries: 403 Client Error: Forbidden for url: https://www.megafunds.com.tw/MEGA/etf/trade_pcf.aspx"
-  },
-  {
-   "code": "00402A",
-   "issuer": "安聯",
-   "error": "TimeoutError: Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://etf.allianzgi.com.tw/etf-info/E0003?tab=1\", waiting until \"networkidle\"\n"
-  },
-  {
-   "code": "00984A",
-   "issuer": "安聯",
-   "error": "TimeoutError: Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://etf.allianzgi.com.tw/etf-info/E0001?tab=1\", waiting until \"networkidle\"\n"
-  },
-  {
-   "code": "00993A",
-   "issuer": "安聯",
-   "error": "TimeoutError: Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://etf.allianzgi.com.tw/etf-info/E0002?tab=1\", waiting until \"networkidle\"\n"
   }
  ],
  "issuers_without_adapter": [

@@ -1,0 +1,311 @@
+{
+ "code": "00420A",
+ "issuer": "野村",
+ "fund_name": "",
+ "as_of": "2026-11-19",
+ "basis": "fund",
+ "nav_total": 979299365.0,
+ "fund_units": 100436000.0,
+ "unit_size": null,
+ "holdings": [
+  {
+   "symbol": "2330",
+   "name": "台灣積體電路製造",
+   "market": "TW",
+   "shares": 42000.0,
+   "weight": 9.01,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "000660",
+   "name": "愛思開海力士公司",
+   "market": "KR",
+   "shares": 2311.0,
+   "weight": 6.92,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6857",
+   "name": "愛德萬測試",
+   "market": "JP",
+   "shares": 11900.0,
+   "weight": 6.77,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "005930",
+   "name": "三星電子",
+   "market": "KR",
+   "shares": 13452.0,
+   "weight": 6.71,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "009150",
+   "name": "三星電機",
+   "market": "KR",
+   "shares": 2525.0,
+   "weight": 5.66,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3037",
+   "name": "欣興電子",
+   "market": "TW",
+   "shares": 68000.0,
+   "weight": 4.14,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "8035",
+   "name": "東京威力科創",
+   "market": "JP",
+   "shares": 20900.0,
+   "weight": 3.93,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3017",
+   "name": "奇鋐科技",
+   "market": "TW",
+   "shares": 15000.0,
+   "weight": 3.75,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科技",
+   "market": "TW",
+   "shares": 9000.0,
+   "weight": 3.42,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3081",
+   "name": "聯亞光電工業",
+   "market": "TW",
+   "shares": 21000.0,
+   "weight": 3.25,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6981",
+   "name": "村田製作所",
+   "market": "JP",
+   "shares": 28600.0,
+   "weight": 3.1,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2383",
+   "name": "台光電子材料",
+   "market": "TW",
+   "shares": 8000.0,
+   "weight": 2.55,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6861",
+   "name": "Keyence Corp",
+   "market": "JP",
+   "shares": 7500.0,
+   "weight": 2.32,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "4004",
+   "name": "Resonac",
+   "market": "JP",
+   "shares": 8700.0,
+   "weight": 2.22,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6702",
+   "name": "富士通",
+   "market": "JP",
+   "shares": 28300.0,
+   "weight": 2.03,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3711",
+   "name": "日月光投資控股",
+   "market": "TW",
+   "shares": 38000.0,
+   "weight": 1.96,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3443",
+   "name": "創意電子",
+   "market": "TW",
+   "shares": 3000.0,
+   "weight": 1.84,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "095340",
+   "name": "ISC",
+   "market": "KR",
+   "shares": 4862.0,
+   "weight": 1.81,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "5801",
+   "name": "古河電氣工業",
+   "market": "JP",
+   "shares": 44400.0,
+   "weight": 1.73,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "5803",
+   "name": "藤倉",
+   "market": "JP",
+   "shares": 31900.0,
+   "weight": 1.72,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6223",
+   "name": "旺矽科技",
+   "market": "TW",
+   "shares": 4000.0,
+   "weight": 1.62,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2308",
+   "name": "台達電子工業",
+   "market": "TW",
+   "shares": 15000.0,
+   "weight": 1.53,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2455",
+   "name": "全新光電科技",
+   "market": "TW",
+   "shares": 51000.0,
+   "weight": 1.53,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6510",
+   "name": "中華精測科技",
+   "market": "TW",
+   "shares": 5000.0,
+   "weight": 1.34,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "4958",
+   "name": "臻鼎科技控股",
+   "market": "TW",
+   "shares": 34000.0,
+   "weight": 1.19,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2368",
+   "name": "金像電子（股）公司",
+   "market": "TW",
+   "shares": 14000.0,
+   "weight": 1.13,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "688072",
+   "name": "拓荊科技",
+   "market": "CN",
+   "shares": 3407.0,
+   "weight": 0.94,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "5274",
+   "name": "信驊科技",
+   "market": "TW",
+   "shares": 1000.0,
+   "weight": 0.89,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "688008",
+   "name": "瀾起科技",
+   "market": "CN",
+   "shares": 12583.0,
+   "weight": 0.87,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "688200",
+   "name": "北京華峰測控技術",
+   "market": "CN",
+   "shares": 7951.0,
+   "weight": 0.86,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "688256",
+   "name": "中科寒武紀科技",
+   "market": "CN",
+   "shares": 1829.0,
+   "weight": 0.86,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3653",
+   "name": "健策精密工業",
+   "market": "TW",
+   "shares": 2000.0,
+   "weight": 0.84,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2059",
+   "name": "川湖科技",
+   "market": "TW",
+   "shares": 1000.0,
+   "weight": 0.61,
+   "market_value": null,
+   "kind": "stock"
+  }
+ ],
+ "source": "nomurafunds.com.tw / 持股比重",
+ "fetched_at": "2026-11-21T02:34:09+08:00"
+}
