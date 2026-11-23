@@ -1,0 +1,324 @@
+{
+ "code": "00988A",
+ "issuer": "統一",
+ "fund_name": "統一全球創新主動式ETF基金",
+ "as_of": "2026-11-20",
+ "basis": "fund",
+ "nav_total": 33633304327.0,
+ "fund_units": null,
+ "unit_size": null,
+ "holdings": [
+  {
+   "symbol": "SPCX",
+   "name": "SPACE EXPLORATION TECHN-CL A",
+   "market": "US",
+   "currency": "USD",
+   "shares": 630000.0,
+   "weight": 7.89,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "MICROSOFT CORP(微軟公司)",
+   "market": "US",
+   "currency": "USD",
+   "shares": 160000.0,
+   "weight": 7.6,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "APPLE INC(蘋果公司)",
+   "market": "US",
+   "currency": "USD",
+   "shares": 180000.0,
+   "weight": 6.05,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "CRWD",
+   "name": "CROWDSTRIKE HOLDINGS INC - A",
+   "market": "US",
+   "currency": "USD",
+   "shares": 220754.0,
+   "weight": 4.97,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "PLTR",
+   "name": "PALANTIR TECHNOLOGIES INC-A",
+   "market": "US",
+   "currency": "USD",
+   "shares": 350000.0,
+   "weight": 4.92,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "AMAZON.COM INC(亞馬遜公司)",
+   "market": "US",
+   "currency": "USD",
+   "shares": 190000.0,
+   "weight": 4.6,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "AMD",
+   "name": "ADVANCED MICRO DEVICES.amd us(超微半導體公司)",
+   "market": "US",
+   "currency": "USD",
+   "shares": 110000.0,
+   "weight": 4.58,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3017",
+   "name": "奇鋐",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 645000.0,
+   "weight": 4.23,
+   "market_value": 1422225000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "PANW",
+   "name": "PALO ALTO NETWORKS INC",
+   "market": "US",
+   "currency": "USD",
+   "shares": 125000.0,
+   "weight": 4.21,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3037",
+   "name": "欣興",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 2600000.0,
+   "weight": 4.15,
+   "market_value": 1396200000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3443",
+   "name": "創意",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 240000.0,
+   "weight": 3.85,
+   "market_value": 1296000000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "BE",
+   "name": "BLOOM ENERGY CORP- A",
+   "market": "US",
+   "currency": "USD",
+   "shares": 270000.0,
+   "weight": 3.77,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "OKTA",
+   "name": "OKTA INC",
+   "market": "US",
+   "currency": "USD",
+   "shares": 200000.0,
+   "weight": 3.75,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NET",
+   "name": "CLOUDFLARE INC - CLASS A",
+   "market": "US",
+   "currency": "USD",
+   "shares": 120000.0,
+   "weight": 3.23,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "1303",
+   "name": "南亞",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 4800000.0,
+   "weight": 2.94,
+   "market_value": 988800000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 480000.0,
+   "weight": 2.85,
+   "market_value": 960000000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3711",
+   "name": "日月光投控",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 1500000.0,
+   "weight": 2.04,
+   "market_value": 685500000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "SNOW",
+   "name": "SNOWFLAKE INC-CLASS A(Snowflake公司)",
+   "market": "US",
+   "currency": "USD",
+   "shares": 80000.0,
+   "weight": 2.0,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "ZS",
+   "name": "ZSCALER INC",
+   "market": "US",
+   "currency": "USD",
+   "shares": 100145.0,
+   "weight": 1.91,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "NTSK",
+   "name": "NETSKOPE INC-CL A",
+   "market": "US",
+   "currency": "USD",
+   "shares": 800000.0,
+   "weight": 1.88,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "META",
+   "name": "META PLATFORMS INC(Meta平台公司)",
+   "market": "US",
+   "currency": "USD",
+   "shares": 25000.0,
+   "weight": 1.37,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 120000.0,
+   "weight": 1.2,
+   "market_value": 402000000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6223",
+   "name": "旺矽",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 110000.0,
+   "weight": 1.16,
+   "market_value": 391600000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MRNA",
+   "name": "MODERNA INC",
+   "market": "US",
+   "currency": "USD",
+   "shares": 60000.0,
+   "weight": 1.15,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "009150",
+   "name": "Samsung Electro-Mechanics co(009150 ks)",
+   "market": "KR",
+   "currency": "KRW",
+   "shares": 10000.0,
+   "weight": 0.57,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3697",
+   "name": "SHIFT INC",
+   "market": "JP",
+   "currency": "JPY",
+   "shares": 800000.0,
+   "weight": 0.5,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "APP",
+   "name": "APPLOVIN CORP-CLASS A",
+   "market": "US",
+   "currency": "USD",
+   "shares": 13000.0,
+   "weight": 0.44,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "MU",
+   "name": "MICRON TECHNOLOGY INC",
+   "market": "US",
+   "currency": "USD",
+   "shares": 7500.0,
+   "weight": 0.44,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "7532",
+   "name": "DON QUIJOTE CO LTD",
+   "market": "JP",
+   "currency": "JPY",
+   "shares": 500000.0,
+   "weight": 0.26,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "IFX",
+   "name": "INFINEON TECHNOLOGIES AG",
+   "market": "GY",
+   "currency": "EUR",
+   "shares": 50000.0,
+   "weight": 0.24,
+   "market_value": null,
+   "kind": "stock"
+  },
+  {
+   "symbol": "V",
+   "name": "VISA INC-CLASS A SHARES",
+   "market": "US",
+   "currency": "USD",
+   "shares": 4000.0,
+   "weight": 0.16,
+   "market_value": null,
+   "kind": "stock"
+  }
+ ],
+ "source": "ezmoney.com.tw / 申購買回清單+投資組合明細",
+ "fetched_at": "2026-11-24T06:01:43+08:00"
+}
