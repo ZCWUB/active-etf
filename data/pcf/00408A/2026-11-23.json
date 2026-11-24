@@ -36,19 +36,19 @@
    "kind": "stock"
   },
   {
-   "symbol": "2542",
-   "name": "興富發",
+   "symbol": "3017",
+   "name": "奇鋐",
    "market": "TW",
-   "shares": 1350000.0,
+   "shares": 20900.0,
    "weight": 4.6,
    "market_value": null,
    "kind": "stock"
   },
   {
-   "symbol": "3017",
-   "name": "奇鋐",
+   "symbol": "2542",
+   "name": "興富發",
    "market": "TW",
-   "shares": 20900.0,
+   "shares": 1350000.0,
    "weight": 4.6,
    "market_value": null,
    "kind": "stock"
@@ -307,5 +307,5 @@
   }
  ],
  "source": "fsitc.com.tw / 投資組合",
- "fetched_at": "2026-11-24T06:02:47+08:00"
+ "fetched_at": "2026-11-24T09:40:45+08:00"
 }

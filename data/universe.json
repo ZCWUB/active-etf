@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-24T05:59:56+08:00",
+ "updated_at": "2026-11-24T09:37:39+08:00",
  "source": "TWSE ETF e添富",
  "count": 47,
  "funds": [
@@ -204,6 +204,16 @@
    "close": 7.73
   },
   {
+   "code": "00998A",
+   "name": "主動復華金融股息",
+   "issuer": "",
+   "kind": "equity",
+   "listing_date": "",
+   "aum_100m": 62.0721675,
+   "holders": null,
+   "close": 16.1
+  },
+  {
    "code": "00993A",
    "name": "主動安聯台灣",
    "issuer": "安聯",
@@ -212,16 +222,6 @@
    "aum_100m": 62.0,
    "holders": 44223.0,
    "close": 8.52
-  },
-  {
-   "code": "00998A",
-   "name": "主動復華金融股息",
-   "issuer": "",
-   "kind": "equity",
-   "listing_date": "",
-   "aum_100m": 61.6780585,
-   "holders": null,
-   "close": 15.72
   },
   {
    "code": "00412A",
@@ -249,9 +249,9 @@
    "issuer": "",
    "kind": "bond",
    "listing_date": "",
-   "aum_100m": 47.6570503,
+   "aum_100m": 47.4900732,
    "holders": null,
-   "close": 10.05
+   "close": 10.01
   },
   {
    "code": "00402A",
@@ -279,9 +279,9 @@
    "issuer": "",
    "kind": "equity",
    "listing_date": "",
-   "aum_100m": 38.4113168,
+   "aum_100m": 38.974808,
    "holders": null,
-   "close": 8.13
+   "close": 8.45
   },
   {
    "code": "00401A",
@@ -329,9 +329,9 @@
    "issuer": "",
    "kind": "bond",
    "listing_date": "",
-   "aum_100m": 19.3746756,
+   "aum_100m": 19.4153787,
    "holders": null,
-   "close": 14.29
+   "close": 14.26
   },
   {
    "code": "00980D",
@@ -339,9 +339,9 @@
    "issuer": "",
    "kind": "bond",
    "listing_date": "",
-   "aum_100m": 18.928624239,
+   "aum_100m": 18.978363180000002,
    "holders": null,
-   "close": 19.55
+   "close": 19.52
   },
   {
    "code": "00410A",
@@ -369,7 +369,7 @@
    "issuer": "",
    "kind": "bond",
    "listing_date": "",
-   "aum_100m": 11.1759984,
+   "aum_100m": 11.1221912,
    "holders": null,
    "close": 9.86
   },
@@ -424,16 +424,6 @@
    "close": 14.41
   },
   {
-   "code": "00987D",
-   "name": "主動統一美債量化",
-   "issuer": "",
-   "kind": "bond",
-   "listing_date": "",
-   "aum_100m": 7.072323,
-   "holders": null,
-   "close": 10.12
-  },
-  {
    "code": "00983A",
    "name": "主動中信ARK創新",
    "issuer": "中國信託",
@@ -442,6 +432,16 @@
    "aum_100m": 7.0,
    "holders": 8091.0,
    "close": 10.42
+  },
+  {
+   "code": "00987D",
+   "name": "主動統一美債量化",
+   "issuer": "",
+   "kind": "bond",
+   "listing_date": "",
+   "aum_100m": 6.5868299,
+   "holders": null,
+   "close": 10.12
   },
   {
    "code": "00982D",
