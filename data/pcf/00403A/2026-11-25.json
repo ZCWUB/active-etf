@@ -1,0 +1,534 @@
+{
+ "code": "00403A",
+ "issuer": "統一",
+ "fund_name": "統一台股升級50主動式ETF基金",
+ "as_of": "2026-11-25",
+ "basis": "fund",
+ "nav_total": 113966359950.0,
+ "fund_units": null,
+ "unit_size": null,
+ "holdings": [
+  {
+   "symbol": "TX",
+   "name": "台指期貨",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 125.0,
+   "weight": 0.84,
+   "market_value": 953075000.0,
+   "kind": "future"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 8750000.0,
+   "weight": 16.51,
+   "market_value": 18812500000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 1950000.0,
+   "weight": 6.24,
+   "market_value": 7107750000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3017",
+   "name": "奇鋐",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 2640000.0,
+   "weight": 5.9,
+   "market_value": 6718800000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3653",
+   "name": "健策",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 1030000.0,
+   "weight": 3.77,
+   "market_value": 4295100000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3037",
+   "name": "欣興",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 7200000.0,
+   "weight": 3.7,
+   "market_value": 4212000000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3443",
+   "name": "創意",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 800000.0,
+   "weight": 3.56,
+   "market_value": 4056000000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2383",
+   "name": "台光電",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 1200000.0,
+   "weight": 3.53,
+   "market_value": 4026000000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6223",
+   "name": "旺矽",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 930000.0,
+   "weight": 3.08,
+   "market_value": 3506100000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "1303",
+   "name": "南亞",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 15100000.0,
+   "weight": 3.0,
+   "market_value": 3420150000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6669",
+   "name": "緯穎",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 1910956.0,
+   "weight": 2.4,
+   "market_value": 2732667080.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2327",
+   "name": "國巨*",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 8800000.0,
+   "weight": 2.39,
+   "market_value": 2719200000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3665",
+   "name": "貿聯-KY",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 1460000.0,
+   "weight": 2.09,
+   "market_value": 2379800000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2308",
+   "name": "台達電",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 2170000.0,
+   "weight": 2.01,
+   "market_value": 2289350000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3711",
+   "name": "日月光投控",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 4300000.0,
+   "weight": 1.84,
+   "market_value": 2098400000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3189",
+   "name": "景碩",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 4200000.0,
+   "weight": 1.82,
+   "market_value": 2079000000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "8046",
+   "name": "南電",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 3010000.0,
+   "weight": 1.76,
+   "market_value": 2001650000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2345",
+   "name": "智邦",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 1260000.0,
+   "weight": 1.63,
+   "market_value": 1858500000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "8996",
+   "name": "高力",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 1880000.0,
+   "weight": 1.44,
+   "market_value": 1635600000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "5274",
+   "name": "信驊",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 180500.0,
+   "weight": 1.39,
+   "market_value": 1587497500.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3008",
+   "name": "大立光",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 375000.0,
+   "weight": 1.32,
+   "market_value": 1509375000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2368",
+   "name": "金像電",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 1030000.0,
+   "weight": 0.82,
+   "market_value": 932150000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2408",
+   "name": "南亞科",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 2800000.0,
+   "weight": 0.68,
+   "market_value": 779800000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2449",
+   "name": "京元電子",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 4000000.0,
+   "weight": 0.61,
+   "market_value": 692000000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2882",
+   "name": "國泰金",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 6800000.0,
+   "weight": 0.6,
+   "market_value": 683400000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2317",
+   "name": "鴻海",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 3200000.0,
+   "weight": 0.58,
+   "market_value": 660800000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3661",
+   "name": "世芯-KY",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 167000.0,
+   "weight": 0.53,
+   "market_value": 602035000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6805",
+   "name": "富世達",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 370000.0,
+   "weight": 0.5,
+   "market_value": 567950000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2059",
+   "name": "川湖",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 75000.0,
+   "weight": 0.43,
+   "market_value": 487875000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "1560",
+   "name": "中砂",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 800000.0,
+   "weight": 0.41,
+   "market_value": 464800000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3450",
+   "name": "聯鈞",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 1500000.0,
+   "weight": 0.36,
+   "market_value": 415500000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2313",
+   "name": "華通",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 2000000.0,
+   "weight": 0.27,
+   "market_value": 306000000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6515",
+   "name": "穎崴",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 90000.0,
+   "weight": 0.24,
+   "market_value": 271350000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3044",
+   "name": "健鼎",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 450000.0,
+   "weight": 0.18,
+   "market_value": 203400000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6442",
+   "name": "光聖",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 230000.0,
+   "weight": 0.18,
+   "market_value": 210450000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2883",
+   "name": "凱基金",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 4000000.0,
+   "weight": 0.11,
+   "market_value": 120200000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2891",
+   "name": "中信金",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 1700000.0,
+   "weight": 0.1,
+   "market_value": 112030000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6488",
+   "name": "環球晶",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 240000.0,
+   "weight": 0.1,
+   "market_value": 114480000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2379",
+   "name": "瑞昱",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 100000.0,
+   "weight": 0.06,
+   "market_value": 69900000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6285",
+   "name": "啟碁",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 350000.0,
+   "weight": 0.05,
+   "market_value": 61425000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2455",
+   "name": "全新",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 200000.0,
+   "weight": 0.05,
+   "market_value": 56500000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "1717",
+   "name": "長興",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 900000.0,
+   "weight": 0.04,
+   "market_value": 45540000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3583",
+   "name": "辛耘",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 70000.0,
+   "weight": 0.02,
+   "market_value": 26565000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "3264",
+   "name": "欣銓",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 1000.0,
+   "weight": 0.0,
+   "market_value": 145500.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "8358",
+   "name": "金居",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 1000.0,
+   "weight": 0.0,
+   "market_value": 244500.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "8299",
+   "name": "群聯",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 1000.0,
+   "weight": 0.0,
+   "market_value": 1485000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6196",
+   "name": "帆宣",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 1000.0,
+   "weight": 0.0,
+   "market_value": 311500.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "6239",
+   "name": "力成",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 1000.0,
+   "weight": 0.0,
+   "market_value": 193500.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2049",
+   "name": "上銀",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 1000.0,
+   "weight": 0.0,
+   "market_value": 263500.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2303",
+   "name": "聯電",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 1000.0,
+   "weight": 0.0,
+   "market_value": 87400.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2301",
+   "name": "光寶科",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 1000.0,
+   "weight": 0.0,
+   "market_value": 189000.0,
+   "kind": "stock"
+  },
+  {
+   "symbol": "2481",
+   "name": "強茂",
+   "market": "TW",
+   "currency": "NTD",
+   "shares": 1000.0,
+   "weight": 0.0,
+   "market_value": 88000.0,
+   "kind": "stock"
+  }
+ ],
+ "source": "ezmoney.com.tw / 申購買回清單+投資組合明細",
+ "fetched_at": "2026-11-26T03:54:33+08:00"
+}
