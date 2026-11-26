@@ -1,0 +1,44 @@
+{
+ "code": "00987D",
+ "issuer": "統一",
+ "fund_name": "統一美國公債量化增益主動式ETF基金",
+ "as_of": "2026-11-25",
+ "basis": "fund",
+ "nav_total": 640165421.0,
+ "fund_units": null,
+ "unit_size": null,
+ "holdings": [
+  {
+   "symbol": "UB",
+   "name": "超長美債",
+   "market": "US",
+   "currency": "USD",
+   "shares": 42.0,
+   "weight": 23.98,
+   "market_value": null,
+   "kind": "future"
+  },
+  {
+   "symbol": "US912810UW61",
+   "name": "T 5 1/8 08/15/56",
+   "market": "US",
+   "currency": "USD",
+   "shares": 14350000.0,
+   "weight": 72.95,
+   "market_value": null,
+   "kind": "bond"
+  },
+  {
+   "symbol": "US912810UU06",
+   "name": "T 5 05/15/56",
+   "market": "US",
+   "currency": "USD",
+   "shares": 3440000.0,
+   "weight": 17.14,
+   "market_value": null,
+   "kind": "bond"
+  }
+ ],
+ "source": "ezmoney.com.tw / 申購買回清單+投資組合明細",
+ "fetched_at": "2026-11-27T03:32:15+08:00"
+}
