@@ -1,5 +1,5 @@
 {
- "ran_at": "2026-11-28T03:29:20+08:00",
+ "ran_at": "2026-11-28T06:42:22+08:00",
  "ok": [
   {
    "code": "00403A",
@@ -7,7 +7,7 @@
    "as_of": "2026-11-27",
    "holdings": 52,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00411A",
@@ -23,7 +23,7 @@
    "as_of": "2026-11-27",
    "holdings": 52,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00987D",
@@ -47,7 +47,7 @@
    "as_of": "2026-11-27",
    "holdings": 50,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00982A",
@@ -55,7 +55,7 @@
    "as_of": "2026-11-27",
    "holdings": 56,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00992A",
@@ -63,7 +63,7 @@
    "as_of": "2026-11-27",
    "holdings": 41,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00997A",
@@ -71,7 +71,7 @@
    "as_of": "2026-11-26",
    "holdings": 40,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00990A",
@@ -95,7 +95,7 @@
    "as_of": "2026-11-27",
    "holdings": 33,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00986D",
@@ -111,7 +111,7 @@
    "as_of": "2026-11-27",
    "holdings": 50,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00998A",
@@ -119,7 +119,7 @@
    "as_of": "2026-11-26",
    "holdings": 43,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00400A",
@@ -127,7 +127,7 @@
    "as_of": "2026-11-27",
    "holdings": 51,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00406A",
@@ -135,7 +135,7 @@
    "as_of": "2026-11-27",
    "holdings": 57,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00981D",
@@ -159,7 +159,7 @@
    "as_of": "2026-11-27",
    "holdings": 57,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00405A",
@@ -167,7 +167,7 @@
    "as_of": "2026-11-27",
    "holdings": 39,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00982D",
@@ -191,7 +191,7 @@
    "as_of": "2026-11-27",
    "holdings": 50,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00420A",
@@ -199,7 +199,7 @@
    "as_of": "2026-11-26",
    "holdings": 27,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00980A",
@@ -207,7 +207,7 @@
    "as_of": "2026-11-27",
    "holdings": 50,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00985A",
@@ -215,7 +215,7 @@
    "as_of": "2026-11-27",
    "holdings": 50,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00999A",
@@ -223,7 +223,7 @@
    "as_of": "2026-11-27",
    "holdings": 62,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00404A",
@@ -231,7 +231,7 @@
    "as_of": "2026-11-27",
    "holdings": 50,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00984D",
@@ -247,7 +247,7 @@
    "as_of": "2026-11-27",
    "holdings": 58,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00989A",
@@ -263,7 +263,7 @@
    "as_of": "2026-11-27",
    "holdings": 19,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00416A",
@@ -295,7 +295,7 @@
    "as_of": "2026-11-27",
    "holdings": 40,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00994A",
@@ -303,7 +303,7 @@
    "as_of": "2026-11-27",
    "holdings": 34,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00402A",
@@ -319,7 +319,7 @@
    "as_of": "2026-11-26",
    "holdings": 53,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00984A",
@@ -327,7 +327,7 @@
    "as_of": "2026-11-27",
    "holdings": 89,
    "basis": "fund",
-   "changed": true
+   "changed": false
   },
   {
    "code": "00993A",
@@ -335,7 +335,7 @@
    "as_of": "2026-11-27",
    "holdings": 51,
    "basis": "fund",
-   "changed": true
+   "changed": false
   }
  ],
  "failed": [
